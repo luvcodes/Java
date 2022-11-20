@@ -24,3 +24,7 @@
   * VarScope - 作用域
   * Constructor - 构造器
   * This keyword - this关键字
+* Level 3:
+  * Packages - 包的使用
+  * Modifiers - 访问修饰符
+  * Encapsulation - 封装
