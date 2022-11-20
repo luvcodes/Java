@@ -13,7 +13,7 @@ public class constructor01 {
 class Person {
     String name;
     int age;
-    // 构造器
+
     // 构造器没有返回值，也不能写void
     // 构造器的名称和类Person
     // String pName, int pAge 是构造器的形参列表，规则和成员方法一样
