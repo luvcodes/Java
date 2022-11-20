@@ -1,4 +1,4 @@
-package Basics.level2.VarParameter.Lecture;
+package Basics.level2.VarParameter;
 
 /**
  * 细节：

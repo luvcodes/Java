@@ -1,4 +1,4 @@
-package Basics.level2.overload.Exercise;
+package Basics.level2.overload;
 
 public class OverLoadExercise2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Basics.level2.VarParameter.Lecture;
+package Basics.level2.VarParameter;
 /**
  * java允许将同一个类中多个同名同功能但参数个数不同的方法，封装成一个方法。
  * 就可以通过可变参数实现
