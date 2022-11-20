@@ -20,3 +20,7 @@
   * Search - 检索算法
   * Sorting - 排序算法
   * Overload - 方法重载
+  * VarParameter - 形参列表
+  * VarScope - 作用域
+  * Constructor - 构造器
+  * This keyword - this关键字
