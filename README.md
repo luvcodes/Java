@@ -28,3 +28,4 @@
   * Packages - 包的使用
   * Modifiers - 访问修饰符
   * Encapsulation - 封装
+  * Inheritance - 继承
