@@ -1,4 +1,4 @@
-package Basics.level3.inheritance;
+package Basics.level3.inheritance.firstpack;
 
 public class Extends01 {
     public static void main(String[] args) {

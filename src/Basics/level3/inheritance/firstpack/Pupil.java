@@ -1,4 +1,4 @@
-package Basics.level3.inheritance;
+package Basics.level3.inheritance.firstpack;
 // 小学生 -> 模拟小学生考试的情况
 public class Pupil {
     public String name;

@@ -1,6 +1,7 @@
-package Basics.level3.inheritance;
+package Basics.level3.inheritance.firstpack;
+
 // 大学生 -> 模拟大学生考试的简单情况
-public class Graduate extends Pupil{
+public class Graduate extends Pupil {
     public String name;
     public int age;
     private double score;

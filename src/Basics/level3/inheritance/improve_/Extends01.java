@@ -1,11 +1,11 @@
 package Basics.level3.inheritance.improve_;
 
-import Basics.level3.inheritance.Graduate;
-import Basics.level3.inheritance.Pupil;
+import Basics.level3.inheritance.firstpack.Graduate;
+import Basics.level3.inheritance.firstpack.Pupil;
 
 public class Extends01 {
     public static void main(String[] args) {
-        Basics.level3.inheritance.Pupil pupil = new Pupil();
+        Pupil pupil = new Pupil();
         pupil.name = "jack";
         pupil.age = 11;
         pupil.testing();
@@ -13,7 +13,7 @@ public class Extends01 {
         pupil.showInfo();
 
         System.out.println();
-        Basics.level3.inheritance.Graduate graduate = new Graduate();
+        Graduate graduate = new Graduate();
         graduate.name = "ryan";
         graduate.age = 23;
         graduate.testing();
