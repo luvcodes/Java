@@ -1,22 +1,26 @@
 package Basics.level3.inheritance.secondpack;
 
-public class Base {
+public class Base extends TopBase{
     public int n1 = 100;
     protected int n2 = 200;
     int n3 = 300;
     private int n4 = 400;
+
     // 无参数构造器
     public Base() {
         System.out.println("父类Base()构造器被调用...");
     }
+
     // 有参数构造器
     public Base(String name) {
         System.out.println("父类Base(String name)构造器被调用...");
     }
+
     // 有参数构造器
     public Base(String name, int age) {
         System.out.println("父类Base(String name, int age)构造器被调用...");
     }
+
     // 父类提供一个public的方法, 返回了n4
     public int getN4() {
         return n4;

@@ -18,13 +18,17 @@ package Basics.level3.inheritance.secondpack;
  * java所有类都是Object类的子类，Object是所有类的基类
  * </p>
  * 父类构造器的调用不限于直接父类！将一直往上追溯知道Object类（顶级父类）
+ * </p>
+ * 子类最多只能纪恒一个父类（指直接继承），即java中是单继承
+ * </p>
+ * 不能滥用继承，子类和父类之间必须满足is-a的逻辑关系
  * */
 public class ExtendsDetail {
     public static void main(String[] args) {
-        System.out.println("第一个对象======");
-        Sub sub = new Sub(); // 创建了子类Sub
-        System.out.println("第二个对象======");
-        Sub sub2 = new Sub("jack"); // 创建了子类Sub
+//        System.out.println("第一个对象======");
+//        Sub sub = new Sub(); // 创建了子类Sub
+//        System.out.println("第二个对象======");
+//        Sub sub2 = new Sub("jack"); // 创建了子类Sub
 //        sub.sayOk();
         System.out.println("第三个对象======");
         Sub sub3 = new Sub("king", 10); // 创建了子类Sub
