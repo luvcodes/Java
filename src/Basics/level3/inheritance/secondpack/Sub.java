@@ -1,6 +1,18 @@
 package Basics.level3.inheritance.secondpack;
 
+// 想要验证类的继承关系，输入ctrl + H
 public class Sub extends Base{
+    public Sub(String name, int age) {
+        // 1. 调用父类的无参构造器, 如下 或者 什么都不写，默认就是调用
+//        super();
+        // 2. 调用父类的Base(String name)构造器
+//        super("hsp");
+        // 3. 调用父类的Base(String name, int age)构造器
+        super("hsp", 10);
+        System.out.println("子类Sub(String name, int age)构造器被调用...");
+    }
+
+
     // 无参数构造器
     public Sub() {
 //        super(); // 默认调用父类的无参构造器

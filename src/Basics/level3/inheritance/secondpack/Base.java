@@ -10,6 +10,10 @@ public class Base {
         System.out.println("父类Base()构造器被调用...");
     }
     // 有参数构造器
+    public Base(String name) {
+        System.out.println("父类Base(String name)构造器被调用...");
+    }
+    // 有参数构造器
     public Base(String name, int age) {
         System.out.println("父类Base(String name, int age)构造器被调用...");
     }
