@@ -10,6 +10,10 @@ public class A {
     public A(String name) {}
     public A(String name, int age) {}
 
+    public void cal() {
+        System.out.println("Class A's cal method...");
+    }
+
     public void test100() {
         System.out.println("test100");
     }
