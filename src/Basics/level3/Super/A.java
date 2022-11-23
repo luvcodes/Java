@@ -1,7 +1,7 @@
 package Basics.level3.Super;
 
-public class A {
-    public int n1 = 100;
+public class A extends Base {
+//    public int n1 = 100;
     protected int n2 = 200;
     int n3 = 300;
     private int n4 = 400;
