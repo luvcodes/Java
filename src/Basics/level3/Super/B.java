@@ -19,6 +19,10 @@ public class B extends A{
         // super("jack", 10); // 这样就是调用的父类的两个参数的构造器
     }
 
+    public void cal() {
+        System.out.println("Class B's cal method...");
+    }
+
     public void sum() {
         System.out.println("Class B's sum method...");
         // 希望调用父类A的cal方法
@@ -29,7 +33,9 @@ public class B extends A{
         // 如果父类没有，则继续找父类的父类，整个规则，就是一样的，直到Object类
         // 提示：如果查找方法的过程中，找到了，但是不能访问，则报错
         //      如果查找方法的过程中，没有找到，则提示方法不存在
-        cal();
-        super.cal();
+
+//        cal();
+//        this.cal(); // 等价call
+//        super.cal(); // 找cal方法的顺序是直接查找父类，其他的规则一样
     }
 }
