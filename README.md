@@ -38,4 +38,6 @@
     * 重点：`this()`和`super()`都只能在构造器内进行使用，并且必须都放置在构造器的**第一行**。因此这两个方法**不可能同时存在在同一个构造器内**。
     * 详见Inheritance包，`this()`和`super()`的区别示例，见`ExtendsExercise01.php`和`ExtendsExercise02.php`这两个练习。
   * Super() - super()在继承中的使用 / `Super()`和`this`的对比: https://github.com/luvcodes/Java/issues/1#issue-1460958750
-  
+  * Override - 方法重写 
+    * 对比重载(Overload)和重写(Override)
+      
