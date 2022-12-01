@@ -1,7 +1,5 @@
 package Basics.level3.Polymorphic.Intro;
 
-import Basics.level3.Polymorphic.objectpoly_.Animal;
-
 public class Master {
     private String name;
     public Master(String name) {
