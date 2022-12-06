@@ -40,4 +40,4 @@
   * Super() - super()在继承中的使用 / `Super()`和`this`的对比: https://github.com/luvcodes/Java/issues/1#issue-1460958750
   * Override - 方法重写 
     * 对比重载(Overload)和重写(Override): https://github.com/luvcodes/Java/issues/1#issue-1460958750
-  * Polymorphic - 多态
+  * Polymorphic - 多态 `属性看编译类型，方法看运行类型`
