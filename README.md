@@ -40,10 +40,12 @@
   * Super() - super()在继承中的使用 / `Super()`和`this`的对比: https://github.com/luvcodes/Java/issues/1#issue-1460958750
   * Override - 方法重写 
     * 对比重载(Overload)和重写(Override): https://github.com/luvcodes/Java/issues/1#issue-1460958750
-  * Polymorphic - 多态 `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
+  * Polymorphic - 多态 `属性看[README.md](README.md)编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
     1. 一个对象的编译类型和运行类型可以不一致
     2. 编译类型在定义对象时，就确定了，不能改变
     3. 运行类型是可以变化的
     4. 编译类型看定义时 = 号的左边，运行类型看 = 号的右边   
     
     * #### 多态的重点：动态绑定机制
+    * 多态数组
+    * 多态参数

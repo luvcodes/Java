@@ -21,4 +21,8 @@ public class Teacher extends Person{
     public String say() {
         return super.say() + " salary=" + salary;
     }
+
+    public void teach() {
+        System.out.println(getName() + " is teaching");
+    }
 }
