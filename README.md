@@ -59,3 +59,4 @@
   * jdk源码的查看
   * HashCode方法 - 结果是十进制
   * toString方法 - 全类名（包名+类名）@ 把hashCode()方法转换成16进制
+  * finalize()方法
