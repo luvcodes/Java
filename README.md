@@ -58,3 +58,5 @@
   * HashCode方法 - 结果是十进制
   * toString方法 - 全类名（包名+类名）@ 把hashCode()方法转换成16进制
   * finalize()方法
+  * `debug`:
+    1. ####重要提示：在断点调试过程中，是运行状态，是以对象的运行类型来执行的。例如：A extends B; B b = new A(); b.xx();
