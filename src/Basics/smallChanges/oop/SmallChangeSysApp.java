@@ -1,4 +1,4 @@
-package Basics.smallChanges;
+package Basics.smallChanges.oop;
 
 import Basics.smallChanges.oop.SmallChangeSysOOP;
 
