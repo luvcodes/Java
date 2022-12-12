@@ -12,6 +12,7 @@ public class SmallChangeSys {
     // 4. 消费
     // 5. 退出
     // 6. 用户输入4退出时，给出提示“你确定要退出吗？ y/n”，必须输入正确的y/n, 否则循环输入命令，直到输入y 或者 n
+    // 7.
     public static void main(String[] args) {
         // 定义相关的变量
         boolean loop = true;
@@ -50,6 +51,13 @@ public class SmallChangeSys {
                     System.out.print("收益入账金额: ");
                     money = scanner.nextDouble();
                     // money的值范围应该校验
+                    // 思路：找出不正确的金额的条件，然后给出提示即可，就直接break
+                    if (money <= 0) {
+                        System.out.println("收益入账金额 需要 大于 0");
+                        break;
+                    }
+
+                    // 找出正确金额的条件
                     balance += money;
                     // 拼接收益入账信息到details
                     date = new Date(); // 获取当前日期
@@ -58,6 +66,11 @@ public class SmallChangeSys {
                 case "3":
                     System.out.print("消费金额: ");
                     money = scanner.nextDouble();
+
+                    if (money <= 0 || money > balance) {
+                        System.out.println("你的消费金额 应该在 0- " + balance);
+                        break;
+                    }
 
                     // money的值范围应该校验
                     System.out.print("消费说明: ");
@@ -92,6 +105,6 @@ public class SmallChangeSys {
                     System.out.println("选择有误，请重新选择");
             }
         } while (loop);
-        System.out.println("------退出了零钱通------");
+        System.out.println("\n------退出了零钱通------");
     }
 }
