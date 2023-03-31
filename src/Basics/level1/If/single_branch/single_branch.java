@@ -11,6 +11,5 @@ public class single_branch {
         } else {
             System.out.println("Keep going!");
         }
-
     }
 }
