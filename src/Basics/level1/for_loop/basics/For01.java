@@ -1,4 +1,4 @@
-package Basics.level1.for_loop;
+package Basics.level1.for_loop.basics;
 
 /**
  * for(int i = 1; i <= 10; i++){System.out.println("Hello World!};

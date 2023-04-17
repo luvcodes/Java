@@ -1,4 +1,4 @@
-package Basics.level1.for_loop;
+package Basics.level1.for_loop.basics;
 
 public class ForDetail {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package Basics.level1.ForceConvert;
 
-public class ForceConvert_2 {
+public class ForceConver2 {
     public static void main(String[] args) {
         // 强转符号只针对最近的操作数有效，往往会使用小括号提升优先级
         // int x = (int) 10*3.5+6*1.5; // 编译错误：double -> int

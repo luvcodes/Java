@@ -1,6 +1,6 @@
 package Basics.level1.TernaryOperator;
 
-public class ternaryoperator2 {
+public class ternaryOperator2 {
     public static void main(String[] args) {
         int a = 10;
         int b = 99;
