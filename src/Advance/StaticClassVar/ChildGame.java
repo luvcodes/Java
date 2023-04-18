@@ -1,4 +1,4 @@
-package Advance.ClassVar;
+package Advance.StaticClassVar;
 
 public class ChildGame {
     public static void main(String[] args) {
