@@ -3,9 +3,12 @@ package Advance.DesignPattern.single_;
 public class SingleTon01 {
     public static void main(String[] args) {
         GirlFriend instance = GirlFriend.getInstance();
-        GirlFriend instance2 = GirlFriend.getInstance();
         System.out.println(instance);
+
+        GirlFriend instance2 = GirlFriend.getInstance();
         System.out.println(instance2);
+
+        System.out.println(instance == instance2);
     }
 }
 
