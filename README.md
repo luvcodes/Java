@@ -105,4 +105,5 @@
   5. 一般来说，如果一个类已经是final类了，就没有必要再将方法修饰为final
   6. final不能修饰构造方法
   7. final和static往往搭配使用，效率更高，不会导致类加载
-  8. // 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承
+  8. // 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
+* 抽象类 abstract
