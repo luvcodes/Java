@@ -110,3 +110,4 @@
   8. // 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
 * 抽象类 abstract
   * 典型的设计模式: 模版设计模式
+* 接口 Interface
