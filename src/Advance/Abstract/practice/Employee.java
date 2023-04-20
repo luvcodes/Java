@@ -1,4 +1,4 @@
-package Advance.AbstractMethod.practice;
+package Advance.Abstract.practice;
 
 abstract public class Employee {
     private String name;

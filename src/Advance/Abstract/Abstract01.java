@@ -1,4 +1,4 @@
-package Advance.AbstractMethod;
+package Advance.Abstract;
 
 public class Abstract01 {
     public static void main(String[] args) {

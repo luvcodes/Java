@@ -1,4 +1,4 @@
-package Advance.AbstractMethod.practice;
+package Advance.Abstract.practice;
 
 public class AbstractExercise01 {
     public static void main(String[] args) {

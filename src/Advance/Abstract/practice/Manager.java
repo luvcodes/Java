@@ -1,4 +1,4 @@
-package Advance.AbstractMethod.practice;
+package Advance.Abstract.practice;
 
 public class Manager extends Employee{
     private double bonus;
