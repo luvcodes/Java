@@ -1,4 +1,4 @@
-package Advance.InnerClass;
+package Advance.InnerClass.LocalInnerClass;
 
 public class LocalInnerClass {
     public static void main(String[] args) {
