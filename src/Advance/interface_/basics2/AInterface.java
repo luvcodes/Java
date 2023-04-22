@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics2;
 
 public interface AInterface {
     // 可以写属性

@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics;
 
 // 实现接口就是把接口的方法实现
 public class Camera implements UsbInterface {

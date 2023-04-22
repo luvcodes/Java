@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics;
 
 // Phone类实现UsbInterface
 // 解读1. 即Phone类需要实现 UsbInterface接口 规定/声明的方法

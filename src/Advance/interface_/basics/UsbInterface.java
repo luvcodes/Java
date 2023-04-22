@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics;
 
 public interface UsbInterface {
     public void start();

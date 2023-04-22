@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics2;
 
 public class Interface02 {
     public static void main(String[] args) {

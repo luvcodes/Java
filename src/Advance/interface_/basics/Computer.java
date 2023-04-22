@@ -1,4 +1,4 @@
-package Advance.interface_;
+package Advance.interface_.basics;
 
 public class Computer {
     // 编写一个方法，计算机工作
