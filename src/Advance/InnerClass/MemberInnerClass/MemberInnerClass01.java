@@ -29,11 +29,14 @@ class Outer08 {
     // 1. 成员内部类, 定义在外部类的成员位置上
     // 2. 可以添加任意访问修饰符
     class Inner08 {
+        private int n1 = 66;
         private double sal = 99.9;
 
         public void say() {
             // 可以直接访问外部类的所有成员，包含私有的
-            System.out.println("Outer08 n1 = " + n1 + " name = " + name);
+            // 如果外部类和内部类的成员重名时(n1作为例子)，内部类访问的话，默认遵循就近原则，如果想访问外部类的
+            // 成员，则可以使用(外部类名.this.成员)去访问
+            System.out.println("Outer08 n1 = " + n1 + " name = " + name + " outer n1 = " + this.n1);
         }
     }
 
