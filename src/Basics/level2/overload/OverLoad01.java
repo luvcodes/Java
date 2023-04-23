@@ -33,19 +33,6 @@ class MyCalculator {
         return n1 + n2;
     }
 
-//    没有构成，而是方法的重复定义，就错了
-//    public int calculate(int a1, int a2) {
-//        System.out.println("calculate(int a1, int a2)被调用..");
-//        return a1 + a2;
-//    }
-
-//    看看下面是否构成重载，没有构成，而是方法的重复定义，就错了
-//    public int calculate(int a1, int a2) {
-//        System.out.println("calculate(int a1, int a2)被调用..");
-//        return a1 + a2;
-//    }
-
-
     // 一个整数，一个double的和
     public double calculate(int n1, double n2) {
         System.out.println("calculate(int n1, double n2)被调用..");

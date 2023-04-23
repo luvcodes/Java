@@ -1,6 +1,6 @@
 package Basics.level2.constructor;
 
-public class constructor01 {
+public class Constructor01 {
     public static void main(String[] args) {
         // 当我们new 一个对象时，直接通过构造器指定名字和年龄
         Person person = new Person("Smith", 80);
