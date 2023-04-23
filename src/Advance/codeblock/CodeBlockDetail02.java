@@ -7,7 +7,6 @@ public class CodeBlockDetail02 {
     }
 }
 
-
 class A {
     private int n2 = getN2(); // 普通属性初始化
 

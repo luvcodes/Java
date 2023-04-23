@@ -40,6 +40,31 @@ class Outer04 {
         };
         System.out.println("Tiger operate type = " + tiger.getClass());
         tiger.cry();
+
+        // 匿名内部类
+        // 分析
+        // 1. father编译类型 Father
+        // 2. father运行类型 Outer04$2
+        // 3.
+        // 4. 同事也直接返回了 匿名内部类 Outer04$2的对象
+        // 5. 注意("jack") 参数列表会传输给 构造器
+        Father father = new Father("jack") {
+            @Override
+            public void test() {
+                System.out.println("Anonymous inner class override test() method");
+            }
+        };
+        System.out.println("father object operating type: " + father.getClass());
+        father.test();
+
+        // 基于抽象类的匿名内部类
+        Animal animal = new Animal() {
+            @Override
+            void eat() {
+                System.out.println("Animal eat");
+            }
+        };
+
     }
 }
 
@@ -66,4 +91,8 @@ class Father {
     public void test() {
 
     }
+}
+
+abstract class Animal {
+    abstract void eat();
 }
