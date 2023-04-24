@@ -16,7 +16,7 @@ enum Season2 {
     // SPRING("Spring", "Warm"); 常量名(实参列表)
     // 3. 如果有多个常量(对象), 使用逗号间隔
     // 4. 如果使用enum来实现枚举，要求将定义敞亮对象，写在最前面
-    SPRING("Spring", "Warm"), WINTER("Winter", "Cold"), AUTUMN("Autumn", "Cool"), SUMMER("Summer", "Hot");
+    SPRING("Spring", "Warm"), SUMMER("Summer", "Hot"), AUTUMN("Autumn", "Cool"), WINTER("Winter", "Cold");
     private String name;
     private String description;
 
