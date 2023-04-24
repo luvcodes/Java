@@ -1,3 +1,7 @@
+package PhaseOne.enum_;
+
+import PhaseOne.enum_.Season2;
+
 public class EnumMethod {
     public static void main(String[] args) {
         // 使用Season2枚举类，来演示各种方法
