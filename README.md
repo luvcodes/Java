@@ -122,3 +122,8 @@
 结束OOP的**Advance**阶段
 
 * 枚举 Enumeration
+
+* 注解 Annotations
+  * `@Override` 表示重写 最重要的价值就是编译器进行语法校验
+  * `@Deprecated` 修饰某个元素，表示该元素已经过时
+  * `@Suppresswarnings`
