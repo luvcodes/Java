@@ -5,6 +5,7 @@ public class Homework06 {
         Person person = new Person("Mark", new Horse());
         person.common();
         person.passRiver();
+        person.passFireHill();
     }
 }
 
@@ -36,6 +37,13 @@ class Boat implements Vehicles {
     }
 }
 
+class Plane implements Vehicles {
+    @Override
+    public void work() {
+        System.out.println("Use plane to pass fire hill");
+    }
+}
+
 class VehiclesFactory {
     // 马儿始终是同一匹
     private static Horse horse = new Horse(); // 饿汉式
@@ -48,6 +56,9 @@ class VehiclesFactory {
     }
     public static Boat getBoat() {
         return new Boat();
+    }
+    public static Plane getPlane() {
+        return new Plane();
     }
 }
 
@@ -83,6 +94,13 @@ class Person {
             vehicles = VehiclesFactory.getHorse();
         }
         // 这里体现使用接口调用
+        vehicles.work();
+    }
+
+    public void passFireHill() {
+        if (!(vehicles instanceof Plane)) {
+            vehicles = VehiclesFactory.getPlane();
+        }
         vehicles.work();
     }
 }
