@@ -5,6 +5,9 @@ public class StringExercise04 {
         String s1 = "hspedu";
         String s2 = "java";
         String s4 = "java";
+        /**
+         * s3指向堆里面有一个value，value指向常量池里面的"java"
+         */
         String s3 = new String("java");
         System.out.println(s2 == s3);
         System.out.println(s2 == s4);
