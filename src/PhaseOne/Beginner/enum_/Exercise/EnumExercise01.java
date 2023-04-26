@@ -1,4 +1,4 @@
-package Exercise;
+package PhaseOne.Beginner.enum_.Exercise;
 
 public class EnumExercise01 {
     public static void main(String[] args) {
