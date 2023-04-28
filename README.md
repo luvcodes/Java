@@ -137,3 +137,13 @@
 * 常用类
   1. 包装类 - 针对八种基本数据类型相应的引用类型
 * String类
+  * String对象
+  * String常用方法
+  * StringBuffer方法
+  * StringBuilder
+* Math方法
+* Arrays排序
+* System方法
+* 大数处理方法 - BigInteger, BigDecimal
+* Date()
+* Calendar()
