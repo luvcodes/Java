@@ -152,3 +152,4 @@
 * 大数处理方法 - BigInteger, BigDecimal
 * Date()
 * Calendar()
+* 集合 - Collections
