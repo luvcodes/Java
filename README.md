@@ -141,6 +141,11 @@
   * String常用方法
   * StringBuffer方法
   * StringBuilder
+  * String、StringBuffer和StringBuilder的选择
+    1. 如果字符串存在大量的修改操作，一般使用StringBuffer或StringBuilder
+    2. 如果字符串存在大量的修改操作，并在单线程的情况，使用StringBuilder
+    3. 如果字符串存在大量的修改操作，并在多线程的情况，使用StringBuffer
+    4. 如果我们字符串很少修改，被多个对象引用，使用String，比如配置信息等。
 * Math方法
 * Arrays排序
 * System方法
