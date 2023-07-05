@@ -18,7 +18,7 @@ class A {
          * */
         int n1 = 10;
         double d1 = n1 + 1.1;
-        // float d1 = n1 + 1.1 错误，n1是int类型，1.1是double类型，所以n1 + 1.1会转换成double类型，不能把double类型负值给float中
+        // float d1 = n1 + 1.1 错误，n1是int类型，1.1是double类型，所以n1 + 1.1会转换成double类型，不能把double类型赋值给float中
         // 因为double比int精度大
         float d2 = (float) (n1 + 1.1);
         float d3 = n1 + 1.1f;
