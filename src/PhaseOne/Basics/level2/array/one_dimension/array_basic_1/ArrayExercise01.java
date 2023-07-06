@@ -5,7 +5,6 @@ public class ArrayExercise01 {
         /*
          * 创建一个char类型的26个元素的数组，'A' ~ 'Z'
          * 提示：char类型数据运算 'A' + 2 -> 'C'
-         *
          * */
         char[] chars = new char[26];
         for (int i = 0; i < chars.length; i++) {
