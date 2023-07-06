@@ -7,7 +7,7 @@ public class input {
         // 1. 引入Scanner类所在的包
         // 2. 创建Scanner对象实例
         Scanner scanner = new Scanner(System.in);
-        // 3. 接收用户的输入，使用祥光的方法
+        // 3. 接收用户的输入
         System.out.print("Please enter your name: ");
         String name = scanner.next(); // 接收用户输入字符串
 
