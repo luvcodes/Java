@@ -66,7 +66,19 @@
   * `debug`:
     1. ####重要提示：在断点调试过程中，是运行状态，是以对象的运行类型来执行的。例如：A extends B; B b = new A(); b.xx();
 
-进入**Intermediate阶段**
+## Beginner阶段
+
+#### Static关键字
+#### Main Method
+#### Code block
+#### Design pattern
+#### Final keyword
+#### Abstract class and method
+#### Interface
+#### Inner class
+#### 
+
+## 进入Intermediate阶段
 
 * 类变量 - static关键字
   1. **静态变量是被对象共享的**

@@ -10,8 +10,7 @@ public class Final01 {
 }
 
 /*
-* 若果我们要求A类不能被其他类继承
-* 可以使用final修饰A类
+* 如果我们要求A类不能被其他类继承，可以使用final修饰A类
 * */
 final class A {
 
