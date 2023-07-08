@@ -2,9 +2,8 @@ package PhaseOne.Beginner.StaticClassVar_1;
 
 public class StaticMethodDetail {
     public static void main(String[] args) {
-        D.hi(); // ok
-        // 非静态方法，不能通过类名调用
-//        D.say(); // 错误，需要先创建对象，再调用
+        D.hi();
+//        D.say(); // 错误，需要先创建对象，再调用。非静态方法，不能通过类名调用
         new D().say(); // ok
     }
 }
