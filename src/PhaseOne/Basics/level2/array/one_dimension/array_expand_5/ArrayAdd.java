@@ -21,7 +21,7 @@ public class ArrayAdd {
             // 定义新数组
             int[] arr2 = new int[arr.length+1];
             // 数组拷贝
-            for (int i = 0; i < arr.length; i++) {
+            for (int i = 0; i < arr2.length; i++) {
                 arr2[i] = arr[i];
             }
             // 用户输入
