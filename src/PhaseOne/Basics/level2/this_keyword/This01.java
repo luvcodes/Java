@@ -22,11 +22,6 @@ class Dog {
     String name;
     int age;
 
-//    public Dog(String dName, int dAge) {
-//        name = dName;
-//        age = dAge;
-//    }
-
     // 出现一个问题，根据变量的作用域原则，
     // 构造器的name 就是局部变量，而不是属性
     // 构造器的age 就是局部变量，而不是属性

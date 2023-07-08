@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
+<<<<<<< HEAD
          int[] nums = {1,3,5,7,9,10,11,20,11};
          binarySearch(nums, 4, 7);
     }
@@ -19,5 +22,8 @@ public class Test {
         }
 
         return -1;
+=======
+>>>>>>> 34273604d62ba6618427672ce56ffcd9ff6c8ea6
     }
+    
 }
