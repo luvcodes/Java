@@ -69,30 +69,41 @@
 ## 进入Beginner阶段
 
 #### 类变量 - static关键字
+
   1. **静态变量是被对象共享的**
   2. 不管static变量在哪里，共识:
      * static变量是同一个类的所有对象共享
      * static变量，在类加载的时候就生成了。
   3. 类变量与实例变量(普通属性)区别: 类变量是该类的所有对象共享的，而实例变量是每个对象独享的。
   4. 类方法: **口诀: 静态方法只能访问静态成员** 同时 **非静态方法可以访问静态成员和非静态成员**
+
+#### Main方法
+
+- Main方法是谁调用的? JVM调用的
+
 #### 代码块 - 属于类中的成员，类似于方法
+
   1. 修饰符可选，要写的话，也只能写static
   2. 代码块分为两类，使用static修饰的叫静态代码块
-#### 设计模式:
-  * 单例模式 - 保证了内存中全局的唯一性，避免了对象实例的重复创建
-    * 饿汉式单例模式
-      * 步骤:
+
+#### 设计模式
+
+* 单例模式 - 保证了内存中全局的唯一性，避免了对象实例的重复创建
+  * 饿汉式单例模式
+    * 步骤:
         1. 将构造器私有化，因为私有的方法只能在本类调用
         2. 在类的内部直接创建
         3. 提供一个公共的static方法，返回gf对象
-    * 懒汉式单例模式
-      * 步骤
+  * 懒汉式单例模式
+    * 步骤
         1. 构造器私有化
         2. 定义一个static静态属性对象
         3. 提供一个public的static方法，可以返回Cat对象
         4. 懒汉式，只有当用户使用getInstance时，才返回cat对象，后面再次调用时，会返回上次创建的cat对象，从而保证了单例。
-  * 模版模式 - abstract的代表练习
+* 模版模式 - abstract的代表练习
+
 #### Final关键字
+
   1. 不希望类不能被其他类继承
   2. 不希望父类的方法被子类继承
   3. 当不希望类的某个属性的值被修改，可以用final修饰
@@ -101,53 +112,76 @@
   6. final不能修饰构造方法
   7. final和static往往搭配使用，效率更高，不会导致类加载
   8. // 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
+
 #### 抽象类 abstract
-  * 典型的设计模式: 模版设计模式
+
+* 典型的设计模式: 模版设计模式
+
 #### 接口 Interface
+
 #### 内部类
-  * 类的五大成员: 属性、方法、构造器、代码块、内部类
-  * 四种内部类:
-    * 定义在外部类局部位置上(比如方法内)
+
+* 类的五大成员: 属性、方法、构造器、代码块、内部类
+* 四种内部类:
+  * 定义在外部类局部位置上(比如方法内)
       1. 局部内部类 有类名
       2. **匿名内部类** 没有类名 重点！！！！
-    * 定义在外部类的成员位置上(比如属性或方法上)
+  * 定义在外部类的成员位置上(比如属性或方法上)
       1. 成员内部类 没用static修饰
       2. 静态内部类 使用static修饰
-  * 记住:
+* 记住:
     1. 局部内部类定义在方法中/代码块
     2. 作用域在方法体或代码块中
     3. 本质仍然是一个类
-  * 成员内部类、静态内部类 是放在外部类的成员位置，本质就是一个成员。
+* 成员内部类、静态内部类 是放在外部类的成员位置，本质就是一个成员。
 
 #### 枚举 Enumeration
 
 #### 注解 Annotations
-  * `@Override` 表示重写 最重要的价值就是编译器进行语法校验
-  * `@Deprecated` 修饰某个元素，表示该元素已经过时
-  * `@Suppresswarnings`
 
+* `@Override` 表示重写 最重要的价值就是编译器进行语法校验
+* `@Deprecated` 修饰某个元素，表示该元素已经过时
+* `@Suppresswarnings`
 
 ## 进入Intermediate阶段
-* 异常
-  1. 运行时异常: 程序运行时，发生的异常。一般是编译器不要求强制处置的异常。
-     1. NullPointerException空指针异常
-  2. 编译时异常: 编译时，编译器检查出的异常
-* 常用类
+
+#### 异常
+
+  1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(指向在内存中加载、运行类)出现的error
+  2. 编译时异常: 编译时，编译器检查出的异常, 是编译器要求必须处置的异常。也就是Java源程序编译为javac.exe字节码文件的过程中
+  3. 主要介绍5种运行异常: 
+     1. ArrayIndexOutOfBoundsException
+     2. NullPointerException
+     3. ClassCastException: 当试图将对象强制转换为不是实例的子类时，抛出该异常
+     4. ArithmeticException
+     5. NumberFormatException: 当应用程序试图将字符串转换成一种数值类型，但该字符出纳不能转换为适当格式时
+
+#### 常用类
+
   1. 包装类 - 针对八种基本数据类型相应的引用类型
-* String类
-  * String对象
-  * String常用方法
-  * StringBuffer方法
-  * StringBuilder
-  * String、StringBuffer和StringBuilder的选择
+
+##### String类
+
+* String对象
+* String常用方法
+* StringBuffer方法
+* StringBuilder
+* String、StringBuffer和StringBuilder的选择
     1. 如果字符串存在大量的修改操作，一般使用StringBuffer或StringBuilder
     2. 如果字符串存在大量的修改操作，并在单线程的情况，使用StringBuilder
     3. 如果字符串存在大量的修改操作，并在多线程的情况，使用StringBuffer
     4. 如果我们字符串很少修改，被多个对象引用，使用String，比如配置信息等。
-* Math方法
-* Arrays排序
-* System方法
-* 大数处理方法 - BigInteger, BigDecimal
-* Date()
-* Calendar()
-* 集合 - Collections
+
+##### Math方法
+
+##### Arrays排序
+
+##### System方法
+
+##### 大数处理方法 - BigInteger, BigDecimal
+
+##### Date()
+
+##### Calendar()
+
+#### 集合 - Collections

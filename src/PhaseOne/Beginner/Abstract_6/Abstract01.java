@@ -19,7 +19,7 @@ abstract class Animal {
     * 所谓抽象方法就是没有实现的方法
     * 所谓没有实现就是指，没有方法体
     * 当一个类中存在抽象方法时，需要将该类声明为abstract类
-    * 一般来说，抽象类会被继承，有其子类来实现抽象方法
+    * 一般来说，抽象类会被继承，由其子类来实现抽象方法
     * */
 //    public void eat() {
 //        System.out.println("This is an animal, ");

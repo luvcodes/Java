@@ -12,12 +12,10 @@ public class SingleTon01 {
     }
 }
 
-// 有一个类, GirlFriend
 class GirlFriend {
     private String name;
     // public static int n1 = 100;
-    // 为了能够在静态方法中使用，返回gf对象，需要将其修饰为static
-    // 对象，通常是重量级的对象，饿汉式可能造成创建了对象，但是没有使用
+    // 为了能够在静态方法中使用，返回gf对象，需要将其修饰为static对象，通常是重量级的对象，饿汉式可能造成创建了对象，但是没有使用
     private static GirlFriend gf = new GirlFriend("Emma");
 
     // 如何保障我们只能创建一个GirlFriend对象
