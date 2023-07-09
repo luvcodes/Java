@@ -18,26 +18,18 @@ public class ForDetail {
             i++;
         }
         System.out.println("i = " + i); // 因为只有在i不满足循环条件的时候才会推出循环，i>10了退出循环，那么就是11。
-    }
-}
 
-class A {
-    public static void main(String[] args) {
         // 无限循环
         for (;;) {
             System.out.println("ok");
         }
-    }
-}
 
-class B {
-    public static void main(String[] args) {
         // 循环初始值可以有多条初始化语句，但要求类型一样，并且中间有逗号分开。
         // 循环变量迭代也可以有多条变量迭代语句，中间用逗号隔开。
-        int count = 3;
-        for (int i = 0, j = 0; i < count; i++, j += 2) {
-            System.out.println("i=" + i + " j=" + j);
-        }
+//        int count = 3;
+//        for (int i = 0, j = 0; i < count; i++, j += 2) {
+//            System.out.println("i=" + i + " j=" + j);
+//        }
     }
 }
 
