@@ -1,51 +1,51 @@
 # Java
 
-### For java learning purpose
+## 进入Basics阶段
 
-通过`Basics，Advance`等分级来将学习Java的由易到难的过程记录下来。
-既是为了给自己的Java学习经历做一个总结，也为了将此资源分享给Java的初学者。
+### Level 1
 
-在Basics中明确地保证定义了几个Level，以下我会依次提炼每个level的主要内容
+* AutoConvert - Java里的自动类型转换
+* ChangeChar - Java里的数据类型转换
+* For loop - for循环的使用
+* ForceConvert - Java里的强制类型转换
+* If - if语句
+* Input - 接收用户输入
+* TernaryOperator - 三元运算符
 
-* Level 1：
-  * AutoConvert - Java里的自动类型转换
-  * ChangeChar - Java里的数据类型转换
-  * For loop - for循环的使用
-  * ForceConvert - Java里的强制类型转换
-  * If - if语句
-  * Input - 接收用户输入
-  * TernaryOperator - 三元运算符
-* Level 2:
-  * Array - 数组的应用
-  * Class_Object - 类与对象
-  * Recursion - 递归算法
-  * Search - 检索算法
-  * Sorting - 排序算法
-  * Overload - 方法重载
-  * VarParameter - 形参列表
-  * VarScope - 作用域
-  * Constructor - 构造器
-  * This keyword - this关键字
-* Level 3:
-  * Packages - 包的使用
-  * Modifiers - 访问修饰符
-  * Encapsulation - 封装
-  * Inheritance - 继承，`this();`和`super()`的使用是继承的重点部份。
-    * `this()`的使用主要是针对class本体内的执行，
-      用来指向其他的构造器。例如，在无参构造器里写`this('hello')`, 这种情况下就指向了同一个类里的有参构造器，将hello看作一个string
-      传入另一个有参构造器来作为一个参数，再继续执行有参构造器函数体内的代码。
-      而`super()`的使用区分开两种情况：
-      1. 如果`super()`不传参，那么默认就会直接调用父类的无参构造器
-      2. 如果`super()`里有参数，那么就会调用对应的父类的有参构造器，对应指的是，参数的类型、数量、顺序全都匹配。
-    * 重点：`this()`和`super()`都只能在构造器内进行使用，并且必须都放置在构造器的**第一行**。因此这两个方法**不可能同时存在在同一个构造器内**。
-    * 详见Inheritance包，`this()`和`super()`的区别示例，见`ExtendsExercise01.php`和`ExtendsExercise02.php`这两个练习。
-  * Super() - super()在继承中的使用 / `Super()`和`this`的对比: <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
-  * Override - 方法重写
-    * 对比重载(Overload)和重写(Override): <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
-  * Polymorphic - 多态 `属性看[README.md](README.md)编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
-    1. 一个对象的编译类型和运行类型可以不一致
-    2. 编译类型在定义对象时，就确定了，不能改变
-    3. 运行类型是可以变化的
+### Level 2
+
+* Array - 数组的应用
+* Class_Object - 类与对象
+* Recursion - 递归算法
+* Search - 检索算法
+* Sorting - 排序算法
+* Overload - 方法重载
+* VarParameter - 形参列表
+* VarScope - 作用域
+* Constructor - 构造器
+* This keyword - this关键字
+
+### Level 3
+
+* Packages - 包的使用
+* Modifiers - 访问修饰符
+* Encapsulation - 封装
+* Inheritance - 继承，`this();`和`super()`的使用是继承的重点部份。
+  * `this()`的使用主要是针对class本体内的执行，
+    用来指向其他的构造器。例如，在无参构造器里写`this('hello')`, 这种情况下就指向了同一个类里的有参构造器，将hello看作一个string
+    传入另一个有参构造器来作为一个参数，再继续执行有参构造器函数体内的代码。
+    而`super()`的使用区分开两种情况：
+    1. 如果`super()`不传参，那么默认就会直接调用父类的无参构造器
+    2. 如果`super()`里有参数，那么就会调用对应的父类的有参构造器，对应指的是，参数的类型、数量、顺序全都匹配。
+  * 重点：`this()`和`super()`都只能在构造器内进行使用，并且必须都放置在构造器的**第一行**。因此这两个方法**不可能同时存在在同一个构造器内**。
+  * 详见Inheritance包，`this()`和`super()`的区别示例，见`ExtendsExercise01.php`和`ExtendsExercise02.php`这两个练习。
+* Super() - super()在继承中的使用 / `Super()`和`this`的对比: <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
+* Override - 方法重写
+  * 对比重载(Overload)和重写(Override): <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
+* Polymorphic - 多态 `属性看[README.md](README.md)编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
+  1. 一个对象的编译类型和运行类型可以不一致
+  2. 编译类型在定义对象时，就确定了，不能改变
+  3. 运行类型是可以变化的
 
 4. #### 编译类型看 = 号的左边，运行类型看 = 号的右边
 
@@ -146,15 +146,17 @@
 ## 进入Intermediate阶段
 
 #### 异常
-
-  1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(指向在内存中加载、运行类)出现的error
-  2. 编译时异常: 编译时，编译器检查出的异常, 是编译器要求必须处置的异常。也就是Java源程序编译为javac.exe字节码文件的过程中
-  3. 主要介绍5种运行异常: 
+1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(指向在内存中加载、运行类)出现的error
+2. 编译时异常: 编译时，编译器检查出的异常, 是编译器要求必须处置的异常。也就是Java源程序编译为javac.exe字节码文件的过程中
+3. 主要介绍5种运行异常: 
      1. ArrayIndexOutOfBoundsException
      2. NullPointerException
      3. ClassCastException: 当试图将对象强制转换为不是实例的子类时，抛出该异常
      4. ArithmeticException
-     5. NumberFormatException: 当应用程序试图将字符串转换成一种数值类型，但该字符出纳不能转换为适当格式时
+     5. NumberFormatException: 当应用程序试图将字符串转换成一种数值类型，但该字符串不能转换为适当格式时
+4. Try-catch-finally捕捉异常
+5. throws处理机制
+6. try-catch-finally和throws二选一就可以。如果程序员，没有显示是处理异常，默认throws Exception
 
 #### 常用类
 
