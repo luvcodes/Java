@@ -159,6 +159,9 @@
 5. throws处理机制
    - 将发生的异常抛出，交给调用者(方法)来处理，最顶级的处理者就是JVM
 6. try-catch-finally和throws二选一就可以。如果程序员，没有显示是处理异常，默认throws Exception
+7. throw和throws的区分
+   - throws后面带的是异常类型
+   - throw后面带的是具体的异常对象
 
 #### 常用类
 
