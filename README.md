@@ -147,15 +147,17 @@
 
 #### 异常
 1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(指向在内存中加载、运行类)出现的error
-2. 编译时异常: 编译时，编译器检查出的异常, 是编译器要求必须处置的异常。也就是Java源程序编译为javac.exe字节码文件的过程中
+2. 编译时异常: 编译时，编译器检查出的异常, 是**编译器要求必须处置的异常**。也就是Java源程序编译为javac.exe字节码文件的过程中
 3. 主要介绍5种运行异常: 
      1. ArrayIndexOutOfBoundsException
      2. NullPointerException
      3. ClassCastException: 当试图将对象强制转换为不是实例的子类时，抛出该异常
      4. ArithmeticException
      5. NumberFormatException: 当应用程序试图将字符串转换成一种数值类型，但该字符串不能转换为适当格式时
-4. Try-catch-finally捕捉异常
+4. try-catch-finally捕捉异常
+   - 程序员在代码中捕获发生的异常，自行处理
 5. throws处理机制
+   - 将发生的异常抛出，交给调用者(方法)来处理，最顶级的处理者就是JVM
 6. try-catch-finally和throws二选一就可以。如果程序员，没有显示是处理异常，默认throws Exception
 
 #### 常用类

@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.Exception_;
+package PhaseOne.Intermediate.Exception_.CommonExceptions_;
 
 public class ClassCastException_ {
     public static void main(String[] args) {

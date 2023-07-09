@@ -5,7 +5,7 @@ public class TryCatchDetail02 {
         /**
          * 1. 如果try代码块有可能有多个异常
          * 2. 可以使用多个catch 分别捕获不同的异常 相应处理
-         * 3. 要求子类异常要卸载前面，父类异常写在后面
+         * 3. 要求子类异常要写在前面，父类异常写在后面
          */
         try {
             Person person = new Person();
