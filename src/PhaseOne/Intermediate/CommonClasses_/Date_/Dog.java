@@ -8,19 +8,9 @@ public class Dog {
         this.age = age;
         this.name = name;
     }
-
-    public void cry() {
-
-    }
-
-    class Air {
-
-    }
-
-    public void setAddress(String address) {
-
-    }
-
+    public void cry() {}
+    class Air {}
+    public void setAddress(String address) {}
     public double getSalary() {
         return 1.1;
     }

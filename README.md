@@ -169,11 +169,11 @@
 
 ##### String类
 
-* String对象
+* String对象 - https://juejin.cn/post/6988125661751672846
 * String常用方法
 * StringBuffer方法
 * StringBuilder
-* String、StringBuffer和StringBuilder的选择
+* String、StringBuffer和StringBuilder的选择 - https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html
     1. 如果字符串存在大量的修改操作，一般使用StringBuffer或StringBuilder
     2. 如果字符串存在大量的修改操作，并在单线程的情况，使用StringBuilder
     3. 如果字符串存在大量的修改操作，并在多线程的情况，使用StringBuffer
