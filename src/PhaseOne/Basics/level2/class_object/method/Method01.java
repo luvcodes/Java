@@ -41,7 +41,6 @@ class Person {
 
     /**
      * 可以计算两个数的和
-     *
      * */
     public int getSum(int num1, int num2) {
         int sum = num1 + num2;
