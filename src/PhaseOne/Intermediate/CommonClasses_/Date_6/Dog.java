@@ -10,6 +10,8 @@ public class Dog {
     }
     public void cry() {}
     class Air {}
+
+    // 说明一下IDEA中的properties，也就是set后面的词和get后面的词会加入到diagram中
     public void setAddress(String address) {}
     public double getSalary() {
         return 1.1;
