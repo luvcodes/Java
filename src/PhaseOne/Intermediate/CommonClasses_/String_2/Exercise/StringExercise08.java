@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.CommonClasses_.string_2.Exercise;
+package PhaseOne.Intermediate.CommonClasses_.String_2.Exercise;
 
 public class StringExercise08 {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class StringExercise08 {
          */
         String c = a + b;
         String d = "helloabc";
-        // System.out.println(c == d); // false
+        System.out.println(c == d); // false
         String e = "hello" + "abc"; // e指向常量池
         System.out.println(d == e); // true
     }

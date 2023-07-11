@@ -1,16 +1,19 @@
-package PhaseOne.Intermediate.CommonClasses_.string_2;
+package PhaseOne.Intermediate.CommonClasses_.String_2;
 
 public class StringMethod02 {
     public static void main(String[] args) {
         // 1. toUpperCase转换成大写
         String s = "hello";
         System.out.println(s.toUpperCase());
+
         // 2. toLowerCase
         System.out.println(s.toLowerCase());
+
         // 3. concat拼接字符串
         String s1 = "Mark";
         s1 = s1.concat("is").concat("hansome");
         System.out.println(s1);
+
         // 4. replace替换字符串中的字符
         s1 = "Mark is handsome";
         // 在s1中，将所有的mark都替换成handsome
@@ -18,6 +21,7 @@ public class StringMethod02 {
         // 注意对 s1没有任何影响
         s1 = s1.replace("Mark", "handsome");
         System.out.println(s1);
+
         // 5. split 分割字符串，对于某些分割自负，我们需要 转义比如 | \\等
         String poem = "To be, or not to be, that is a question.";
         // 1. 以 逗号 为标准对poem进行分割，返回一个数组
@@ -37,21 +41,22 @@ public class StringMethod02 {
             System.out.println(chs[i]);
         }
 
-        // 7. compareTo 比较两个字符串的大小，如果前者大
-        // 则返回正数，后者大，则返回负数，如果相等，返回0
-        // (1) 如果长度相同，并且每个字符也相同 就返回0
-        // (2) 如果长度相同，或者不相同，但是在进行比较时，可以区分大小
-        //    就返回 (if c1 != c2) {
-        //               return c1 - c2;
-        //           }
-        // (3) 如果前面的部分都相同，就返回str1.len - str2.len
+        /**
+         *          7. compareTo 比较两个字符串的大小，如果前者大
+         *          则返回正数，后者大，则返回负数，如果相等，返回0
+         *          (1) 如果长度相同，并且每个字符也相同 就返回0
+         *          (2) 如果长度相同，或者不相同，但是在进行比较时，可以区分大小
+         *             就返回 (if c1 != c2) {
+         *                        return c1 - c2;
+         *                    }
+         *          (3) 如果前面的部分都相同，就返回str1.len - str2.len
+         * */
         String a = "jackabc"; // len = 7
         String b = "jack"; // len = 4
         System.out.println(a.compareTo(b)); // 返回值是 'c' - 'a' = 2的值
 
         /**
          * 8. format 格式字符串
-         * 
          */
         String name = "john";
         int age = 10;

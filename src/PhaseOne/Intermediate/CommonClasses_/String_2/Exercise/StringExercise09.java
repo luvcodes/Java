@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.CommonClasses_.string_2.Exercise;
+package PhaseOne.Intermediate.CommonClasses_.String_2.Exercise;
 
 public class StringExercise09 {
     public static void main(String[] args) {

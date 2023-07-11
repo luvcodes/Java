@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.CommonClasses_.string_2.stringbuffer_.Exercise_;
+package PhaseOne.Intermediate.CommonClasses_.String_2.stringbuffer_.Exercise_;
 
 public class StringBufferExercise02 {
     public static void main(String[] args) {

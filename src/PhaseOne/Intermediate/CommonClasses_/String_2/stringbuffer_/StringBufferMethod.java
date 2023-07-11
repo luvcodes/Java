@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.CommonClasses_.string_2.stringbuffer_;
+package PhaseOne.Intermediate.CommonClasses_.String_2.stringbuffer_;
 
 public class StringBufferMethod {
     public static void main(String[] args) {

@@ -171,6 +171,7 @@
 
 * String对象 - https://juejin.cn/post/6988125661751672846
 * String常用方法
+  - intern方法: 手动将字符串加入常量池中的方法
 * StringBuffer方法
 * StringBuilder
 * String、StringBuffer和StringBuilder的选择 - https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html
