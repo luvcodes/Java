@@ -5,7 +5,7 @@ public class StringExercise08 {
         String a = "hello";
         String b = "abc";
         /**
-         * 1. 先创建要给StringBuilder sb = StringBUilder();
+         * 1. 先创建要给StringBuilder sb = StringBuilder();
          * 2. 执行 sb.append("hello");
          * 3. 执行 sb.append("abc");
          * 4. 调用 String s = sb.toString();
