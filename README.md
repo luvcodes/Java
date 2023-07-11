@@ -165,7 +165,25 @@
 
 #### 常用类
 
-  1. 包装类 - 针对八种基本数据类型相应的引用类型
+##### 包装类 - 针对八种基本数据类型相应的引用类型
+
+- 单独的两个类别
+
+  1. boolean => Boolean
+
+  1. char => Character
+
+- Number类型:
+  1. byte => Byte
+  2. int => integer
+  3. long => Long
+  4. float => Float
+  5. double => Double
+  6. short => Short
+- 装箱和拆箱
+  1. 手动装箱: int => Integer
+  2. 手动拆箱: Integer => int
+  3. jdk5以后，就可以自动装箱和拆箱了
 
 ##### String类
 
@@ -184,9 +202,9 @@
 
 ##### Arrays排序
 
-##### System方法
-
 ##### 大数处理方法 - BigInteger, BigDecimal
+
+##### System方法
 
 ##### Date()
 
