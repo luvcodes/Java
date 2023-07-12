@@ -3,7 +3,7 @@ package PhaseOne.Intermediate.Collection_3.collection_1;
 import java.util.ArrayList;
 
 public class CollectionMethod {
-    @SuppressWarnings({"all"})
+    @SuppressWarnings({ "all" })
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         // add method: 1 element
@@ -27,8 +27,8 @@ public class CollectionMethod {
         System.out.println(list.isEmpty());
 
         // clear: 清空
-//        list.clear();
-//        System.out.println("list = " + list);
+        // list.clear();
+        // System.out.println("list = " + list);
 
         // addAll: 添加多个元素
         ArrayList list2 = new ArrayList();
