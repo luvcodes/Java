@@ -1,4 +1,4 @@
-package Collection_3;
+package PhaseOne.Intermediate.Collection_3;
 
 public class Collection_ {
     public static void main(String[] args) {
