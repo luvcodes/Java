@@ -239,6 +239,8 @@
 
 ##### Arrays排序
 
+- 默认的sort方法是BubbleSort
+
 ##### 大数处理方法 - BigInteger, BigDecimal
 
 ##### System方法
@@ -262,3 +264,52 @@
 - List接口时Collection接口的子接口
   - List集合类中**元素有序**(即添加顺序和取出顺序一致)、且可重复。
   - List集合中的每个元素都有其对应的顺序索引，即支持索引。
+
+#### ArrayList底层结构和源码分析
+
+
+
+#### Vector底层结构和源码分析
+
+
+
+#### LinkedList底层结构
+
+
+
+#### ArrayList和LinkedList比较
+
+
+
+
+
+
+
+### 泛型
+
+​	
+
+### 多线程基础
+
+
+
+
+
+### IO流
+
+
+
+
+
+### 网络编程
+
+
+
+
+
+### 反射
+
+
+
+
+

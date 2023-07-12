@@ -7,9 +7,9 @@ import java.util.Iterator;
 public class CollectionIterator_3 {
     public static void main(String[] args) {
         Collection col = new ArrayList();
-        col.add(new Book("test1", "a", 10.1));
-        col.add(new Book("test2", "b", 10.2));
-        col.add(new Book("test3", "c", 10.3));
+        col.add(new Book2("test1", "a", 10.1));
+        col.add(new Book2("test2", "b", 10.2));
+        col.add(new Book2("test3", "c", 10.3));
 
 //        System.out.println("col = " + col);
         /**
@@ -42,12 +42,12 @@ public class CollectionIterator_3 {
     }
 }
 
-class Book {
+class Book2 {
     private String name;
     private String author;
     private double price;
 
-    public Book(String name, String author, double price) {
+    public Book2(String name, String author, double price) {
         this.name = name;
         this.author = author;
         this.price = price;
@@ -79,7 +79,7 @@ class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "Book1{" +
                 "name='" + name + '\'' +
                 ", author='" + author + '\'' +
                 ", price=" + price +

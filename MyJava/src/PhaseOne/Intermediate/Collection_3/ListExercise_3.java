@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.Collection_3.list_2;
+package PhaseOne.Intermediate.Collection_3;
 
 import java.util.ArrayList;
 import java.util.Iterator;

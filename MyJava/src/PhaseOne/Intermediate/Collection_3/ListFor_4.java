@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.Collection_3.list_2;
+package PhaseOne.Intermediate.Collection_3;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -38,7 +38,5 @@ public class ListFor_4 {
         for (int i = 0; i < list.size(); i++) {
             System.out.println("对象=" + list.get(i));
         }
-
-
     }
 }
