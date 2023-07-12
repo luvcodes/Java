@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="Homework exercise for string comparison" />
+    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="Homework exercise for string comparison">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +148,7 @@
       <workItem from="1689031004825" duration="5024000" />
       <workItem from="1689072561793" duration="669000" />
       <workItem from="1689131114890" duration="20000" />
+      <workItem from="1689135680127" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="README update">
       <created>1682310054227</created>
