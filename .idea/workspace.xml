@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="Collection with ArrayList and List" />
+    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="README update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +49,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework05">
-    <configuration name="Homework01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.CommonClasses_.Homework_8.Homework01" />
+  <component name="RunManager" selected="Application.ListFor_4">
+    <configuration name="Homework05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.CommonClasses_.Homework.Homework05" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhaseOne.Intermediate.CommonClasses_.Homework_8.*" />
+          <option name="PATTERN" value="PhaseOne.Intermediate.CommonClasses_.Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.CommonClasses_.Homework.Homework05" />
-      <module name="Java" />
+    <configuration name="ListFor_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.list_2.ListFor_4" />
+      <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhaseOne.Intermediate.CommonClasses_.Homework.*" />
+          <option name="PATTERN" value="PhaseOne.Intermediate.Collection_3.list_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListFor_4" />
         <item itemvalue="Application.Homework05" />
         <item itemvalue="Application.StringExercise09" />
         <item itemvalue="Application.StringExercise05" />
         <item itemvalue="Application.StringExercise01" />
-        <item itemvalue="Application.Homework01" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689036513711</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update contents">
+      <option name="closed" value="true" />
+      <created>1689150517174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689150517174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="README update">
+      <option name="closed" value="true" />
+      <created>1689150553809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689150553809</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,12 +235,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="README update" />
     <MESSAGE value="Homeworks" />
     <MESSAGE value="Unversioned homework04 update" />
     <MESSAGE value="update content" />
     <MESSAGE value="update calendar contents" />
     <MESSAGE value="Homework exercise for string comparison" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework exercise for string comparison" />
+    <MESSAGE value="update contents" />
+    <MESSAGE value="README update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README update" />
   </component>
 </project>
