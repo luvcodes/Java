@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_6_7_2023,_8_36_am_[Changes]" date="1688596596360" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_7_2023,_8_36_am_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 6/7/2023, 8:36 am [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java/test.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java/Basics/level2/class_object/method/成员方法传参机制/B.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java/Basics/level2/class_object/method/成员方法传参机制/MethodParameter02.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
