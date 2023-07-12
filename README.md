@@ -2,30 +2,57 @@
 
 ## 进入Basics阶段
 
-### Level 1
+### 变量
 
-* AutoConvert - Java里的自动类型转换
-* ChangeChar - Java里的数据类型转换
+- 变量: 
+
+  - 变量表示内存中的一个存储区域，不同变量类型不同，占用的空间大小不同，例如，int 4个字节，double 8个字节。
+  - 变量三要素：变量名，值，数据类型
+
+- 程序中+号的使用
+
+  - 当左右两边都是数值型时，做加法运算
+  - 当左右两边有一方为字符串，则做拼接运算
+
+- 数据类型转换
+
+  * AutoConvert - Java里的自动类型转换
+
+  * ChangeChar - Java里的数据类型转换
+
+
+### 运算符
+
+### 程序控制结构
+
 * For loop - for循环的使用
 * ForceConvert - Java里的强制类型转换
 * If - if语句
 * Input - 接收用户输入
 * TernaryOperator - 三元运算符
 
-### Level 2
+
+
+### 数组、排序和查找
 
 * Array - 数组的应用
-* Class_Object - 类与对象
 * Recursion - 递归算法
 * Search - 检索算法
 * Sorting - 排序算法
+
+### 面向对象基础
+
+- 类与对象
+- 成员方法、成员方法传参机制
+- Recursion - 方法递归调用
+
 * Overload - 方法重载
 * VarParameter - 形参列表
 * VarScope - 作用域
 * Constructor - 构造器
 * This keyword - this关键字
 
-### Level 3
+### 面向对象中级
 
 * Packages - 包的使用
 * Modifiers - 访问修饰符
@@ -67,6 +94,8 @@
     1. ####重要提示：在断点调试过程中，是运行状态，是以对象的运行类型来执行的。例如：A extends B; B b = new A(); b.xx();
 
 ## 进入Beginner阶段
+
+### 面向对象高级
 
 #### 类变量 - static关键字
 
@@ -145,7 +174,8 @@
 
 ## 进入Intermediate阶段
 
-#### 异常
+### 异常 - Exception
+
 1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(指向在内存中加载、运行类)出现的error
 2. 编译时异常: 编译时，编译器检查出的异常, 是**编译器要求必须处置的异常**。也就是Java源程序编译为javac.exe字节码文件的过程中
 3. 主要介绍5种运行异常: 
@@ -163,7 +193,7 @@
    - throws后面带的是异常类型
    - throw后面带的是具体的异常对象
 
-#### 常用类
+### 常用类
 
 ##### 包装类 - 针对八种基本数据类型相应的引用类型
 
@@ -210,4 +240,18 @@
 
 ##### Calendar()
 
-#### 集合 - Collections
+### 集合
+
+#### Collection接口和常用方法
+
+- Collection实现子类可以存放多个元素，每个元素可以是Object
+  - 有些Collection的实现类可以存放重复的元素，有些不可以。
+  - 有些Collection的实现类，有些是有序的(List)，有些不是有序(Set)。
+- Iterator迭代器
+- 增强for循环
+
+#### List接口和常用方法
+
+- List接口时Collection接口的子接口
+  - List集合类中**元素有序**(即添加顺序和取出顺序一致)、且可重复。
+  - List集合中的每个元素都有其对应的顺序索引，即支持索引。
