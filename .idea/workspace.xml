@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="ArrayList detail contents">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="ArrayList Source code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListSource_2">
+  <component name="RunManager" selected="Application.Vector_1">
     <configuration name="ArrayListDetail_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.ArrayListDetail_1" />
       <module name="IdeaProjects" />
@@ -104,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFor_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.ListFor_4" />
+    <configuration name="Vector_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.Vector_1" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vector_1" />
         <item itemvalue="Application.ArrayListSource_2" />
         <item itemvalue="Application.ArrayListDetail_1" />
         <item itemvalue="Application.ListExercise02_5" />
         <item itemvalue="Application.CollectionIterator_3" />
-        <item itemvalue="Application.ListFor_4" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +149,7 @@
       <workItem from="1689135680127" duration="17000" />
       <workItem from="1689152026716" duration="3772000" />
       <workItem from="1689579313092" duration="15000" />
+      <workItem from="1689650031788" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="README update">
       <created>1682310054227</created>
@@ -237,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689155951749</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ArrayList Source code">
+      <option name="closed" value="true" />
+      <created>1689650345925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689650345925</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +271,7 @@
     <MESSAGE value="README update" />
     <MESSAGE value="List的三种遍历方式" />
     <MESSAGE value="ArrayList detail contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList detail contents" />
+    <MESSAGE value="ArrayList Source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList Source code" />
   </component>
 </project>

@@ -267,11 +267,20 @@
 
 #### ArrayList底层结构和源码分析
 
+##### ArrayList的注意事项
 
+- permits all elements, including null, ArrayList可以加入null，并且可以加入多个。
+- ArrayList是由数组实现数据存储的
+- ArrayList基本等同于Vector，除了**ArrayList是线程不安全**的。在多线程情况下，不建议使用ArrayList。
+
+##### ArrayList的底层操作机制源码分析
 
 #### Vector底层结构和源码分析
 
-
+- Vector类的定义说明
+- Vector底层也是一个对象数组，`protected Object[] elementData`
+- Vector是线程同步的，即线程安全，Vector类的操作方法带有`synchronized`
+- 在开发中需要线程同步安全时，考虑使用Vector
 
 #### LinkedList底层结构
 
