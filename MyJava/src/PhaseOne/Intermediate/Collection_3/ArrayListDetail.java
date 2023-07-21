@@ -10,5 +10,6 @@ public class ArrayListDetail {
         System.out.println(arrayList);
         arrayList.add(null);
         arrayList.add("jack");
+        System.out.println(arrayList);
     }
 }
