@@ -52,7 +52,7 @@ public class MapFor {
         //(1) 增强for
         System.out.println("----使用EntrySet 的 for增强(第3种)----");
         for (Object entry : entrySet) {
-            //将entry 转成 Map.Entry
+            //将entry 转成 Map.Entry, 要进行转换(见第51行)
             Map.Entry m = (Map.Entry) entry;
             System.out.println(m.getKey() + "-" + m.getValue());
         }
@@ -61,8 +61,9 @@ public class MapFor {
         Iterator iterator3 = entrySet.iterator();
         while (iterator3.hasNext()) {
             Object entry =  iterator3.next();
-            //System.out.println(next.getClass());//HashMap$Node -实现-> Map.Entry (getKey,getValue)
-            //向下转型 Map.Entry
+            //System.out.println(entry.getClass());//运行类型是HashMap$Node -实现-> Map.Entry (getKey,getValue)
+            //向下转型 从Object转成Map.Entry。因为父类Object没有子类的方法，就是getKey和getValue这两个方法，所以必须要向下转型。
+            // HashMap$Node本来应该转成这个类型，但是因为HashMap$Node没有提供相应的方法，所以就使用Map.Entry
             Map.Entry m = (Map.Entry) entry;
             System.out.println(m.getKey() + "-" + m.getValue());
         }

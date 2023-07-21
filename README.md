@@ -279,18 +279,32 @@
 
 - Vector类的定义说明
 - Vector底层也是一个对象数组，`protected Object[] elementData`
-- Vector是线程同步的，即线程安全，Vector类的操作方法带有`synchronized`
+- Vector是线程同步的，即**线程安全**，Vector类的操作方法带有`synchronized`
 - 在开发中需要线程同步安全时，考虑使用Vector
+
+![image-20230719133344206](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230719133344206.png)
+
+
 
 #### LinkedList底层结构
 
-
+1. 底层实现了双向链表和双端队列特点
+2. 可以添加任意元素(元素可以重复)，包括null
+3. **线程不安全**，没有实现同步
 
 #### ArrayList和LinkedList比较
 
+![image-20230720094636884](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230720094636884.png)
 
 
 
+#### Set接口
+
+1. 以Set接口的实现类 HashSet 来讲解Set 接口的方法
+2. set接口的实现类的对象(Set接口对象)，不能存放重复的元素，可以添加一个null
+3. set接口对象存放数据是无序(即添加的顺序和取出的顺序不一致)
+
+##### HashSet
 
 
 
