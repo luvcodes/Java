@@ -38,6 +38,32 @@ public class GenericDetail {
         List<Integer> list4 = new ArrayList<>();
 
         ArrayList<Pig> pigs = new ArrayList<>();
+
+        /**
+         * 4. 如果是这样写 泛型默认是Object
+         *    等价于 ArrayList<Object> arrayList = new ArrayList<Object>()
+         * */
+        ArrayList arrayList = new ArrayList();
+
+        Tiger tiger = new Tiger();
+        /**
+         * class Tiger {
+         *     Object e;
+         *     public Tiger() {}
+         *     public Tiger(E e) {
+         *         this.e = e;
+         *     }
+         * }
+         * */
+    }
+}
+
+class Tiger<E> {
+    E e;
+
+    public Tiger() {}
+    public Tiger(E e) {
+        this.e = e;
     }
 }
 
