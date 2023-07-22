@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="ArrayList Source code">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_7_2023__8_36_am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_7_2023__8_36_am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyJava/src/PhaseOne/Intermediate/Generic_/Generic03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyJava/src/PhaseOne/Intermediate/Generic_/GenericDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyJava/src/PhaseOne/Intermediate/Generic_/GenericExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/PhaseOne/Basics/level2/class_object/method/成员方法传参机制/person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/PhaseOne/Basics/level2/class_object/method/成员方法传参机制/person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/PhaseOne/Intermediate/Collection_3/ArrayListDetail_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/PhaseOne/Intermediate/Collection_3/ArrayListDetail_1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +52,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListDetail_1">
+  <component name="RunManager" selected="Application.GenericDetail">
     <configuration name="ArrayListDetail_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.ArrayListDetail_1" />
       <module name="IdeaProjects" />
@@ -67,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListSource_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.ArrayListSource_2" />
+    <configuration name="Generic03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Generic_.Generic03" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhaseOne.Intermediate.Collection_3.*" />
+          <option name="PATTERN" value="PhaseOne.Intermediate.Generic_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionIterator_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.CollectionIterator_3" />
+    <configuration name="GenericDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Generic_.GenericDetail" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhaseOne.Intermediate.Collection_3.*" />
+          <option name="PATTERN" value="PhaseOne.Intermediate.Generic_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExercise02_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Collection_3.ListExercise02_5" />
+    <configuration name="GenericExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Generic_.GenericExercise" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhaseOne.Intermediate.Collection_3.*" />
+          <option name="PATTERN" value="PhaseOne.Intermediate.Generic_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericDetail" />
+        <item itemvalue="Application.GenericExercise" />
+        <item itemvalue="Application.Generic03" />
         <item itemvalue="Application.ArrayListDetail_1" />
         <item itemvalue="Application.Vector_1" />
-        <item itemvalue="Application.ArrayListSource_2" />
-        <item itemvalue="Application.ListExercise02_5" />
-        <item itemvalue="Application.CollectionIterator_3" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +159,7 @@
       <workItem from="1689650031788" duration="325000" />
       <workItem from="1689772895706" duration="1325000" />
       <workItem from="1689814407303" duration="654000" />
+      <workItem from="1690002928947" duration="4248000" />
     </task>
     <task id="LOCAL-00001" summary="README update">
       <created>1682310054227</created>
