@@ -1,5 +1,4 @@
-package PhaseOne.Basics.level3.object;
-//package Basics.level3.object;
+//package PhaseOne.Basics.level3.object;
 //
 //public class Equals01 {
 //    public static void main(String[] args) {
@@ -23,7 +22,6 @@ package PhaseOne.Basics.level3.object;
 //        // Object类的equals是
 //        // 即Object的equals方法默认就是比较对象的地址是否相等
 //        // 也就是判断两个对象是不是同一个对象
-//        Object
 //
 //        // Integer也重写了Object的equals方法，变成了判断两个值是否相等
 //        Integer integer = new Integer(5);
@@ -39,8 +37,6 @@ package PhaseOne.Basics.level3.object;
 //        String hspedu1 = new String("hspedu");
 //        System.out.println(hspedu == hspedu1); // false，判断 不是同一个对象
 //        System.out.println(hspedu.equals(hspedu1)); // true，判断 是同一个值
-//
-//        new
 //    }
 //}
 //class B{}

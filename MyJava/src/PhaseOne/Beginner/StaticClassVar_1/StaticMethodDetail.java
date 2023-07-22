@@ -12,8 +12,8 @@ class D {
     private int n1 = 100;
     private static int n2 = 200;
 
-    public void say()  // 非静态方法，普通方法
-    {}
+    // 非静态方法，普通方法
+    public void say() {}
 
     public static void hi() {
         // 类方法中不允许使用和对象有关的关键字，
