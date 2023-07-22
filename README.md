@@ -267,7 +267,7 @@
 
 #### ArrayList底层结构和源码分析
 
-##### ArrayList的注意事项
+##### ArrayList的注意事项 - https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist
 
 - permits all elements, including null, ArrayList可以加入null，并且可以加入多个。
 - ArrayList是由数组实现数据存储的
