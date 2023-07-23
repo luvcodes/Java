@@ -44,17 +44,6 @@ public class GenericDetail {
          *    等价于 ArrayList<Object> arrayList = new ArrayList<Object>()
          * */
         ArrayList arrayList = new ArrayList();
-
-        Tiger tiger = new Tiger();
-        /**
-         * class Tiger {
-         *     Object e;
-         *     public Tiger() {}
-         *     public Tiger(E e) {
-         *         this.e = e;
-         *     }
-         * }
-         * */
     }
 }
 
