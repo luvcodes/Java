@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="update folder contents" />
+    <list default="true" id="767fa70e-3050-4d5d-9f74-724d926bed81" name="Changes" comment="update folder contents">
+      <change afterPath="$PROJECT_DIR$/MyJava/src/PhaseOne/Intermediate/Generic_/GenericExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyJava/src/PhaseOne/Intermediate/Generic_/Homework/Homework01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,9 +53,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CustomGenericExercise_">
+  <component name="RunManager" selected="Application.CustomMethodGenericExercise">
     <configuration name="CustomGenericExercise_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Generic_.CustomGeneric_.CustomGenericExercise_" />
+      <module name="IdeaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PhaseOne.Intermediate.Generic_.CustomGeneric_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomMethodGenericExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhaseOne.Intermediate.Generic_.CustomGeneric_.CustomMethodGenericExercise" />
       <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
@@ -89,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhaseOne.Basics.level2.class_object.method.Method02" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PhaseOne.Basics.level2.class_object.method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="IdeaProjects" />
@@ -111,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomMethodGenericExercise" />
         <item itemvalue="Application.CustomGenericExercise_" />
         <item itemvalue="Application.Generic03" />
         <item itemvalue="Application.GenericDetail" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Method02" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +153,9 @@
       <workItem from="1690002928947" duration="4248000" />
       <workItem from="1690021809818" duration="4244000" />
       <workItem from="1690065863408" duration="9720000" />
+      <workItem from="1690097037468" duration="65000" />
+      <workItem from="1690115432667" duration="1282000" />
+      <workItem from="1690117943052" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="README update">
       <created>1682310054227</created>
