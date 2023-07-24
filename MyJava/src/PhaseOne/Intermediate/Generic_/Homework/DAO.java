@@ -21,6 +21,7 @@ public class DAO<T> {
         // 遍历map把value，也就是T放到list里面去
         Set<String> set = map.keySet();
         for (String keySet : set) {
+            // map.get(keySet)返回的就是User对象 -> ArrayList
             list.add(map.get(keySet));
         }
         return list;
