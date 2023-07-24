@@ -13,9 +13,6 @@ public class ListExercise02_5 {
         list.add(new Book1("西游记", "吴承恩", 10));
         list.add(new Book1("水浒传", "施耐庵", 19));
         list.add(new Book1("三国", "罗贯中", 80));
-        //list.add(new Book1("西游记", "吴承恩", 10));
-
-        //如何对集合进行排序
 
         //遍历
         for (Object o : list) {
