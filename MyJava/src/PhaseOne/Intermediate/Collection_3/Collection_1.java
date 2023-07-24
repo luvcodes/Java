@@ -1,6 +1,6 @@
 package PhaseOne.Intermediate.Collection_3;
 
-public class Collection_ {
+public class Collection_1 {
     public static void main(String[] args) {
         /**
          * 1. 集合主要是两组(单列结合，双列集合)

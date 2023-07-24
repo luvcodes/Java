@@ -2,8 +2,8 @@ package PhaseOne.Intermediate.Collection_3;
 
 import java.util.ArrayList;
 
-public class CollectionMethod {
-    @SuppressWarnings({ "all" })
+@SuppressWarnings({ "all" })
+public class CollectionMethod_2 {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         // add method: 1 element
