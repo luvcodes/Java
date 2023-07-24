@@ -3,6 +3,7 @@ package PhaseOne.Intermediate.Collection_3;
 import java.util.ArrayList;
 import java.util.Collection;
 
+@SuppressWarnings({"all"})
 public class CollectionFor_3 {
     public static void main(String[] args) {
         Collection col = new ArrayList();
@@ -14,8 +15,8 @@ public class CollectionFor_3 {
             System.out.println("book = " + book);
         }
 
-//        增强for，也可以直接在数组使用
-        int[] nums = {1, 8, 10, 90};
+        // 增强for，也可以直接在数组使用
+        int[] nums = { 1, 8, 10, 90 };
         for (int i : nums) {
             System.out.println("i=" + i);
         }
@@ -23,12 +24,12 @@ public class CollectionFor_3 {
     }
 }
 
-class Book {
+class Book1 {
     public String name;
     public String author;
     public double prize;
 
-    public Book(String name, String author, double prize) {
+    public Book1(String name, String author, double prize) {
         this.name = name;
         this.author = author;
         this.prize = prize;
