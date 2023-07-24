@@ -1,8 +1,9 @@
-package PhaseOne.Intermediate.Collection_3;
+package PhaseOne.Intermediate.List_4;
 
 import java.util.LinkedList;
 import java.util.List;
 
+@SuppressWarnings({"all"})
 public class ListExercise02_5 {
     public static void main(String[] args) {
         //List list = new ArrayList();
