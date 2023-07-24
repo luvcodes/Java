@@ -75,12 +75,14 @@ class Book2 {
         this.price = price;
     }
 
+    // generate toString method for this class
     @Override
     public String toString() {
-        return "Book1{" +
+        return "Book{" +
                 "name='" + name + '\'' +
                 ", author='" + author + '\'' +
                 ", price=" + price +
                 '}';
     }
+
 }
