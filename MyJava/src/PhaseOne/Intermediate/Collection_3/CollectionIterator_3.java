@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
+@SuppressWarnings({ "all" })
 public class CollectionIterator_3 {
     public static void main(String[] args) {
         Collection col = new ArrayList();
@@ -11,11 +12,10 @@ public class CollectionIterator_3 {
         col.add(new Book2("test2", "b", 10.2));
         col.add(new Book2("test3", "c", 10.3));
 
-//        System.out.println("col = " + col);
         /**
          * 现在希望能够遍历 col集合
          * 1. 先得到col对应的迭代器
-         * */
+         */
         Iterator iterator = col.iterator();
         // 2. 使用while循环遍历
         // hasNext判断下面还有没有数据、元素
@@ -24,19 +24,17 @@ public class CollectionIterator_3 {
             Object obj = iterator.next();
             System.out.println("obj = " + obj);
         }
-        // 快捷键生成while => itit
-        // 显示所有快捷键的快捷键 ctrl + j
 
         /**
          * 3. 当退出while循环后，这时iterator迭代器，指向最后的元素
-         * */
+         */
         // iterator.next(); // NoSuchElementException
 
         // 如果希望再次遍历，需要重置我们的迭代器
         iterator = col.iterator();
         System.out.println("Second round iteration");
         while (iterator.hasNext()) {
-            Object next =  iterator.next();
+            Object next = iterator.next();
             System.out.println("obj = " + next);
         }
     }

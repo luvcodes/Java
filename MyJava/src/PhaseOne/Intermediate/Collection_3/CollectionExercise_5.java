@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class CollectionExercise_4 {
+@SuppressWarnings({ "all" })
+
+public class CollectionExercise_5 {
     public static void main(String[] args) {
         List list = new ArrayList();
         list.add(new Dog("小黑", 3));
@@ -27,7 +29,7 @@ public class CollectionExercise_4 {
 }
 
 /**
- * 创建  3个Dog{name, age}对象，放入到 ArrayList 中，赋给 List 引用
+ * 创建 3个Dog{name, age}对象，放入到 ArrayList 中，赋给 List 引用
  * 用迭代器和增强for循环两种方式来遍历
  * 重写Dog 的toString方法， 输出name和age
  */

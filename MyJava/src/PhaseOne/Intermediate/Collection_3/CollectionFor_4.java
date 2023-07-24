@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 @SuppressWarnings({"all"})
-public class CollectionFor_3 {
+public class CollectionFor_4 {
     public static void main(String[] args) {
         Collection col = new ArrayList();
         col.add(new Book1("三国演义", "罗贯中", 10.1));
@@ -58,4 +58,15 @@ class Book1 {
     public void setPrize(double prize) {
         this.prize = prize;
     }
+    
+    // generate toString method
+    @Override
+    public String toString() {
+        return "Book1{" +
+                "name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", prize=" + prize +
+                '}';
+    }
+
 }
