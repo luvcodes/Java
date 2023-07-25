@@ -265,8 +265,7 @@
 - permits all elements, including null, ArrayList可以加入null，并且可以加入多个。
 - ArrayList是由数组实现数据存储的
 - ArrayList基本等同于Vector，除了**ArrayList是线程不安全**的。在多线程情况下，不建议使用ArrayList。
-
-##### ArrayList的底层操作机制源码分析
+- 因为ArrayList的底层就是用数组的方式存储的，elementData其实就是现在这个ArrayList的size，minCapacity就是最小容量(其实也就是现在已经存进去的元素数量)。在源码的部分进行对比minCapacity和elementData.size()的时候其实就是在对比当前已经存进ArrayList的元素个数与整个ArrayList的大小进行比较。
 
 #### Vector底层结构和源码分析
 
