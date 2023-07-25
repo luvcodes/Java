@@ -274,10 +274,7 @@
 - Vector是线程同步的，即**线程安全**，Vector类的操作方法带有`synchronized`
 - 在开发中需要线程同步安全时，考虑使用Vector
 
-| ArrayList   | Vector      | 
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+#### ArrayList和Vector的比较
 
 #### LinkedList底层结构
 
@@ -286,8 +283,6 @@
 3. **线程不安全**，没有实现同步
 
 #### ArrayList和LinkedList比较
-
-![image-20230720094636884](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230720094636884.png)
 
 #### Set接口
 
