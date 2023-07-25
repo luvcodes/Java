@@ -262,7 +262,7 @@
 
 ##### ArrayList的注意事项 - <https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist>
 
-- permits all elements, including null, ArrayList可以加入null，并且可以加入多个。
+- permits all elements, ArrayList可以加入null，并且可以加入多个。
 - ArrayList是由数组实现数据存储的
 - ArrayList基本等同于Vector，除了**ArrayList是线程不安全**的。在多线程情况下，不建议使用ArrayList。
 - 因为ArrayList的底层就是用数组的方式存储的，elementData其实就是现在这个ArrayList的size，minCapacity就是最小容量(其实也就是现在已经存进去的元素数量)。在源码的部分进行对比minCapacity和elementData.size()的时候其实就是在对比当前已经存进ArrayList的元素个数与整个ArrayList的大小进行比较。
@@ -270,11 +270,14 @@
 #### Vector底层结构和源码分析
 
 - Vector类的定义说明
-- Vector底层也是一个对象数组，`protected Object[] elementData`
+- Vector底层也是一个**对象数组**，`protected Object[] elementData`
 - Vector是线程同步的，即**线程安全**，Vector类的操作方法带有`synchronized`
 - 在开发中需要线程同步安全时，考虑使用Vector
 
-![image-20230719133344206](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230719133344206.png)
+| ArrayList   | Vector      | 
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 #### LinkedList底层结构
 
