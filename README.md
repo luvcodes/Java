@@ -225,6 +225,7 @@
 -
 
 String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html>
+
 1. 如果字符串存在大量的修改操作，一般使用StringBuffer或StringBuilder
 2. 如果字符串存在大量的修改操作，并在单线程的情况，使用StringBuilder
 3. 如果字符串存在大量的修改操作，并在多线程的情况，使用StringBuffer
@@ -303,6 +304,12 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
     - **不能使用索引**的方式来获取
 
 ##### HashSet
+
+1. HashSet实现了Set接口
+2. HashSet实际上是HashMap
+3. 可以存放null值，但是只能有一个null
+4. HashSet不保证元素是有序的，取决于hash后，再确定索引的结果(即，不保证存放元素的顺序和取出顺序一致)
+5. 不能有重复元素
 
 ### 泛型
 
