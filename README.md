@@ -305,18 +305,17 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 
 ##### HashSet
 
-1. HashSet实现了Set接口
-2. HashSet实际上是HashMap
-3. 可以存放null值，但是只能有一个null
-4. HashSet不保证元素是有序的，取决于hash后，再确定索引的结果(即，不保证存放元素的顺序和取出顺序一致)
-5. **不能有重复元素**
-6. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值
-7. 找到存储数据表table，看这个索引位置是否已经存放的有元素。
+1. HashSet实际上是HashMap
+2. 可以存放null值，但是只能有一个null
+3. HashSet不保证元素是有序的，取决于hash后，再确定索引的结果(即，不保证存放元素的顺序和取出顺序一致)
+4. **不能有重复元素**
+5. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值
+6. 找到存储数据表table，看这个索引位置是否已经存放的有元素。
     - 如果没有，直接加入
-    - 如果有，调用equals比较
+    - 如果有，调用equals比较, 这个equals方法可以程序员控制(可以重写)
         - 如果相同，就放弃添加
-        - 如果不相同，则添加到最后
-8. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
+        - 如果不相同，则添加到最后`.next`
+7. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
    ，就会进行树化(红黑树)
 
 ##### HashMap
