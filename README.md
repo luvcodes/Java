@@ -323,7 +323,10 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
    ，就会进行树化(红黑树)
 
-
+##### LinkedHashSet
+1. LinkedHashSet是HashSet的子类，底层是一个LinkedHashMap，底层维护了一个hash表和双向链表
+2. LinkedHashSet根据元素的hashCode值来决定元素的存储位置，使用链表维护元素的次序，这使得元素看起来是以插入顺序保存的
+3. LinkedHashSet**不允许添重复元素**
 
 ##### HashMap
 
