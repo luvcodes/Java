@@ -1,4 +1,4 @@
-package PhaseOne.Intermediate.Set_7;
+package PhaseOne.Intermediate.Set_7.HashSet;
 
 public class HashSetStructure_4 {
     public static void main(String[] args) {
