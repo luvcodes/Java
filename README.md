@@ -312,18 +312,22 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 
 ##### HashSet底层逻辑 - 重中之重
 
-1. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值。第一次添加时，table数组扩容到16，临界值(threshold)是16 * 加载因子(loadFactor)是0.75 = 12
+1. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值。第一次添加时，table数组扩容到16，临界值(threshold)是16 * 加载因子(
+   loadFactor)是0.75 = 12
 2. 找到存储数据表table，看这个索引位置是否已经存放的有元素。
     - 如果没有，直接加入
     - 如果有，调用equals比较, 这个equals方法可以程序员控制(可以重写)
         - 如果相同，就放弃添加
         - 如果不相同，则添加到最后
-    - 如果table数组使用到了临界值12就会扩容到16 * 2 = 32，新的临界值就是32 * 0.75 = 24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，
-而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容; 换言之就是说，现在所有的链表上的元素到达12了以后，就会那一竖列扩容到下一个尺寸。
+    - 如果table数组使用到了临界值12就会扩容到16 * 2 = 32，新的临界值就是32 * 0.75 =
+      24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，
+      而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容;
+      换言之就是说，现在所有的链表上的元素到达12了以后，就会那一竖列扩容到下一个尺寸。
 3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
    ，就会进行树化(红黑树)
 
 ##### LinkedHashSet
+
 1. LinkedHashSet是HashSet的子类，底层是一个LinkedHashMap，底层维护了一个hash表和双向链表
 2. LinkedHashSet根据元素的hashCode值来决定元素的存储位置，使用链表维护元素的次序，这使得元素看起来是以插入顺序保存的
 3. LinkedHashSet**不允许添重复元素**
@@ -331,6 +335,11 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 ##### HashMap
 
 - HashMap底层是数组 + 链表 + 红黑树
+
+1. Map与Collection并列存在。用于保存具有映射关系的数据: Key-Value
+2. Map中的key和value可以是任何引用类型的数据，会封装到HashMap$Node对象中
+3. Map中的key不允许重复，原因和HashSet一样
+4. 生成结果的顺序不一定是和加入顺序一致的，因为本质上就是HashSet，见Map_代码文件
 
 ### 泛型
 
