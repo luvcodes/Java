@@ -9,6 +9,32 @@ public class HashSetIncrement {
             hashSet.add(new A(i));
         }
         System.out.println("hashSet = " + hashSet);
+
+        /**
+         * 当我们向hashSet增加一个元素时，=> Node => 加入table表，就算是增加了一个，而不是只限制于
+         * 必须加在链表的第一个位置(hashSet的那一列数组内)才算。
+         * */
+
+        // 在一条链表上增加了7个
+        for (int i = 1; i <= 7; i++) {
+            hashSet.add(new A(i));
+        }
+        // 在一条链表上增加了7个
+        for (int i = 1; i <= 7; i++) {
+            hashSet.add(new B(i));
+        }
+    }
+}
+
+class B {
+    private int n;
+
+    public B(int n) {
+        this.n = n;
+    }
+    @Override
+    public int hashCode() {
+        return 200;
     }
 }
 
