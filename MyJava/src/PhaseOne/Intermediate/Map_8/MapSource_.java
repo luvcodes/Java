@@ -24,7 +24,6 @@ public class MapSource_ {
         Set set = map.entrySet();
         System.out.println(set.getClass());// HashMap$EntrySet
         for (Object obj : set) {
-
             //System.out.println(obj.getClass()); //HashMap$Node
             //为了从 HashMap$Node 取出k-v
             //1. 先做一个向下转型
@@ -32,8 +31,10 @@ public class MapSource_ {
             System.out.println(entry.getKey() + "-" + entry.getValue() );
         }
 
+        // 相当于把所有的key封装到集合里面去了
         Set set1 = map.keySet();
         System.out.println(set1.getClass());
+
         Collection values = map.values();
         System.out.println(values.getClass());
 
