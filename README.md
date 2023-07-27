@@ -319,9 +319,8 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
         - 如果相同，就放弃添加
         - 如果不相同，则添加到最后
     - 如果table数组使用到了临界值12就会扩容到16 * 2 = 32，新的临界值就是32 * 0.75 = 24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，
-而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容; 换言之就是说，现在所有的链表上的元素到达12了以后，就会那一竖列扩容到下一个尺寸。
-3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
-   ，就会进行树化(红黑树)
+    而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容; 换言之就是说，现在所有的链表上的元素到达12了以后，就会那一竖列扩容到下一个尺寸。
+3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)，就会进行树化(红黑树)
 
 ##### LinkedHashSet
 1. LinkedHashSet是HashSet的子类，底层是一个LinkedHashMap，底层维护了一个hash表和双向链表
