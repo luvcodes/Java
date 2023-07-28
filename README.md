@@ -307,24 +307,19 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 
 1. HashSet实际上是HashMap
 2. 可以存放null值，但是只能有一个null
-3. HashSet不保证元素是有序的，取决于hash后，再确定索引的结果(即，不保证存放元素的顺序和取出顺序一致)
+3. HashSet不保证元素是有序的，取决于hashCode，再确定索引的结果(即，不保证存放元素的顺序和取出顺序一致)
 4. **不能有重复元素**
 
 ##### HashSet底层逻辑 - 重中之重
 
-1. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值。第一次添加时，table数组扩容到16，临界值(threshold)是16 * 加载因子(
-   loadFactor)是0.75 = 12
+1. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值。第一次添加时，table数组扩容到16，临界值(threshold)是16 * 加载因子(loadFactor)是0.75 = 12
 2. 找到存储数据表table，看这个索引位置是否已经存放的有元素。
     - 如果没有，直接加入
-    - 如果有，调用equals比较, 这个equals方法可以程序员控制(可以重写)
+    - 如果有，调用equals比较, 这个equals方法可以程序员控制(可以重写)，有可能是比较value，也就是V，也有可能不是。
         - 如果相同，就放弃添加
-        - 如果不相同，则添加到最后
-    - 如果table数组使用到了临界值12就会扩容到16 * 2 = 32，新的临界值就是32 * 0.75 =
-      24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，
-      而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容;
-      换言之就是说，现在所有的链表上的元素到达12了以后，就会那一竖列扩容到下一个尺寸。
-3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)
-   ，就会进行树化(红黑树)
+        - 如果不相同，则**添加到最后**。在HashSet中是可以添加到最后的，见`HashSetExercise_7.java`文件的示例，但是在HashMap中，如果key相同，value不同，只能是新的value替换重复的那一个key的Node的旧value。这里和HashMap出现分歧的原因是，HashSet本身是通过有一个PRESENT的java build-in值来代替value，而使用key来代表实际的用户传入值，那么相当于在进行链表比较的时候，传入的这个值可以是一个string，也可以是一个对象，但是**重点在于都当作一个整体的key值来进行比较**
+    - 如果table数组使用到了临界值12就会扩容到16 * 2 = 32，新的临界值就是32 * 0.75 = 24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容; 换言之就是说，现在所有的链表上的元素到达12了以后，table length就会扩容到下一个尺寸。
+3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)，就会进行树化(红黑树)。两个条件都需要满足，才会进行树化，就是把这个链表树化，这个64的意思指的是，table的length超过了64。
 
 ##### LinkedHashSet
 
@@ -332,7 +327,9 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 2. LinkedHashSet根据元素的hashCode值来决定元素的存储位置，使用链表维护元素的次序，这使得元素看起来是以插入顺序保存的
 3. LinkedHashSet**不允许添重复元素**
 
-##### HashMap
+
+
+#### HashMap
 
 - HashMap底层是数组 + 链表 + 红黑树
 
@@ -340,6 +337,14 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 2. Map中的key和value可以是任何引用类型的数据，会封装到HashMap$Node对象中
 3. Map中的key不允许重复，原因和HashSet一样
 4. 生成结果的顺序不一定是和加入顺序一致的，因为本质上就是HashSet，见Map_代码文件
+
+##### table表是一个数组，数组里面放的有链表或者是一棵树。每一个链表里面包含多个Node(HashMap$Node)，而Node又实现了Map$Entry接口。
+
+##### HashMap底层机制，扩容机制与HashSet完全一样，因为HashSet底层就是HashMap
+
+- 有一个重点: HashSet是可以key相同，value不同，但是可以把新的Node添加到链表最后的，不会发生替换。但是在HashMap中，如果key相同，value不同，就会直接发生替换，新的Value会替代旧的Value。源码中有一行`e.value=value`
+
+
 
 ### 泛型
 

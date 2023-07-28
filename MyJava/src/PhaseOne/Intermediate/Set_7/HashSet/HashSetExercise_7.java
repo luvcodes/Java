@@ -19,8 +19,10 @@ public class HashSetExercise_7 {
         hashSet.add(new Employee("bill", 19));
         // 这里加不进去是因为，先验证了hashCode，hashCode相同，那么就比较后面的内容
         // 如果后面的内容不同，就加在链表的最后一位; 如果相同，就直接舍弃
-        hashSet.add(new Employee("milan", 20));
-
+//        hashSet.add(new Employee("milan", 20));
+        // 这里能添加进去的原因是因为milan 21可以看作一个整体的key，这个整体的key和ilan 20是不同的所以可以加进去。
+        // 这里相当于是在table中占用了新的一个Node，不隶属于任何一个链表。追源码就可以看明白
+        hashSet.add(new Employee("milan", 21));
         System.out.println(hashSet);
     }
 }
