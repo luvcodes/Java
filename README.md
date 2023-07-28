@@ -263,18 +263,17 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 
 #### ArrayList底层结构和源码分析
 
-##### ArrayList的注意事项 - <https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist>
+##### ArrayList的注意事项
+
+ArrayList和Array有什么区别: <https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist>
 
 - permits all elements, ArrayList可以加入null，并且可以加入多个。
 - ArrayList是由数组实现数据存储的
 - ArrayList基本等同于Vector，除了**ArrayList是线程不安全**的。在多线程情况下，不建议使用ArrayList。
-- 因为ArrayList的底层就是用数组的方式存储的，elementData其实就是现在这个ArrayList的size，minCapacity就是最小容量(
-  其实也就是现在已经存进去的元素数量)。在源码的部分进行对比minCapacity和elementData.size()
-  的时候其实就是在对比当前已经存进ArrayList的元素个数与整个ArrayList的大小进行比较。
+- 因为ArrayList的底层就是用数组的方式存储的，elementData其实就是现在这个ArrayList的size，minCapacity就是最小容量(其实也就是现在已经存进去的元素数量)。在源码的部分进行对比minCapacity 和elementData.size() 的时候其实就是在对比当前已经存进ArrayList的元素个数与整个ArrayList的大小进行比较。
 
 #### Vector底层结构和源码分析
 
-- Vector类的定义说明
 - Vector底层也是一个**对象数组**，`protected Object[] elementData`
 - Vector是线程同步的，即**线程安全**，Vector类的操作方法带有`synchronized`
 - 在开发中需要线程同步安全时，考虑使用Vector
@@ -327,8 +326,6 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 2. LinkedHashSet根据元素的hashCode值来决定元素的存储位置，使用链表维护元素的次序，这使得元素看起来是以插入顺序保存的
 3. LinkedHashSet**不允许添重复元素**
 
-
-
 #### HashMap
 
 - HashMap底层是数组 + 链表 + 红黑树
@@ -338,19 +335,56 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 3. Map中的key不允许重复，原因和HashSet一样
 4. 生成结果的顺序不一定是和加入顺序一致的，因为本质上就是HashSet，见Map_代码文件
 
-##### table表是一个数组，数组里面放的有链表或者是一棵树。每一个链表里面包含多个Node(HashMap$Node)，而Node又实现了Map$Entry接口。
+- Table表是一个数组，数组里面放的有链表或者是一棵树。每一个链表里面包含多个Node(HashMap$Node)，而Node又实现了Map$Entry接口。
 
-##### HashMap底层机制，扩容机制与HashSet完全一样，因为HashSet底层就是HashMap
+##### HashMap底层机制
 
-- 有一个重点: HashSet是可以key相同，value不同，但是可以把新的Node添加到链表最后的，不会发生替换。但是在HashMap中，如果key相同，value不同，就会直接发生替换，新的Value会替代旧的Value。源码中有一行`e.value=value`
+扩容机制与HashSet完全一样，因为HashSet底层就是HashMap。有一个重点: HashSet是可以key相同，value不同，但是可以把新的Node添加到链表最后的，不会发生替换。但是在HashMap中，如果key相同，value不同，就会直接发生替换，新的Value会替代旧的Value。源码中有一行`e.value=value`
 
 #### HashTable
 
-- 
+- 存放的元素是键值对: 即K-V
+- HashTable的键和值都不能为null，否则会抛出NullPointerException
+- 使用方法基本和HashMap一样
+- HashTable是线程安全的，可以在源代码中定义的方法看到`synchronized`修饰符，HashMap是线程不安全的
+
+- HashTable的首次table length是11，threshold是8，加载因子还是0.75
+
+#### HashTable和HashMap对比
+
+HashMap	线程不安全	效率高	允许null键null值
+
+HashTable	线程安全	  效率低	不允许null键null值
+
+#### Properties
+
+- Properties类**继承自HashTable类**并且实现了Map接口，也是使用一种键值对的形式来保存数据。
+- 使用特点和HashTable类似
+
+#### 总结: 开发中如何选择集合实现类
+
+1. 判断存储的类型 (一组对象[单列]或一组键值对[多列])
+2. 一组对象[单列]: Collection 接口
+   1. 允许重复: List
+      1. 增删多: LinkedList - 底层双向链表
+      2. 改查多: ArrayList - 底层Object类型的可变数组
+   2. 不允许重复: Set
+      1. 无序: HashSet - 底层HashMap 即数组 + 链表 + 红黑树
+      2. 排序: TreeSet
+      3. 插入和取出顺序一致: LinkedHashSet - 底层LinkedHashMap 维护数组 + 双向链表
+3. 一组键值对[双列]: Map
+   1. 键无序: HashMap - 底层哈希表 数组 + 链表 + 红黑树
+   2. 键排序: TreeMap
+   3. 键插入和取出顺序一致: LinkedHashMap
+   4. 读取文件: Properties
+
+#### Collections工具类
+
+
 
 ### 泛型
 
-#### 为什么需要泛型 - <https://juejin.cn/post/7095362930983567396>
+- 为什么需要泛型 - <https://juejin.cn/post/7095362930983567396>
 
 - 适用于多种数据类型执行相同的代码
 
