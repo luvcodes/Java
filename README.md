@@ -344,7 +344,9 @@ String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote
 
 - 有一个重点: HashSet是可以key相同，value不同，但是可以把新的Node添加到链表最后的，不会发生替换。但是在HashMap中，如果key相同，value不同，就会直接发生替换，新的Value会替代旧的Value。源码中有一行`e.value=value`
 
+#### HashTable
 
+- 
 
 ### 泛型
 
