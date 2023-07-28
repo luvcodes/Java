@@ -378,6 +378,10 @@ HashTable	线程安全	  效率低	不允许null键null值
    3. 键插入和取出顺序一致: LinkedHashMap
    4. 读取文件: Properties
 
+#### TreeSet
+
+- TreeSet底层是TreeMap
+
 #### Collections工具类
 
 
