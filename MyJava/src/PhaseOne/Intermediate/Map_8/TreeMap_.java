@@ -7,7 +7,7 @@ public class TreeMap_ {
     public static void main(String[] args) {
         /*
         //使用默认的构造器，创建TreeMap, 是无序的(也没有排序)
-            老韩要求：按照传入的 k(String) 的大小进行排序
+          要求：按照传入的 k(String) 的大小进行排序
          */
 //        TreeMap treeMap = new TreeMap();
         TreeMap treeMap = new TreeMap(new Comparator() {
@@ -28,7 +28,6 @@ public class TreeMap_ {
         System.out.println("treemap=" + treeMap);
 
         /*
-
             老韩解读源码：
             1. 构造器. 把传入的实现了 Comparator接口的匿名内部类(对象)，传给给TreeMap的comparator
              public TreeMap(Comparator<? super K> comparator) {
