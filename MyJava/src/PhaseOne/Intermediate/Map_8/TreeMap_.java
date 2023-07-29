@@ -23,7 +23,7 @@ public class TreeMap_ {
         treeMap.put("tom", "汤姆");
         treeMap.put("kristina", "克瑞斯提诺");
         treeMap.put("smith", "斯密斯");
-        treeMap.put("hsp", "韩顺平");//加入不了
+        treeMap.put("hsp", "韩顺平");//加入不了, 如果是按照key的字符串大小比较，那么就能加进去
 
         System.out.println("treemap=" + treeMap);
 
