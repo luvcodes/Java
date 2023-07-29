@@ -1,4 +1,4 @@
-package com.hspedu.threaduse;
+package PhaseOne.Amatuer.ThreadUse;
 
 /**
  * @author 韩顺平
@@ -7,15 +7,15 @@ package com.hspedu.threaduse;
  */
 public class Thread02 {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        //dog.start(); 这里不能调用start
-        //创建了Thread对象，把 dog对象(实现Runnable),放入Thread
-        Thread thread = new Thread(dog);
-        thread.start();
+//        Dog dog = new Dog();
+//        //dog.start(); 这里不能调用start
+//        //创建了Thread对象，把 dog对象(实现Runnable),放入Thread
+//        Thread thread = new Thread(dog);
+//        thread.start();
 
-//        Tiger tiger = new Tiger();//实现了 Runnable
-//        ThreadProxy threadProxy = new ThreadProxy(tiger);
-//        threadProxy.start();
+        Tiger tiger = new Tiger();//实现了 Runnable接口
+        ThreadProxy threadProxy = new ThreadProxy(tiger); // 能把tiger传进去，是因为Tiger类实现了Runnable接口
+        threadProxy.start();
     }
 }
 
@@ -23,7 +23,6 @@ class Animal {
 }
 
 class Tiger extends Animal implements Runnable {
-
     @Override
     public void run() {
         System.out.println("老虎嗷嗷叫....");
@@ -31,14 +30,16 @@ class Tiger extends Animal implements Runnable {
 }
 
 //线程代理类 , 模拟了一个极简的Thread类
-class ThreadProxy implements Runnable {//你可以把Proxy类当做 ThreadProxy
-
-    private Runnable target = null;//属性，类型是 Runnable
+//你可以把Proxy类当做 ThreadProxy
+class ThreadProxy implements Runnable {
+    //属性，类型是 Runnable
+    private Runnable target = null;
 
     @Override
     public void run() {
         if (target != null) {
-            target.run();//动态绑定（运行类型Tiger）
+            //动态绑定（运行类型Tiger）
+            target.run();
         }
     }
 
@@ -72,6 +73,7 @@ class Dog implements Runnable { //通过实现Runnable接口，开发线程
                 e.printStackTrace();
             }
 
+            // 输出10次
             if (count == 10) {
                 break;
             }

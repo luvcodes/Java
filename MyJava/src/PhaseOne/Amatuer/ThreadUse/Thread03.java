@@ -14,7 +14,6 @@ public class Thread03 {
         Thread thread2 = new Thread(t2);
         thread1.start();//启动第1个线程
         thread2.start();//启动第2个线程
-        //...
 
     }
 }
