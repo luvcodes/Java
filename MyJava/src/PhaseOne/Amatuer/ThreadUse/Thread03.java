@@ -1,4 +1,4 @@
-package com.hspedu.threaduse;
+package PhaseOne.Amatuer.ThreadUse;
 
 /**
  * @author 韩顺平
@@ -32,7 +32,7 @@ class T1 implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(count == 60) {
+            if(count == 10) {
                 break;
             }
         }
@@ -53,7 +53,7 @@ class T2 implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(count == 50) {
+            if(count == 5) {
                 break;
             }
         }
