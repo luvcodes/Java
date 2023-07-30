@@ -1,4 +1,4 @@
-package PhaseOne.Amatuer.ThreadUse;
+package PhaseOne.Amatuer.Thread;
 
 /**
  * 使用多线程，模拟三个窗口同时售票100张

@@ -1,4 +1,4 @@
-package PhaseOne.Amatuer.ThreadUse;
+package PhaseOne.Amatuer.Thread.ThreadUse_;
 
 public class Thread01 {
     public static void main(String[] args) throws InterruptedException {
