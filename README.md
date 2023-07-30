@@ -467,7 +467,7 @@ HashTable	线程安全	  效率低	不允许null键null值
 
 #### 线程生命周期
 
-
+![image-20230730232540482](/Users/yangrunze/Library/Application Support/typora-user-images/image-20230730232540482.png)
 
 ### IO流
 
