@@ -1,14 +1,11 @@
 package PhaseOne.Amatuer.Thread.synchronize;
 
-@SuppressWarnings({"all"})
 public class SellTicket {
     public static void main(String[] args) {
-        //测试一把
         SellTicket03 sellTicket03 = new SellTicket03();
         new Thread(sellTicket03).start();//第1个线程-窗口
         new Thread(sellTicket03).start();//第2个线程-窗口
         new Thread(sellTicket03).start();//第3个线程-窗口
-
     }
 }
 
@@ -20,28 +17,34 @@ class SellTicket03 implements Runnable {
 
 
     //同步方法（静态的）的锁为当前类本身
-    //老韩解读
-    //1. public synchronized static void m1() {} 锁是加在 SellTicket03.class
-    //2. 如果在静态方法中，实现一个同步代码块.
-    /*
-        synchronized (SellTicket03.class) {
-            System.out.println("m2");
-        }
+    /**
+     * 1. public synchronized static void m1() {} 锁是加在 SellTicket03.class
      */
-    public synchronized static void m1() {
-
-    }
-    public static  void m2() {
+    public synchronized static void m1() {}
+    /**
+     * 2. 如果在静态方法中，实现一个同步代码块。
+     * 就不能使用synchronized(this)了，因为静态方法中不能使用this。原因: 静态方法中不能使用this关键字。this是一个指向当前对象的引用，它只能在非静态方法中使用。
+     * 因为静态方法属于类而不是对象，它们在类加载时就已经存在了，所以没有this对象可用。
+     */
+    public static void m2() {
         synchronized (SellTicket03.class) {
             System.out.println("m2");
         }
     }
 
-    //老韩说明
-    //1. public synchronized void sell() {} 就是一个同步方法
-    //2. 这时锁在 this对象
-    //3. 也可以在代码块上写 synchronize ,同步代码块, 互斥锁还是在this对象
-    public /*synchronized*/ void sell() { //同步方法, 在同一时刻， 只能有一个线程来执行sell方法
+    /**
+     * 1. public synchronized void sell() {} 就是一个同步方法
+     * 2. 这时锁在 this对象
+     * 3. 也可以在代码块上写 synchronize ,同步代码块, 互斥锁还是在this对象
+     * */
+    //同步方法, 在同一时刻， 只能有一个线程来执行sell方法
+    public /*synchronized*/ void sell() {
+        /**
+         * 这里把this改成object依然可以运行的原因就在于
+         * 同步方法(非静态)的锁可以是this，也可以是其他对象。
+         * 那么在上面定义了Object object = new Object()，同时在main方法里定义的对象，是三个线程属于同一个对象，
+         * 那么就是相当于object就是"其他对象" 替代了 "this"
+         * */
         synchronized (/*this*/ object) {
             if (ticketNum <= 0) {
                 System.out.println("售票结束...");
@@ -68,17 +71,21 @@ class SellTicket03 implements Runnable {
 }
 
 //使用Thread方式
-// new SellTicket01().start()
-// new SellTicket01().start();
 class SellTicket01 extends Thread {
-
     private static int ticketNum = 100;//让多个线程共享 ticketNum
 
-//    public void m1() {
-//        synchronized (this) {
-//            System.out.println("hello");
-//        }
-//    }
+    /**
+     * 这样上锁是锁不住的
+     * 因为在使用这种方式创建对象开线程的时候
+     * new SellTicket01().start();
+     * new SellTicket01().start();
+     * 这样就形成了 this 分别指向了不同的对象
+     * */
+    public void m1() {
+        synchronized (this) {
+            System.out.println("hello");
+        }
+    }
 
     @Override
     public void run() {
