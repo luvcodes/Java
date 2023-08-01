@@ -222,7 +222,8 @@
     - intern方法: 手动将字符串加入常量池中的方法
 - StringBuffer方法
 - StringBuilder
--
+- **String类为什么用final修饰？**
+- **String类型为什么不可变**
 
 String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html>
 
@@ -455,6 +456,9 @@ HashTable	线程安全	  效率低	不允许null键null值
 
 #### 线程终止
 
+- 当线程完成任务后，会自动退出
+- 还可以通过使用变量来控制run方法退出的方式停止线程，即通知方式
+
 #### 线程常用方法
 
 - setPriority: 线程的优先级，优先级高的线程得到的CPU资源比较多，也就是CPU优先执行优先级高的线程对象中的任务。
@@ -519,6 +523,14 @@ HashTable	线程安全	  效率低	不允许null键null值
 2. 线程执行同步代码块时，其他线程调用了该线程的suspend()方法将该线程挂起，该线程不会释放锁。suspend()和resume()方法不再推荐使用。
 
 ### IO流
+
+##### 创建文件
+
+- 3种方式
+
+##### 常见的文件操作
+
+- 目录的操作和文件删除
 
 ### 网络编程
 
