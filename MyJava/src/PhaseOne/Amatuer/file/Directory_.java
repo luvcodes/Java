@@ -45,7 +45,6 @@ public class Directory_ {
     //判断 D:\\demo\\a\\b\\c 目录是否存在，如果存在就提示已经存在，否则就创建
     @Test
     public void m3() {
-
         String directoryPath = "D:\\demo\\a\\b\\c";
         File file = new File(directoryPath);
         if (file.exists()) {
@@ -57,8 +56,5 @@ public class Directory_ {
                 System.out.println(directoryPath + "创建失败...");
             }
         }
-
-
-
     }
 }
