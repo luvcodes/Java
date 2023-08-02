@@ -28,6 +28,7 @@ public class HashSetSource {
          4.执行 putVal
          final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
                 Node<K,V>[] tab; Node<K,V> p; int n, i; //定义了辅助变量
+
                 //table 就是 HashMap 的一个属性(数组)，类型是 Node[]
                 //if 语句表示如果当前table 是null, 或者 tab.length=0, 刚进来的时候table是空
                 //就是第一次扩容，到16个空间，是通过resize方法来达成的
@@ -43,7 +44,8 @@ public class HashSetSource {
                     tab[i] = newNode(hash, key, value, null);
                 else {
                     //一个开发技巧提示： 在需要局部变量(辅助变量)时候，再创建
-                    Node<K,V> e; K k; //
+                    Node<K,V> e; K k;
+
                     //如果当前索引位置对应的链表的第一个元素和准备添加的key的hash值一样
                     //并且满足 下面两个条件之一:
                     //(1) 准备加入的key 和 p 指向的Node 结点的 key 是同一个对象

@@ -34,7 +34,8 @@ public class HashSet01_3 {
         System.out.println("set=" + set);
 
         /**
-         *
+         * 尽管是两个String的对象，但是它们会到字符串常量区查找，发现了已经存在hsp，
+         * 那么第二个就无法加入到set中了
          * */
         set.add(new String("hsp"));//ok
         set.add(new String("hsp"));//加入不了.
