@@ -45,7 +45,7 @@
 //     */
 //    @Test
 //    public void readFile02() {
-//        String filePath = "e:\\hello.txt";
+//        String filePath = "/Users/yangrunze/Desktop/各类语言学习/Java/MyJava/src/PhaseOne/Amatuer/inputstream_/hello.txt";
 //        //字节数组
 //        byte[] buf = new byte[8]; //一次读取8个字节.
 //        int readLen = 0;

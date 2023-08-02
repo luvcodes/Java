@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileOutputStream01 {
+public class FileOutputStream01_ {
     public static void main(String[] args) {
 
     }
@@ -18,7 +18,7 @@ public class FileOutputStream01 {
     public void writeFile() {
 
         //创建 FileOutputStream对象
-        String filePath = "e:\\a.txt";
+        String filePath = "/Users/yangrunze/Desktop/各类语言学习/Java/MyJava/src/PhaseOne/Amatuer/outputstream_/hello.txt";
         FileOutputStream fileOutputStream = null;
         try {
             //得到 FileOutputStream对象 对象
@@ -29,7 +29,7 @@ public class FileOutputStream01 {
             //写入一个字节
             //fileOutputStream.write('H');//
             //写入字符串
-            String str = "hsp,world!";
+            String str = "hello,world!";
             //str.getBytes() 可以把 字符串-> 字节数组
             //fileOutputStream.write(str.getBytes());
             /*
