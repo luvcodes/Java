@@ -9,7 +9,7 @@ public class FileInformation {
 
     }
 
-    //获取文件的信息
+    //获取文件的信息~
     @Test
     public void info() {
         //先创建文件对象
@@ -24,7 +24,5 @@ public class FileInformation {
         System.out.println("文件是否存在=" + file.exists());//T
         System.out.println("是不是一个文件=" + file.isFile());//T
         System.out.println("是不是一个目录=" + file.isDirectory());//F
-
-
     }
 }
