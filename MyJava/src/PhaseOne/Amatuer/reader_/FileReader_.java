@@ -13,8 +13,6 @@ import java.io.IOException;
  */
 public class FileReader_ {
     public static void main(String[] args) {
-
-
     }
 
     /**

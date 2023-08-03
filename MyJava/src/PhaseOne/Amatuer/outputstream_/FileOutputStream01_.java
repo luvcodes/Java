@@ -39,6 +39,7 @@ public class FileOutputStream01_ {
             write(byte[] b, int off, int len) 将 len字节从位于偏移量 off的指定字节数组写入此文件输出流
              */
             fileOutputStream.write(str.getBytes(), 0, 3);
+            // fileOutputStream.write(str.getBytes(), 0, str.length()); // 这样就是读取全部字符
 
         } catch (IOException e) {
             e.printStackTrace();
