@@ -16,7 +16,6 @@ public class FileOutputStream01_ {
      */
     @Test
     public void writeFile() {
-
         //创建 FileOutputStream对象
         String filePath = "/Users/yangrunze/Desktop/各类语言学习/Java/MyJava/src/PhaseOne/Amatuer/outputstream_/hello.txt";
         FileOutputStream fileOutputStream = null;
@@ -26,13 +25,17 @@ public class FileOutputStream01_ {
             //1. new FileOutputStream(filePath) 创建方式，当写入内容是，会覆盖原来的内容
             //2. new FileOutputStream(filePath, true) 创建方式，当写入内容是，是追加到文件后面
             fileOutputStream = new FileOutputStream(filePath, true);
+
             //写入一个字节
             //fileOutputStream.write('H');//
+
             //写入字符串
             String str = "hello,world!";
             //str.getBytes() 可以把 字符串-> 字节数组
             //fileOutputStream.write(str.getBytes());
+
             /*
+            第二种方法
             write(byte[] b, int off, int len) 将 len字节从位于偏移量 off的指定字节数组写入此文件输出流
              */
             fileOutputStream.write(str.getBytes(), 0, 3);
