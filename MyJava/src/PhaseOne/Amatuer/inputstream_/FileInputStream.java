@@ -24,6 +24,7 @@
 //            fileInputStream = new FileInputStream(filePath);
 //            //从该输入流读取一个字节的数据。 如果没有输入可用，此方法将阻止。
 //            //如果返回-1 , 表示读取完毕
+              // 这个意思就是用fileInputStream对象去读文件的内容，保存到readData里面去
 //            while ((readData = fileInputStream.read()) != -1) {
 //                System.out.print((char)readData);//转成char显示
 //            }
