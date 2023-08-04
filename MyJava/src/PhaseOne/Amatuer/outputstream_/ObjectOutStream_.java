@@ -6,11 +6,9 @@ import java.io.ObjectOutputStream;
 public class ObjectOutStream_ {
     public static void main(String[] args) throws Exception {
         //序列化后，保存的文件格式，不是存文本，而是按照他的格式来保存
-        String filePath = "e:\\data.dat";
-
+        String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\outputstream_\\data.dat";
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filePath));
-
-        //序列化数据到 e:\data.dat
+        //序列化数据到 C:\Users\ryanw\IdeaProjects\Java\MyJava\src\PhaseOne\Amatuer\outputstream_\data.dat
         oos.writeInt(100);// int -> Integer (实现了 Serializable)
         oos.writeBoolean(true);// boolean -> Boolean (实现了 Serializable)
         oos.writeChar('a');// char -> Character (实现了 Serializable)
