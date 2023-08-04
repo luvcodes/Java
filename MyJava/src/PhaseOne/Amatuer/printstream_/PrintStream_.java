@@ -14,7 +14,6 @@ public class PrintStream_ {
                 }
                 write(s);
             }
-
          */
         out.print("john, hello");
         //因为print底层使用的是write , 所以我们可以直接调用write进行打印/输出

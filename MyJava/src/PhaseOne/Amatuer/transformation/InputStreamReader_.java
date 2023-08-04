@@ -3,8 +3,6 @@ package PhaseOne.Amatuer.transformation;
 import java.io.*;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 演示使用 InputStreamReader 转换流解决中文乱码问题
  * 将字节流 FileInputStream 转成字符流  InputStreamReader, 指定编码 gbk/utf-8
  */

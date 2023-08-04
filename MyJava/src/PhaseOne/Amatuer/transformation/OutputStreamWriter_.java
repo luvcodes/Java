@@ -13,6 +13,7 @@ public class OutputStreamWriter_ {
     public static void main(String[] args) throws IOException {
         String filePath = "e:\\hsp.txt";
         String charSet = "utf-8";
+        // 字节流转字符流 输出
         OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(filePath), charSet);
         osw.write("hi, 韩顺平教育");
         osw.close();
