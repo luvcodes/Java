@@ -2,29 +2,20 @@ package PhaseOne.Amatuer.writer_;
 
 import java.io.*;
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 public class BufferedCopy_ {
     public static void main(String[] args) {
-        //老韩说明
-        //1. BufferedReader 和 BufferedWriter 是安装字符操作
-        //2. 不要去操作 二进制文件[声音，视频，doc, pdf ], 可能造成文件损坏
-        //BufferedInputStream
-        //BufferedOutputStream
-        String srcFilePath = "e:\\a.java";
-        String destFilePath = "e:\\a2.java";
-//        String srcFilePath = "e:\\0245_韩顺平零基础学Java_引出this.avi";
-//        String destFilePath = "e:\\a2韩顺平.avi";
+        //1. BufferedReader 和 BufferedWriter 是按照字符操作
+        //2. 不要去操作 二进制文件[声音，视频，doc, pdf], 可能造成文件损坏
+        String srcFilePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\writer_\\ok.txt";
+        String destFilePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\writer_\\ok01.java";
         BufferedReader br = null;
         BufferedWriter bw = null;
+        // 按行读取
         String line;
         try {
             br = new BufferedReader(new FileReader(srcFilePath));
             bw = new BufferedWriter(new FileWriter(destFilePath));
-
-            //说明: readLine 读取一行内容，但是没有换行
+            //说明: readLine 按行读取, 读取一行内容，但是没有换行
             while ((line = br.readLine()) != null) {
                 //每读取一行，就写入
                 bw.write(line);
@@ -48,7 +39,5 @@ public class BufferedCopy_ {
                 e.printStackTrace();
             }
         }
-
-
     }
 }

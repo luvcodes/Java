@@ -4,7 +4,6 @@ import java.io.*;
 
 public class BufferedCopy02_ {
     public static void main(String[] args) {
-
 //        String srcFilePath = "e:\\Koala.jpg";
 //        String destFilePath = "e:\\hsp.jpg";
 //        String srcFilePath = "e:\\0245_韩顺平零基础学Java_引出this.avi";

@@ -11,11 +11,10 @@ import java.io.IOException;
  */
 public class BufferedWriter_ {
     public static void main(String[] args) throws IOException {
-        String filePath = "e:\\ok.txt";
+        String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\writer_\\ok.txt";
         //创建BufferedWriter
-        //说明:
-        //1. new FileWriter(filePath, true) 表示以追加的方式写入
-        //2. new FileWriter(filePath) , 表示以覆盖的方式写入
+        //1. new FileWriter(filePath) , 表示以覆盖的方式写入
+        //2. new FileWriter(filePath, true) 表示以追加的方式写入
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePath));
         bufferedWriter.write("hello, 韩顺平教育!");
         bufferedWriter.newLine();//插入一个和系统相关的换行
