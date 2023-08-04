@@ -12,7 +12,6 @@ import java.util.Properties;
 public class Properties03 {
     public static void main(String[] args) throws IOException {
         //使用Properties 类来创建 配置文件, 修改配置文件内容
-
         Properties properties = new Properties();
         //创建
         //1.如果该文件没有key 就是创建
@@ -51,6 +50,5 @@ public class Properties03 {
         //将k-v 存储文件中即可
         properties.store(new FileOutputStream("src\\mysql2.properties"), null);
         System.out.println("保存配置文件成功~");
-
     }
 }

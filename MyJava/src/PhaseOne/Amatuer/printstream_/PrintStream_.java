@@ -27,7 +27,7 @@ public class PrintStream_ {
         //        checkIO();
         //        setOut0(out); // native 方法，修改了out
         //   }
-        System.setOut(new PrintStream("e:\\f1.txt"));
+        System.setOut(new PrintStream("\\f1.txt"));
         System.out.println("hello, 韩顺平教育~");
 
     }
