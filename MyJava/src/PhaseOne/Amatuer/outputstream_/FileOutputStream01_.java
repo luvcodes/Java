@@ -17,7 +17,7 @@ public class FileOutputStream01_ {
     @Test
     public void writeFile() {
         //创建 FileOutputStream对象
-        String filePath = "/Users/yangrunze/Desktop/各类语言学习/Java/MyJava/src/PhaseOne/Amatuer/outputstream_/hello.txt";
+        String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\outputstream_/hello.txt";
         FileOutputStream fileOutputStream = null;
         try {
             //得到 FileOutputStream对象 对象
@@ -40,7 +40,6 @@ public class FileOutputStream01_ {
              */
             fileOutputStream.write(str.getBytes(), 0, 3);
             // fileOutputStream.write(str.getBytes(), 0, str.length()); // 这样就是读取全部字符
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

@@ -10,8 +10,8 @@ public class FileCopy {
         //思路分析
         //1. 创建文件的输入流, 将文件读入到程序
         //2. 创建文件的输出流， 将读取到的文件数据，写入到指定的文件.
-        String srcFilePath = "e:\\Koala.jpg";
-        String destFilePath = "e:\\Koala3.jpg";
+        String srcFilePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\outputstream_\\wallhaven-z8wxoo.jpeg";
+        String destFilePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\outputstream_\\wallhaven-z8wxoo01.jpeg";
         FileInputStream fileInputStream = null;
         FileOutputStream fileOutputStream = null;
 
