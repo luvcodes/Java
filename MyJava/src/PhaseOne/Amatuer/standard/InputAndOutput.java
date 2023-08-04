@@ -16,15 +16,13 @@ public class InputAndOutput {
         // 表示的是标准输入 键盘
         System.out.println(System.in.getClass());
 
-        //老韩解读
-        //1. System.out public final static PrintStream out = null;
+        //1. System.out的 public final static PrintStream out = null;
         //2. 编译类型 PrintStream
         //3. 运行类型 PrintStream
         //4. 表示标准输出 显示器
         System.out.println(System.out.getClass());
 
         System.out.println("hello, 韩顺平教育~");
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("输入内容");
         String next = scanner.next();
