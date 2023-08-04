@@ -1,10 +1,6 @@
-package PhaseThree.Rflection.reflection.question;
-
-import PhaseThree.Rflection.Cat;
+package PhaseThree.Reflection.reflection.question;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Properties;

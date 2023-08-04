@@ -1,4 +1,4 @@
-package PhaseThree.Rflection;
+package PhaseThree.Reflection;
 
 public class Cat {
 
