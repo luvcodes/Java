@@ -1,8 +1,6 @@
 package PhaseOne.Amatuer.Thread.ThreadUse_;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 通过实现接口Runnable 来开发线程
  */
 public class Thread02 {
