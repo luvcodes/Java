@@ -16,8 +16,6 @@
     - ChangeChar - Java里的数据类型转换
 
 
-### 运算符
-
 ### 程序控制结构
 
 - For loop - for循环的使用
