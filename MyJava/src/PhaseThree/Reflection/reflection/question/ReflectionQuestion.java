@@ -9,15 +9,15 @@ import java.util.Properties;
 public class ReflectionQuestion {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException {
         // 根据配置文件 re.properties 指定信息，创建Cat对象并调用方法hi
+
         // 传统的方式 new 对象 -> 调用方法
 //        Cat cat = new Cat();
 //        cat.hi();
 
-
-
         // 1. 使用Properties 类，可以读写配置文件
         Properties properties = new Properties();
         properties.load(new FileInputStream("\\re.properties"));
+
         String classfullpath = properties.get("classfullpath").toString(); // Cat
         String method = properties.get("method").toString(); // hi()
         System.out.println("classfullpath = " + classfullpath);
