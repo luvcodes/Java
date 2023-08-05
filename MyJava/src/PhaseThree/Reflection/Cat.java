@@ -1,4 +1,4 @@
-package PhaseThree.Reflection.reflectionQustion;
+package PhaseThree.Reflection;
 
 public class Cat {
     private String name = "招财猫";
