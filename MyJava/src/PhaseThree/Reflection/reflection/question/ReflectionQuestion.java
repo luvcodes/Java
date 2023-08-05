@@ -41,7 +41,5 @@ public class ReflectionQuestion {
         Method method1 = aClass.getMethod(method);
         // (4) 通过method1 调用方法: 通过方法的对象来实现调用方法
         method1.invoke(o); // 传统方法: 对象.方法()，反射机制 方法.invoke(对象)
-
-
     }
 }
