@@ -10,7 +10,7 @@ import java.io.FileReader;
  */
 public class BufferedReader_ {
     public static void main(String[] args) throws Exception {
-        String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\reader_\\test.txt";
+        String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\reader_\\practice_.test.txt";
         //创建bufferedReader
         BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
         //读取: 按行读取, 效率高

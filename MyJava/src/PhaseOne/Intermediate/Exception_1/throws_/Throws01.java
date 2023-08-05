@@ -18,6 +18,6 @@ public class Throws01 {
         // 3. 使用throws，抛出异常，让调用f1方法的调用者(方法)处理
         // 4. throws后面的异常类型可以是方法种产生的异常类型，也可以是它的父类
         // 5. throws关键字后也可以是 一场列表，即可以抛出多个异常
-        FileInputStream fis = new FileInputStream("C:\\Users\\ryanw\\OneDrive\\Desktop\\test.txt");
+        FileInputStream fis = new FileInputStream("C:\\Users\\ryanw\\OneDrive\\Desktop\\practice_.test.txt");
     }
 }

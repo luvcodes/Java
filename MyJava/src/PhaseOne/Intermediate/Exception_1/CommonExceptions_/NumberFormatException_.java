@@ -7,7 +7,7 @@ public class NumberFormatException_ {
 //        int num = Integer.parseInt(name);
 //        System.out.println(num);
 
-        String name = "test";
+        String name = "practice_.test";
         // String => int
         int num = Integer.parseInt(name);
         System.out.println(num);

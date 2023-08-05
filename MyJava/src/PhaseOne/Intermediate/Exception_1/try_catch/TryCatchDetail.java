@@ -14,7 +14,7 @@ public class TryCatchDetail {
          * 4. 注意，如果没有发生异常，catch代码块不执行
         * */
         try {
-            String str = "test";
+            String str = "practice_.test";
             int a = Integer.parseInt(str);
             System.out.println("Number: " + a);
         } catch (NumberFormatException e) {

@@ -28,7 +28,7 @@ public class ThrowsDetail {
     }
 
     public static void f3() throws FileNotFoundException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\ryanw\\OneDrive\\Desktop\\test.txt");
+        FileInputStream fis = new FileInputStream("C:\\Users\\ryanw\\OneDrive\\Desktop\\practice_.test.txt");
     }
 
     public static void f4() {

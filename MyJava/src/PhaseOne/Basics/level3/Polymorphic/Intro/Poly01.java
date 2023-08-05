@@ -9,7 +9,7 @@ public class Poly01 {
         master.feed(dog, bone);
 
         Cat cat = new Cat("lisa");
-        Fish fish = new Fish("test");
+        Fish fish = new Fish("practice_.test");
         master.feed(cat, fish);
         // 添加 给小猪喂米饭
         Pig pig = new Pig("小花猪");

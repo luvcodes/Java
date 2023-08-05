@@ -51,7 +51,7 @@ class Outer04 {
         Father father = new Father("jack") {
             @Override
             public void test() {
-                System.out.println("Anonymous inner class override test() method");
+                System.out.println("Anonymous inner class override practice_.test() method");
             }
         };
         System.out.println("father object operating type: " + father.getClass());
