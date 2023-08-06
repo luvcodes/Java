@@ -36,6 +36,7 @@ public class Class02 {
         Field brand = cls.getField("brand");
         System.out.println(brand.get(car));//宝马
 
+        // 通过方法对象调用方法来得到方法体内的内容
         Method method = cls.getMethod("printMethod");
         method.invoke(car);
 

@@ -16,14 +16,11 @@ public class ReflectionQuestion {
 
         // 1. 使用Properties 类，可以读写配置文件
         Properties properties = new Properties();
-        properties.load(new FileInputStream("C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseThree\\Reflection\\reflectionQustion\\re.properties"));
+        properties.load(new FileInputStream("C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseThree\\Reflection\\re.properties"));
         String classfullpath = properties.get("classfullpath").toString(); // Cat
         String methodName = properties.get("method").toString(); // hi()
         System.out.println("classfullpath = " + classfullpath);
         System.out.println("method = " + methodName);
-
-        // 2. 创建对象，传统的方法，行不通 => 反射机制
-        // new classfullpath() // 因为它是一个String，不是一个类名
 
         /**
          * 3. 使用反射机制解决
