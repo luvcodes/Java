@@ -9,6 +9,10 @@ public class Car {
     public int price = 500000;
     public String color = "白色";
 
+    public void printMethod() {
+        System.out.println("This is a car class");
+    }
+
     @Override
     public String toString() {
         return "Car{" +

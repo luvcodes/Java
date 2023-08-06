@@ -40,8 +40,6 @@ public class Reflection01 {
         Constructor constructor = cls.getConstructor(); //()中可以指定构造器参数类型, 返回无参构造器
         System.out.println(constructor);//Cat()
 
-
-
         Constructor constructor2 = cls.getConstructor(String.class); //这里老师传入的 String.class 就是String类的Class对象
         System.out.println(constructor2);//Cat(String name)
     }

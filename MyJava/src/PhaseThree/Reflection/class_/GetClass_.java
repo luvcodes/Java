@@ -9,9 +9,8 @@ import PhaseThree.Reflection.Car;
  */
 public class GetClass_ {
     public static void main(String[] args) throws ClassNotFoundException {
-
         //1. Class.forName
-        String classAllPath = "com.hspedu.Car"; //通过读取配置文件获取
+        String classAllPath = "PhaseThree.Reflection.Car"; //通过读取配置文件获取
         Class<?> cls1 = Class.forName(classAllPath);
         System.out.println(cls1);
 
