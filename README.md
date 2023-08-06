@@ -47,6 +47,9 @@
 - Packages - 包的使用
 - Modifiers - 访问修饰符
 - Encapsulation - 封装
+    - 在Java中，封装通过访问控制修饰符（public、private、protected和default）来实现
+    - 使用封装的原则是尽量将类的成员变量声明为私有，并提供公共方法来访问和修改这些私有变量
+
 - Inheritance - 继承，`this();`和`super()`的使用是继承的重点部份。
     - `this()`的使用主要是针对class本体内的执行，
       用来指向其他的构造器。例如，在无参构造器里写`this('hello')`, 这种情况下就指向了同一个类里的有参构造器，将hello看作一个string
