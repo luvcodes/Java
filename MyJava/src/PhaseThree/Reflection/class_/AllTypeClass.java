@@ -16,7 +16,7 @@ public class AllTypeClass {
         Class<Thread.State> cls6 = Thread.State.class;
         Class<Long> cls7 = long.class;//基本数据类型
         Class<Void> cls8 = void.class;//void数据类型
-        Class<Class> cls9 = Class.class;//
+        Class<Class> cls9 = Class.class;//Class也有自己的类，也有自己的Class类对象
 
         System.out.println(cls1);
         System.out.println(cls2);

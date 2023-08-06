@@ -28,7 +28,8 @@ public class GetClass_ {
         Class cls4 = classLoader.loadClass(classAllPath);
         System.out.println(cls4);
 
-        //cls1 , cls2 , cls3 , cls4 其实是同一个对象，因为hashCode相同
+        //cls1 , cls2 , cls3 , cls4 其实是同一个对象
+        // 对于一个类而言，只有一个Class对象，hashCode也相同
         System.out.println();
         System.out.println(cls1.hashCode());
         System.out.println(cls2.hashCode());
