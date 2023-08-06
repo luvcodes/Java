@@ -3,13 +3,10 @@ package PhaseThree.Reflection.class_;
 import java.io.Serializable;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 演示哪些类型有Class对象
  */
 public class AllTypeClass {
     public static void main(String[] args) {
-
         Class<String> cls1 = String.class;//外部类
         Class<Serializable> cls2 = Serializable.class;//接口
         Class<Integer[]> cls3 = Integer[].class;//数组

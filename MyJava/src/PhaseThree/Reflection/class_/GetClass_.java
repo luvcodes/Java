@@ -3,8 +3,6 @@ package PhaseThree.Reflection.class_;
 import PhaseThree.Reflection.Car;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 演示得到Class对象的各种方式(6)
  */
 public class GetClass_ {
@@ -30,7 +28,8 @@ public class GetClass_ {
         Class cls4 = classLoader.loadClass(classAllPath);
         System.out.println(cls4);
 
-        //cls1 , cls2 , cls3 , cls4 其实是同一个对象
+        //cls1 , cls2 , cls3 , cls4 其实是同一个对象，因为hashCode相同
+        System.out.println();
         System.out.println(cls1.hashCode());
         System.out.println(cls2.hashCode());
         System.out.println(cls3.hashCode());
