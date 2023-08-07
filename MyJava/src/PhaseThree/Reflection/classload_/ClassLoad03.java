@@ -1,13 +1,10 @@
 package PhaseThree.Reflection.classload_;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 演示类加载-初始化阶段
  */
 public class ClassLoad03 {
     public static void main(String[] args) throws ClassNotFoundException {
-        //老韩分析
         //1. 加载B类，并生成 B的class对象
         //2. 链接 num = 0
         //3. 初始化阶段
@@ -22,8 +19,8 @@ public class ClassLoad03 {
 
          */
 
-        //new B();//类加载
-        //System.out.println(B.num);//100, 如果直接使用类的静态属性，也会导致类的加载
+//        new B();//类加载
+//        System.out.println(B.num);//100, 如果直接使用类的静态属性，也会导致类的加载
 
         //看看加载类的时候，是有同步机制控制
         /*
