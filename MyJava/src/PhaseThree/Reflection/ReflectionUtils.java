@@ -7,6 +7,10 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+/**
+ * 演示如何通过反射获取类的结构信息
+ * */
+
 interface IA {
 }
 
@@ -22,7 +26,7 @@ public class ReflectionUtils {
     @Test
     public void api_02() throws ClassNotFoundException, NoSuchMethodException {
         //得到Class对象
-        Class<?> personCls = Class.forName("com.hspedu.reflection.Person");
+        Class<?> personCls = Class.forName("PhaseThree.Reflection.Person");
         //getDeclaredFields:获取本类中所有属性
         //规定 说明: 默认修饰符 是0 ， public  是1 ，private 是 2 ，protected 是 4 , static 是 8 ，final 是 16
         Field[] declaredFields = personCls.getDeclaredFields();
@@ -60,7 +64,7 @@ public class ReflectionUtils {
     @Test
     public void api_01() throws ClassNotFoundException, NoSuchMethodException {
         //得到Class对象
-        Class<?> personCls = Class.forName("com.hspedu.reflection.Person");
+        Class<?> personCls = Class.forName("PhaseThree.Reflection.Person");
         //getName:获取全类名
         System.out.println(personCls.getName());//com.hspedu.reflection.Person
         //getSimpleName:获取简单类名
