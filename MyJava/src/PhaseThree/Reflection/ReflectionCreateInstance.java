@@ -5,9 +5,8 @@ import java.lang.reflect.InvocationTargetException;
 
 public class ReflectionCreateInstance {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, InvocationTargetException {
-
         //1. 先获取到User类的Class对象
-        Class<?> userClass = Class.forName("com.hspedu.reflection.User");
+        Class<?> userClass = Class.forName("PhaseThree.Reflection.User");
         //2. 通过public的无参构造器创建实例
         Object o = userClass.newInstance();
         System.out.println(o);
