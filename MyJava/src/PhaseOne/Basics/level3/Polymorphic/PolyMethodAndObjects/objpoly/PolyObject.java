@@ -1,4 +1,4 @@
-package PhaseOne.Basics.level3.Polymorphic.intro_.Intro.objpoly;
+package PhaseOne.Basics.level3.Polymorphic.PolyMethodAndObjects.objpoly;
 
 public class PolyObject {
     public static void main(String[] args) {

@@ -23,7 +23,7 @@ public class PolyArry {
                 Teacher teacher = (Teacher) person[i];
                 teacher.teach();
             } else if (person[i] instanceof Person){
-
+                // System.out.println("你的类型有误, 请自己检查...");
             } else {
                 System.out.println("Your input value type is incorrect!");
             }

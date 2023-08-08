@@ -1,4 +1,4 @@
-package PhaseOne.Basics.level3.Polymorphic.intro_.Intro;
+package PhaseOne.Basics.level3.Polymorphic.PolyMethodAndObjects.Intro;
 
 public class Master {
     private String name;
@@ -15,7 +15,7 @@ public class Master {
     }
 
     // 使用多态机制，可以统一的管理主人喂食的问题
-    // animal 编译类型时Animal，可以指向（接收） Animal子类的对象
+    // animal 编译类型是Animal，可以指向（接收） Animal子类的对象
     // food 编译类型是Food，可以指向（接收） Food子类的对象
     public void feed(Animal animal, Food food) {
         System.out.println("Master " + name + " gives " + animal.getName() + " feed " + food.getName());
