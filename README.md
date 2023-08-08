@@ -4,10 +4,7 @@
 
 ### 变量
 
-- 变量:
-
-    - 变量表示内存中的一个存储区域，不同变量类型不同，占用的空间大小不同，例如，int 4个字节，double 8个字节。
-    - 变量三要素：变量名，值，数据类型
+- 变量: 变量三要素：变量名，值，数据类型
 
 - 数据类型转换
 
@@ -37,22 +34,19 @@
 - 成员方法、成员方法传参机制
 - Recursion - 方法递归调用
 - Overload - 方法重载
-- VarParameter - 形参列表
-- VarScope - 作用域
-- Constructor - 构造器
 - This keyword - this关键字
 
 ### 面向对象中级
 
-- Packages - 包的使用
-
 - Modifiers - 访问修饰符
 
-- Encapsulation - 封装
+- **Encapsulation - 封装**
+    
     - 在Java中，封装通过访问控制修饰符（public、private、protected和default）来实现
     - 使用封装的原则是尽量将类的成员变量声明为私有，并提供公共方法来访问和修改这些私有变量
-
-- Inheritance - 继承，`this();`和`super()`的使用是继承的重点部份。
+    
+- **Inheritance - 继承**，`this();`和`super()`的使用是继承的重点部份。
+    
     - `this()`的使用主要是针对class本体内的执行，
       用来指向其他的构造器。例如，在无参构造器里写`this('hello')`, 这种情况下就指向了同一个类里的有参构造器，将hello看作一个string
       传入另一个有参构造器来作为一个参数，再继续执行有参构造器函数体内的代码。
@@ -67,46 +61,47 @@
   的对比: <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
   
 - Override - 方法重写
-    - Polymorphic - 多态 `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
     
-      - 对比重载(Overload)和重写(Override): 
+- **Polymorphic - 多态** `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
     
-        - 方法重载(Overload)是指在同一个类中定义多个名称相同但参数列表不同的方法。在方法重载中，方法的名称相同，但参数不同，参数的类型、数量或两者都可能不同。通过方法重载，可以根据不同的参数类型或数量提供多种方法来调用一个方法。编译器会根据方法调用时提供的参数来决定调用哪种重载方法。方法重载发生在编译时（静态多态）
+    - 对比重载(Overload)和重写(Override): 
     
-          ```java
-          class MathUtils {
-              int add(int a, int b) {
-                  return a + b;
-              }
-              
-              double add(double a, double b) {
-                  return a + b;
-              }
-          }
-          ```
+      - 方法重载(Overload)是指在同一个类中定义多个名称相同但参数列表不同的方法。在方法重载中，方法的名称相同，但参数不同，参数的类型、数量或两者都可能不同。编译器会根据方法调用时提供的参数来决定调用哪种重载方法。方法重载发生在编译时（静态多态）
     
-        - 方法重写(Override)是指在子类中为父类（超类）中已定义的方法提供新的实现。在方法覆盖中，子类和超类中的方法名称和参数列表必须相同。方法重载允许子类为超类中已定义的方法提供特定的实现方式。当使用子类对象调用重载方法时，执行的是子类中的重载方法，而不是超类中的方法。方法重载发生在运行时（动态多态性）
+        ```java
+        class MathUtils {
+            int add(int a, int b) {
+                return a + b;
+            }
+            
+            double add(double a, double b) {
+                return a + b;
+            }
+        }
+        ```
     
-          ```java
-          class Animal {
-              void makeSound() {
-                  System.out.println("Animal makes a sound");
-              }
-          }
-          
-          class Dog extends Animal {
-              @Override
-              void makeSound() {
-                  System.out.println("Dog barks");
-              }
-          }
-          ```
+      - 方法重写(Override)是指在子类中为父类（超类）中已定义的方法提供新的实现。在方法覆盖中，子类和超类中的方法名称和参数列表必须相同。当使用子类对象调用重载方法时，执行的是子类中的重载方法，而不是超类中的方法。方法重写发生在运行时（动态多态性）
     
-    1. 一个对象的编译类型和运行类型可以不一致
+        ```java
+        class Animal {
+            void makeSound() {
+                System.out.println("Animal makes a sound");
+            }
+        }
+        
+        class Dog extends Animal {
+            @Override
+            void makeSound() {
+                System.out.println("Dog barks");
+            }
+        }
+        ```
+    
+    1. 一个对象的编译类型和运行类型可以不一致: 等号左边是编译类型，等号右边是运行类型
+       1. 可以让父类的一个引用，指向子类的一个对象: `Animal animal = new Dog();` animal的编译类型是Animal，运行类型是Dog
     2. 编译类型在定义对象时，就确定了，不能改变
     3. 运行类型是可以变化的
-
-#### 编译类型看 = 号的左边，运行类型看 = 号的右边
+    4. 编译类型看定义时 = 号的左边，运行类型看 = 号的右边
 
 #### 向上转型与向下转型: <https://juejin.cn/post/6993341672755036173>
 
@@ -122,10 +117,6 @@
             - 如果**判断引用类型**，**判断的是地址是否相等**，**即判断是不是同一个对象**。
     - **Object类中的方法，只能判断引用类型**
     - == 对于基本类型来说是值比较，对于引用类型来说是比较的是引用；而 equals 默认情况下是引用比较，只是很多类重写了 equals 方法，比如 String、Integer 等把它变成了值比较，所以一般情况下 equals 比较的是值是否相等。https://juejin.cn/post/6844903790089338887
-- toString方法 - 全类名（包名+类名）@ 把hashCode()方法转换成16进制
-- finalize()方法
-- `debug`:
-    1. 重要提示：在断点调试过程中，是运行状态，是以对象的运行类型来执行的。例如：A extends B; B b = new A(); b.xx();
 
 ## 进入Beginner阶段
 
@@ -164,7 +155,6 @@
             2. 定义一个static静态属性对象
             3. 提供一个public的static方法，可以返回Cat对象
             4. 懒汉式，只有当用户使用getInstance时，才返回cat对象，后面再次调用时，会返回上次创建的cat对象，从而保证了单例。
-- 模版模式 - abstract的代表练习
 
 #### Final关键字
 
@@ -178,8 +168,6 @@
 8. 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
 
 #### 抽象类 abstract
-
-- 典型的设计模式: 模版设计模式
 
 #### 接口 Interface
 
@@ -225,10 +213,6 @@
 #### 枚举 Enumeration
 
 #### 注解 Annotations
-
-- `@Override` 表示重写 最重要的价值就是编译器进行语法校验
-- `@Deprecated` 修饰某个元素，表示该元素已经过时
-- `@Suppresswarnings`
 
 ## 进入Intermediate阶段
 
@@ -467,8 +451,6 @@ HashTable	线程安全	  效率低	不允许null键null值
 
 - 适用于多种数据类型执行相同的代码
 
-
-
 ### Java事件处理机制
 
 1. 事件源: 产生事件的对象，比如按钮、窗口等
@@ -657,8 +639,6 @@ HashTable	线程安全	  效率低	不允许null键null值
 ##### Properties类
 
 ### 网络编程
-
-
 
 ### 反射
 
