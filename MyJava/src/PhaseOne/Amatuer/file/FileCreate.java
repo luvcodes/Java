@@ -45,7 +45,6 @@ public class FileCreate {
     //方式3 new File(String parent,String child) //根据父目录+子路径构建
     @Test
     public void create03() {
-        //String parentPath = "e:\\";
         String parentPath = "e:\\";
         String fileName = "news4.txt";
         File file = new File(parentPath, fileName);
@@ -57,11 +56,4 @@ public class FileCreate {
             e.printStackTrace();
         }
     }
-
-    //下面四个都是抽象类
-    //
-    //InputStream
-    //OutputStream
-    //Reader //字符输入流
-    //Writer  //字符输出流
 }
