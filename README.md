@@ -67,40 +67,41 @@
   的对比: <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
   
 - Override - 方法重写
-    - 对比重载(Overload)和重写(Override): 
+    - Polymorphic - 多态 `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
     
-      - 方法重载是指在同一个类中定义多个名称相同但参数列表不同的方法。在方法重载中，方法的名称相同，但参数不同，参数的类型、数量或两者都可能不同。通过方法重载，可以根据不同的参数类型或数量提供多种方法来调用一个方法。编译器会根据方法调用时提供的参数来决定调用哪种重载方法。方法重载发生在编译时（静态多态）
+      - 对比重载(Overload)和重写(Override): 
     
-        ```java
-        class MathUtils {
-            int add(int a, int b) {
-                return a + b;
-            }
-            
-            double add(double a, double b) {
-                return a + b;
-            }
-        }
-        ```
+        - 方法重载(Overload)是指在同一个类中定义多个名称相同但参数列表不同的方法。在方法重载中，方法的名称相同，但参数不同，参数的类型、数量或两者都可能不同。通过方法重载，可以根据不同的参数类型或数量提供多种方法来调用一个方法。编译器会根据方法调用时提供的参数来决定调用哪种重载方法。方法重载发生在编译时（静态多态）
     
-      - 方法覆盖是指在子类中为父类（超类）中已定义的方法提供新的实现。在方法覆盖中，子类和超类中的方法名称和参数列表必须相同。方法重载允许子类为超类中已定义的方法提供特定的实现方式。当使用子类对象调用重载方法时，执行的是子类中的重载方法，而不是超类中的方法。方法重载发生在运行时（动态多态性）
+          ```java
+          class MathUtils {
+              int add(int a, int b) {
+                  return a + b;
+              }
+              
+              double add(double a, double b) {
+                  return a + b;
+              }
+          }
+          ```
     
-        ```java
-        class Animal {
-            void makeSound() {
-                System.out.println("Animal makes a sound");
-            }
-        }
-        
-        class Dog extends Animal {
-            @Override
-            void makeSound() {
-                System.out.println("Dog barks");
-            }
-        }
-        ```
+        - 方法重写(Override)是指在子类中为父类（超类）中已定义的方法提供新的实现。在方法覆盖中，子类和超类中的方法名称和参数列表必须相同。方法重载允许子类为超类中已定义的方法提供特定的实现方式。当使用子类对象调用重载方法时，执行的是子类中的重载方法，而不是超类中的方法。方法重载发生在运行时（动态多态性）
     
-- Polymorphic - 多态 `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
+          ```java
+          class Animal {
+              void makeSound() {
+                  System.out.println("Animal makes a sound");
+              }
+          }
+          
+          class Dog extends Animal {
+              @Override
+              void makeSound() {
+                  System.out.println("Dog barks");
+              }
+          }
+          ```
+    
     1. 一个对象的编译类型和运行类型可以不一致
     2. 编译类型在定义对象时，就确定了，不能改变
     3. 运行类型是可以变化的
