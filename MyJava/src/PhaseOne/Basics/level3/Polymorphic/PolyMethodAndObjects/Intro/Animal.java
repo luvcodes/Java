@@ -1,8 +1,8 @@
-package PhaseOne.Basics.level3.Polymorphic.Intro;
+package PhaseOne.Basics.level3.Polymorphic.intro_.Intro;
 
-public class Food {
+public class Animal {
     private String name;
-    public Food(String name) {
+    public Animal(String name) {
         this.name = name;
     }
 
