@@ -5,7 +5,6 @@ public class Poly01 {
         Master master = new Master("Tom");
         Dog dog = new Dog("Mike");
         Bone bone = new Bone("Big bone");
-
         master.feed(dog, bone);
 
         Cat cat = new Cat("lisa");
