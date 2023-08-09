@@ -9,7 +9,6 @@ public class StaticDetail {
         B b = new B();
         // 通过对象名.类变量名
         System.out.println("a.name = " + b.name);
-
     }
 }
 
