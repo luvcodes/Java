@@ -131,15 +131,49 @@
 #### 多态的重点：动态绑定机制
 
 - 多态数组
+
 - 多态参数
+
 - equals方法：
+    
+    ```java
+    // equals方法的源码
+    public boolean equals(Object obj) {
+    		return (this == obj);
+    }
+    ```
+    
     - ==和equals的对比
+    
         - ==是一个比较运算符
         - 既可以判断基本类型，也可以判断引用类型
             - 如果判断基本类型，判断的是值是否相等。示例：int i = 10; double d = 10.0;
             - 如果**判断引用类型**，**判断的是地址是否相等**，**即判断是不是同一个对象**。
+        - equals 本质上就是 ==
+    
     - **Object类中的方法，只能判断引用类型**
+    
     - == 对于基本类型来说是值比较，对于引用类型来说是比较的是引用；而 equals 默认情况下是引用比较，只是很多类重写了 equals 方法，比如 String、Integer 等把它变成了值比较，所以一般情况下 equals 比较的是值是否相等。https://juejin.cn/post/6844903790089338887
+    
+        ```java
+        class Cat {
+            public Cat(String name) {
+                this.name = name;
+            }
+            private String name;
+            public String getName() {
+                return name;
+            }
+            public void setName(String name) {
+                this.name = name;
+            }
+        }
+        Cat c1 = new Cat("王磊");
+        Cat c2 = new Cat("王磊");
+        System.out.println(c1.equals(c2)); // false
+        ```
+    
+        
 
 #### HashCode
 
