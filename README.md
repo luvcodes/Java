@@ -135,7 +135,7 @@
 - 多态参数
 
 - equals方法：
-    
+  
     ```java
     // equals方法的源码
     public boolean equals(Object obj) {
@@ -230,7 +230,13 @@
 7. final和static往往搭配使用，效率更高，不会导致类加载
 8. 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
 
-#### 抽象类 abstract
+#### 抽象类以及抽象方法 `abstract`
+
+- 抽象方法就是没有实现的方法。没有实现就是指没有方法体
+- 当一个类存在抽象方法时，需要将该方法所属的类定义成抽象类。但抽象类不一定要包含abstract方法，也就是说抽象类可以没有abstract方法，还可以有实现的方法
+- 一般来说，抽象类会被继承，由其子类来实现抽象方法。如果一个类继承了抽象类，则它必须实现抽象类的所有抽象方法，除非它自己也声明为abstract
+- 抽象类不能被实例化
+- abstract只能修饰类和方法，不能修饰属性和其他的
 
 #### 接口 Interface
 
