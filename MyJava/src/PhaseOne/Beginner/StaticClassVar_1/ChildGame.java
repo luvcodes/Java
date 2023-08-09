@@ -3,7 +3,6 @@ package PhaseOne.Beginner.StaticClassVar_1;
 public class ChildGame {
     public static void main(String[] args) {
         // 定义一个变量count, 统计有多少小孩加入了游戏
-
         Child child1 = new Child("Ryan");
         child1.join();
         child1.count++;
