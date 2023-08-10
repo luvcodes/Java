@@ -772,3 +772,23 @@ HashTable	线程安全	  效率低	不允许null键null值
 
 #### 恢复数据库
 
+#### 创建表
+
+#### MySQL常见数据类型(列类型)
+
+- 数值类型
+  - 整型
+  - 小数类型
+- 文本、二进制类型
+  - char 0 - 255
+  - varchar 0-65535 [0 - 2^16-1]
+  - text 0 - [2^32-1]
+  - longtext [0 - 2^32-1]
+  - blob [0 - 2^16-1]
+  - longblob [0 - 2^32-1]
+- 时间日期
+  - date [日期 年月日]
+  - time [时间 时分秒]
+  - datetime [年月日 时分秒 YYYY-MM-DD HH:MM:ss]
+  - timestamp [时间戳]
+
