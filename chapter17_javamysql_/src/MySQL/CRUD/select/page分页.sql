@@ -2,7 +2,7 @@
 -- 按雇员的id号升序取出， 每页显示3条记录，请分别显示 第1页，第2页，第3页
 
 -- 第1页
-SELECT * FROM ryan_db03.emp
+SELECT * FROM emp
 	ORDER BY empno
 	LIMIT 0, 3;
 -- 第2页
