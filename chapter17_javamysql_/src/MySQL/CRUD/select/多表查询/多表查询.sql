@@ -20,10 +20,8 @@ SELECT ename,sal,dname,emp.deptno
 	WHERE emp.deptno = dept.deptno and emp.deptno = 10
 
 -- ?显示各个员工的姓名，工资，及其工资的级别
-
 -- 思路 姓名，工资 来自 emp 13
 --      工资级别 salgrade 5
--- 写sql , 先写一个简单，然后加入过滤条件...
 select ename, sal, grade 
 	from emp , salgrade
 	where sal between losal and hisal; 
