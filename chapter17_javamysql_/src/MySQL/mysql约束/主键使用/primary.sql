@@ -21,7 +21,6 @@ SELECT * FROM t17;
 INSERT INTO t17
 	VALUES(NULL, 'hsp', 'hsp@sohu.com');
 
-
 -- 一张表最多只能有一个主键, 但可以是复合主键(比如 id+name)
 CREATE TABLE t18
 	(id INT PRIMARY KEY, -- 表示id列是主键 
