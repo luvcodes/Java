@@ -20,8 +20,7 @@ INSERT INTO `student` (id, `name`, chinese, english, math)
 VALUES (6, 'andrew', 89, 93, 95);
 INSERT INTO `student` (id, `name`, chinese, english, math)
 VALUES (7, 'Marvin', 89, 90, 95);
-SELECT *
-FROM student;
+
 -- 查询表中所有学生的信息
 SELECT *
 FROM student;

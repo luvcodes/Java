@@ -13,7 +13,8 @@ SELECT ename,sal,dname,emp.deptno
 select * from emp;
 select * from dept;
 select * from salgrade;
--- 老韩小技巧：多表查询的条件不能少于 表的个数-1, 否则会出现笛卡尔集
+
+-- 多表查询的条件不能少于 表的个数-1, 否则会出现笛卡尔集
 -- ?如何显示部门号为10的部门名、员工名和工资 
 SELECT ename,sal,dname,emp.deptno
 	FROM emp, dept 

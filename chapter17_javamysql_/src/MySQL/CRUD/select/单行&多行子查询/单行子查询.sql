@@ -26,7 +26,7 @@ SELECT *
 -- select distinct job 
 -- 	from emp 
 -- 	where deptno = 10;
-	
+
 --  下面语句完整
 select ename, job, sal, deptno
 	from emp
