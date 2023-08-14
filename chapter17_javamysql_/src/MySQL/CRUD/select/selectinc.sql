@@ -27,4 +27,3 @@ SELECT * FROM emp
 
 SELECT * FROM emp
 	ORDER BY deptno ASC , sal DESC;
-

@@ -14,8 +14,6 @@ SELECT * FROM student WHERE english > math;
 -- 查询总分大于200分 并且 数学成绩小于语文成绩的姓mark的学生
 SELECT * FROM student WHERE (chinese + math + english) > 200 AND math < chinese AND `name` LIKE 'm%';
 
-
-
 -- 练习
 -- 查询英语分数在80 - 90之间
 SELECT * FROM student WHERE english BETWEEN 80 AND 90;
