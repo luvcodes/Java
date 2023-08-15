@@ -16,6 +16,8 @@ INSERT INTO t24
 
 SELECT * FROM t24;
 
+
+
 -- 修改默认的自增长开始值
 ALTER TABLE t25 AUTO_INCREMENT = 100
 CREATE TABLE t25
@@ -27,6 +29,8 @@ INSERT INTO t25
 INSERT INTO t25
 	VALUES(666, 'hsp@qq.com', 'hsp');
 SELECT * FROM t25;
+
+
 
 CREATE DATABASE tmp;
 CREATE TABLE dept( /*部门表*/
