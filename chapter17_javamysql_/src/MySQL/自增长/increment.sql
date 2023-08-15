@@ -6,9 +6,11 @@ CREATE TABLE t24
 	 `name` VARCHAR(32)NOT NULL DEFAULT ''); 
 DESC t24
 -- 测试自增长的使用
+-- 这样是第一种，就是将id设置为null，但是自增长会直接保存为1
 INSERT INTO t24
 	VALUES(NULL, 'tom@qq.com', 'tom');
 
+-- 这是第二种，不设置id的值，自增长也会运行
 INSERT INTO t24
 	(email, `name`) VALUES('hsp@sohu.com', 'hsp');
 
