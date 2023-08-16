@@ -1,5 +1,3 @@
--- 完成最后一个综合的练习
-
 -- 8. 设学校环境如下:一个系有若干个专业，每个专业一年只招一个班，每个班有若干个学生。
 -- 现要建立关于系、学生、班级的数据库，关系模式为：
 -- 班CLASS （班号classid，专业名subject，系名deptname，入学年份enrolltime，人数num）
@@ -73,15 +71,15 @@ SELECT * FROM hsp_student
 SELECT * 
 	FROM hsp_student
 	WHERE `name` LIKE '李%' 
---   3.2 列出所有开设超过1个专业的系的名字。
 
+--   3.2 列出所有开设超过1个专业的系的名字。
 -- 1. 先查询各个系有多少个专业
 SELECT COUNT(*) AS nums, deptname 
 	FROM class
 	GROUP BY deptname HAVING nums > 1
---   3.3 列出人数大于等于30的系的编号和名字。
--- 1. 先查出各个系有多少人, 并得到 >= 30 的系
 
+--   3.3 列出人数大于等于30的系的编号和名字。
+-- 1. 先查出各个系有多少人, 并得到 >= 30 的系的名字
 SELECT SUM(num) AS nums, deptname  
 	FROM class 
 	GROUP BY  deptname 
@@ -99,14 +97,15 @@ SELECT  tmp.*, department.departmentid
 	WHERE department.deptname = tmp.deptname;
 	
 
-
 -- (4) 学校又新增加了一个物理系，编号为006
 -- 添加一条数据
 INSERT INTO department VALUES('006','物理系');
+
 -- (5) 学生张三退学，请更新相关的表
-
--- 分析：1. 张三所在班级的人数-1 2. 将张三从学生表删除  3. 需要使用事务控制
-
+-- 分析：
+-- 1. 张三所在班级的人数-1 
+-- 2. 将张三从学生表删除  
+-- 3. 需要使用事务控制: 前两点是一个整体，所以需要使用事务控制
 -- 开启事务
 START TRANSACTION;
 -- 张三所在班级的人数-1 
@@ -125,13 +124,4 @@ DELETE
 COMMIT;
 
 SELECT * FROM hsp_student;
-SELECT * FROM class
-
-
-
-
-
-
-	
-	
-
+SELECT * FROM class;
