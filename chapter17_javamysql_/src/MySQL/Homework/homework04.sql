@@ -1,6 +1,4 @@
--- 
 -- (1)．列出至少有一个员工的所有部门
-
 /*
 	先查出各个部门有多少人
 	使用 having 子句过滤
@@ -21,21 +19,22 @@ SELECT *
 			FROM emp 
 			WHERE ename = 'SMITH'
 	)
+
+
 -- (3)．列出受雇日期晚于其直接上级的所有员工。
 /*
 	先把 emp 表 当做两张表 worker , leader
 	条件 1. worker.hiredate > leader.hiredate
 	     2. worker.mgr = leader.empno
 */
-
 SELECT worker.ename AS '员工名', worker.hiredate AS '员工入职时间',
 	leader.ename  AS '上级名', leader.hiredate AS '上级入职时间' 
 	FROM emp worker , emp leader
 	WHERE worker.hiredate > leader.hiredate 
 	AND worker.mgr = leader.empno;
 
--- (4)．列出部门名称和这些部门的员工信息，同时列出那些没有员工的部门。
 
+-- (4)．列出部门名称和这些部门的员工信息，同时列出那些没有员工的部门。
 /*
 	这里因为需要显示所有部门，因此考虑使用外连接，(左外连接)
 	如果没有印象了，去看看老师讲的外连接.
@@ -45,13 +44,11 @@ SELECT dname, emp.*
 	LEFT JOIN emp ON dept.deptno = emp.deptno 
 
 -- (5)．列出所有“CLERK”（办事员）的姓名及其部门名称。
-
 SELECT ename, dname , job
 	FROM emp, dept
 	WHERE job = 'CLERK' AND emp.deptno = dept.deptno
 
 -- (6)．列出最低薪金大于1500的各种工作。
-
 /*
 	查询各个部门的最低工资
 	使用having 子句进行过滤
@@ -60,14 +57,14 @@ SELECT MIN(sal) AS min_sal , job
 	FROM emp
 	GROUP BY job
 	HAVING min_sal > 1500
--- (7)．列出在部门“SALES”（销售部）工作的员工的姓名。
 
+
+-- (7)．列出在部门“SALES”（销售部）工作的员工的姓名。
 SELECT ename, dname
 	FROM emp , dept
 	WHERE emp.deptno = dept.deptno AND dname = 'SALES'
 
 -- (8)．列出薪金高于公司平均薪金的所有员工。
-
 SELECT *
 	FROM emp
 	WHERE sal > (

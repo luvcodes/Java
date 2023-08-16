@@ -2,6 +2,7 @@
 -- 
 	DESC dept
 	DESC emp
+
 -- 3. 使用简单查询语句完成:
 -- (1) 显示所有部门名称。
 SELECT dname 
@@ -26,12 +27,13 @@ SELECT ename, sal
 SELECT ename, sal
 	FROM emp 
 	WHERE NOT (sal >= 1500 AND sal <= 2850)
+
 -- (3) 显示编号为7566的雇员姓名及所在部门编号。
 SELECT ename, deptno
 	FROM emp 
 	WHERE empno = 7566
 -- (4) 显示部门10和30中工资超过1500的雇员名及工资。
-SELECT ename, job
+SELECT ename, sal
 	FROM emp 
 	WHERE (deptno = 10 OR deptno = 30) AND sal > 1500
 -- (5) 显示无管理者的雇员名及岗位。
