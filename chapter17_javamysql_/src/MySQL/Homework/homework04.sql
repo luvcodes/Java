@@ -83,8 +83,6 @@ SELECT *
 	) AND ename != 'SCOTT'
 
 -- (10)．列出薪金高于所在部门30的工作的所有员工的薪金的员工姓名和薪金。
-
-
 -- 先查询出30部门的最高工资
 SELECT ename, sal 
 	FROM emp 
@@ -93,25 +91,24 @@ SELECT ename, sal
 			FROM emp
 			WHERE deptno = 30
 	) 
+
 -- (11)．列出在每个部门工作的员工数量、平均工资和平均服务期限(时间单位)。
--- 老师建议 ， 写sql 也是一步一步完成的
 SELECT COUNT(*) AS "部门员工数量", deptno , AVG(sal) AS "部门平均工资" , 
 	FORMAT(AVG(DATEDIFF(NOW(), hiredate) / 365 ),2) AS " 平均服务期限(年)"
 	FROM emp 
 	GROUP BY deptno
 
 -- (12)．列出所有员工的姓名、部门名称和工资。
-
 -- 就是 emp 和 dept 联合查询 ，连接条件就是 emp.deptno = dept.deptno
+select ename, dname, sal from emp, dept where emp.deptno = dept.deptno;
 
 -- (13)．列出所有部门的详细信息和部门人数。
-
 -- 1. 先得到各个部门人数 , 把下面的结果看成临时表 和 dept表联合查询
 SELECT COUNT(*) AS c , deptno 
 	FROM emp
 	GROUP BY deptno
 
--- 2. 
+
 SELECT dept.*, tmp.c AS "部门人数"
 	FROM dept, (
 		SELECT COUNT(*) AS c , deptno 
@@ -121,27 +118,17 @@ SELECT dept.*, tmp.c AS "部门人数"
 	WHERE dept.deptno = tmp.deptno
 
 -- (14)．列出各种工作的最低工资。
-
 SELECT MIN(sal), job
 	FROM emp
 	GROUP BY job
--- (15)．列出MANAGER（经理）的最低薪金。
 
+-- (15)．列出MANAGER（经理）的最低薪金。
 SELECT MIN(sal), job
 	FROM emp
 	WHERE job = 'MANAGER'
+
 -- (16)．列出所有员工的年工资,按年薪从低到高排序。
-
 -- 1. 先得到员工的年工资
-SELECT ename, (sal + IFNULL(comm, 0)) * 12 year_sal
+SELECT ename, (sal + IFNULL(comm, 0)) * 12 AS year_sal
 	FROM emp
-	ORDER BY year_sal 
-	
--- 技术就窗户纸 
-
-	
-
-
-
-
- 
+	ORDER BY year_sal

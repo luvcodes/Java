@@ -37,6 +37,7 @@ CREATE TABLE exam(
 INSERT INTO exam VALUES(1, 56),(2,76),(11, 8);
 SELECT * FROM exam;
 
+
 -- 使用左连接
 -- 意思就是相当于我想把stu所有的成绩都显示出来，即使在exam中没有相等的id匹配
 -- （显示所有人的成绩，如果没有成绩，也要显示该人的姓名和id号,成绩显示为空）
@@ -58,14 +59,13 @@ SELECT `name`, stu.id, grade
 	ON stu.id = exam.id;
 
 -- 列出部门名称和这些部门的员工信息(名字和工作)，
--- 同时列出那些没有员工的部门名。5min
+-- 同时列出那些没有员工的部门名。
 -- 使用左外连接实现
 SELECT dname, ename, job
 	FROM dept LEFT JOIN emp
 	ON dept.deptno = emp.deptno
 	
 -- 使用右外连接实现
-
 SELECT dname, ename, job
 	FROM emp RIGHT JOIN dept
 	ON dept.deptno = emp.deptno;
