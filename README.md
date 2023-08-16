@@ -771,10 +771,12 @@ HashTable	线程安全	  效率低	不允许null键null值
 
 #### SQL语句分类
 
-- DDL
-- DML
-- DQL
-- DCL
+- DDL: 数据定义语句
+- DML: 数据操作语句
+- DQL: 数据查询语句
+- DCL: 数据控制语句
+
+![image-20230816150453242](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230816150453242.png)
 
 #### 创建数据库
 

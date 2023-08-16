@@ -1,5 +1,4 @@
 -- homework03
-
 -- ------1.选择部门30中的所有员工.
 SELECT * FROM 
 	emp
@@ -40,7 +39,7 @@ SELECT *
 	WHERE comm IS  NULL OR IFNULL(comm, 0) < 100
 
 -- ------9.找出各月倒数第3天受雇的所有员工.
--- 老韩提示: last_day(日期)， 可以返回该日期所在月份的最后一天
+-- last_day(日期)， 可以返回该日期所在月份的最后一天
 -- last_day(日期) - 2 得到日期所有月份的倒数第3天
 SELECT * 
 	FROM emp
@@ -100,10 +99,12 @@ SELECT ename, CONCAT(YEAR(hiredate),'-', MONTH(hiredate))
 -- ------21.显示在一个月为30天的情况所有员工的日薪金,忽略余数.
 SELECT ename, FLOOR(sal / 30), sal / 30 
 	FROM emp; 
+
 -- ------22.找出在(任何年份的)2月受聘的所有员工。
 SELECT * 
 	FROM emp
 	WHERE MONTH(hiredate) = 2
+
 -- ------23.对于每个员工,显示其加入公司的天数.
 SELECT ename, DATEDIFF(NOW(), hiredate) 
 	FROM emp
