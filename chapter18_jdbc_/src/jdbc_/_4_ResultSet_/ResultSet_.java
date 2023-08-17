@@ -25,16 +25,17 @@ public class ResultSet_ {
 
         //3. 得到Statement
         Statement statement = connection.createStatement();
+
         //4. 组织SqL
         String sql = "select id, name , sex, borndate from actors";
         //执行给定的SQL语句，该语句返回单个 ResultSet对象
         /*
         +----+-----------+-----+---------------------+
         | id | name      | sex | borndate            |
-        +----+-----------+-----+---------------------+-------+
-        |  4 | 刘德华    | 男  | 1970-12-12 00:00:00 |
+        +----+-----------+-----+---------------------+
+        |  4 | 刘德华    | 男  | 1970-12-12 00:00:00  |
         |  5 | jack      | 男  | 1990-11-11 00:00:00 |
-        +----+-----------+-----+---------------------+-------+
+        +----+-----------+-----+---------------------+
          */
         ResultSet resultSet = statement.executeQuery(sql);
 

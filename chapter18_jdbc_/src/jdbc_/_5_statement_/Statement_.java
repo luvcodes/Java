@@ -37,6 +37,7 @@ public class Statement_ {
 
         //3. 得到Statement
         Statement statement = connection.createStatement();
+
         //4. 组织SqL
         String sql = "select name, pwd  from admin where name ='"
                 + admin_name + "' and pwd = '" + admin_pwd + "'";
