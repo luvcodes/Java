@@ -1,4 +1,4 @@
-package myjdbc_;
+package jdbc_.myjdbc_;
 
 public class OracleJdbcImple implements JdbcInerface {
     @Override
