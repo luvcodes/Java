@@ -30,6 +30,8 @@ public class practiceJdbc {
         // 得到连接
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("Use 5th method = " + connection);
+
+
         // add 5 records to the database
         String sql1 = "insert into actor values (1, 'mark')";
         String sql2 = "insert into actor values (2, 'bill')";
