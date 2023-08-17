@@ -6,16 +6,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 @SuppressWarnings({"all"})
 public class JavaMysql {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
-        //这里老韩给大家演示一下 java 程序如何操作Mysql
+        // java 程序如何操作Mysql
 
         //加载类，得到mysql连接
         Class.forName("com.mysql.jdbc.Driver");
