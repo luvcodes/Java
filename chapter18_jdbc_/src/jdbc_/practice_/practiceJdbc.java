@@ -12,6 +12,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.sql.Statement;
 
+@SuppressWarnings({"all"})
 public class practiceJdbc {
     @Test
     public void connect() throws IOException, ClassNotFoundException, SQLException {
@@ -25,9 +26,10 @@ public class practiceJdbc {
         String url = properties.getProperty("url");
         String driver = properties.getProperty("driver");
 
-        // 可以不加
+        // 注册驱动 可以不加
         Class.forName(driver);
 
+        // 得到连接
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("Use 5th method = " + connection);
         // add 5 records to the database
