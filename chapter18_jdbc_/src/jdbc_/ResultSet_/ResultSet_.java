@@ -1,16 +1,14 @@
-package jdbc_.practice_;
+package jdbc_.ResultSet_;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
+
 @SuppressWarnings({"all"})
 public class ResultSet_ {
     public static void main(String[] args) throws Exception {
-
         //通过Properties对象获取配置文件的信息
-
-
         Properties properties = new Properties();
         properties.load(new FileInputStream("src\\mysql.properties"));
         //获取相关的值
@@ -28,7 +26,7 @@ public class ResultSet_ {
         //3. 得到Statement
         Statement statement = connection.createStatement();
         //4. 组织SqL
-        String sql = "select id, name , sex, borndate from actor";
+        String sql = "select id, name , sex, borndate from actors";
         //执行给定的SQL语句，该语句返回单个 ResultSet对象
         /*
         +----+-----------+-----+---------------------+
@@ -38,21 +36,15 @@ public class ResultSet_ {
         |  5 | jack      | 男  | 1990-11-11 00:00:00 |
         +----+-----------+-----+---------------------+-------+
          */
-        /*
-            老韩阅读debug 代码 resultSet 对象的结构
-
-
-         */
         ResultSet resultSet = statement.executeQuery(sql);
 
         //5. 使用while取出数据
-        while (resultSet.next()) { // 让光标向后移动，如果没有更多行，则返回false
+        while (resultSet.next()) { // 让光标向后移动，如果没有更多行，则返回false。一开始是指向表头的
             int id  = resultSet.getInt(1); //获取该行的第1列
             //int id1 = resultSet.getInt("id"); 通过列名来获取值, 推荐
             String name = resultSet.getString(2);//获取该行的第2列
             String sex = resultSet.getString(3);
             Date date = resultSet.getDate(4);
-
             System.out.println(id + "\t" + name + "\t" + sex + "\t" + date);
         }
 
