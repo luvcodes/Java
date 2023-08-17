@@ -1,4 +1,4 @@
-package jdbc_;
+package jdbc_._3_JdbcConnection_;
 
 import com.mysql.jdbc.Driver;
 import org.junit.jupiter.api.Test;

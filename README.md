@@ -889,12 +889,18 @@ HashTable 线程安全   效率低 不允许null键null值
 
 ### MySQL管理
 
+
+
 # JDBC
 
 ### Statement
 
 - Statement [存在SQL注入]
 - PreparedStatement [预处理]
+  - 好处: 
+    - 不再使用 '+' 拼接sql语句，减少语法错误
+    - 有效地解决了sql注入问题
+    - 大大减少了编译次数，效率较高
 - CallableStatement [存储过程]
 
 - 为什么我们更多地使用PreparedStatement而不是Statement呢? 因为Statement存在SQL注入

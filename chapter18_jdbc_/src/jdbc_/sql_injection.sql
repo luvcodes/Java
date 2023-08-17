@@ -1,6 +1,6 @@
 -- 演示sql 注入
 -- 创建一张表
-CREATE TABLE  admin ( -- 管理员表
+CREATE TABLE admin ( -- 管理员表
 NAME VARCHAR(32) NOT NULL UNIQUE,
 pwd VARCHAR(32) NOT NULL DEFAULT '') CHARACTER SET utf8;
 

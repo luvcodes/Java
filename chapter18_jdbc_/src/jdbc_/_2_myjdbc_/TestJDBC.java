@@ -1,4 +1,4 @@
-package jdbc_.myjdbc_;
+package jdbc_._2_myjdbc_;
 
 public class TestJDBC {
     public static void main(String[] args) {

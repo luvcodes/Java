@@ -1,4 +1,4 @@
-package jdbc_.myjdbc_;
+package jdbc_._2_myjdbc_;
 
 public interface JdbcInerface {
     //连接

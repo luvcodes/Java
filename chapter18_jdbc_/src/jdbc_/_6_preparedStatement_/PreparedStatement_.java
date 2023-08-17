@@ -1,21 +1,20 @@
-package jdbc_.statement_;
+package jdbc_._6_preparedStatement_;
 
 import java.io.FileInputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Properties;
 import java.util.Scanner;
 
 @SuppressWarnings({"all"})
-public class Statement_ {
+public class PreparedStatement_ {
     public static void main(String[] args) throws Exception {
+
+        //看 PreparedStatement类图
+
         Scanner scanner = new Scanner(System.in);
 
         //让用户输入管理员名和密码
-        System.out.print("请输入管理员的名字: ");
-        //next(): 当接收到 空格或者 ' 就是表示结束, nextLine是接收到回车才结束
+        System.out.print("请输入管理员的名字: ");  //next(): 当接收到 空格或者 '就是表示结束
         String admin_name = scanner.nextLine(); // 如果希望看到SQL注入，这里需要用nextLine
         System.out.print("请输入管理员的密码: ");
         String admin_pwd = scanner.nextLine();
@@ -35,12 +34,19 @@ public class Statement_ {
         //2. 得到连接
         Connection connection = DriverManager.getConnection(url, user, password);
 
-        //3. 得到Statement
-        Statement statement = connection.createStatement();
-        //4. 组织SqL
-        String sql = "select name, pwd  from admin where name ='"
-                + admin_name + "' and pwd = '" + admin_pwd + "'";
-        ResultSet resultSet = statement.executeQuery(sql);
+        //3. 得到PreparedStatement
+        //3.1 组织SqL , Sql 语句的 ? 就相当于占位符
+        String sql = "select name, pwd  from admin where name = ? and pwd = ?";
+        //3.2 preparedStatement 对象实现(返回)了 PreparedStatement 接口的实现类的对象
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        //3.3 给 ? 赋值
+        preparedStatement.setString(1, admin_name);
+        preparedStatement.setString(2, admin_pwd);
+
+        //4. 执行 select 语句使用  executeQuery
+        //   如果执行的是 dml(update, insert ,delete) executeUpdate()
+        //   这里执行 executeQuery ,不要再传入 sql
+        ResultSet resultSet = preparedStatement.executeQuery();
         if (resultSet.next()) { //如果查询到一条记录，则说明该管理存在
             System.out.println("恭喜， 登录成功");
         } else {
@@ -49,7 +55,7 @@ public class Statement_ {
 
         //关闭连接
         resultSet.close();
-        statement.close();
+        preparedStatement.close();
         connection.close();
     }
 }
