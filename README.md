@@ -893,6 +893,10 @@ HashTable 线程安全   效率低 不允许null键null值
 
 # JDBC
 
+### JDBC基础
+
+
+
 ### Statement
 
 - Statement [存在SQL注入]
