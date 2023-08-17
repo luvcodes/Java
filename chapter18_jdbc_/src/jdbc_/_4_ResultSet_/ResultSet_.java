@@ -1,4 +1,4 @@
-package jdbc_.ResultSet_;
+package jdbc_._4_ResultSet_;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
