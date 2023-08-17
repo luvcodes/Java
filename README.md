@@ -891,3 +891,10 @@ HashTable 线程安全   效率低 不允许null键null值
 
 # JDBC
 
+### Statement
+
+- Statement [存在SQL注入]
+- PreparedStatement [预处理]
+- CallableStatement [存储过程]
+
+- 为什么我们更多地使用PreparedStatement而不是Statement呢? 因为Statement存在SQL注入
