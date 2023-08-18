@@ -66,6 +66,5 @@ public class JDBCUtils {
             //将编译异常转成运行异常抛出
             throw new RuntimeException(e);
         }
-
     }
 }

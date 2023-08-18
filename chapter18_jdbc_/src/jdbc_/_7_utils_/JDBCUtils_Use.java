@@ -49,7 +49,6 @@ public class JDBCUtils_Use {
         //3. 创建PreparedStatement 对象
         try {
             connection = JDBCUtils.getConnection();
-
             preparedStatement = connection.prepareStatement(sql);
             //给占位符赋值
             preparedStatement.setString(1, "周星驰");
