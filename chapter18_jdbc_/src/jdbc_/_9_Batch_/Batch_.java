@@ -40,8 +40,8 @@ public class Batch_ {
             preparedStatement.setString(1, "jack" + i);
             preparedStatement.setString(2, "666");
             //将sql 语句加入到批处理包中 -> 看源码
-            /*
-            //1. //第一就创建 ArrayList - elementData => Object[]
+            /**
+            //1. 第一就创建 ArrayList - elementData => Object[]
             //2. elementData => Object[] 就会存放我们预处理的sql语句
             //3. 当elementData满后,就按照1.5扩容
             //4. 当添加到指定的值后，就executeBatch
@@ -62,7 +62,7 @@ public class Batch_ {
             }
              */
             preparedStatement.addBatch();
-            //当有1000条记录时，在批量执行
+            //当有1000条记录时，再批量执行
             if((i + 1) % 1000 == 0) {//满1000条sql
                 preparedStatement.executeBatch();
                 //清空
