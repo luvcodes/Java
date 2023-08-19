@@ -11,8 +11,6 @@ import java.sql.Connection;
 import java.util.Properties;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 测试druid的使用
  */
 public class Druid_ {
@@ -30,13 +28,14 @@ public class Druid_ {
                 DruidDataSourceFactory.createDataSource(properties);
 
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 500000; i++) {
+        for (int i = 0; i < 5000; i++) {
             Connection connection = dataSource.getConnection();
             System.out.println(connection.getClass());
             //System.out.println("连接成功!");
             connection.close();
         }
         long end = System.currentTimeMillis();
+
         //druid连接池 操作5000 耗时=412
         System.out.println("druid连接池 操作500000 耗时=" + (end - start));//539
 
