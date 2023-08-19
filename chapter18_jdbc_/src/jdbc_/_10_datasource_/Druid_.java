@@ -5,8 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import javax.sql.DataSource;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.sql.Connection;
 import java.util.Properties;
 
@@ -14,7 +12,6 @@ import java.util.Properties;
  * 测试druid的使用
  */
 public class Druid_ {
-
     @Test
     public void testDruid() throws Exception {
         //1. 加入 Druid jar包
