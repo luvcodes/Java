@@ -811,6 +811,55 @@ HashTable 线程安全   效率低 不允许null键null值
   - 这样多表查询默认处理返回的结果，称为**笛卡尔集**
   - 解决这个多表的关键就是要写出正确的过滤条件 `where` 需要程序员进行分析
 
+
+
+### MySQL中的表连接
+
+- 何时使用哪种连接取决于查询的具体要求：
+
+  内连接：当您要检索两个表中都有匹配值的数据，并且您对数据的交集感兴趣时使用。
+  外连接：当您想包含一个表或两个表中不匹配的行，并对探索数据之间的关系（包括可能不匹配的情况）感兴趣时使用。
+
+- 内连接例子: 
+
+  - Let's say we have two tables: `orders` and `customers`. The `orders` table contains information about orders placed by customers, and the `customers` table contains information about the customers themselves. We'll perform an inner join to retrieve a list of orders along with the corresponding customer information for those orders.
+
+    Here's some sample data for the two tables:
+
+    **Table: orders**
+    | order_id | customer_id | order_date | total_amount |
+    | -------- | ----------- | ---------- | ------------ |
+    | 1        | 101         | 2023-08-01 | 150.00       |
+    | 2        | 102         | 2023-08-02 | 200.00       |
+    | 3        | 103         | 2023-08-03 | 75.00        |
+
+    **Table: customers**
+    | customer_id | customer_name | email               |
+    | ----------- | ------------- | ------------------- |
+    | 101         | John Smith    | john@example.com    |
+    | 102         | Jane Doe      | jane@example.com    |
+    | 103         | Michael Brown | michael@example.com |
+
+    We want to retrieve a list of orders along with the customer names and email addresses for those orders. We can achieve this using an inner join as follows:
+
+    ```sql
+    SELECT o.order_id, o.order_date, o.total_amount, c.customer_name, c.email
+    FROM orders o
+    INNER JOIN customers c ON o.customer_id = c.customer_id;
+    ```
+
+    The result of the query would be:
+
+    | order_id | order_date | total_amount | customer_name | email               |
+    | -------- | ---------- | ------------ | ------------- | ------------------- |
+    | 1        | 2023-08-01 | 150.00       | John Smith    | john@example.com    |
+    | 2        | 2023-08-02 | 200.00       | Jane Doe      | jane@example.com    |
+    | 3        | 2023-08-03 | 75.00        | Michael Brown | michael@example.com |
+
+    In this example, the inner join retrieves only the rows where there is a matching `customer_id` in both the `orders` and `customers` tables. It combines the order information with the corresponding customer information, giving us a result that shows the customers' names and email addresses alongside their orders.
+
+### MySQL中的表外连接
+
 ### MySQL中的外键使用
 
 - 外键约束要定义在从表中，主表则必须具有**主键约束**或是**unique约束**。当定义外键约束后，要求外键列数据必须在主表的主键列存在或是为null
