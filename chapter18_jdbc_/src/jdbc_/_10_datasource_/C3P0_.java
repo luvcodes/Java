@@ -28,6 +28,7 @@ public class C3P0_ {
 
         //给数据源 comboPooledDataSource 设置相关的参数
         //注意：连接管理是由 comboPooledDataSource 来管理
+        // 和mysql的连接是连接池来做的，体现成comboPooledDataSource，那么它是需要知道driver，url，user，password
         comboPooledDataSource.setDriverClass(driver);
         comboPooledDataSource.setJdbcUrl(url);
         comboPooledDataSource.setUser(user);
@@ -46,20 +47,16 @@ public class C3P0_ {
             connection.close();
         }
         long end = System.currentTimeMillis();
-        //c3p0 5000连接mysql 耗时=391
+        //c3p0 5000连接mysql
         System.out.println("c3p0 5000连接mysql 耗时=" + (end - start));
-
     }
 
     //第二种方式 使用配置文件模板来完成
-
     //1. 将c3p0 提供的 c3p0.config.xml 拷贝到 src目录下
     //2. 该文件指定了连接数据库和连接池的相关参数
     @Test
     public void testC3P0_02() throws SQLException {
-
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource("hsp_edu");
-
         //测试5000次连接mysql
         long start = System.currentTimeMillis();
         System.out.println("开始执行....");
