@@ -12,8 +12,6 @@ import java.sql.Statement;
 import java.util.Properties;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * 基于druid数据库连接池的工具类
  */
 public class JDBCUtilsByDruid {
@@ -29,7 +27,6 @@ public class JDBCUtilsByDruid {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     //编写getConnection方法
@@ -40,7 +37,6 @@ public class JDBCUtilsByDruid {
     //关闭连接, 老师再次强调： 在数据库连接池技术中，close 不是真的断掉连接
     //而是把使用的Connection对象放回连接池
     public static void close(ResultSet resultSet, Statement statement, Connection connection) {
-
         try {
             if (resultSet != null) {
                 resultSet.close();

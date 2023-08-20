@@ -11,20 +11,19 @@ public class JDBCUtilsByDruid_USE {
 
     @Test
     public void testSelect() {
-
         System.out.println("使用 druid方式完成");
         //1. 得到连接
         Connection connection = null;
         //2. 组织一个sql
-        String sql = "select * from actor where id >= ?";
+        String sql = "select * from actors where id >= ?";
         PreparedStatement preparedStatement = null;
         ResultSet set = null;
         //3. 创建PreparedStatement 对象
         try {
             connection = JDBCUtilsByDruid.getConnection();
-            System.out.println(connection.getClass());//运行类型 com.alibaba.druid.pool.DruidPooledConnection
+            System.out.println(connection.getClass()); // 运行类型 com.alibaba.druid.pool.DruidPooledConnection
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setInt(1, 1);//给?号赋值
+            preparedStatement.setInt(1, 1); // 给?号赋值
             //执行, 得到结果集
             set = preparedStatement.executeQuery();
 
@@ -45,22 +44,22 @@ public class JDBCUtilsByDruid_USE {
         }
     }
 
-    //使用老师的土方法来解决ResultSet =封装=> Arraylist
+    //使用老师的土方法来解决ResultSet = 封装=> Arraylist
     @Test
     public ArrayList<Actor> testSelectToArrayList() {
-
         System.out.println("使用 druid方式完成");
         //1. 得到连接
         Connection connection = null;
         //2. 组织一个sql
-        String sql = "select * from actor where id >= ?";
+        String sql = "select * from actors where id = ?";
         PreparedStatement preparedStatement = null;
         ResultSet set = null;
         ArrayList<Actor> list = new ArrayList<>();//创建ArrayList对象,存放actor对象
         //3. 创建PreparedStatement 对象
         try {
             connection = JDBCUtilsByDruid.getConnection();
-            System.out.println(connection.getClass());//运行类型 com.alibaba.druid.pool.DruidPooledConnection
+            //运行类型 com.alibaba.druid.pool.DruidPooledConnection
+            System.out.println(connection.getClass());
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, 1);//给?号赋值
             //执行, 得到结果集
@@ -91,5 +90,4 @@ public class JDBCUtilsByDruid_USE {
         //因为ArrayList 和 connection 没有任何关联，所以该集合可以复用.
         return  list;
     }
-
 }
