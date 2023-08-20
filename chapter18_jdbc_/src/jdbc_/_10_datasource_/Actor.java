@@ -3,21 +3,18 @@ package jdbc_._10_datasource_;
 import java.util.Date;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * Actor 对象和 actor表的记录对应
- *
+ * 本质是一个Javabean, POJO, Domain对象
  */
-public class Actor { //Javabean, POJO, Domain对象
-
+public class Actor {
     private Integer id;
     private String name;
     private String sex;
     private Date borndate;
     private String phone;
 
-    public Actor() { //一定要给一个无参构造器[反射需要]
-    }
+    //一定要给一个无参构造器[反射需要]
+    public Actor() {}
 
     public Actor(Integer id, String name, String sex, Date borndate, String phone) {
         this.id = id;

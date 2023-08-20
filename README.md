@@ -811,8 +811,6 @@ HashTable 线程安全   效率低 不允许null键null值
   - 这样多表查询默认处理返回的结果，称为**笛卡尔集**
   - 解决这个多表的关键就是要写出正确的过滤条件 `where` 需要程序员进行分析
 
-
-
 ### MySQL中的表连接
 
 - 何时使用哪种连接取决于查询的具体要求：
@@ -857,6 +855,53 @@ HashTable 线程安全   效率低 不允许null键null值
     | 3        | 2023-08-03 | 75.00        | Michael Brown | michael@example.com |
 
     In this example, the inner join retrieves only the rows where there is a matching `customer_id` in both the `orders` and `customers` tables. It combines the order information with the corresponding customer information, giving us a result that shows the customers' names and email addresses alongside their orders.
+
+
+
+### 检索数据
+
+#### SELECT语句
+
+#### 检索单个列
+
+#### 检索多个列
+
+#### 检索不同的行
+
+- 因为使用select语句的时候很可能出现同一个属性值出现多次的情况，那么如果我们想要相同属性值的行出现一次即可，我们可以使用`DISTINCT`关键字，**如果使用DISTINCT关键字，它必须直接放在列名的前面**  
+  - 不能部分使用DISTINCT DISTINCT关键字应用于所有列而不仅是前置它的列。如果给出SELECT DISTINCT vend_id, prod_price，除非指定的两个列都不同，否则所有行都将被检索出来  
+
+#### 限制结果
+
+为了返回第一行或前几行，可使用`LIMIT`子句。带一个值的LIMIT总是从第一行开始，给出的数为返回的行数。带两个值的LIMIT可以指定从行号为第一个值的位置开始。
+
+```sql
+SELECT prod_name FROM products LIMIT 5; -- 这样就是选择1-5行
+
+SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
+```
+
+**行0** 检索出来的第一行为行0而不是行1。因此， LIMIT 1, 1将检索出第二行而不是第一行。
+
+### 排序检索数据
+
+#### `order by`关键字
+
+- 按多个列进行排序
+
+  - 想要使用order by来对多个列进行排序，就会先按照其中一个列进行排序，然后针对这个列再进行第二个属性进行排序。示例说明: 
+
+    ![image-20230820124333070](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230820124333070.png)
+
+    
+
+    ORDER BY子句的位置 在给出ORDER BY子句时，应该保证它位于FROM子句之后。如果使用LIMIT，它必须位于ORDER BY之后。使用子句的次序不对将产生错误消息。**这个子句必须是SELECT语句中的最后一条子句**。
+
+    
+
+    
+
+
 
 ### MySQL中的表外连接
 
@@ -940,6 +985,13 @@ HashTable 线程安全   效率低 不允许null键null值
 
 
 
+### MySQL的额外知识点
+
+#### SELECT语句的相关额外知识点
+
+- 在使用简单的select语句的时候，检索出来的结果并不是完全随机的。如果不使用`order by`进行排序，数据一般将以它在底层表中出现的顺序显示。可以是数据最初添加到表中的顺序。但是，如果数据后来进行过更新或删除，则此顺序将会受到MySQL重用回收存储空间的影响。  
+- 关系数据库设计理论认为，如果不明确规定排序顺序，则不应该假定检索出的数据的顺序有意义。
+
 # JDBC
 
 ### JDBC基础
@@ -978,5 +1030,12 @@ HashTable 线程安全   效率低 不允许null键null值
   - 连接使用DriverManager来获取，每次向数据库连接的时候都要将Connection加载道内存中，再验证IP地址，用户名，密码。需要数据库连接的时候，就向数据库要求一个，这样占用很多系统资源。
   - 为了解决传统开发中的数据库连接问题，可以采用数据库连接池技术
 - 数据库连接池种类
-  - 
+  - C3P0
+  - Druid
+    - 解释为什么Druid形式的JDBC不需要在使用后断开连接的原因：
+      - 连接复用：Druid连接池会在应用程序启动时初始化一组数据库连接，这些连接可以被重复利用，而不是每次都重新创建连接。这样可以减少数据库服务器上的连接开销，提高性能。当应用程序使用完一个连接后，并不会立即关闭它，而是将其放回连接池，以供其他部分的代码重用。
+      - 连接状态维护：Druid连接池会在连接使用完成后，通过将连接还给连接池，自动将连接的状态重置为初始状态。这意味着连接的各种状态（如事务、会话状态等）不会被保留到下一次使用，从而避免了潜在的问题。
+      - 减少连接开销：建立和断开连接是一项相对昂贵的操作，需要与数据库进行网络通信等。Druid连接池通过复用连接，避免了频繁的连接开关操作，从而降低了连接的维护成本。
+      - 连接池管理：Druid连接池会对连接进行管理，包括连接的空闲时间、最大连接数、最小连接数等参数的配置。这可以帮助应用程序根据需求来动态地管理连接的数量，以达到最佳的性能和资源利用率。
+      - 总之，Druid连接池的设计理念在于通过连接的复用和自动管理，减少数据库连接的创建和关闭开销，从而提高应用程序的性能和可靠性。这也是为什么使用Druid形式的JDBC连接时，不需要手动断开连接，而是由连接池来管理连接的生命周期。
 
