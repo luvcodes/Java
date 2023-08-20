@@ -20,10 +20,10 @@ public class BasicDAO<T> { //泛型指定具体类型
         Connection connection = null;
         try {
             connection = JDBCUtilsByDruid.getConnection();
-            int update = qr.update(connection, sql, parameters);
-            return update;
+            int update = qr.update(connection, sql, parameters); // 返回受到影响的行数
+            return update; // 返回受到影响的行数
         } catch (SQLException e) {
-           throw  new RuntimeException(e); //将编译异常->运行异常 ,抛出
+           throw new RuntimeException(e); //将编译异常->运行异常, 抛出，方便调用者的使用
         } finally {
             JDBCUtilsByDruid.close(null, null, connection);
         }
@@ -39,7 +39,7 @@ public class BasicDAO<T> { //泛型指定具体类型
     public List<T> queryMulti(String sql, Class<T> clazz, Object... parameters) {
         Connection connection = null;
         try {
-            connection = JDBCUtilsByDruid.getConnection();
+            connection = JDBCUtilsByDruid.getConnection(); // 拿到连接
             return qr.query(connection, sql, new BeanListHandler<T>(clazz), parameters);
         } catch (SQLException e) {
             throw  new RuntimeException(e); //将编译异常->运行异常 ,抛出
@@ -48,12 +48,12 @@ public class BasicDAO<T> { //泛型指定具体类型
         }
     }
 
-    //查询单行结果 的通用方法
+    //查询单行结果的通用方法
     public T querySingle(String sql, Class<T> clazz, Object... parameters) {
         Connection connection = null;
         try {
             connection = JDBCUtilsByDruid.getConnection();
-            return  qr.query(connection, sql, new BeanHandler<T>(clazz), parameters);
+            return qr.query(connection, sql, new BeanHandler<T>(clazz), parameters);
         } catch (SQLException e) {
             throw  new RuntimeException(e); //将编译异常->运行异常 ,抛出
         } finally {
