@@ -77,15 +77,13 @@ public class DBUtils_USE {
         //3. 创建 QueryRunner
         QueryRunner queryRunner = new QueryRunner();
         //4. 就可以执行相关的方法，返回单个对象
-        String sql = "select * from actor where id = ?";
-        // 老韩解读
+        String sql = "select * from actors where id = ?";
         // 因为我们返回的单行记录<--->单个对象 , 使用的Hander 是 BeanHandler
-        Actor actor = queryRunner.query(connection, sql, new BeanHandler<>(Actor.class), 10);
+        Actor actor = queryRunner.query(connection, sql, new BeanHandler<>(Actor.class), 1);
         System.out.println(actor);
 
         // 释放资源
         JDBCUtilsByDruid.close(null, null, connection);
-
     }
 
     //演示apache-dbutils + druid 完成查询结果是单行单列-返回的就是object
@@ -97,10 +95,11 @@ public class DBUtils_USE {
         //3. 创建 QueryRunner
         QueryRunner queryRunner = new QueryRunner();
 
-        //4. 就可以执行相关的方法，返回单行单列 , 返回的就是Object
-        String sql = "select name from actor where id = ?";
-        //老师解读： 因为返回的是一个对象, 使用的handler 就是 ScalarHandler
-        Object obj = queryRunner.query(connection, sql, new ScalarHandler(), 4);
+        //4. 就可以执行相关的方法，返回单行单列, 返回的就是Object
+        String sql = "select name from actors where id = ?";
+        //因为返回的是一个对象, 使用的handler 就是 ScalarHandler
+        // 因为最后一位是可变形参，所以可以传入多个参数
+        Object obj = queryRunner.query(connection, sql, new ScalarHandler(), 1);
         System.out.println(obj);
 
         // 释放资源
@@ -117,14 +116,15 @@ public class DBUtils_USE {
         QueryRunner queryRunner = new QueryRunner();
 
         //4. 这里组织sql 完成 update, insert delete
-        //String sql = "update actor set name = ? where id = ?";
-        //String sql = "insert into actor values(null, ?, ?, ?, ?)";
-        String sql = "delete from actor where id = ?";
+        //String sql = "update actors set name = ? where id = ?";
+//        String sql = "insert into actors values(null, ?, ?, ?, ?)";
+        String sql = "delete from actors where id = ?";
 
         //(1) 执行dml 操作是 queryRunner.update()
         //(2) 返回的值是受影响的行数 (affected: 受影响)
-        //int affectedRow = queryRunner.update(connection, sql, "林青霞", "女", "1966-10-10", "116");
-        int affectedRow = queryRunner.update(connection, sql, 1000 );
+        // int affectedRow = queryRunner.update(connection, sql, "张三丰", 3);
+//        int affectedRow = queryRunner.update(connection, sql, "林青霞", "女", "1966-10-10", "116");
+        int affectedRow = queryRunner.update(connection, sql, 3);
         System.out.println(affectedRow > 0 ? "执行成功" : "执行没有影响到表");
         // 释放资源
         JDBCUtilsByDruid.close(null, null, connection);
