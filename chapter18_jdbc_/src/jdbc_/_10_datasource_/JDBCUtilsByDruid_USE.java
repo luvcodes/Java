@@ -1,8 +1,6 @@
 package jdbc_._10_datasource_;
 
-
 import org.junit.jupiter.api.Test;
-
 import java.sql.*;
 import java.util.ArrayList;
 
