@@ -29,14 +29,18 @@ public class Jdbc01 {
         //说明 user 和 password 是规定好，后面的值根据实际情况写
         properties.setProperty("user", "root");// 用户
         properties.setProperty("password", "123456"); //密码
+
+        // 得到连接
         Connection connect = driver.connect(url, properties);
 
-        //3. 执行sql
+        //得到statement
+        //statement 用于执行静态SQL语句并返回其生成的结果的对象
+        Statement statement = connect.createStatement();
+
+        //执行sql
 //        String sql = "insert into actor values(null, '刘德华', '男', '1970-11-11', '110')";
         String sql = "update actor set name='周星驰' where id = 1";
         // String sql = "delete from actor where id = 1";
-        //statement 用于执行静态SQL语句并返回其生成的结果的对象
-        Statement statement = connect.createStatement();
         // 如果是 dml语句，返回的就是受影响行数。如果上面的insert成功，那么rows就返回1
         int rows = statement.executeUpdate(sql);
         System.out.println(rows > 0 ? "成功" : "失败");

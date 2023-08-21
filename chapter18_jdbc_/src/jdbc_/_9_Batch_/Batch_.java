@@ -2,10 +2,8 @@ package jdbc_._9_Batch_;
 
 import jdbc_._7_utils_.JDBCUtils;
 import org.junit.jupiter.api.Test;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 public class Batch_ {
     //传统方法，添加5000条数据到admin2

@@ -24,14 +24,17 @@ public class practiceJdbc {
         String url = properties.getProperty("url");
         String driver = properties.getProperty("driver");
 
-        // 注册驱动 可以不加
+        // 注册驱动
         Class.forName(driver);
 
         // 得到连接
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("Use 5th method = " + connection);
 
+        // 得到statement
+        Statement statement = connection.createStatement();
 
+        // 组织sql
         // add 5 records to the database
         String sql1 = "insert into actor values (1, 'mark')";
         String sql2 = "insert into actor values (2, 'bill')";
@@ -43,7 +46,7 @@ public class practiceJdbc {
         // delete the record that id = 3
         String deleteSQL = "delete from actor where id = 3";
 
-        Statement statement = connection.createStatement();
+        // 执行sql
 //        int rows1 = statement.executeUpdate(sql1);
 //        int rows2 = statement.executeUpdate(sql2);
 //        int rows3 = statement.executeUpdate(sql3);
@@ -52,6 +55,7 @@ public class practiceJdbc {
 //        int rows6 = statement.executeUpdate(updateSQL); // assign the updateSQL statement
 //        int rows7 = statement.executeUpdate(deleteSQL); // assign the deleteSQL statement
 
+        // 判断sql执行结果
 //        System.out.println(rows1 > 0 ? "第一条数据插入成功" : "第一条数据插入失败");
 //        System.out.println(rows2 > 0 ? "第二条数据插入成功" : "第二条数据插入失败");
 //        System.out.println(rows3 > 0 ? "第三条数据插入成功" : "第三条数据插入失败");
@@ -60,6 +64,7 @@ public class practiceJdbc {
 //        System.out.println(rows6 > 0 ? "修改成功" : "修改失败");
 //        System.out.println(rows7 > 0 ? "删除成功" : "删除失败");
 
+        // 关闭连接
         statement.close();
         connection.close();
     }

@@ -44,7 +44,7 @@ public class JDBCUtils_Use {
         Connection connection = null;
         //2. 组织一个sql
         String sql = "update actors set name = ? where id = ?";
-        // 测试 delete 和 insert ,自己玩.
+        // 测试 delete 和 insert
         PreparedStatement preparedStatement = null;
         //3. 创建PreparedStatement 对象
         try {

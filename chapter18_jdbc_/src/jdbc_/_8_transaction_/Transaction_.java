@@ -2,7 +2,6 @@ package jdbc_._8_transaction_;
 
 import jdbc_._7_utils_.JDBCUtils;
 import org.junit.jupiter.api.Test;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

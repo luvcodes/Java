@@ -41,7 +41,10 @@ public class Statement_ {
         //4. 组织SqL
         String sql = "select name, pwd  from admin where name ='"
                 + admin_name + "' and pwd = '" + admin_pwd + "'";
+        // 5. 执行sql
         ResultSet resultSet = statement.executeQuery(sql);
+
+        // 6. 判断结果是否存在
         if (resultSet.next()) { //如果查询到一条记录，则说明该管理存在
             System.out.println("恭喜， 登录成功");
         } else {
