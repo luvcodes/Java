@@ -22,12 +22,8 @@ INSERT INTO `student` (id, `name`, chinese, english, math)
 VALUES (7, 'Marvin', 89, 90, 95);
 
 -- 查询表中所有学生的信息
-SELECT *
-FROM student;
+SELECT * FROM student;
 -- 查询表中所有学生的姓名和对应的英语成绩
-SELECT `name`,
-    english
-FROM student;
+SELECT `name`, english FROM student;
 -- 过滤表中重复数据 DISTINCT
-SELECT DISTINCT english
-FROM student -- SELECT DISTINCT `name`, english FROM student; -- 这样查出来的两列记录都要相同，才可以去重
+SELECT DISTINCT english FROM student -- SELECT DISTINCT `name`, english FROM student; -- 这样查出来的两列记录都要相同，才可以去重

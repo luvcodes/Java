@@ -8,7 +8,7 @@
 */
 SELECT ename,sal,dname,emp.deptno
 	FROM emp, dept 
-	WHERE emp.deptno = dept.deptno
+	WHERE emp.deptno = dept.deptno;
 	
 select * from emp;
 select * from dept;
@@ -18,7 +18,7 @@ select * from salgrade;
 -- ?如何显示部门号为10的部门名、员工名和工资 
 SELECT ename,sal,dname,emp.deptno
 	FROM emp, dept 
-	WHERE emp.deptno = dept.deptno and emp.deptno = 10
+	WHERE emp.deptno = dept.deptno and emp.deptno = 10;
 
 -- ?显示各个员工的姓名，工资，及其工资的级别
 -- 思路 姓名，工资 来自 emp 13

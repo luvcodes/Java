@@ -51,10 +51,4 @@ insert into my_tab02
 -- (5) drop 掉 临时表my_tmp
 drop table my_tmp;
 
-
-
 select * from my_tab02;
-
-
-	
-	

@@ -1,8 +1,7 @@
 /*
  Aggregate function
  */
-select max(invoice_total)
-from sql_invoicing.invoices;
+select max(invoice_total) from sql_invoicing.invoices;
 
 SELECT max(invoice_total) AS highest,
     min(invoice_total) as lowest,

@@ -713,6 +713,21 @@ HashTable 线程安全   效率低 不允许null键null值
 
 ### 网络编程
 
+#### 网络的相关概念
+
+- 查看本机IP地址指令: `ipconfig`
+- 做网络编程必须要知道对方的IP地址
+- IP地址分成两类
+  - IPV4: 用4个字节来表示IP地址的
+    - 一个字节范围0-255
+  - IPV6: 用16个字节来表示IP地址的
+    - 使用128位表示地址
+- IPV4地址的组成: 网络地址 + 主机地址
+- 为什么要出现IPV6? IPV4最大的问题在于网络地址资源有限，IPV6能解决网络地址资源数量的问题，而且也解决了多种接入设备连入互联网的问题。
+- IPV4地址分类: 5种
+  - A、B、C、D、E
+- 域名
+
 ### 反射
 
 #### Java Reflection
@@ -761,14 +776,9 @@ HashTable 线程安全   效率低 不允许null键null值
 
 # MySQL
 
-### MySQL中的数据类型
-- char和Varchar
-  - char是一个定长
-  - varchar是根据输入的长度来确定的
+### MySQL三层结构
 
-#### MySQL三层结构
-
-#### SQL语句分类
+### SQL语句分类
 
 - DDL: 数据定义语句
 - DML: 数据操作语句
@@ -777,15 +787,17 @@ HashTable 线程安全   效率低 不允许null键null值
 
 ![image-20230816150453242](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230816150453242.png)
 
-#### 创建数据库
+### 创建数据库
 
-#### 备份数据库
+### 备份数据库
 
-#### 恢复数据库
+### 恢复数据库
 
-#### 创建表
+### 创建表
 
-#### MySQL常见数据类型(列类型)
+### 修改表
+
+### MySQL常见数据类型(列类型)
 
 - 数值类型
   - 整型
@@ -793,6 +805,9 @@ HashTable 线程安全   效率低 不允许null键null值
 - 文本、二进制类型
   - char 0 - 255
   - varchar 0-65535 [0 - 2^16-1]
+    - char和Varchar
+      - char是一个定长
+      - varchar是根据输入的长度来确定的
   - text 0 - [2^32-1]
   - longtext [0 - 2^32-1]
   - blob [0 - 2^16-1]
@@ -802,6 +817,38 @@ HashTable 线程安全   效率低 不允许null键null值
   - time [时间 时分秒]
   - datetime [年月日 时分秒 YYYY-MM-DD HH:MM:ss]
   - timestamp [时间戳]
+
+### `Like`, `Between And`, `In`三个关键字的使用
+
+```sql
+-- 查询英语分数在80 - 90之间
+SELECT * FROM student WHERE english BETWEEN 80 AND 90;
+-- 查询数学分数为89，90，91的同学
+SELECT * FROM student WHERE math IN (89,90,91);
+
+-- For search purpose
+-- brush开始的
+select * from sql_store.customers where last_name like 'brush%';
+
+-- search for lastname that have 'b' in them
+-- b前后可以又任意字符数
+select * from sql_store.customers where last_name like '%b%';
+
+-- 最后一位是y
+select * from sql_store.customers where last_name like '%y';
+
+
+-- 这样会输出lastname是两个字符的，无所谓第一个字符是什么
+-- 但是第二个字符是y
+-- 如果改成5个_， 那么就是lastname是6位，最后一位是y
+select * from sql_store.customers where last_name like '_y';
+
+-- 这样会输出lastname是六个字符的
+-- 第一位是b，后面跟4位，最后一位是y
+select * from sql_store.customers where last_name like 'b____y';
+```
+
+
 
 ### MySQL中的多表查询
 
@@ -861,6 +908,26 @@ HashTable 线程安全   效率低 不允许null键null值
 ### 检索数据
 
 #### SELECT语句
+
+#### 分页查询
+
+```sql
+SELECT * FROM emp
+	ORDER BY empno
+	LIMIT 0, 3;
+-- 第2页
+SELECT * FROM emp 
+	ORDER BY empno 
+	LIMIT 3, 3;
+-- 第3页
+SELECT * FROM emp 
+	ORDER BY empno 
+	LIMIT 6, 3;
+-- 推导一个公式 
+# SELECT * FROM emp
+# 	ORDER BY empno
+# 	LIMIT 每页显示记录数 * (第几页-1) , 每页显示记录数
+```
 
 #### 检索单个列
 

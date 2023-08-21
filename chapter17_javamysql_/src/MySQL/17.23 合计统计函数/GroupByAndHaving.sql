@@ -9,8 +9,7 @@ VALUES(10, 'ACCOUNTING', 'NEW YORK'),
     (20, 'RESEARCH', 'DALLAS'),
     (30, 'SALES', 'CHICAGO'),
     (40, 'OPERATIONS', 'BOSTON');
-SELECT *
-FROM dept;
+SELECT * FROM dept;
 -- 员工表
 CREATE TABLE emp (
     empno MEDIUMINT UNSIGNED NOT NULL DEFAULT 0,
@@ -162,8 +161,7 @@ VALUES(
         NULL,
         10
     );
-SELECT *
-FROM emp;
+SELECT * FROM emp;
 -- 工资级别
 #工资级别表
 CREATE TABLE salgrade (
@@ -184,12 +182,11 @@ INSERT INTO salgrade
 VALUES (4, 2001, 3000);
 INSERT INTO salgrade
 VALUES (5, 3001, 9999);
-SELECT *
-FROM salgrade;
-SELECT *
-FROM dept;
-SELECT *
-FROM emp;
+
+SELECT * FROM salgrade;
+SELECT * FROM dept;
+SELECT * FROM emp;
+
 # 演示group by + having
 -- GROUP by用于对查询的结果分组统计, (示意图)
 -- having子句用于限制分组显示结果.
@@ -201,12 +198,14 @@ SELECT AVG(sal),
     deptno
 FROM emp
 GROUP BY deptno;
+
 -- 使用数学方法，对小数点进行处理
 SELECT FORMAT(AVG(sal), 2),
     MAX(sal),
     deptno
 FROM emp
 GROUP BY deptno;
+
 -- ?显示每个部门的每种岗位的平均工资和最低工资
 -- 老师分析 1. 显示每个部门的平均工资和最低工资
 --          2. 显示每个部门的每种岗位的平均工资和最低工资
@@ -217,6 +216,7 @@ SELECT AVG(sal),
 FROM emp
 GROUP BY deptno,
     job;
+
 -- ?显示平均工资低于2000的部门号和它的平均工资 // 别名
 -- 老师分析 [写sql语句的思路是化繁为简,各个击破]
 -- 1. 显示各个部门的平均工资和部门号
@@ -227,6 +227,7 @@ SELECT AVG(sal),
 FROM emp
 GROUP BY deptno
 HAVING AVG(sal) < 2000;
+
 -- 使用别名		
 SELECT AVG(sal) AS avg_sal,
     deptno

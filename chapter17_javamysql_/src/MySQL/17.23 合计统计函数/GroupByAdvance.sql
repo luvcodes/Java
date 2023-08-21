@@ -14,8 +14,6 @@ SELECT COUNT(*), COUNT(comm)
 SELECT COUNT(*), COUNT(IF(comm IS NULL, 1, NULL))
 	FROM emp;
 -- 另一种写法
-# select count(*), (count(*) - count(comm)) from emp;
-
 SELECT COUNT(*), COUNT(*) - COUNT(comm)
 	FROM emp;
 
@@ -41,5 +39,4 @@ SELECT deptno, AVG(sal) AS avg_sal
 	GROUP BY deptno
 	HAVING  avg_sal > 1000
 	ORDER BY avg_sal DESC
-	LIMIT 0,2 
-	
+	LIMIT 0,2;

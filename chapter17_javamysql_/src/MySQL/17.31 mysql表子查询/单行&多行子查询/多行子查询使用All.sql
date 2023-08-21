@@ -7,7 +7,7 @@ SELECT ename, sal, deptno
 		SELECT sal 
 			FROM emp
 			WHERE deptno = 30
-		) 
+		);
 -- 也可以这样写
 SELECT ename, sal, deptno
 	FROM emp
@@ -15,7 +15,7 @@ SELECT ename, sal, deptno
 		SELECT MAX(sal) 
 			FROM emp
 			WHERE deptno = 30
-		) 
+		);
 
 -- 请思考:如何显示工资比部门30的其中一个员工的工资高的员工的姓名、工资和部门号
 SELECT ename, sal, deptno
@@ -24,7 +24,7 @@ SELECT ename, sal, deptno
 		SELECT sal 
 			FROM emp
 			WHERE deptno = 30
-		)
+		);
 
  SELECT ename, sal, deptno
 	FROM emp
@@ -32,7 +32,7 @@ SELECT ename, sal, deptno
 		SELECT min(sal) 
 			FROM emp
 			WHERE deptno = 30
-		)
+		);
 
 
 -- 查询ecshop中各个类别中，价格最高的商品
@@ -42,7 +42,7 @@ SELECT ename, sal, deptno
 
 select cat_id , max(shop_price) 
 	from ecs_goods
-	group by cat_id
+	group by cat_id;
 	
 	
 -- 这个最后答案	
@@ -53,5 +53,4 @@ select goods_id, ecs_goods.cat_id, goods_name, shop_price
 		GROUP BY cat_id
 	) temp , ecs_goods
 	where  temp.cat_id = ecs_goods.cat_id 
-	and temp.max_price = ecs_goods.shop_price 
-
+	and temp.max_price = ecs_goods.shop_price;

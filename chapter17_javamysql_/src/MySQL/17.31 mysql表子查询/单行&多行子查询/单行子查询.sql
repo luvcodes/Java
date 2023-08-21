@@ -15,7 +15,7 @@ SELECT *
 		SELECT deptno 
 		FROM emp 
 		WHERE ename = 'SMITH'
-	)
+	);
 
 -- 课堂练习:如何查询和部门10的工作相同的雇员的
 -- 名字、岗位、工资、部门号, 但是不含10号部门自己的雇员.

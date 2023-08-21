@@ -37,9 +37,9 @@ SELECT SUBSTRING(ename, 1, 2) FROM emp;
 
 -- LTRIM (string2 ) RTRIM (string2 )  TRIM(string)
 -- 去除前端空格或后端空格
-SELECT LTRIM('  韩顺平教育') FROM DUAL;
-SELECT RTRIM('韩顺平教育   ') FROM DUAL;
-SELECT TRIM('    韩顺平教育   ') FROM DUAL;
+SELECT LTRIM('  test') FROM DUAL;
+SELECT RTRIM('test   ') FROM DUAL;
+SELECT TRIM('    test   ') FROM DUAL;
 
 -- 练习: 以首字母小写的方式显示所有员工emp表的姓名
 -- 方法1 

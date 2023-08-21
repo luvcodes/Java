@@ -4,7 +4,7 @@
 SELECT dname, ename, job 
 	FROM emp, dept
 	WHERE emp.deptno = dept.deptno
-	ORDER BY dname
+	ORDER BY dname;
 SELECT * FROM dept;
 
 SELECT * FROM emp;
@@ -63,7 +63,7 @@ SELECT `name`, stu.id, grade
 -- 使用左外连接实现
 SELECT dname, ename, job
 	FROM dept LEFT JOIN emp
-	ON dept.deptno = emp.deptno
+	ON dept.deptno = emp.deptno;
 	
 -- 使用右外连接实现
 SELECT dname, ename, job

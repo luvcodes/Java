@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/chapter17_javamysql_/src/MySQL/17.16 修改表/alterTable.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/chapter17_javamysql_/src/MySQL/17.29 表查询-加强/selectinc.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/chapter17_javamysql_/src/MySQL/17.9 查看、删除数据库/searchDB.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
