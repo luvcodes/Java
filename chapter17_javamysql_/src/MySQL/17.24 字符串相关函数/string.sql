@@ -49,8 +49,4 @@ SELECT CONCAT(LCASE(SUBSTRING(ename,1,1)),  SUBSTRING(ename,2)) AS new_name
 	FROM emp;  
 
 SELECT CONCAT(LCASE(LEFT(ename,1)),  SUBSTRING(ename,2)) AS new_name
-	FROM emp; 
-
-
- 
-
+	FROM emp;

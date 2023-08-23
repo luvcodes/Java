@@ -6,7 +6,7 @@
 
 SELECT deptno , job
 	FROM emp 
-	WHERE ename = 'ALLEN'
+	WHERE ename = 'ALLEN';
 	
 -- 分析: 2  把上面的查询当做子查询来使用，并且使用多列子查询的语法进行匹配
 SELECT * 
@@ -15,7 +15,7 @@ SELECT *
 		SELECT deptno , job
 		FROM emp 
 		WHERE ename = 'ALLEN'
-	) AND ename != 'ALLEN'
+	) AND ename != 'ALLEN';
 
 
 
