@@ -1016,9 +1016,19 @@ SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
 
     ORDER BY子句的位置 在给出ORDER BY子句时，应该保证它位于FROM子句之后。如果使用LIMIT，它必须位于ORDER BY之后。使用子句的次序不对将产生错误消息。**这个子句必须是SELECT语句中的最后一条子句**。
 
-    
 
-    
+### 分组数据
+
+#### 使用GROUP BY关键字
+
+- GROUP BY替代WHERE的原因: WHERE不能完成任务，因为**WHERE过滤指定的是行而不是分组**
+- 不使用WHERE使用什么呢？MySQL为此目的提供了另外的子 句，那就是HAVING子句。HAVING非常类似于WHERE。事实上，目前为止所 学过的所有类型的WHERE子句都可以用HAVING来替代。唯一的差别是 WHERE过滤行，而HAVING过滤分组
+
+#### SELECT子句及其顺序
+
+![image-20230824115657581](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230824115657581.png)
+
+![image-20230824115709540](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230824115709540.png)
 
 
 
@@ -1110,6 +1120,154 @@ SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
 
 - 在使用简单的select语句的时候，检索出来的结果并不是完全随机的。如果不使用`order by`进行排序，数据一般将以它在底层表中出现的顺序显示。可以是数据最初添加到表中的顺序。但是，如果数据后来进行过更新或删除，则此顺序将会受到MySQL重用回收存储空间的影响。  
 - 关系数据库设计理论认为，如果不明确规定排序顺序，则不应该假定检索出的数据的顺序有意义。
+
+- `WITH ROLLUP`关键字与`GROUP BY`关键字的使用
+
+以下是一个名为employee_tbl的表的示例，包含id、name、date和signin等列：
+
+| **id** | **name** | **date**   | **signin** |
+| :----- | :------- | :--------- | :--------- |
+| 1      | Alice    | 2023-08-01 | 2          |
+| 2      | Alice    | 2023-08-02 | 3          |
+| 3      | Bob      | 2023-08-01 | 1          |
+| 4      | Bob      | 2023-08-02 | 4          |
+| 5      | Bob      | 2023-08-03 | 2          |
+
+如果我们想要按照名字分组，并统计每个人有多少条记录，可以使用以下SQL语句：
+
+```sql
+SELECT name, COUNT(*) FROM employee_tbl GROUP BY name;
+```
+
+输出结果如下：
+
+| **name** | **COUNT(\*)** |
+| :------- | :------------ |
+| Alice    | 2             |
+| Bob      | 3             |
+
+如果想要在分组统计数据的基础上再进行相同的统计（SUM、AVG、COUNT等），可以使用WITH ROLLUP。例如，我们将以上的数据表按名字进行分组，再统计每个人登录的次数：
+
+```sql
+SELECT name, SUM(signin) as signin_count FROM employee_tbl GROUP BY name WITH ROLLUP;
+```
+
+输出结果如下：
+
+| **name** | **signin_count** |
+| :------- | :--------------- |
+| Alice    | 5                |
+| Bob      | 7                |
+| NULL     | 12               |
+
+其中记录NULL表示所有人的登录次数。如果名字为空，我们可以使用总数代替：
+
+```sql
+SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl GROUP BY name WITH ROLLUP;
+```
+
+输出结果如下：
+
+| **coalesce(name, ‘总数’)** | **signin_count** |
+| :------------------------- | :--------------- |
+| Alice                      | 5                |
+| Bob                        | 7                |
+| 总数                       | 12               |
+
+**所以相当于使用了WITH ROLLUP关键字以后，多了一行NULL的行吗？**
+
+是的，使用WITH ROLLUP关键字后，查询结果将包含分组统计数据以及小计和总计。其中记录NULL表示所有人的登录次数。如果名字为空，我们使用总数代替。如果您不使用WITH ROLLUP，那么查询结果将只包含分组统计数据，而不会生成小计和总计。
+
+#### 子查询、内部联结、自联结、自然联结、外部联结
+
+- 自联结和子查询: 用自联结而不用子查询, 自联结更快
+- 标准的联结返回所有数据，甚至相同的列多次出现。 **自然联结**排除多次出现，使每个列只返回一次。
+- 联结包含了那些在相关表中没有关联行的行。这种类型的联结称为**外部联结**。
+  - **与内部联结关联两个表中的行不同**的是，外部联结还包括没有关联行的行。  
+  - 在使用OUTER JOIN语法时，必须使用RIGHT或LEFT关键字指定包括其所有行的表（ RIGHT指出的是OUTER JOIN右边的表，而LEFT指出的是OUTER JOIN左边的表）  
+
+##### 区分概念
+
+当涉及到多表查询和数据连接时，不同的操作可以用于检索、过滤和组合数据。以下是子查询、内部联结、自联结、自然联结和外部联结的区别：
+
+1. **子查询（Subquery）：**
+   子查询是**一个查询嵌套在另一个查询内部的查询语句**。它可以返回一个结果集，然后该结果集可以用于主查询中的条件。子查询用于检索数据，可以在 SELECT、WHERE、FROM 和 HAVING 子句中使用。
+
+   ```sql
+   SELECT column1, column2
+   FROM table1
+   WHERE column1 IN (SELECT column1 FROM table2);
+   ```
+
+2. **内部联结（Inner Join）：**
+   内部联结是通过**比较两个或多个表的列之间的值**来合并数据的方式。它**只返回匹配的行**，即只返回在连接列上有匹配值的行。
+
+   ```sql
+   SELECT orders.order_id, customers.customer_name
+   FROM orders
+   INNER JOIN customers ON orders.customer_id = customers.customer_id;
+   ```
+
+
+3. **自联结（Self Join）：**
+   自联结是将**同一个表与其自身进行联结**。它**在表中的不同行之间创建连接**，类似于将表复制一遍，然后在其中一个表中查询另一个表中的数据。
+
+   ```sql
+   SELECT e1.employee_name, e2.manager_name
+   FROM employees e1
+   INNER JOIN employees e2 ON e1.manager_id = e2.employee_id;
+   ```
+
+
+4. **自然联结（Natural Join）：**
+   自然联结是基于列名的联结，它自动根据表之间的相同列名进行联结。它会**返回所有列名相同且具有相同值的行。**
+
+   ```sql
+   SELECT customers.customer_id, orders.order_id, orders.order_date
+   FROM customers
+   NATURAL JOIN orders;
+   ```
+
+
+5. **外部联结（Outer Join）：**
+   外部联结通过比较两个或多个表的列之间的值来合并数据，**与内部联结不同的是，外部联结可以包括未匹配的行**。有**三种类型**的外部联结：左外部联结、右外部联结和全外部联结。
+
+   - 左外部联结（Left Outer Join）：
+
+   ```sql
+   SELECT customers.customer_name, orders.order_id
+   FROM customers
+   LEFT OUTER JOIN orders ON customers.customer_id = orders.customer_id;
+   ```
+
+   - 右外部联结（Right Outer Join）：
+
+   ```sql
+   SELECT orders.order_id, order_items.product_id
+   FROM orders
+   RIGHT OUTER JOIN order_items ON orders.order_id = order_items.order_id;
+   ```
+
+   - 全外部联结（Full Outer Join）通常需要用到 `UNION`：
+
+   ```sql
+   SELECT customers.customer_id, orders.order_id
+   FROM customers
+   LEFT OUTER JOIN orders ON customers.customer_id = orders.customer_id
+   UNION
+   SELECT customers.customer_id, orders.order_id
+   FROM orders
+   LEFT OUTER JOIN customers ON customers.customer_id = orders.customer_id
+   WHERE customers.customer_id IS NULL;
+   ```
+
+
+总结：
+- **子查询** 用于嵌套在其他查询内部，提供一个子集的数据作为条件。
+- **内部联结** 用于合并具有匹配值的行。
+- **自联结** 是将一个表自身与另一个别名表进行联结，用于查询表中的不同行之间的关系。
+- **自然联结** 根据列名自动进行联结，返回具有相同值的所有列。
+- **外部联结** 可以包括未匹配的行，有左、右和全三种类型。
 
 # JDBC
 
