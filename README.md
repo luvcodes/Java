@@ -197,8 +197,6 @@
 
 5. 如果是访问成员变量，编译的话就是看父类，运行同样是看父类。如果访问的方法，编译就看父类，运行则看子类。如果是静态方法，编译和运行都是看父类。
 
-    
-
 #### 代码块 - 属于类中的成员，类似于方法
 
 1. 修饰符可选，要写的话，也只能写static
@@ -740,7 +738,7 @@ HashTable 线程安全   效率低 不允许null键null值
 
   - 端口号: 用于标识计算机上某个特定的网络程序
     - 形式: 整数形式
-    - 常见的网络端口号: 
+    - 常见的网络端口号:
       - tomcat:8080
       - mysql:3306
       - orcle: 1521
@@ -762,7 +760,6 @@ HashTable 线程安全   效率低 不允许null键null值
     - 每个数据包限制在64K以内，不适合传输大量数据
     - 因不建立连接，故是**不可靠**的
 
-
 #### TCP的三次握手
 
 - 通过三次握手
@@ -772,12 +769,12 @@ HashTable 线程安全   效率低 不允许null键null值
 #### Socket (套接字)
 
 - 字节流
-  - 处理二进制数据： 如果你需要传输或接收二进制数据，例如图像、音频、视频等，字节流是更合适的选择，因为它们不会对数据进行字符编码/解码，能够直接处理原始的字节数据。 
-  - 通用性更强： 字节流可以处理任何类型的数据，无论是文本还是二进制数据，它们不会对数据进行任何转换，适用于处理多种数据类型。 
+  - 处理二进制数据： 如果你需要传输或接收二进制数据，例如图像、音频、视频等，字节流是更合适的选择，因为它们不会对数据进行字符编码/解码，能够直接处理原始的字节数据。
+  - 通用性更强： 字节流可以处理任何类型的数据，无论是文本还是二进制数据，它们不会对数据进行任何转换，适用于处理多种数据类型。
   - 性能考虑： 对于大规模的数据传输，字节流的性能通常会比字符流更好，因为字符流需要进行字符编码和解码，而字节流直接处理原始字节数据。
 - 字符流
-  - 处理文本数据： 如果你主要处理的是文本数据，例如配置文件、日志等，字符流会更方便，因为它们能够处理字符编码，从而确保文本数据正确地转换成字节序列和从字节序列转换回文本数据。 
-  - 字符编码处理： 字符流会自动进行字符编码和解码，可以确保在不同字符集之间进行正确的转换，避免乱码问题。 
+  - 处理文本数据： 如果你主要处理的是文本数据，例如配置文件、日志等，字符流会更方便，因为它们能够处理字符编码，从而确保文本数据正确地转换成字节序列和从字节序列转换回文本数据。
+  - 字符编码处理： 字符流会自动进行字符编码和解码，可以确保在不同字符集之间进行正确的转换，避免乱码问题。
   - 高层次处理： 字符流提供了更高层次的数据处理功能，如一次读取一行文本（BufferedReader.readLine()），这对于处理文本文件特别有用。
 
 #### netstat指令
@@ -785,8 +782,6 @@ HashTable 线程安全   效率低 不允许null键null值
 - `netstat -an`可以查看当前主机网络情况，包括端口监听情况和网络连接情况
 
 #### UDP网络通信编程
-
-
 
 ### 反射
 
@@ -908,8 +903,6 @@ select * from sql_store.customers where last_name like '_y';
 select * from sql_store.customers where last_name like 'b____y';
 ```
 
-
-
 ### MySQL中的多表查询
 
 - 当默认情况下，当两个表查询时，规则:
@@ -925,7 +918,7 @@ select * from sql_store.customers where last_name like 'b____y';
   内连接：当您要检索两个表中都有匹配值的数据，并且您对数据的交集感兴趣时使用。
   外连接：当您想包含一个表或两个表中不匹配的行，并对探索数据之间的关系（包括可能不匹配的情况）感兴趣时使用。
 
-- 内连接例子: 
+- 内连接例子:
 
   - Let's say we have two tables: `orders` and `customers`. The `orders` table contains information about orders placed by customers, and the `customers` table contains information about the customers themselves. We'll perform an inner join to retrieve a list of orders along with the corresponding customer information for those orders.
 
@@ -941,9 +934,9 @@ select * from sql_store.customers where last_name like 'b____y';
     **Table: customers**
     | customer_id | customer_name | email               |
     | ----------- | ------------- | ------------------- |
-    | 101         | John Smith    | john@example.com    |
-    | 102         | Jane Doe      | jane@example.com    |
-    | 103         | Michael Brown | michael@example.com |
+    | 101         | John Smith    | <john@example.com>    |
+    | 102         | Jane Doe      | <jane@example.com>    |
+    | 103         | Michael Brown | <michael@example.com> |
 
     We want to retrieve a list of orders along with the customer names and email addresses for those orders. We can achieve this using an inner join as follows:
 
@@ -957,13 +950,11 @@ select * from sql_store.customers where last_name like 'b____y';
 
     | order_id | order_date | total_amount | customer_name | email               |
     | -------- | ---------- | ------------ | ------------- | ------------------- |
-    | 1        | 2023-08-01 | 150.00       | John Smith    | john@example.com    |
-    | 2        | 2023-08-02 | 200.00       | Jane Doe      | jane@example.com    |
-    | 3        | 2023-08-03 | 75.00        | Michael Brown | michael@example.com |
+    | 1        | 2023-08-01 | 150.00       | John Smith    | <john@example.com>    |
+    | 2        | 2023-08-02 | 200.00       | Jane Doe      | <jane@example.com>    |
+    | 3        | 2023-08-03 | 75.00        | Michael Brown | <michael@example.com> |
 
     In this example, the inner join retrieves only the rows where there is a matching `customer_id` in both the `orders` and `customers` tables. It combines the order information with the corresponding customer information, giving us a result that shows the customers' names and email addresses alongside their orders.
-
-
 
 ### 检索数据
 
@@ -973,20 +964,20 @@ select * from sql_store.customers where last_name like 'b____y';
 
 ```sql
 SELECT * FROM emp
-	ORDER BY empno
-	LIMIT 0, 3;
+ ORDER BY empno
+ LIMIT 0, 3;
 -- 第2页
 SELECT * FROM emp 
-	ORDER BY empno 
-	LIMIT 3, 3;
+ ORDER BY empno 
+ LIMIT 3, 3;
 -- 第3页
 SELECT * FROM emp 
-	ORDER BY empno 
-	LIMIT 6, 3;
+ ORDER BY empno 
+ LIMIT 6, 3;
 -- 推导一个公式 
 # SELECT * FROM emp
-# 	ORDER BY empno
-# 	LIMIT 每页显示记录数 * (第几页-1) , 每页显示记录数
+#  ORDER BY empno
+#  LIMIT 每页显示记录数 * (第几页-1) , 每页显示记录数
 ```
 
 #### 检索单个列
@@ -1016,14 +1007,11 @@ SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
 
 - 按多个列进行排序
 
-  - 想要使用order by来对多个列进行排序，就会先按照其中一个列进行排序，然后针对这个列再进行第二个属性进行排序。示例说明: 
+  - 想要使用order by来对多个列进行排序，就会先按照其中一个列进行排序，然后针对这个列再进行第二个属性进行排序。示例说明:
 
     ![image-20230820124333070](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230820124333070.png)
 
-    
-
     ORDER BY子句的位置 在给出ORDER BY子句时，应该保证它位于FROM子句之后。如果使用LIMIT，它必须位于ORDER BY之后。使用子句的次序不对将产生错误消息。**这个子句必须是SELECT语句中的最后一条子句**。
-
 
 ### 分组数据
 
@@ -1037,8 +1025,6 @@ SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
 ![image-20230824115657581](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230824115657581.png)
 
 ![image-20230824115709540](C:\Users\ryanw\AppData\Roaming\Typora\typora-user-images\image-20230824115709540.png)
-
-
 
 ### MySQL中的表外连接
 
@@ -1119,8 +1105,6 @@ SELECT prod_name FROM products LIMIT 5,5; -- 这样就是选择6-10行
 - 使用视图的原因是因为想让基表上的某些数据看不到(隐藏)，使用视图来映射一个表出来，显示的都是可以看到的数据。
 
 ### MySQL管理
-
-
 
 ### MySQL的额外知识点
 
@@ -1216,7 +1200,6 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
    INNER JOIN customers ON orders.customer_id = customers.customer_id;
    ```
 
-
 3. **自联结（Self Join）：**
    自联结是将**同一个表与其自身进行联结**。它**在表中的不同行之间创建连接**，类似于将表复制一遍，然后在其中一个表中查询另一个表中的数据。
 
@@ -1226,7 +1209,6 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
    INNER JOIN employees e2 ON e1.manager_id = e2.employee_id;
    ```
 
-
 4. **自然联结（Natural Join）：**
    自然联结是基于列名的联结，它自动根据表之间的相同列名进行联结。它会**返回所有列名相同且具有相同值的行。**
 
@@ -1235,7 +1217,6 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
    FROM customers
    NATURAL JOIN orders;
    ```
-
 
 5. **外部联结（Outer Join）：**
    外部联结通过比较两个或多个表的列之间的值来合并数据，**与内部联结不同的是，外部联结可以包括未匹配的行**。有**三种类型**的外部联结：左外部联结、右外部联结和全外部联结。
@@ -1269,8 +1250,8 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
    WHERE customers.customer_id IS NULL;
    ```
 
-
 总结：
+
 - **子查询** 用于嵌套在其他查询内部，提供一个子集的数据作为条件。
 - **内部联结** 用于合并具有匹配值的行。
 - **自联结** 是将一个表自身与另一个别名表进行联结，用于查询表中的不同行之间的关系。
@@ -1281,13 +1262,11 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
 
 ### JDBC基础
 
-
-
 ### Statement
 
 - Statement [存在SQL注入]
 - PreparedStatement [预处理]
-  - 好处: 
+  - 好处:
     - 不再使用 '+' 拼接sql语句，减少语法错误
     - 有效地解决了sql注入问题
     - 大大减少了编译次数，效率较高
@@ -1295,13 +1274,7 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
 
 - 为什么我们更多地使用PreparedStatement而不是Statement呢? 因为Statement存在SQL注入
 
-
-
 ### JDBC APIs
-
-
-
-
 
 ### 批处理
 
@@ -1311,7 +1284,7 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
 
 ### 数据库连接池
 
-- 传统获取Connection问题: 
+- 传统获取Connection问题:
   - 连接使用DriverManager来获取，每次向数据库连接的时候都要将Connection加载道内存中，再验证IP地址，用户名，密码。需要数据库连接的时候，就向数据库要求一个，这样占用很多系统资源。
   - 为了解决传统开发中的数据库连接问题，可以采用数据库连接池技术
 - 数据库连接池种类
@@ -1326,6 +1299,38 @@ SELECT coalesce(name, '总数'), SUM(signin) as signin_count FROM employee_tbl G
 
 ### DAO和增删改查通用方法
 
-- 虽然Druids简化了JDBC开发，但还有不足: 
+- 虽然Druids简化了JDBC开发，但还有不足:
   - SQL语句固定，通用性不好，为了更方便增删改查
 
+# Java 8的新特性
+
+1. **Lambda 表达式：** Lambda 表达式允许您以更简洁的方式定义匿名函数，使代码更加紧凑和可读。它们在集合处理、事件处理等方面特别有用。
+   - Lambda表达式是用于表示匿名函数的方式，它可以替代传统的匿名内部类。
+   - 当您需要定义一个简单的功能单元作为参数传递给方法、或者在Stream API中执行操作时，可以使用Lambda表达式。
+   - Lambda表达式的语法是(参数列表) -> 表达式或语句块。
+
+2. **函数式接口：** Java 8引入了函数式接口概念，这些接口只有一个抽象方法。这为Lambda表达式的使用提供了基础。
+   - 函数式接口是只有一个抽象方法的接口，它可以被Lambda表达式所实现。
+   - 当您想要定义一个函数的契约，使它可以被不同的Lambda表达式实现，可以使用函数式接口。
+   - Java 8提供了一些预定义的函数式接口，如Runnable、Callable、Consumer、Function等。
+
+3. **Stream API：** Stream API 提供了一种新的处理集合的方式，可以以声明性的方式对数据进行操作，如过滤、映射、归约等。它可以使代码更加简洁和易于理解。
+
+4. **默认方法和静态方法：** 接口现在可以包含默认实现的方法，这使得在不破坏现有实现的情况下，可以向接口中添加新的方法。同时，接口还可以包含静态方法。
+
+5. **新的日期和时间 API：** Java 8引入了`java.time`包，提供了全新的日期和时间处理方式，解决了旧的`java.util.Date`和`java.util.Calendar`的一些问题。
+
+6. **方法引用：** 方法引用允许您通过方法的名称引用方法，使得代码更加简洁。它通常用于Lambda表达式中。
+   - 方法引用是一种简化Lambda表达式的方式，用于直接引用已经存在的方法。
+   - 当您的Lambda表达式只调用一个已有方法，并且不做其他操作时，可以考虑使用方法引用。
+   - 方法引用的语法是对象::方法，或者类名::静态方法，或者类名::实例方法。
+
+7. **Optional 类：** `java.util.Optional` 类引入了一种更好的方式来处理可能为 null 的值，可以减少空指针异常的风险。
+
+8. **Nashorn JavaScript 引擎：** Java 8引入了一个新的轻量级的、基于 JVM 的 JavaScript 引擎，称为 Nashorn。
+
+9.  **新的并发特性：** 引入了新的并发类，如 `CompletableFuture`，使得异步编程更加容易和灵活。
+
+10. **重复注解：** 允许在同一位置多次使用同一注解。
+
+11. **PermGen 被移除：** Java 8移除了永久代（PermGen）的概念，取而代之的是 Metaspace，用于存储类的元数据。
