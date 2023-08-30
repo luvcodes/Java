@@ -1,4 +1,4 @@
-package Lambda_.funcInterface_;
+package funcInterface_;
 
 @FunctionalInterface
 public interface MyInterface {
