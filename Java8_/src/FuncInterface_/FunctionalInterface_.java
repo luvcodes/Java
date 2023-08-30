@@ -1,4 +1,4 @@
-package funcInterface_;
+package FuncInterface_;
 
 import org.junit.jupiter.api.Test;
 

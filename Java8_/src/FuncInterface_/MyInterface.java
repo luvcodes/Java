@@ -1,4 +1,4 @@
-package funcInterface_;
+package FuncInterface_;
 
 @FunctionalInterface
 public interface MyInterface {
