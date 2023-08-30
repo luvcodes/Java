@@ -33,41 +33,41 @@ public class LambdaDetail_ {
         r2.run();
     }
 
-    // 语法格式二: Lambda需要一个参数，但是没有返回值
-    @Test
-    public void test2() {
-        Comsumer<String> consumer = new Consumer<String>() {
-            @Override
-            public void accept(String s) {
-                System.out.println(s);
-            }
-        };
-        consumer.accept("谎言和誓言的区别是什么? ");
-
-        System.out.println("******************");
-        Consumer<String> con1 = (String s) -> {
-            System.out.println(s);
-        };
-        con1.accept("一个是听的人当真了，一个是说的人当真了");
-    }
-
-    // 语法格式三: 数据类型可以省略，因为可由编译器推断得出，称为”类型推断“
-    @Test
-    public void test3() {
-        Comsumer<String> consumer = new Consumer<String>() {
-            @Override
-            public void accept(String s) {
-                System.out.println(s);
-            }
-        };
-        consumer.accept("谎言和誓言的区别是什么? ");
-
-        System.out.println("******************");
-        Consumer<String> con1 = (s) -> {
-            System.out.println(s);
-        };
-        con1.accept("一个是听的人当真了，一个是说的人当真了");
-    }
+//    // 语法格式二: Lambda需要一个参数，但是没有返回值
+//    @Test
+//    public void test2() {
+//        Comsumer<String> consumer = new Consumer<String>() {
+//            @Override
+//            public void accept(String s) {
+//                System.out.println(s);
+//            }
+//        };
+//        consumer.accept("谎言和誓言的区别是什么? ");
+//
+//        System.out.println("******************");
+//        Consumer<String> con1 = (String s) -> {
+//            System.out.println(s);
+//        };
+//        con1.accept("一个是听的人当真了，一个是说的人当真了");
+//    }
+//
+//    // 语法格式三: 数据类型可以省略，因为可由编译器推断得出，称为”类型推断“
+//    @Test
+//    public void test3() {
+//        Comsumer<String> consumer = new Consumer<String>() {
+//            @Override
+//            public void accept(String s) {
+//                System.out.println(s);
+//            }
+//        };
+//        consumer.accept("谎言和誓言的区别是什么? ");
+//
+//        System.out.println("******************");
+//        Consumer<String> con1 = (s) -> {
+//            System.out.println(s);
+//        };
+//        con1.accept("一个是听的人当真了，一个是说的人当真了");
+//    }
 
     // 语法格式四: Lambda如果只需要一个参数时，参数的小括号可以省略
     @Test
