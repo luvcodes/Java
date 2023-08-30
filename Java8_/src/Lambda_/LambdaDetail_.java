@@ -12,8 +12,13 @@ import java.util.function.Consumer;
  *  -> 左边: lambda形参列表的参数类型可以省略；如果Lambda形参列表只有一个参数，其一对()也可以省略
  *                                      如果lambda形参列表没有参数或者有一个以上参数，一对()不可以省略
  *  -> 右边: lambda体应该使用一对{}包裹; 如果lambda体只有一条执行语句 (可能是return语句)，可以省略这一对{}和return关键字
- *
- * Lambda表达式的本质: 作为接口的实例
+ *  </p>
+ *  Lambda表达式的本质: 作为接口的实例
+ * </p>
+ * 函数式接口: 只有一个抽象方法的接口，称为函数式接口。我们可以在一个接口上使用@FunctionalInterface注解，
+ * 这样做可以检查它是否是一个函数式接口。
+ * </p>
+ * 所以以前用匿名实现类表示的现在都可以用Lambda表达式来写
  */
 
 public class LambdaDetail_ {
