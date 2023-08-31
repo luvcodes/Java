@@ -4,7 +4,6 @@ import java.util.Optional;
 
 public class Java8Tester {
     public static void main(String args[]){
-
         Java8Tester java8Tester = new Java8Tester();
         Integer value1 = null;
         Integer value2 = new Integer(10);
@@ -14,13 +13,16 @@ public class Java8Tester {
 
         // Optional.of - 如果传递的参数是 null，抛出异常 NullPointerException
         Optional<Integer> b = Optional.of(value2);
+
+        /**
+         * 这是因为value1是null（因此a.isPresent()返回false），
+         * 而value2是10（因此b.isPresent()返回true），最后的结果是0 + 10 = 10
+         * */
         System.out.println(java8Tester.sum(a,b));
     }
 
     public Integer sum(Optional<Integer> a, Optional<Integer> b){
-
         // Optional.isPresent - 判断值是否存在
-
         System.out.println("第一个参数值存在: " + a.isPresent());
         System.out.println("第二个参数值存在: " + b.isPresent());
 

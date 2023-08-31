@@ -1,7 +1,6 @@
 package ConstructorRef_;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 import java.util.function.BiFunction;
 import java.util.function.Function;

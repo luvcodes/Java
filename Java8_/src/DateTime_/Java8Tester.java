@@ -12,7 +12,6 @@ public class Java8Tester {
     }
 
     public void testLocalDateTime(){
-
         // 获取当前的日期时间
         LocalDateTime currentTime = LocalDateTime.now();
         System.out.println("当前时间: " + currentTime);
@@ -23,7 +22,6 @@ public class Java8Tester {
         Month month = currentTime.getMonth();
         int day = currentTime.getDayOfMonth();
         int seconds = currentTime.getSecond();
-
         System.out.println("月: " + month +", 日: " + day +", 秒: " + seconds);
 
         LocalDateTime date2 = currentTime.withDayOfMonth(10).withYear(2012);

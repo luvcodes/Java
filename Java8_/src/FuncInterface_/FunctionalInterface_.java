@@ -45,9 +45,7 @@ public class FunctionalInterface_ {
                 return s.contains("jing");
             }
         });
-
         System.out.println(filterStr);
-
 
         System.out.println("******************************");
         // Lambda表达式
@@ -56,7 +54,7 @@ public class FunctionalInterface_ {
     }
 
     /**
-     * 根据给定的规则，过滤集合中的字符创。此规则由Predicate的方法决定
+     * 根据给定的规则，过滤集合中的字符串。此规则由Predicate的方法决定
      * */
     public List<String> filterString(List<String> list, Predicate<String> predicate) {
         ArrayList<String> filterList = new ArrayList<>();

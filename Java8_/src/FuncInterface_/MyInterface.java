@@ -4,5 +4,5 @@ package FuncInterface_;
 public interface MyInterface {
     void method01();
     // method02报错
-//    void method02();
+    // void method02();
 }

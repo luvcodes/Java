@@ -6,14 +6,13 @@ import java.util.Comparator;
 import java.util.function.Consumer;
 
 /**
- *
  * Lambda表达式的使用: 分为6种情况介绍
  * 总结:
  *  -> 左边: lambda形参列表的参数类型可以省略；如果Lambda形参列表只有一个参数，其一对()也可以省略
  *                                      如果lambda形参列表没有参数或者有一个以上参数，一对()不可以省略
  *  -> 右边: lambda体应该使用一对{}包裹; 如果lambda体只有一条执行语句 (可能是return语句)，可以省略这一对{}和return关键字
- *  </p>
- *  Lambda表达式的本质: 作为接口的实例
+ * </p>
+ * Lambda表达式的本质: 作为接口的实例
  * </p>
  * 函数式接口: 只有一个抽象方法的接口，称为函数式接口。我们可以在一个接口上使用@FunctionalInterface注解，
  * 这样做可以检查它是否是一个函数式接口。
