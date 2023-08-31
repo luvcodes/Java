@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”²éğüÿÿÿÿ
+R
+java:S3655!"0Call "b.isPresent()" before accessing the value.(ù€Á¤ûÿÿÿÿ8çÉƒË¤1
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+<
+java:S2129	"!Remove this "Integer" constructor(äâ“Ğøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(“çÎ™úÿÿÿÿ
+L	java:S106"+Replace this use of System.out by a logger.(€ŒÁ—øÿÿÿÿ8òÉƒË¤1
+L	java:S106"+Replace this use of System.out by a logger.(şİˆ€ûÿÿÿÿ8óÉƒË¤1
+C
+java:S2129"!Remove this "Integer" constructor(Ö‡ã¸üÿÿÿÿ8ôÉƒË¤1

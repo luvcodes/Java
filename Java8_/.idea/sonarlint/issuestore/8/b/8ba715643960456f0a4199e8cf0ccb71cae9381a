@@ -1,0 +1,16 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(ÐæÐŽ
+>
+java:S1604*"(Make this anonymous inner class a lambda(ïå»ˆ
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢Ü’ºùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ì”óøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(óÞÔšøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ì™áýûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(à‰’Ø
+o
+java:S4276 "TRefactor this code to use the more specialised Functional Interface 'DoubleConsumer'(€¬Ï§ÿÿÿÿÿ
+@	java:S1060"+Replace this use of System.out by a logger.(øÞšž
+@	java:S1062"+Replace this use of System.out by a logger.(“­çó
+@	java:S1065"+Replace this use of System.out by a logger.(Û¹ÕÌ
