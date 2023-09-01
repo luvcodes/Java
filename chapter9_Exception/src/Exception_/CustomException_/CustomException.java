@@ -2,9 +2,6 @@ package Exception_.CustomException_;
 
 public class CustomException {
     public static void main(String[] args) {
-        /**
-         *
-         * */
         int age = 80;
         if (!(age >= 18 && age <= 120)) {
             throw new AgeException("Age need to be within 18 to 120");
