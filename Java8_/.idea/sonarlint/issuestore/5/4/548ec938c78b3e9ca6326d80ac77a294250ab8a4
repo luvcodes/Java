@@ -1,0 +1,27 @@
+
+n
+java:S1192"SDefine a constant instead of duplicating this literal "******************" 3 times.(“—í¦úÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(ÚØ•¹
+>
+java:S1604!"(Make this anonymous inner class a lambda(Õµöê
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÓÈíÒýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ËóŸ
+@	java:S106"+Replace this use of System.out by a logger.(ö›¶è
+E	java:S106"+Replace this use of System.out by a logger.(“—í¦úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(’“Ñîýÿÿÿÿ
+R
+java:S1854;"<Remove this useless assignment to local variable "compare3".(õðÌ†
+N
+java:S1854:"8Remove this useless assignment to local variable "com3".(½ãýä
+E	java:S106("+Replace this use of System.out by a logger.(ù·«ºüÿÿÿÿ
+E	java:S106)"+Replace this use of System.out by a logger.(“—í¦úÿÿÿÿ
+X
+java:S16124"=Replace this lambda with method reference 'Integer::compare'.(ÛÓæÖüÿÿÿÿ
+@	java:S1066"+Replace this use of System.out by a logger.(˜ïÓÓ
+E	java:S1067"+Replace this use of System.out by a logger.(“—í¦úÿÿÿÿ
+?
+java:S1481:")Remove this unused "com3" local variable.(½ãýä
+C
+java:S1481;"-Remove this unused "compare3" local variable.(õðÌ†
+@	java:S106<"+Replace this use of System.out by a logger.(˜ïÓÓ

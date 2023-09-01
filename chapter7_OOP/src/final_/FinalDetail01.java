@@ -31,7 +31,6 @@ class BB {
      * 1. 定义时
      * 2. 在静态代码块 不能在构造器中赋值
      */
-
     public static final double TAX_RATE = 99.9;
     public static final double TAX_RATE2;
 

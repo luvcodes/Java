@@ -18,7 +18,7 @@ class G extends E {
     }
 }
 
-// 抽象方法不能使用private、final和static来修饰，因为这些关键字都是和重写想违背的
+// 抽象方法不能使用private、final和static来修饰，因为这些关键字都是和重写相违背的
 abstract class H {
 
 }
