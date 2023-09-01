@@ -6,14 +6,15 @@ public class CodeBlockDetail04 {
         // 1.1 先加载父类A02 
         // 1.2 再加载B02
         // (2) 创建对象
-        // 2.1
         new B02();
     }
 }
 
 class A02 {
-
-
+    /**
+     * 这里先输出getVal01是因为这个静态属性放在了静态代码块的前面，
+     * 如果把静态代码块放在静态属性的前面，那么就是先执行静态代码块了。
+     * */
     private static int n1 = getVal01();
 
     static {

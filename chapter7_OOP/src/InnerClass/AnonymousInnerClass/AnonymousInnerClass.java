@@ -13,13 +13,16 @@ public class AnonymousInnerClass {
 class Outer04 {
     private int n1 = 10;
     public void method() {
-        // 基于接口的匿名内部类
-        // 1. 需求: 想使用IA接口, 并创建对象
-        // 2. 传统方式，是写一个类，实现该接口，并创建对象
-        // 3. 现在需求是Tiger类只是使用一次，后面再不使用
-        // 4. 使用匿名内部类来简化开发
-        // 5. Tiger的运行类型？接口类型
-        // 6. tiger的运行类型？匿名内部类 XXXX => Outer04$1
+        /**
+         * 基于接口的匿名内部类
+         * 1. 需求: 想使用IA接口, 并创建对象
+         * 2. 传统方式，是写一个类，实现该接口，并创建对象
+         * 3. 现在需求是Tiger类只是使用一次，后面再不使用
+         * 4. 使用匿名内部类来简化开发
+         * 5. Tiger的运行类型？接口类型
+         * 6. tiger的运行类型？匿名内部类 XXXX => Outer04$1
+         * */
+
         /**
          * 看底层 会分配 类名 Outer04$1
          * class XXXX implements IA {
@@ -42,11 +45,10 @@ class Outer04 {
         tiger.cry();
 
         // 匿名内部类
-        // 分析
         // 1. father编译类型 Father
         // 2. father运行类型 Outer04$2
         // 3.
-        // 4. 同事也直接返回了 匿名内部类 Outer04$2的对象
+        // 4. 同时也直接返回了 匿名内部类 Outer04$2的对象
         // 5. 注意("jack") 参数列表会传输给 构造器
         Father father = new Father("jack") {
             @Override
