@@ -1,3 +1,6 @@
+# REPEAT ... UNTIL结构与LOOP结构的主要区别在于，
+# REPEAT块中的代码至少会执行一次，然后才会检查UNTIL条件。而LOOP结构可能一次都不执行，如果其入口条件为FALSE。
+
 CREATE TABLE employees (
                            id INT AUTO_INCREMENT PRIMARY KEY,
                            name VARCHAR(255) NOT NULL,
@@ -9,34 +12,31 @@ INSERT INTO employees (name, position) VALUES
                                            ('Jane Smith', 'Data Scientist'),
                                            ('Alice Johnson', 'Product Manager');
 
+
 DELIMITER //
 
-CREATE PROCEDURE ListEmployeesConcat()
+CREATE PROCEDURE ListEmployeesRepeat()
 BEGIN
     DECLARE done INT DEFAULT 0;
     DECLARE emp_name VARCHAR(255);
     DECLARE emp_position VARCHAR(255);
-    DECLARE output TEXT DEFAULT '';
     DECLARE cur CURSOR FOR SELECT name, position FROM employees;
     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
 
-    OPEN cur;
+OPEN cur;
 
-    read_loop: LOOP
-        FETCH cur INTO emp_name, emp_position;
-        IF done THEN
-            LEAVE read_loop;
-        END IF;
-        -- 连接每个员工的名字和职位到输出字符串
-        SET output = CONCAT(output, emp_name, ' - ', emp_position, '\n');
-    END LOOP;
+REPEAT
+FETCH cur INTO emp_name, emp_position;
+        IF NOT done THEN
+            -- 这里，您可以对每个员工的数据进行操作。例如，打印他们的名字和职位:
+SELECT emp_name, emp_position;
+END IF;
+    UNTIL done END REPEAT;
 
-    CLOSE cur;
-    -- 输出连接后的字符串
-    SELECT output AS EmployeesList;
+CLOSE cur;
 END //
 
 DELIMITER ;
 
-CALL ListEmployees();
+CALL ListEmployeesRepeat();
 
