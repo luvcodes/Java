@@ -19,7 +19,7 @@ class A {
         class B {
             private final String NAME = "Mark";
             public void show() {
-                System.out.println("Name: " + NAME + " outer class name: " + name + " outer class same name: " + A.this.NAME);
+                System.out.println("Name: " + NAME + " outer class NAME: " + A.this.NAME + " outer class name: " + A.this.name);
             }
         }
 

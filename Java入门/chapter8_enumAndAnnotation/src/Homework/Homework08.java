@@ -29,10 +29,6 @@ public class Homework08 {
     }
 }
 
-/**
- *
- * */
-
 interface IMyInterface {
     public void show();
 }

@@ -10,7 +10,8 @@ public class Homework04 {
             public double work(double n1, double n2) {
                 return n1 + n2;
             }
-        }，同时也是一个对象
+        }
+         它同时也是一个对象
          * 它的编译类型 Calculator，它的运行类型就是匿名内部类，也就是下面重写的work方法
          */
         cellphone.testwork(new Calculator() {
