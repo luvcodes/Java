@@ -14,7 +14,6 @@ class Movie {
     private double price;
     private String director;
 
-    // 三个构造器 重载
     /**
      * 下面的三个构造器都有相同的语句，这样代码看起来比较冗余
      * 这是我们可以把相同的语句，放入到一个代码块中即可
@@ -26,6 +25,8 @@ class Movie {
         System.out.println("Ads initiates...");
         System.out.println("Movie starts...");
     }
+
+    // 三个构造器 重载
     public Movie(String name) {
         System.out.println("Movie(String name) is called");
         this.name = name;
