@@ -1,0 +1,23 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜¾ç
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(æÚŸ¶şÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ë“«øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(µƒÎ½şÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(­¥‡á
+E	java:S106"+Replace this use of System.out by a logger.(òúı×úÿÿÿÿ
+\
+java:S1075 "ARefactor your code to get this URI from a customizable parameter.(÷Æ‰áùÿÿÿÿ
+i
+java:S4042#"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ë“«øÿÿÿÿ
+E	java:S106$"+Replace this use of System.out by a logger.(µƒÎ½şÿÿÿÿ
+@	java:S106&"+Replace this use of System.out by a logger.(­¥‡á
+?	java:S106)"+Replace this use of System.out by a logger.(Ñ¾º
+W
+java:S10750"ARefactor your code to get this URI from a customizable parameter.(®ĞÍ
+E	java:S1063"+Replace this use of System.out by a logger.(ƒüÄôşÿÿÿÿ
+E	java:S1066"+Replace this use of System.out by a logger.(–Ä°ºıÿÿÿÿ
+@	java:S1068"+Replace this use of System.out by a logger.(µØ¨…
