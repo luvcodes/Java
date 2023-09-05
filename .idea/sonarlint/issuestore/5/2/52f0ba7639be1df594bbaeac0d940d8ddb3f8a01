@@ -1,0 +1,11 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(—ûø·ûÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(—ûø·ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡”„Ð
+E
+java:S1197"*Move the array designators [] to the type.(Ð“àÑøÿÿÿÿ
+Q	java:S125	"<This block of commented-out lines of code should be removed.(ÚÆ©
+E	java:S106"+Replace this use of System.out by a logger.(ÝëëÓþÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(×Æáî

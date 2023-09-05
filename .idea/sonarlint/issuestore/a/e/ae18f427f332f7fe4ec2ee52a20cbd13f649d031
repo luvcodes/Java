@@ -1,0 +1,12 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úþØ/
+[
+java:S1226"@Introduce a new variable instead of reusing the parameter "str".(¤¼¸—þÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ùõ‹óþÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ãÒÃ­ùÿÿÿÿ
+5
+java:S2129" Remove this "String" constructor(¡Žèy
+R
+java:S1854"7Remove this useless assignment to local variable "str".(¤¼¸—þÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ÁŠÀ¦úÿÿÿÿ

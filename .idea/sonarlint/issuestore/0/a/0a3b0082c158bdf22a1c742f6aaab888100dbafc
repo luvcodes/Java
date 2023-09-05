@@ -1,0 +1,22 @@
+
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(œØ¡Ûúÿÿÿÿ
+Q
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÙÃš
+X
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÙÃš8Éò‡•¦1
+Y
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(›°è¶8õàŠ•¦1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿¯şÿÿÿÿ
+<
+java:S2129"!Remove this "Integer" constructor(ôôöüÿÿÿÿ
+c
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ôôöüÿÿÿÿ
+<
+java:S2129"!Remove this "Integer" constructor(î–’èıÿÿÿÿ
+c
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(î–’èıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(œØ¡Ûúÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(ÙÃš
+F	java:S106"+Replace this use of System.out by a logger.(ÙÃš8Ğò‡•¦1
+G	java:S106'"+Replace this use of System.out by a logger.(›°è¶8ıàŠ•¦1
