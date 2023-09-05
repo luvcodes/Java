@@ -7,7 +7,6 @@ public class StringBufferExercise02 {
          * 商品名  商品价格
          * 手机    123,564.59 // 比如 价格 3,456,789.88
          * 要求: 价格的小数点前面每三位用都好隔开，再输出
-         *
          * 思路分析:
          * 1. 定义一个Scanner对象，接收用户输入的价格(String)
          * 2. 希望使用到StringBuffer的insert，需要将String转成StringBuffer

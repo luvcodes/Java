@@ -10,6 +10,7 @@ public class TryCatchDetail03 {
         } finally {
             System.out.println("执行了finally");
         }
+        // 由于finally无论如何都会执行，可是try语句中的一场在程序中没有捕捉，所以会抛出异常，println语句不回显示
         System.out.println("Program continue executes...");
     }
 }

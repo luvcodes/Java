@@ -21,9 +21,8 @@ public class TryCatchDetail02 {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         } finally {
-
+            System.out.println("This is the finally block code");
         }
-
     }
 }
 
