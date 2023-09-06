@@ -1,5 +1,6 @@
 package CustomGeneric_;
 
+@SuppressWarnings("all")
 public class CustomGeneric_ {
     public static void main(String[] args) {
 

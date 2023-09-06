@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb4bee1-057b-4ec5-be4b-97ce4a8b8f4f" name="Changes" comment="MySQL中的存储过程">
-      <change afterPath="$PROJECT_DIR$/src/MySQL/存储过程/存储过程2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySQL/游标_/使用游标.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySQL/游标_/使用游标2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722/storage_v2/_src_/schema/ryan_db03.rM9C7A.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722/storage_v2/_src_/schema/ryan_db03.rM9C7A.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722/storage_v2/_src_/schema/ryan_db03.rM9C7A.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6012c006-2535-4a1a-8844-2993c3771722/storage_v2/_src_/schema/ryan_db03.rM9C7A.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dfb4bee1-057b-4ec5-be4b-97ce4a8b8f4f" name="Changes" comment="MySQL中的存储过程" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -44,11 +34,12 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ryanw/OneDrive/Desktop/专业课/计算机专业/算法与数据结构/Algorithms-DataStructure",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter17_javamysql_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -78,6 +69,7 @@
       <workItem from="1692682360901" duration="618000" />
       <workItem from="1692683864578" duration="72000" />
       <workItem from="1693457241862" duration="5468000" />
+      <workItem from="1693974754049" duration="7800000" />
     </task>
     <task id="LOCAL-00001" summary="MySQL中的存储过程">
       <option name="closed" value="true" />

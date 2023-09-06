@@ -24,8 +24,7 @@ SELECT COUNT(DISTINCT mgr) FROM emp;
 -- 思路： max(sal) - min(sal)
 SELECT MAX(sal) - MIN(sal) FROM emp;
 
-SELECT * FROM e
-mp;
+SELECT * FROM emp;
 select * from dept;
 
 

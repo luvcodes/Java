@@ -3,7 +3,6 @@ import java.util.List;
 
 public class GenericExtends {
     public static void main(String[] args) {
-
         Object o = new String("xx");
 
         //泛型没有继承性

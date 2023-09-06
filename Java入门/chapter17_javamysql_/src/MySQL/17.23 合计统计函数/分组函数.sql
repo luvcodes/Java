@@ -1,6 +1,3 @@
-/*
- Aggregate function
- */
 select max(invoice_total) from sql_invoicing.invoices;
 
 SELECT max(invoice_total) AS highest,

@@ -1,3 +1,5 @@
+-- where和having 优先选择where
+
 CREATE TABLE dept(
     /*部门表*/
     deptno MEDIUMINT UNSIGNED NOT NULL DEFAULT 0,
@@ -9,7 +11,9 @@ VALUES(10, 'ACCOUNTING', 'NEW YORK'),
     (20, 'RESEARCH', 'DALLAS'),
     (30, 'SALES', 'CHICAGO'),
     (40, 'OPERATIONS', 'BOSTON');
+
 SELECT * FROM dept;
+
 -- 员工表
 CREATE TABLE emp (
     empno MEDIUMINT UNSIGNED NOT NULL DEFAULT 0,

@@ -36,9 +36,6 @@ class Tiger1<T,R,M> {
         this.t = t;
     }
 
-
-
-
     public String getName() {
         return name;
     }

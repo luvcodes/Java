@@ -6,7 +6,6 @@ public class CustomInterfaceGeneric_ {
     }
 }
 
-
 /**
  *  泛型接口使用的说明
  *  1. 接口中，静态成员也不能使用泛型
@@ -74,7 +73,6 @@ class CC implements IUsb { //等价 class CC implements IUsb<Object,Object> {
 }
 
 interface IUsb<U, R> {
-
     int n = 10;
     //U name; 不能这样使用
 

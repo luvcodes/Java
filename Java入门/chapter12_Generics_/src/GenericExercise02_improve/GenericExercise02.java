@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 /**
  * 定义Employee类
- * 1) 该类包含：private成员变量name,sal,birthday，其中 birthday 为 MyDate 类的对象；
+ * 1) 该类包含：private成员变量name, sal, birthday，其中 birthday 为 MyDate 类的对象；
  * 2) 为每一个属性定义 getter, setter 方法；
  * 3) 重写 toString 方法输出 name, sal, birthday
  * 4) MyDate类包含: private成员变量month,day,year；并为每一个属性定义 getter, setter 方法；
@@ -18,7 +18,6 @@ import java.util.Comparator;
 @SuppressWarnings({"all"})
 public class GenericExercise02 {
     public static void main(String[] args) {
-
         ArrayList<Employee> employees = new ArrayList<>();
         employees.add(new Employee("tom", 20000, new MyDate(1980,12,11)));
         employees.add(new Employee("jack", 12000, new MyDate(2001,12,12)));
@@ -37,6 +36,9 @@ public class GenericExercise02 {
                     return 0;
                 }
                 //比较name
+                // 返回值 < 0：当前对象小于被比较的对象。
+                // 返回值 = 0：当前对象等于被比较的对象。
+                // 返回值 > 0：当前对象大于被比较的对象。
                 int i = emp1.getName().compareTo(emp2.getName());
                 if(i != 0) {
                     return i;
