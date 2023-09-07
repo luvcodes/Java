@@ -27,6 +27,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -39,6 +40,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
@@ -69,7 +71,8 @@
       <workItem from="1692682360901" duration="618000" />
       <workItem from="1692683864578" duration="72000" />
       <workItem from="1693457241862" duration="5468000" />
-      <workItem from="1693974754049" duration="7800000" />
+      <workItem from="1693974754049" duration="9060000" />
+      <workItem from="1694047096807" duration="2768000" />
     </task>
     <task id="LOCAL-00001" summary="MySQL中的存储过程">
       <option name="closed" value="true" />
