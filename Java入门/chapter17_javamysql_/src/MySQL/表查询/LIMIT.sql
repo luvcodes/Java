@@ -15,5 +15,10 @@ SELECT * FROM emp
 order by empno desc
 limit 3;
 
-
-select * from emp;
+-- 分页
+-- 每页显示3条记录
+-- 第一页: limit 0, 3 [0,1,2]
+-- 第二页: limit 3, 3 [3,4,5]
+-- 第三页: limit 6, 3 [6,7,8]
+-- 第四页: limit 9, 3 [9,10,11]
+-- limit (pageNo - 1) * pageSize, pageSize

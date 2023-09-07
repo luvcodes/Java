@@ -14,9 +14,6 @@ SELECT ename,sal,dname,emp.deptno
 	FROM emp, dept 
 	WHERE emp.deptno = dept.deptno;
 	
-select * from emp;
-select * from dept;
-select * from salgrade;
 
 -- 多表查询的条件不能少于 表的个数-1, 否则会出现笛卡尔集
 -- ?如何显示部门号为10的部门名、员工名和工资 
@@ -52,3 +49,5 @@ WHERE worker.mgr = boss.empno;
 SELECT worker.ename AS '职员名', boss.ename AS '上级名'
 FROM emp worker JOIN emp boss
 ON worker.mgr = boss.empno;
+-- 加这个ON的条件只是为了避免笛卡尔积现象，只是为了查询出有效的组合记录。
+-- 匹配的次数一次都没有少，还是第一个表乘以第二个表的大小
