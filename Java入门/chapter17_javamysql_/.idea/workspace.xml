@@ -41,7 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -49,6 +49,9 @@
       "mysql"
     ],
     "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
       "MySQL"
     ]
   }
@@ -72,7 +75,7 @@
       <workItem from="1692683864578" duration="72000" />
       <workItem from="1693457241862" duration="5468000" />
       <workItem from="1693974754049" duration="9060000" />
-      <workItem from="1694047096807" duration="2768000" />
+      <workItem from="1694047096807" duration="7435000" />
     </task>
     <task id="LOCAL-00001" summary="MySQL中的存储过程">
       <option name="closed" value="true" />

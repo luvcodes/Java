@@ -34,7 +34,34 @@ select ename, job, sal, deptno
 		SELECT DISTINCT job 
 		FROM emp 
 		WHERE deptno = 10
-	) and deptno <> 10 
-	
+	) and deptno <> 10;
 
-	
+
+-- 在where子句可以使用子查询
+-- 在from子句也可以使用子查询
+-- from后面的子查询结果可以当做一张临时表
+-- 案例: 找出诶个岗位的平均工资的薪资等级
+-- 解决这个案例:
+-- 第一步: 找出每个岗位的平均工资 (按照岗位分组求平均值)
+SELECT job, avg(sal) as avgsal FROM emp GROUP BY job;
+-- 第二部，八以上的查询结果当作一张真实存在的表t
+SELECT t.*, s.grade
+FROM
+    (SELECT job, avg(sal) as avgsal FROM emp GROUP BY job) t
+JOIN
+    salgrade s
+ON
+    t.avgsal BETWEEN s.losal AND s.hisal;
+
+-- 查询ecshop中各个类别中，价格最高的商品
+-- 查询 商品表
+-- 先得到 各个类别中，价格最高的商品 max + group by cat_id, 当做临时表
+
+select goods_id, ecs_goods.cat_id, goods_name, shop_price
+from (
+         SELECT cat_id , MAX(shop_price) as max_price
+         FROM ecs_goods
+         GROUP BY cat_id
+     ) temp , ecs_goods
+where  temp.cat_id = ecs_goods.cat_id
+  and temp.max_price = ecs_goods.shop_price;

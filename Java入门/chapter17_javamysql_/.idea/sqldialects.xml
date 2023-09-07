@@ -3,7 +3,9 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/MySQL/17.13 创建表/createTable.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/MySQL/17.18 CRUD/select/select.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/17.29 表查询-加强/LIMIT.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/MySQL/17.29 表查询-加强/selectinc.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/17.32 表复制/copyTable.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/MySQL/17.37 mysql索引/index.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/MySQL/17.37 mysql索引/practice.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/MySQL/17.9 查看、删除数据库/searchDB.sql" dialect="MySQL" />
