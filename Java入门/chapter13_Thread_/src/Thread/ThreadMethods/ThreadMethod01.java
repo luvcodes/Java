@@ -4,7 +4,8 @@ public class ThreadMethod01 {
     public static void main(String[] args) throws InterruptedException {
         //测试相关的方法
         T t = new T();
-        t.setName("老韩"); // 给线程命名为老韩
+        // 给线程命名为老韩
+        t.setName("老韩");
         t.setPriority(Thread.MIN_PRIORITY);//1
         t.start();//启动子线程
 

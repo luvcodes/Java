@@ -2,11 +2,10 @@ package Thread.ThreadUse_;
 
 public class Thread01 {
     public static void main(String[] args) throws InterruptedException {
-
         //创建Cat对象，可以当做线程使用
         Cat cat = new Cat();
 
-        /*
+        /**
             (1) 追源码 start方法
             public synchronized void start() {
                 start0();
@@ -16,7 +15,6 @@ public class Thread01 {
             //真正实现多线程的效果， 是start0(), 而不是 run
             private native void start0();
          */
-
         // 启动线程 -> 最终会执行cat的run方法
         cat.start();
 
@@ -26,7 +24,7 @@ public class Thread01 {
          *  说明: 当main线程启动一个子线程 Thread-0, 主线程不会阻塞, 会继续执行
          *  这时 主线程和子线程是交替执行..
          */
-        System.out.println("主线程继续执行" + Thread.currentThread().getName());//名字main
+        System.out.println("主线程继续执行" + Thread.currentThread().getName());
         for(int i = 0; i < 60; i++) {
             System.out.println("主线程 i=" + i);
             //让主线程休眠
@@ -35,7 +33,7 @@ public class Thread01 {
     }
 }
 
-//老韩说明
+
 //1. 当一个类继承了 Thread 类， 该类就可以当做线程使用
 //2. 我们会重写 run方法，写上自己的业务代码
 //3. run Thread 类 实现了 Runnable 接口的run方法

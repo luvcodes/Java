@@ -2,7 +2,6 @@ package Thread.ThreadMethods;
 
 public class ThreadMethod02 {
     public static void main(String[] args) throws InterruptedException {
-
         T2 t2 = new T2();
         t2.start();
 
@@ -16,7 +15,6 @@ public class ThreadMethod02 {
 //                Thread.yield();//礼让，不一定成功..
                 System.out.println("子线程(老大) 吃完了 主线程(小弟) 接着吃..");
             }
-
         }
     }
 }

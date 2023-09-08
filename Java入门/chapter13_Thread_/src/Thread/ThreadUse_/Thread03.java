@@ -1,13 +1,10 @@
 package Thread.ThreadUse_;
 
 /**
- * @author 韩顺平
- * @version 1.0
  * main线程启动两个子线程
  */
 public class Thread03 {
     public static void main(String[] args) {
-
         T1 t1 = new T1();
         T2 t2 = new T2();
         Thread thread1 = new Thread(t1);
@@ -19,7 +16,6 @@ public class Thread03 {
 }
 
 class T1 implements Runnable {
-
     int count = 0;
 
     @Override

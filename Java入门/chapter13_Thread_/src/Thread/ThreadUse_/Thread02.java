@@ -46,7 +46,8 @@ class ThreadProxy implements Runnable {
     }
 
     public void start() {
-        start0();//这个方法时真正实现多线程方法
+        // 这个方法是真正实现多线程方法
+        start0();
     }
 
     public void start0() {
@@ -56,7 +57,6 @@ class ThreadProxy implements Runnable {
 
 
 class Dog implements Runnable { //通过实现Runnable接口，开发线程
-
     int count = 0;
 
     @Override
