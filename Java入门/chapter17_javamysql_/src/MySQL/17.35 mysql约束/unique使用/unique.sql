@@ -17,12 +17,11 @@ INSERT INTO t21
 INSERT INTO t21
 	VALUES(NULL, 'tom', 'tom@sohu.com');
 SELECT * FROM t21;
--- 2. 一张表可以有多个unique字段
 
+-- 2. 一张表可以有多个unique字段
 CREATE TABLE t22
 	(id INT UNIQUE ,  -- 表示 id 列是不可以重复的.
 	`name` VARCHAR(32) UNIQUE , -- 表示name不可以重复 
 	email VARCHAR(32)
 	);
-DESC t22
-
+DESC t22;
