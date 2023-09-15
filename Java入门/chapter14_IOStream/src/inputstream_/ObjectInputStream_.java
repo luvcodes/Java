@@ -1,6 +1,7 @@
 package inputstream_;
 
-import PhaseOne.Amatuer.outputstream_.Dog;
+
+import outputstream_.Dog;
 
 import java.io.FileInputStream;
 import java.io.IOException;

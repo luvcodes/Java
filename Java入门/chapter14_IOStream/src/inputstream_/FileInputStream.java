@@ -1,5 +1,5 @@
 package inputstream_;//package PhaseOne.Amatuer.inputstream_;
-//
+
 //import org.junit.jupiter.api.Test;
 //
 //import java.io.IOException;

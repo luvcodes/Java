@@ -2,10 +2,6 @@ package standard;
 
 import java.util.Scanner;
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 public class InputAndOutput {
     public static void main(String[] args) {
         //System 类 的 public final static InputStream in = null;
@@ -25,7 +21,5 @@ public class InputAndOutput {
         System.out.println("输入内容");
         String next = scanner.next();
         System.out.println("next=" + next);
-
-        
     }
 }
