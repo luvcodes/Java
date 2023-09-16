@@ -7,14 +7,14 @@
 </head>
 <body>
 <div id="app">
-    <!--绑定html标签-->
+    <!--v-bind是用来绑定html标签-->
     <a v-bind:href="url">Hyperlink 1</a>
     <a :href="url">Hyperlink 2</a>
 
     <!--这里如果我在网页上修改input框中的内容，那么实际上相当于把下面Vue的data部份的url更改了
     那么上面的两个链接，实际也就会按照修改了的input框中的内容进行访问了
     -->
-    <!---->
+    <!--v-model将表单元素与数据模型进行双向数据绑定-->
     <input type="text" v-model="url">
 </div>
 </body>

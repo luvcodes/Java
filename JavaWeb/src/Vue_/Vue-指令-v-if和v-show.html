@@ -12,6 +12,7 @@
   v-show 根据条件展示某元素，区别在于切换的是display属性的值
   -->
   Age: <input type="text" v-model="age">经判定，为:
+  <!--v-if只有当表达式为true的时候，这个表达式才会渲染，否则就不会渲染-->
   <span v-if="age <= 35">年轻人</span>
   <span v-else-if="age > 35 && age < 60">中年人</span>
   <span v-else>老年人</span>
@@ -19,7 +20,7 @@
   <br><br>
 
   <!--在这里的情况就是，如果我在输入框中更改age的值，看dev tools的代码变化，实际上就是下面这三个span都渲染了，
-  只不过就是在符合范围内的age的值以外的两个span的属性是display: none, 所以才不显示出来-->
+  只不过就是在符合范围内的age的值以外的两个span的属性是通过css的样式display: none, 所以才不显示出来-->
   Age: <input type="text" v-model="age">经判定，为:
   <span v-show="age <= 35">年轻人</span>
   <span v-show="age > 35 && age < 60">中年人</span>
