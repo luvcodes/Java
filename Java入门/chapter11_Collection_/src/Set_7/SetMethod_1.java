@@ -18,7 +18,7 @@ public class SetMethod_1 {
         set.add("jack");
         set.add("hsp");
         set.add("mary");
-        set.add(null);//
+        set.add(null);
         set.add(null);//再次添加null
         for(int i = 0; i <10;i ++) {
             System.out.println("set=" + set);

@@ -68,5 +68,4 @@ class Book1 {
                 ", prize=" + prize +
                 '}';
     }
-
 }

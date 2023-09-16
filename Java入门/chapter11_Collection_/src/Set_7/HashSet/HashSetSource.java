@@ -12,7 +12,6 @@ public class HashSetSource {
         System.out.println("set=" + hashSet);
 
         /*
-        老韩对HashSet 的源码解读
         1. 执行 HashSet()
             public HashSet() {
                 map = new HashMap<>();

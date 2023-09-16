@@ -1,0 +1,13 @@
+
+k
+java:S1104!"PMake item a static final constant or non-public and provide accessors if needed.(ÛÔĞüÿÿÿÿ
+k
+java:S1104""PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ
+j
+java:S1104#"OMake pre a static final constant or non-public and provide accessors if needed.(ÇÅåËıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è¦Ö
+S
+java:S1854"8Remove this useless assignment to local variable "last".(·ñ˜‰ùÿÿÿÿ
+D
+java:S1481")Remove this unused "last" local variable.(·ñ˜‰ùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(£ÃÁÙ
