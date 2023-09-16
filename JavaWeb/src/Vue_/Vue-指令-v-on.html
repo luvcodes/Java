@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <input type="button" value="Click me" v-on:click="handle()">
+  <input type="button" value="Click me" @click="handle()">
+</div>
+</body>
+<script>
+  new Vue({
+    el: "#app",
+    data: {
+
+    },
+    methods: {
+      handle: function() {
+        alert("Click me!");
+      }
+    }
+  })
+</script>
+</html>

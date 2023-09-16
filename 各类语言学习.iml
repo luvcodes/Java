@@ -23,6 +23,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="vue" level="application" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="8d4eb606-c1c4-4fb0-99a9-432c21739c25" />

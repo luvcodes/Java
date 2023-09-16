@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div v-for="(addr, index) in addr">{{index}}, {{addr}}</div>
+    <!--插值表达式-->
+    <div v-for="(addr, index) in addr">{{index+1}}, {{addr}}</div>
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            addr: ["北京", "上海", "西安", "成都", "深圳"]
+        },
+        methods: {
+
+        }
+    })
+</script>
+</html>
