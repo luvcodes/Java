@@ -4,16 +4,18 @@
     <!-- <element-view></element-view> -->
 
     <!-- 员工管理 -->
-    <emp-view></emp-view>
+    <!-- <emp-view></emp-view> -->
+
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import ElementView from '../src/views/element/ElementView.vue';
-import EmpView from '../src/views/tlias/EmpView.vue';
+// import EmpView from '../src/views/tlias/EmpView.vue';
   export default {
     components: {
-      EmpView
+      // EmpView
       
       // ElementView
     

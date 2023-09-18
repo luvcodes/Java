@@ -1,5 +1,4 @@
 <!-- 员工管理界面 -->
-
 <template>
   <div>
     <el-container style="height: 500px; border: 1px solid #eee">
@@ -14,12 +13,18 @@
                 ><i class="el-icon-message"></i>系统信息管理</template
               >
               <el-menu-item-group>
-                <el-menu-item index="1-1">部门管理</el-menu-item>
-                <el-menu-item index="1-2">员工管理</el-menu-item>
+                <el-menu-item index="1-1">
+                    <router-link to="/dept">部门管理</router-link>
+                  </el-menu-item>
+                  <el-menu-item index="1-2">
+                    <router-link to="/Emp">员工管理</router-link>
+                  </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
           </el-menu>
         </el-aside>
+
+
         <el-main>
           <el-form :inline="true" :model="searchForm" class="demo-form-inline">
             <el-form-item label="姓名">
@@ -50,6 +55,7 @@
             </el-form-item>
           </el-form>
 
+          <!-- 表格 -->
           <el-table :data="tableData" border>
             <el-table-column
               prop="name"
@@ -60,12 +66,22 @@
               prop="name"
               label="图像"
               width="180"
-            ></el-table-column>
+            >
+            <template slot-scope="scope">
+              <img :src="scope.row.image" width="100px" height="70px">
+            </template>
+              
+          
+          </el-table-column>
             <el-table-column
               prop="name"
               label="性别"
               width="140"
-            ></el-table-column>
+            >
+              <template slot-scope="scope">
+                {{ scope.row.gender == 1 ? '男' : '女' }}
+              </template>
+          </el-table-column>
             <el-table-column
               prop="name"
               label="职位"
@@ -103,6 +119,8 @@
 </template>
 
 <script>
+// import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -125,7 +143,14 @@ export default {
       alert("页码发生变化" + val);
     },
   },
-};
+  // mounted() {
+  //   // 发送异步请求 获取数据
+  //   axios.get("http://yapi.smart-xwork.cn/mock/169327/emp/list").then((result) => {
+  //     // 响应回来的数据是result.data, 由于连接中的data是一个数组，那么就再加一个.data
+  //     this.tableData = result.data.data;
+  //   });
+  // }
+}
 </script>
 
 <style></style>
