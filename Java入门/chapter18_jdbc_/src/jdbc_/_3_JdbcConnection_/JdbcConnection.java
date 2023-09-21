@@ -12,9 +12,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * 分析java 连接mysql的5中方式
+ * 分析java 连接mysql的5种方式
  */
-public class JdbcConn {
+public class JdbcConnection {
     //方式1
     @Test
     public void connect01() throws SQLException {
@@ -94,7 +94,6 @@ public class JdbcConn {
         Connection connection = DriverManager.getConnection(url, user, password);
 
         System.out.println("第4种方式 = " + connection);
-
     }
 
     //方式5 , 在方式4的基础上改进，增加配置文件，让连接mysql更加灵活

@@ -1,6 +1,6 @@
 package jdbc_._2_myjdbc_;
 
-public class OracleJdbcImple implements JdbcInerface {
+public class OracleJdbcSimple implements JdbcInerface {
     @Override
     public Object getConnection() {
         System.out.println("得到 oracle的连接 升级");

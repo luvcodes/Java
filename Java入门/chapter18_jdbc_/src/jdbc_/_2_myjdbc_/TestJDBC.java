@@ -8,7 +8,7 @@ public class TestJDBC {
         jdbcInerface.close();
 
         System.out.println("==========================");
-        jdbcInerface = new OracleJdbcImple();
+        jdbcInerface = new OracleJdbcSimple();
         jdbcInerface.getConnection();
         jdbcInerface.crud();
         jdbcInerface.close();
