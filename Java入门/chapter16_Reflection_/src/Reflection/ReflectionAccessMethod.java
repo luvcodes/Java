@@ -5,9 +5,8 @@ import java.lang.reflect.Method;
 
 public class ReflectionAccessMethod {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException, InvocationTargetException {
-
         //1. 得到Boss类对应的Class对象
-        Class<?> bossCls = Class.forName("com.hspedu.reflection.Boss");
+        Class<?> bossCls = Class.forName("Reflection.Boss");
         //2. 创建对象
         Object o = bossCls.newInstance();
         //3. 调用public的hi方法

@@ -1,6 +1,6 @@
 package Reflection.class_;
 
-import PhaseThree.Reflection.Car;
+import Reflection.Car;
 
 /**
  * 演示得到Class对象的各种方式(6)
@@ -8,7 +8,7 @@ import PhaseThree.Reflection.Car;
 public class GetClass_ {
     public static void main(String[] args) throws ClassNotFoundException {
         //1. Class.forName
-        String classAllPath = "PhaseThree.Reflection.Car"; //通过读取配置文件获取
+        String classAllPath = "Reflection.Car"; //通过读取配置文件获取
         Class<?> cls1 = Class.forName(classAllPath);
         System.out.println(cls1);
 
@@ -49,9 +49,5 @@ public class GetClass_ {
 
         System.out.println(integerClass.hashCode());//?
         System.out.println(type1.hashCode());//?
-
-
-
-
     }
 }

@@ -1,17 +1,16 @@
 package Reflection.class_;
 
-import PhaseThree.Reflection.Car;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import Reflection.Car;
 
 /**
  * 演示Class类的常用方法
  */
 public class Class02 {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchFieldException, NoSuchMethodException, InvocationTargetException {
-        String classAllPath = "PhaseThree.Reflection.Car";
+        String classAllPath = "Reflection.Car";
         //1 . 获取到Car类 对应的 Class对象
         //<?> 表示不确定的Java类型
         Class<?> cls = Class.forName(classAllPath);
@@ -51,7 +50,5 @@ public class Class02 {
         for (Field f : fields) {
             System.out.println(f.getName());//名称
         }
-
-
     }
 }

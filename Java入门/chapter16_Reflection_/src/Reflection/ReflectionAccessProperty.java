@@ -6,7 +6,7 @@ public class ReflectionAccessProperty {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchFieldException {
 
         //1. 得到Student类对应的 Class对象
-        Class<?> stuClass = Class.forName("PhaseThree.Reflection.Student");
+        Class<?> stuClass = Class.forName("Reflection.Student");
         //2. 创建对象
         Object o = stuClass.newInstance();//o 的运行类型就是Student
         System.out.println(o.getClass());//Student

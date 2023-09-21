@@ -4,10 +4,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 public class Homework02 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         /**
@@ -34,6 +30,5 @@ public class Homework02 {
         //file的运行类型就是File
         System.out.println(file.getClass());
         System.out.println("创建文件成功" + fileAllPath);
-
     }
 }

@@ -26,7 +26,7 @@ public class Reflection02 {
 
     //反射机制调用方法hi
     public static void m2() throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, InvocationTargetException {
-        Class<?> cls = Class.forName("PhaseThree.Reflection.Cat");
+        Class<?> cls = Class.forName("Reflection.Cat");
         Object o = cls.newInstance();
         Method hi = cls.getMethod("hi");
         long start = System.currentTimeMillis();
@@ -41,7 +41,7 @@ public class Reflection02 {
     //反射调用优化 + 关闭访问检查
     public static void m3() throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
-        Class cls = Class.forName("PhaseThree.Reflection.Cat");
+        Class cls = Class.forName("Reflection.Cat");
         Object o = cls.newInstance();
         Method hi = cls.getMethod("hi");
         hi.setAccessible(true);//在反射调用方法时，取消访问检查
@@ -52,5 +52,4 @@ public class Reflection02 {
         long end = System.currentTimeMillis();
         System.out.println("m3() 耗时=" + (end - start));
     }
-
 }

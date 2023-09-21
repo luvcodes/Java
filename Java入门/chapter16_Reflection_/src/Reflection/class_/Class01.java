@@ -23,16 +23,14 @@ public class Class01 {
                 return loadClass(name, false);
             }
          */
-        Class cls1 = Class.forName("com.hspedu.Cat");
+        Class cls1 = Class.forName("Reflection.Cat");
 
         //3. 对于某个类的Class类对象，在内存中只有一份，因为类只加载一次
-        Class cls2 = Class.forName("com.hspedu.Cat");
+        Class cls2 = Class.forName("Reflection.Cat");
         System.out.println(cls1.hashCode());
         System.out.println(cls2.hashCode());
-        Class cls3 = Class.forName("com.hspedu.Dog");
+
+        Class cls3 = Class.forName("Reflection.Dog");
         System.out.println(cls3.hashCode());
-
-        
-
     }
 }
