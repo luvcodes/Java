@@ -38,7 +38,7 @@ public class ReflectionQuestion {
         /**
          * (3) 通过aClass 得到你加载的类 Reflection.Cat的 methodName 的方法对象
          *          即: 在反射中，可以把方法视为对象(万物皆对象)
-         *     这里不能直接使用 Cat cat = (Cat) o; cat.hi(); 因为应该是从配置文件里读取方法，而不是直接强转再调用方法。
+         *     这里不能直接使用 Cat cat = (Cat) o; cat. hi(); 因为应该是从配置文件里读取方法，而不是直接强转再调用方法。
          *     如果mysql配置文件里写的不是hi方法，那么就会形成错误了。
          *
          *     查找这个类中名为 methodName 的方法。

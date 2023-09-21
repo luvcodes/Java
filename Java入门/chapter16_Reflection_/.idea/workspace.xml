@@ -32,11 +32,12 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter16_Reflection_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/MavenWeb_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -117,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691557512683</updated>
       <workItem from="1691557514791" duration="44000" />
-      <workItem from="1695270284805" duration="1821000" />
+      <workItem from="1695270284805" duration="2454000" />
     </task>
     <servers />
   </component>
