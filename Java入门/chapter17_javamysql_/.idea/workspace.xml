@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfb4bee1-057b-4ec5-be4b-97ce4a8b8f4f" name="Changes" comment="MySQL中的存储过程">
-      <change afterPath="$PROJECT_DIR$/../../JavaWeb02/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis-demo04/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
