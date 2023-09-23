@@ -3,7 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.mapper.BrandMapper">
-
     <!--
         数据库表的字段名称 和 实体类的属性名称 不一样，则不能自动封装数据
             (1) 起别名: 对不一样的列名起别名，让别名和实体类的属性名一样
@@ -13,7 +12,6 @@
             (2) resultMap:
                 1. 定义resultMap标签
                 2. 在<select>标签中，使用resultMap属性替换 resultType属性
-
     -->
 
     <!-- id唯一标识。type指定映射的类型，支持别名-->
@@ -30,30 +28,37 @@
         <result column="company_name" property="companyName" />
     </resultMap>
 
-        <select id="selectAll" resultMap="brandResultMap">
-            select
-                *
-            from tb_brand;
-        </select>
-
+    <select id="selectAll" resultMap="brandResultMap">
+        select *
+        from tb_brand;
+    </select>
 
 
     <!--
-        sql片段
-    -->
-<!--    <sql id="brand_column">-->
-<!--        select id, brand_name AS brandName, company_name AS companyName, ordered, description, status-->
-<!--    </sql>-->
+    参数占位符
+        1. #{}: 会将其替换为 ?. 为了防止SQL注入
+        2. ${}: 拼sql，会存在sql注入问题
+        3. 使用时机:
+            参数传递的时候: #{}
+            表名或者列名不固定的情况下: ${} 会存在sql注入问题
+    设置参数类型: parameterType可以省略
 
-<!--    <select id="selectAll" resultType="brand">-->
-<!--        select-->
-<!--            <include refid="brand_column" />-->
-<!--        from tb_brand;-->
+     -->
+<!--    <select id="selectById" parameterType="int" resultMap="brandResultMap">-->
+<!--        select *-->
+<!--        from tb_brand where id = #{id};-->
 <!--    </select>-->
 
-
-
-    <!--    <select id="selectAll" resultType="brand">-->
-    <!--        select * from tb_brand;-->
-    <!--    </select>-->
+    <!--
+    特殊字符处理:
+        1. 转义字符
+        2. CDATA区
+    这里是因为会出现比如说在sql语句中想要使用小于号，但是在XML文件中小于号是标签的开头字符，需要转换语义
+    -->
+    <select id="selectById" parameterType="int" resultMap="brandResultMap">
+        select *
+        from tb_brand where id
+        <![CDATA[<]]>
+        #{id};
+    </select>
 </mapper>
