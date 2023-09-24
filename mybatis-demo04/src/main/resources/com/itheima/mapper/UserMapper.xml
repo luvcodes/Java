@@ -12,4 +12,22 @@
         select * from tb_user where id = #{id};
     </select>
 
+
+    <!-- 演示mybatis中的参数传递 -->
+    <!-- 这第一种是在UserMapper中起了@Param别名才可以这样使用，否则就是下面的两种默认参数 -->
+    <select id="select" resultType="user">
+        select * from tb_user
+        where username = #{username} and password = #{password};
+    </select>
+
+<!--    <select id="select" resultType="user">-->
+<!--        select * from tb_user-->
+<!--        where username = #{arg0} and password = #{arg1};-->
+<!--    </select>-->
+
+<!--    <select id="select" resultType="user">-->
+<!--        select * from tb_user-->
+<!--        where username = #{param1} and password = #{param2};-->
+<!--    </select>-->
+
 </mapper>

@@ -1,6 +1,7 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -10,4 +11,15 @@ public interface UserMapper {
     List<User> selectAll();
 
     User selectById(int id);
+
+    /**
+     * MyBatis参数传递:
+     *  单个参数:
+     *
+     *
+     *  多个参数:
+     *
+     *
+     * */
+    User select(@Param("username") String username, @Param("password") String password);
 }

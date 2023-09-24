@@ -32,7 +32,7 @@ public class MyBatisTest {
         List<Brand> brands = brandMapper.selectAll();
         System.out.println(brands);
 
-        // 4. 释放资源
+        // 5. 释放资源
         sqlSession.close();
     }
 
