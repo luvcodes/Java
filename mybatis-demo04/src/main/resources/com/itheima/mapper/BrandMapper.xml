@@ -44,6 +44,8 @@
         <result column="company_name" property="companyName" />
     </resultMap>
 
+
+
     <select id="selectAll" resultMap="brandResultMap">
         select *
         from tb_brand;
@@ -87,6 +89,7 @@
 <!--        and company_name like #{companyName}-->
 <!--        and brand_name like #{brandName}-->
 <!--    </select>-->
+
 
     <!-- 上面这样写条件查询有些情况无法满足，用户可能会输入一部分条件。SQL语句应该动态变化 -->
     <!-- 动态多条件查询 -->
@@ -154,4 +157,78 @@
             </choose>
         </where>
     </select>
+
+    <!-- 向数据库中添加数据 -->
+<!--    <insert id="add">-->
+<!--        insert into tb_brand (brand_name, company_name, ordered, description, status)-->
+<!--        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});-->
+<!--    </insert>-->
+
+    <!-- useGeneratedKeys="true" keyProperty="id" 这是可以让测试文件返回添加数据的主键 -->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_brand (brand_name, company_name, ordered, description, status)
+        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+
+    <!-- 修改字段 -->
+    <!-- 但是这样有一种情况就是只能修改所有的字段，否则没有修改的字段就会被设置成null -->
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--            brand_name = #{brandName},-->
+<!--            company_name = #{companyName},-->
+<!--            ordered = #{ordered},-->
+<!--            description = #{description},-->
+<!--            status = #{status}-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+    <!-- 修改动态字段 -->
+    <!-- 这样写有几个问题: 1. 如果status是null，那么就会导致description是最后一个，后面跟着的逗号是一个语法问题 -->
+    <!-- 2. 一旦每一个字段都没有值的话，就会造成set  where id = #{id} -->
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--        <if test="brandName != null and brandName != ''">-->
+<!--            brand_name = #{brandName},-->
+<!--        </if>-->
+<!--        <if test="companyName != null and companyName != ''">-->
+<!--            company_name = #{companyName},-->
+<!--        </if>-->
+<!--        <if test="brandName != null">-->
+<!--            ordered = #{ordered},-->
+<!--        </if>-->
+<!--        <if test="description != null and description != ''">-->
+<!--            description = #{description},-->
+<!--        </if>-->
+<!--        <if test="status != null">-->
+<!--            status = #{status}-->
+<!--        </if>-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+
+    <!-- 解决上面的第二个问题 -->
+    <update id="update">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="brandName != null">
+                ordered = #{ordered},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
+        where id = #{id};
+    </update>
 </mapper>

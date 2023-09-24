@@ -44,6 +44,8 @@
         <result column="company_name" property="companyName" />
     </resultMap>
 
+
+
     <select id="selectAll" resultMap="brandResultMap">
         select *
         from tb_brand;
@@ -115,23 +117,67 @@
     
     <!-- 单条件的动态条件查询 -->
     <!-- 出现一种情况就是只查询单个条件，下面就是来体现这种方法的 -->
+    <!-- 还有一种情况就是如果用户一个都不选，直接搜索，可以使用otherwise标签 -->
+<!--    <select id="selectByConditionSingle" resultMap="brandResultMap">-->
+<!--        select * -->
+<!--        from tb_brand-->
+<!--        where-->
+<!--        <choose>-->
+<!--            <when test="status != null">-->
+<!--                status = #{status}-->
+<!--            </when>-->
+<!--            <when test="companyName != null and companyName != ''">-->
+<!--                company_name like #{companyName}-->
+<!--            </when>-->
+<!--            <when test="brandName != null and brandName != ''">-->
+<!--                brand_name like #{brandName}-->
+<!--            </when>-->
+<!--            <otherwise>-->
+<!--                1 = 1-->
+<!--            </otherwise>-->
+<!--        </choose>-->
+<!--    </select>-->
+
+    <!-- 还有一种情况就是如果用户一个都不选，直接搜索，可以使用otherwise标签。在这里是用的where标签来代替otherwise -->
     <select id="selectByConditionSingle" resultMap="brandResultMap">
-        select * 
+        select *
         from tb_brand
-        where
-        <choose>
-            <when test="status != null">
-                status = #{status}
-            </when>
-            <when test="companyName != null and companyName != ''">
-                company_name like #{companyName}
-            </when>
-            <when test="brandName != null and brandName != ''">
-                brand_name like #{brandName}
-            </when>
-            <otherwise>
-                1 = 1
-            </otherwise>
-        </choose>
+        <where>
+            <choose>
+                <when test="status != null">
+                    status = #{status}
+                </when>
+                <when test="companyName != null and companyName != ''">
+                    company_name like #{companyName}
+                </when>
+                <when test="brandName != null and brandName != ''">
+                    brand_name like #{brandName}
+                </when>
+            </choose>
+        </where>
     </select>
+
+    <!-- 向数据库中添加数据 -->
+<!--    <insert id="add">-->
+<!--        insert into tb_brand (brand_name, company_name, ordered, description, status)-->
+<!--        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});-->
+<!--    </insert>-->
+
+    <!-- useGeneratedKeys="true" keyProperty="id" 这是可以让测试文件返回添加数据的主键 -->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_brand (brand_name, company_name, ordered, description, status)
+        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+
+    <update id="update">
+        update tb_brand
+        set
+            brand_name = #{brandName},
+            company_name = #{companyName},
+            ordered = #{ordered},
+            description = #{description},
+            status = #{status}
+        where id = #{id};
+    </update>
 </mapper>
