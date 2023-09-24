@@ -102,11 +102,7 @@ public class MyBatisTest {
 //        System.out.println(brands);
 
 
-
-
-        /**
-         * SQL语句设置多个参数3种方式
-         * */
+        // 动态多条件查询
 //        List<Brand> brands = brandMapper.selectByCondition(status, companyName, brandName);
 //        System.out.println(brands);
 
@@ -116,7 +112,43 @@ public class MyBatisTest {
         List<Brand> brands = brandMapper.selectByCondition(map);
         System.out.println(brands);
 
-        // 4. 释放资源
+        // 5. 释放资源
+        sqlSession.close();
+    }
+
+    @Test
+    public void testSelectByConditionSingle() throws IOException {
+        // 接收参数
+        int status = 1;
+        String companyName = "华为";
+        String brandName = "华为";
+
+        // 处理参数，加上百分号是因为SQL语句中的是模糊查询，所以要在关键字前后加上%
+        companyName = "%" + companyName + "%";
+        brandName = "%" + brandName + "%";
+
+        // 封装对象
+        Brand brand = new Brand();
+//        brand.setStatus(status);
+//        brand.setCompanyName(companyName);
+//        brand.setBrandName(brandName);
+
+        // 1. 获取SqlSessionFactory
+        String resource = "mybatis-config.xml";
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+        // 2. 获取SqlSession对象
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        // 3. 获取Mapper接口的代理对象
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+        // 4. 执行方法
+        List<Brand> brands = brandMapper.selectByConditionSingle(brand);
+        System.out.println(brands);
+
+        // 5. 释放资源
         sqlSession.close();
     }
 }

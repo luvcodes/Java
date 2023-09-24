@@ -89,7 +89,7 @@
 <!--    </select>-->
 
     <!-- 上面这样写条件查询有些情况无法满足，用户可能会输入一部分条件。SQL语句应该动态变化 -->
-    <!-- 动态条件查询 -->
+    <!-- 动态多条件查询 -->
     <!-- if: 条件判断
             test: 逻辑表达式 -->
     <!-- 这里有一个很有意思的小技巧，就是where后面的1 = 1，这样写的原因就是在于，因为and是放在sql语句中的首位，
@@ -110,6 +110,48 @@
             <if test="brandName != null and brandName != ''">
                 and brand_name like #{brandName}
             </if>
+        </where>
+    </select>
+    
+    <!-- 单条件的动态条件查询 -->
+    <!-- 出现一种情况就是只查询单个条件，下面就是来体现这种方法的 -->
+    <!-- 还有一种情况就是如果用户一个都不选，直接搜索，可以使用otherwise标签 -->
+<!--    <select id="selectByConditionSingle" resultMap="brandResultMap">-->
+<!--        select * -->
+<!--        from tb_brand-->
+<!--        where-->
+<!--        <choose>-->
+<!--            <when test="status != null">-->
+<!--                status = #{status}-->
+<!--            </when>-->
+<!--            <when test="companyName != null and companyName != ''">-->
+<!--                company_name like #{companyName}-->
+<!--            </when>-->
+<!--            <when test="brandName != null and brandName != ''">-->
+<!--                brand_name like #{brandName}-->
+<!--            </when>-->
+<!--            <otherwise>-->
+<!--                1 = 1-->
+<!--            </otherwise>-->
+<!--        </choose>-->
+<!--    </select>-->
+
+    <!-- 还有一种情况就是如果用户一个都不选，直接搜索，可以使用otherwise标签。在这里是用的where标签来代替otherwise -->
+    <select id="selectByConditionSingle" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        <where>
+            <choose>
+                <when test="status != null">
+                    status = #{status}
+                </when>
+                <when test="companyName != null and companyName != ''">
+                    company_name like #{companyName}
+                </when>
+                <when test="brandName != null and brandName != ''">
+                    brand_name like #{brandName}
+                </when>
+            </choose>
         </where>
     </select>
 </mapper>
