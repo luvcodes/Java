@@ -90,6 +90,7 @@
 <!--        and brand_name like #{brandName}-->
 <!--    </select>-->
 
+
     <!-- 上面这样写条件查询有些情况无法满足，用户可能会输入一部分条件。SQL语句应该动态变化 -->
     <!-- 动态多条件查询 -->
     <!-- if: 条件判断
@@ -170,14 +171,82 @@
     </insert>
 
 
+    <!-- 修改字段 -->
+    <!-- 但是这样有一种情况就是只能修改所有的字段，否则没有修改的字段就会被设置成null -->
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--            brand_name = #{brandName},-->
+<!--            company_name = #{companyName},-->
+<!--            ordered = #{ordered},-->
+<!--            description = #{description},-->
+<!--            status = #{status}-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+    <!-- 修改动态字段 -->
+    <!-- 这样写有几个问题: 1. 如果status是null，那么就会导致description是最后一个，后面跟着的逗号是一个语法问题 -->
+    <!-- 2. 一旦每一个字段都没有值的话，就会造成set  where id = #{id} -->
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--        <if test="brandName != null and brandName != ''">-->
+<!--            brand_name = #{brandName},-->
+<!--        </if>-->
+<!--        <if test="companyName != null and companyName != ''">-->
+<!--            company_name = #{companyName},-->
+<!--        </if>-->
+<!--        <if test="brandName != null">-->
+<!--            ordered = #{ordered},-->
+<!--        </if>-->
+<!--        <if test="description != null and description != ''">-->
+<!--            description = #{description},-->
+<!--        </if>-->
+<!--        <if test="status != null">-->
+<!--            status = #{status}-->
+<!--        </if>-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+
+    <!-- 解决上面的第二个问题 -->
     <update id="update">
         update tb_brand
-        set
-            brand_name = #{brandName},
-            company_name = #{companyName},
-            ordered = #{ordered},
-            description = #{description},
-            status = #{status}
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="brandName != null">
+                ordered = #{ordered},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
         where id = #{id};
     </update>
+
+    <!-- 删除单条 -->
+    <delete id="deleteById">
+        delete from tb_brand where id = #{id};
+    </delete>
+
+    <!-- 批量删除 -->
+    <!-- foreach中的collection部份不能直接写ids，因为mybatis会将数组参数封装为一个Map集合 -->
+    <!-- 默认情况下key-value对应的是array-数组，也就是说array作为key的名，不能变，value就是实际的数组参数 -->
+    <!-- 或者，如果就是想要改这个key的默认的array名字，可以在数组参数写@Param注解 -->
+    <delete id="deleteByIds">
+        delete from tb_brand where id
+        in (
+            <foreach collection="ids" item="id" separator=",">
+                #{id}
+            </foreach>
+            );
+    </delete>
 </mapper>

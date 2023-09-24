@@ -231,4 +231,25 @@
         </set>
         where id = #{id};
     </update>
+
+    <!-- 删除单条 -->
+    <delete id="deleteById">
+        delete from tb_brand where id = #{id};
+    </delete>
+
+    <!-- 批量删除 -->
+    <!-- foreach中的collection部份不能直接写ids，因为mybatis会将数组参数封装为一个Map集合 -->
+    <!-- 默认情况下key-value对应的是array-数组，也就是说array作为key的名，不能变，value就是实际的数组参数 -->
+    <!-- 或者，如果就是想要改这个key的默认的array名字，可以在数组参数写@Param注解 -->
+
+    <!-- 这里还有一个细节就是separator的使用，因为如果没有separator的话，foreach所传入的数组参数有可能是包含很多个id的 -->
+    <!-- 这很多个id实际上应该是在原始的sql语句中用逗号隔开的，因此这里引入separator来实现这一点 -->
+    <delete id="deleteByIds">
+        delete from tb_brand where id
+        in
+            <foreach collection="ids" item="id" separator="," open="(" close=")">
+                #{id}
+            </foreach>
+            ;
+    </delete>
 </mapper>
