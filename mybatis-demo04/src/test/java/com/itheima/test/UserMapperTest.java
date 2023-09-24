@@ -37,4 +37,25 @@ public class UserMapperTest {
         // 5. 释放资源
         sqlSession.close();
     }
+
+    @Test
+    public void testUserSelectAnnotation() throws IOException {
+        // 1. 获取SqlSessionFactory
+        String resource = "mybatis-config.xml";
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+        // 2. 获取SqlSession对象
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        // 3. 获取Mapper接口的代理对象
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+
+        // 4. 执行方法
+        User user = userMapper.selectByIdAnnotation(1);
+        System.out.println(user);
+
+        // 5. 释放资源
+        sqlSession.close();
+    }
 }

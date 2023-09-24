@@ -20,7 +20,8 @@
         where username = #{username} and password = #{password};
     </select>
 
-<!--    <select id="select" resultType="user">-->
+
+    <!--    <select id="select" resultType="user">-->
 <!--        select * from tb_user-->
 <!--        where username = #{arg0} and password = #{arg1};-->
 <!--    </select>-->
