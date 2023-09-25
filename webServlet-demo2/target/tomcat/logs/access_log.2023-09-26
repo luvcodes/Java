@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:40 +1000] "GET /webServlet-demo2 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:40 +1000] "GET /webServlet-demo2 HTTP/1.1" 302 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:40 +1000] "GET /webServlet-demo2/ HTTP/1.1" 200 57 http-bio-8080-exec-4 30
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:40 +1000] "GET /webServlet-demo2/ HTTP/1.1" 200 57 http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:46 +1000] "GET /webServlet-demo2/demo3 HTTP/1.1" 200 - http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:22:58 +1000] "GET /webServlet-demo2/demo3 HTTP/1.1" 200 - http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:31:57 +1000] "GET /webServlet-demo2/demo3 HTTP/1.1" 200 - http-bio-8080-exec-1 32
