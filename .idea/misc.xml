@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -8,6 +7,9 @@
         <option value="$PROJECT_DIR$/mybatis-demo02/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo03/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo04/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/webServlet-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/webServlet-demo2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
