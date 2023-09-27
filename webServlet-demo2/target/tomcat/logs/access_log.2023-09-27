@@ -28,3 +28,5 @@
 0:0:0:0:0:0:0:1 - - [27/Sep/2023:10:46:52 +1000] "GET /webServlet-demo2/asdf/asdf HTTP/1.1" 200 - http-bio-8080-exec-2 1
 0:0:0:0:0:0:0:1 - - [27/Sep/2023:10:55:24 +1000] "GET /webServlet-demo2 HTTP/1.1" 200 - http-bio-8080-exec-1 28
 0:0:0:0:0:0:0:1 - - [27/Sep/2023:10:55:28 +1000] "GET /webServlet-demo2/demo13 HTTP/1.1" 200 - http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1 - - [27/Sep/2023:17:38:43 +1000] "GET /webServlet-demo2 HTTP/1.1" 200 - http-bio-8080-exec-1 34
+0:0:0:0:0:0:0:1 - - [27/Sep/2023:17:39:20 +1000] "GET /webServlet-demo2/req1?username=zhangsan&password=123 HTTP/1.1" 200 - http-bio-8080-exec-2 2
