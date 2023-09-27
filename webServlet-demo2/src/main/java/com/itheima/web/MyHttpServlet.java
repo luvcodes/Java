@@ -20,7 +20,6 @@ public class MyHttpServlet implements Servlet {
         // 根据请求方式的不同，进行分别的处理
         HttpServletRequest request = (HttpServletRequest) servletRequest;
 
-
         // 1. 获取请求方式
         String method = request.getMethod();
         // 2. 判断
@@ -31,7 +30,6 @@ public class MyHttpServlet implements Servlet {
         } else if ("POST".equals(method)) {
             // POST方式的处理逻辑
             doPost(request, servletResponse);
-
         }
     }
 
