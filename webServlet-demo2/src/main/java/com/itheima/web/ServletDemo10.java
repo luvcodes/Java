@@ -13,15 +13,15 @@ import java.io.IOException;
  *  扩展名匹配
  * */
 
-@WebServlet(urlPatterns = "*.do")
-public class ServletDemo10 extends HttpServlet {
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("demo10 get...");
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-    }
-}
+//@WebServlet(urlPatterns = "*.do")
+//public class ServletDemo10 extends HttpServlet {
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        System.out.println("demo10 get...");
+//    }
+//
+//    @Override
+//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//
+//    }
+//}
