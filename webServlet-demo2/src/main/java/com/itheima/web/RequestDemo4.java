@@ -6,7 +6,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 
 /**
  * 中文乱码问题解决
@@ -17,7 +16,7 @@ import java.nio.charset.StandardCharsets;
  * 现在Tomcat8之后，已经将GET请求乱码问题解决，设置默认的解码方式为UTF-8
  * */
 @WebServlet("/req3")
-public class RequestDemo3 extends HttpServlet {
+public class RequestDemo4 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 1. 解决乱码: POST, 通过getReader() 字符输入流的方式来获取数据

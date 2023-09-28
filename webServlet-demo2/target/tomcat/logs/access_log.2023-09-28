@@ -36,3 +36,7 @@
 0:0:0:0:0:0:0:1 - - [28/Sep/2023:11:52:34 +1000] "GET /webServlet-demo2/req3.hml HTTP/1.1" 404 1001 http-bio-8080-exec-3 2
 0:0:0:0:0:0:0:1 - - [28/Sep/2023:11:52:48 +1000] "GET /webServlet-demo2/req3.html HTTP/1.1" 304 - http-bio-8080-exec-4 6
 0:0:0:0:0:0:0:1 - - [28/Sep/2023:11:52:51 +1000] "GET /webServlet-demo2/req3?username=%E6%B0%B4%E4%B9%8B%E9%92%9F%E4%B9%9F&password= HTTP/1.1" 200 - http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [28/Sep/2023:12:12:26 +1000] "GET /webServlet-demo2 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Sep/2023:12:12:26 +1000] "GET /webServlet-demo2/ HTTP/1.1" 404 985 http-bio-8080-exec-2 16
+0:0:0:0:0:0:0:1 - - [28/Sep/2023:12:12:32 +1000] "GET /webServlet-demo2/req3.html HTTP/1.1" 304 - http-bio-8080-exec-3 8
+0:0:0:0:0:0:0:1 - - [28/Sep/2023:12:12:35 +1000] "GET /webServlet-demo2/req3?username=%E6%B0%B4%E4%B9%8B%E9%92%9F%E4%B9%9F&password= HTTP/1.1" 200 - http-bio-8080-exec-4 2
