@@ -15,7 +15,7 @@ import java.io.IOException;
  * </p>
  * 现在Tomcat8之后，已经将GET请求乱码问题解决，设置默认的解码方式为UTF-8
  * */
-@WebServlet("/req3")
+@WebServlet("/req4")
 public class RequestDemo4 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
