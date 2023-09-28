@@ -1,0 +1,15 @@
+
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ñ±ºÄûÿÿÿÿ8šêÆÒ­1
+s
+java:S1989"VHandle the following exception that could be thrown by "getOutputStream": IOException.(ñø€‰8žêÆÒ­1
+m
+java:S1989&"KHandle the following exception that could be thrown by "copy": IOException.(¢É‡§úÿÿÿÿ8žêÆÒ­1
+]	java:S125"<This block of commented-out lines of code should be removed.(‡Ò½˜øÿÿÿÿ8žêÆÒ­1
+]	java:S125#"<This block of commented-out lines of code should be removed.(Ð‘°üÿÿÿÿ8Ø™ÈÒ­1
+n
+java:S1989("LHandle the following exception that could be thrown by "close": IOException.(Ûû¼­øÿÿÿÿ8žêÆÒ­1
+|
+java:S1989-"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû8ŸêÆÒ­1
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8ŸêÆÒ­1

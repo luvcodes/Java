@@ -1,0 +1,12 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(£·®
+E	java:S106"+Replace this use of System.out by a logger.(Û¦ù²ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(á»‰ªùÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(°Ÿ÷a
+@	java:S106"+Replace this use of System.out by a logger.(îõë§
+?	java:S106""+Replace this use of System.out by a logger.(ì«”x
+f
+java:S1989)"PHandle the following exception that could be thrown by "getReader": IOException.(–Ä®
+e
+java:S1989+"OHandle the following exception that could be thrown by "readLine": IOException.(î€
+E	java:S106,"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ

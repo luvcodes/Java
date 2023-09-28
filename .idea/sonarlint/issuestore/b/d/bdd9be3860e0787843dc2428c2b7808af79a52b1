@@ -1,0 +1,9 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(›·ππ8”Ω÷Ã≠1
+L	java:S106"+Replace this use of System.out by a logger.(ä⁄á™¸ˇˇˇˇ8‘Ω÷Ã≠1
+[
+java:S4719">Replace charset name argument with StandardCharsets.ISO_8859_1(Ü“√ù8‘Ω÷Ã≠1
+]	java:S125"<This block of commented-out lines of code should be removed.(≈Ÿ…∞˙ˇˇˇˇ8Ö¨ÿÃ≠1
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¢ôÄ≠˘ˇˇˇˇ8◊Ω÷Ã≠1
+G	java:S106"+Replace this use of System.out by a logger.(±§™π8∫∂◊Ã≠1

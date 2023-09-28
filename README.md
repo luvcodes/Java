@@ -4,178 +4,13 @@
 
 ### 变量
 
-- 变量: 变量三要素：变量名，值，数据类型
-
-- 数据类型转换
-
-  - AutoConvert - Java里的自动类型转换
-
-  - ChangeChar - Java里的数据类型转换
-
 ### 程序控制结构
-
-- For loop - for循环的使用
-- ForceConvert - Java里的强制类型转换
-- If - if语句
-- Input - 接收用户输入
-- TernaryOperator - 三元运算符
 
 ### 数组、排序和查找
 
-- Array - 数组的应用
-- Recursion - 递归算法
-- Search - 检索算法
-- Sorting - 排序算法
-
 ### 面向对象基础
 
-- 类与对象
-- 成员方法、成员方法传参机制
-- Recursion - 方法递归调用
-- Overload - 方法重载
-  - Java允许同一个类中，多个同名方法的存在，但要求形参列表不一致(形参类型或个数或顺序，至少有一样不同，参数名无要求)
-
-- This keyword - this关键字
-
 ### 面向对象中级
-
-- Modifiers - 访问修饰符
-
-- **Encapsulation - 封装**
-  
-  - 在Java中，封装通过访问控制修饰符（public、private、protected和default）来实现
-  - 使用封装的原则是尽量将类的成员变量声明为私有，并提供公共方法来访问和修改这些私有变量
-
-- **Inheritance - 继承**，`this();`和`super()`的使用是继承的重点部份。
-  
-  - `this()`的使用主要是针对class本体内的执行，
-      用来指向其他的构造器。例如，在无参构造器里写`this('hello')`, 这种情况下就指向了同一个类里的有参构造器，将hello看作一个string
-      传入另一个有参构造器来作为一个参数，再继续执行有参构造器函数体内的代码。
-      而`super()`的使用区分开两种情况：
-        1. 如果`super()`不传参，那么默认就会直接调用父类的无参构造器
-        2. 如果`super()`里有参数，那么就会调用对应的父类的有参构造器，对应指的是，参数的类型、数量、顺序全都匹配。
-  - 重点：`this()`和`super()`都只能在构造器内进行使用，并且必须都放置在构造器的**第一行**。因此这两个方法*
-      *不可能同时存在在同一个构造器内**。
-  - 详见Inheritance包，`this()`和`super()`的区别示例，见`ExtendsExercise01.php`和`ExtendsExercise02.php`这两个练习。
-
-- Super() - super()在继承中的使用 / `Super()`和`this`
-  的对比: <https://github.com/luvcodes/Java/issues/1#issue-1460958750>
-  
-- Override - 方法重写
-  
-- **Polymorphic - 多态** `属性看编译类型，方法看运行类型`，`等号左边是编译类型，等号右边是运行类型`
-  
-  - 对比重载(Overload)和重写(Override):
-
-    - 方法重载(Overload)是指在同一个类中定义多个名称相同但参数列表不同的方法。在方法重载中，方法的名称相同，但参数不同，参数的类型、数量或两者都可能不同。编译器会根据方法调用时提供的参数来决定调用哪种重载方法。方法重载发生在编译时（静态多态）
-
-        ```java
-        class MathUtils {
-            int add(int a, int b) {
-                return a + b;
-            }
-            
-            double add(double a, double b) {
-                return a + b;
-            }
-        }
-        ```
-
-    - 方法重写(Override)是指在子类中为父类（超类）中已定义的方法提供新的实现。在方法覆盖中，子类和超类中的方法名称和参数列表必须相同。当使用子类对象调用重载方法时，执行的是子类中的重载方法，而不是超类中的方法。方法重写发生在运行时（动态多态性）
-
-        ```java
-        class Animal {
-            void makeSound() {
-                System.out.println("Animal makes a sound");
-            }
-        }
-        
-        class Dog extends Animal {
-            @Override
-            void makeSound() {
-                System.out.println("Dog barks");
-            }
-        }
-        ```
-
-    1. 一个对象的编译类型和运行类型可以不一致: 等号左边是编译类型，等号右边是运行类型
-       1. 可以让父类的一个引用，指向子类的一个对象: `Animal animal = new Dog();` animal的编译类型是Animal，运行类型是Dog
-    2. 编译类型在定义对象时，就确定了，不能改变
-    3. 运行类型是可以变化的
-    4. 编译类型看定义时 = 号的左边，运行类型看 = 号的右边
-
-#### 向上转型与向下转型: <https://juejin.cn/post/6993341672755036173>
-
-##### 向上转型
-
-- 本质: 父类的引用指向子类对象
-- 语法: 父类类型 引用名 = new 子类类型()
-- 特点: 编译类型看左边，运行类型看右边
-  - 可以调用父类中的所有成员(需遵守访问权限)
-  - 不能调用子类中特有成员
-  - 最终运行效果看子类的具体表现
-
-##### 向下转型
-
-- 语法: 子类类型 引用名 = (子类类型) 父类引用
-- 只能强转父类的引用，不能强转父类的对象
-- 要求父类的引用必须指向的是当前目标类型的对象
-- 当向下转型后，可以调用子类类型中所有的成员
-
-##### `InstanceOf`关键字
-
-- 用于判断对象的类型是否为XX类型或XX类型的子类型
-
-#### 多态的重点：动态绑定机制
-
-- 多态数组
-
-- 多态参数
-
-- equals方法：
-  
-    ```java
-    // equals方法的源码
-    public boolean equals(Object obj) {
-      return (this == obj);
-    }
-    ```
-
-  - ==和equals的对比
-
-    - ==是一个比较运算符
-    - 既可以判断基本类型，也可以判断引用类型
-      - 如果判断基本类型，判断的是值是否相等。示例：int i = 10; double d = 10.0;
-      - 如果**判断引用类型**，**判断的是地址是否相等**，**即判断是不是同一个对象**。
-    - equals 本质上就是 ==
-
-  - **Object类中的方法，只能判断引用类型**
-
-  - == 对于基本类型来说是值比较，对于引用类型来说是比较的是引用；而 equals 默认情况下是引用比较，只是很多类重写了 equals 方法，比如 String、Integer 等把它变成了值比较，所以一般情况下 equals 比较的是值是否相等。<https://juejin.cn/post/6844903790089338887>
-
-        ```java
-        class Cat {
-            public Cat(String name) {
-                this.name = name;
-            }
-            private String name;
-            public String getName() {
-                return name;
-            }
-            public void setName(String name) {
-                this.name = name;
-            }
-        }
-        Cat c1 = new Cat("王磊");
-        Cat c2 = new Cat("王磊");
-        System.out.println(c1.equals(c2)); // false
-        ```
-
-#### HashCode
-
-- 两个引用，如果指向的是同一个对象，则哈希值一定是一样的
-- 两个引用，如果指向的是不同对象，则哈希值是不一样的
-- 哈希值主要根据地址号来的，不能完全将哈希值等价于地址
 
 ## 进入Beginner阶段
 
@@ -183,99 +18,17 @@
 
 #### 类变量 - static关键字
 
-1. **静态变量是被对象共享的**
-
-2. 不管static变量在哪里，共识:
-    - static变量是同一个类的所有对象共享
-    - static变量，在类加载的时候就生成了，所以即使没有创建对象实例也可以访问。
-      - 静态变量会在该类的任何静态方法执行之前就初始化
-      - 静态变量会在该类的任何对象创建之前就完成初始化
-
-3. 类变量与实例变量(普通属性)区别: 类变量是该类的所有对象共享的，而实例变量是每个对象独享的。
-
-4. 类方法: **口诀: 静态方法只能访问静态成员** 同时 **非静态方法可以访问静态成员和非静态成员**
-
-5. 如果是访问成员变量，编译的话就是看父类，运行同样是看父类。如果访问的方法，编译就看父类，运行则看子类。如果是静态方法，编译和运行都是看父类。
-
 #### 代码块 - 属于类中的成员，类似于方法
-
-1. 修饰符可选，要写的话，也只能写static
-2. 代码块分为两类，使用static修饰的叫静态代码块
 
 #### 设计模式
 
-- 单例模式 - 保证了内存中全局的唯一性，避免了对象实例的重复创建
-  - 饿汉式单例模式
-    - 步骤:
-            1. 将构造器私有化，因为私有的方法只能在本类调用
-            2. 在类的内部直接创建
-            3. 提供一个公共的static方法，返回gf对象
-  - 懒汉式单例模式
-    - 步骤
-            1. 构造器私有化
-            2. 定义一个static静态属性对象
-            3. 提供一个public的static方法，可以返回Cat对象
-            4. 懒汉式，只有当用户使用getInstance时，才返回cat对象，后面再次调用时，会返回上次创建的cat对象，从而保证了单例。
-
 #### Final关键字
-
-1. 不希望类不能被其他类继承
-2. 不希望父类的方法被子类继承
-3. 当不希望类的某个属性的值被修改，可以用final修饰
-4. 如果final修饰的属性是静态的，则初始化的位置只能是**定义时**, **在静态代码块**, 不能在构造器中赋值
-5. 一般来说，如果一个类已经是final类了，就没有必要再将方法修饰为final
-6. final不能修饰构造方法
-7. final和static往往搭配使用，效率更高，不会导致类加载
-8. 包装类(Integer, Double, Float, Boolean, String)是final类，不能被继承。
 
 #### 抽象类以及抽象方法 `abstract`
 
-- 抽象方法就是没有实现的方法。没有实现就是指没有方法体
-- 当一个类存在抽象方法时，需要将该方法所属的类定义成抽象类。但抽象类不一定要包含abstract方法，也就是说抽象类可以没有abstract方法，还可以有实现的方法
-- 一般来说，抽象类会被继承，由其子类来实现抽象方法。如果一个类继承了抽象类，则它必须实现抽象类的所有抽象方法，除非它自己也声明为abstract
-- 抽象类不能被实例化
-- abstract只能修饰类和方法，不能修饰属性和其他的
-
 #### 接口 Interface
 
-- 资料见: <https://www.runoob.com/java/java-interfaces.html>
-
-- 是一个抽象类型，是抽象方法的集合。一个类通过继承接口的方式，从而来继承接口的抽象方法。接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。
-
-- 接口无法被实例化，但是可以被实现。一个实现接口的类，必须实现接口内所描述的所有方法，否则就必须声明为抽象类。
-
-- 接口与类的区别：
-
-  - 接口不能用于实例化对象。
-  - 接口没有构造方法。
-  - 接口中所有的方法必须是抽象方法，Java 8 之后 接口中可以使用 default 关键字修饰的非抽象方法。
-  - 接口不能包含成员变量，除了 static 和 final 变量。
-  - **接口不是被类继承了，而是要被类实现**。
-  - **接口支持多继承**。
-
-- 接口特性
-
-  - 接口中每一个方法也是隐式抽象的,接口中的方法会被隐式的指定为 **public abstract**（只能是 public abstract，其他修饰符都会报错）。
-
-  - 接口中可以含有变量，但是接口中的变量会被隐式的指定为 **public static final** 变量（并且只能是 public，用 private 修饰会报编译错误）。
-
-  - 接**口中的方法是不能在接口中实现的，只能由实现接口的类来实现接口中的方法**。
-
 #### 内部类
-
-- 类的五大成员: 属性、方法、构造器、代码块、内部类
-- 四种内部类:
-  - 定义在外部类局部位置上(比如方法内)
-        1. 局部内部类 有类名
-        2. **匿名内部类** 没有类名 重点！！！！
-  - 定义在外部类的成员位置上(比如属性或方法上)
-        1. 成员内部类 没用static修饰
-        2. 静态内部类 使用static修饰
-- 记住:
-    1. 局部内部类定义在方法中/代码块
-    2. 作用域在方法体或代码块中
-    3. 本质仍然是一个类
-- 成员内部类、静态内部类 是放在外部类的成员位置，本质就是一个成员。
 
 #### 枚举 Enumeration
 
@@ -285,65 +38,7 @@
 
 ### 异常 - Exception
 
-1. 运行时异常: 程序运行时，发生的异常。编译器检测不出来。也就是javac.exe字节码文件转换为java.exe的过程中(
-   指向在内存中加载、运行类)出现的error
-2. 编译时异常: 编译时，编译器检查出的异常, 是**编译器要求必须处置的异常**。也就是Java源程序编译为javac.exe字节码文件的过程中
-3. 主要介绍5种运行异常:
-    1. ArrayIndexOutOfBoundsException
-    2. NullPointerException
-    3. ClassCastException: 当试图将对象强制转换为不是实例的子类时，抛出该异常
-    4. ArithmeticException
-    5. NumberFormatException: 当应用程序试图将字符串转换成一种数值类型，但该字符串不能转换为适当格式时
-4. try-catch-finally捕捉异常
-    - 程序员在代码中捕获发生的异常，自行处理
-5. throws处理机制
-    - 将发生的异常抛出，交给调用者(方法)来处理，最顶级的处理者就是JVM
-6. try-catch-finally和throws二选一就可以。如果程序员，没有显示是处理异常，默认throws Exception
-7. throw和throws的区分
-    - throws后面带的是异常类型
-    - throw后面带的是具体的异常对象
-
 ### 常用类
-
-##### 包装类 - 针对八种基本数据类型相应的引用类型
-
-- 单独的两个类别
-  - boolean => Boolean
-  - char => Character
-
-- Number类型:
-    1. byte => Byte
-    2. int => integer
-    3. long => Long
-    4. float => Float
-    5. double => Double
-    6. short => Short
-- 装箱和拆箱
-    1. 手动装箱: int => Integer
-    2. 手动拆箱: Integer => int
-    3. jdk5以后，就可以自动装箱和拆箱了
-
-##### String类
-
-- String对象 - <https://juejin.cn/post/6988125661751672846>
-- StringBuffer
-- StringBuilder
-
-String、StringBuffer和StringBuilder的选择 - <https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html>
-
-##### Math方法
-
-##### Arrays排序
-
-- 默认的sort方法是BubbleSort
-
-##### 大数处理方法 - BigInteger, BigDecimal
-
-##### System方法
-
-##### Date()
-
-##### Calendar()
 
 ### 集合
 
@@ -411,15 +106,6 @@ ArrayList和Array有什么区别: <https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(arr
 
 ##### HashSet底层逻辑 - 重中之重
 
-1. 添加一个元素时，先得到hash值 -> 会转成 -> 索引值。第一次添加时，table数组扩容到16，临界值(threshold)是16 * 加载因子(loadFactor)是0.75 = 12
-2. 找到存储数据表table，看这个索引位置是否已经存放的有元素。
-    - 如果没有，直接加入
-    - 如果有，调用equals比较, 这个equals方法可以程序员控制(可以重写)，有可能是比较value，也就是V，也有可能不是。
-        - 如果相同，就放弃添加
-        - 如果不相同，则**添加到最后**。在HashSet中是可以添加到最后的，见`HashSetExercise_7.java`文件的示例，但是在HashMap中，如果key相同，value不同，只能是新的value替换重复的那一个key的Node的旧value。这里和HashMap出现分歧的原因是，HashSet本身是通过有一个PRESENT的java build-in值来代替value，而使用key来代表实际的用户传入值，那么相当于在进行链表比较的时候，传入的这个值可以是一个string，也可以是一个对象，但是**重点在于都当作一个整体的key值来进行比较**
-    - 如果table数组使用到了临界值12就会扩容到16 *2 = 32，新的临界值就是32* 0.75 = 24，依此类推。到达12的意思并不是说必须要hashSet的那一条竖列的数组到达12才扩容，而是每添加一个新的Node(元素)，源码中的size就会加1，到达12以后，就会立刻扩容; 换言之就是说，现在所有的链表上的元素到达12了以后，table length就会扩容到下一个尺寸。
-3. 在Java8中，如果一条链表的元素个数超过TREEIFY_THRESHOLD(默认是8)，并且table的大小 >= MIN_TREEIFY_CAPACITY(默认64)，就会进行树化(红黑树)。两个条件都需要满足，才会进行树化，就是把这个链表树化，这个64的意思指的是，table的length超过了64。
-
 ##### LinkedHashSet
 
 1. LinkedHashSet是HashSet的子类，底层是一个LinkedHashMap，底层维护了一个hash表和双向链表
@@ -427,34 +113,6 @@ ArrayList和Array有什么区别: <https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(arr
 3. LinkedHashSet**不允许添重复元素**
 
 #### HashMap
-
-- HashMap底层是数组 + 链表 + 红黑树
-
-1. Map与Collection并列存在。用于保存具有映射关系的数据: Key-Value
-2. Map中的key和value可以是任何引用类型的数据，会封装到HashMap$Node对象中
-3. Map中的key不允许重复，原因和HashSet一样
-4. 生成结果的顺序不一定是和加入顺序一致的，因为本质上就是HashSet，见Map_代码文件
-
-- Table表是一个数组，数组里面放的有链表或者是一棵树。每一个链表里面包含多个Node(HashMap$Node)，而Node又实现了Map$Entry接口。
-
-##### HashMap底层机制
-
-扩容机制与HashSet完全一样，因为HashSet底层就是HashMap。有一个重点: HashSet是可以key相同，value不同，但是可以把新的Node添加到链表最后的，不会发生替换。但是在HashMap中，如果key相同，value不同，就会直接发生替换，新的Value会替代旧的Value。源码中有一行`e.value=value`
-
-#### HashTable
-
-- 存放的元素是键值对: 即K-V
-- HashTable的键和值都不能为null，否则会抛出NullPointerException
-- 使用方法基本和HashMap一样
-- HashTable是线程安全的，可以在源代码中定义的方法看到`synchronized`修饰符，HashMap是线程不安全的
-
-- HashTable的首次table length是11，threshold是8，加载因子还是0.75
-
-#### HashTable和HashMap对比
-
-HashMap 线程不安全 效率高 允许null键null值
-
-HashTable 线程安全   效率低 不允许null键null值
 
 #### Properties
 
