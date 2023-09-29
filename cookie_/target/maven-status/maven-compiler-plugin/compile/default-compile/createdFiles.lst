@@ -1,5 +1,7 @@
-com\itheima\web\CServlet.class
-com\itheima\web\DServlet.class
-com\itheima\web\AServlet.class
-com\itheima\web\BServlet.class
-com\itheima\web\EServlet.class
+com\itheima\web\cookie\EServlet.class
+com\itheima\web\cookie\DServlet.class
+com\itheima\web\cookie\BServlet.class
+com\itheima\web\session\SessionDemo1.class
+com\itheima\web\cookie\CServlet.class
+com\itheima\web\cookie\AServlet.class
+com\itheima\web\session\SessionDemo2.class

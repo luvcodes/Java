@@ -1,4 +1,4 @@
-package com.itheima.web;
+package com.itheima.web.cookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,12 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 /**
- * 这实际就是一次会话，两次请求
+ * 中文解码
  * */
-@WebServlet("/bServlet")
-public class BServlet extends HttpServlet {
+@WebServlet("/eServlet")
+public class EServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 3. 获取客户端携带的所有Cookie，使用request对象
@@ -24,6 +26,9 @@ public class BServlet extends HttpServlet {
             String name = cookie.getName();
             if ("username".equals(name)) {
                 String value = cookie.getValue();
+                // URL解码
+                value = URLDecoder.decode(value, "UTF-8");
+
                 System.out.println(name + " : " + value);
 
                 break;
