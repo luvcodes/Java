@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/webServlet-demo2/pom.xml" />
         <option value="$PROJECT_DIR$/jsp-demo/pom.xml" />
         <option value="$PROJECT_DIR$/jsp-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat_/pom.xml" />
+        <option value="$PROJECT_DIR$/cookie_/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -20,6 +22,7 @@
         <option value="$PROJECT_DIR$/jsp-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo1/pom.xml" />
       </set>
     </option>
   </component>
