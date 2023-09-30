@@ -24,6 +24,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ajax_/pom.xml" />
         <option value="$PROJECT_DIR$/jsp-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo02/pom.xml" />
