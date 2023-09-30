@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:44:54 +1000] "GET /ajax-demo/ajaxServle HTTP/1.1" 404 991 http-bio-8080-exec-1 27
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:44:56 +1000] "GET /ajax-demo/ajaxServlet HTTP/1.1" 200 10 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:03 +1000] "GET /ajax-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:03 +1000] "GET /ajax-demo/ HTTP/1.1" 404 971 http-bio-8080-exec-2 17
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:12 +1000] "GET /ajax-demo/01-ajax-demo1.html HTTP/1.1" 200 649 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:12 +1000] "GET /ajax-demo/ajaxServlet HTTP/1.1" 200 10 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:24 +1000] "GET /ajax-demo/01-ajax-demo1.html HTTP/1.1" 304 - http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:17:49:24 +1000] "GET /ajax-demo/ajaxServlet HTTP/1.1" 200 10 http-bio-8080-exec-6 1

@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/tomcat_/pom.xml" />
         <option value="$PROJECT_DIR$/cookie_/pom.xml" />
         <option value="$PROJECT_DIR$/filter_/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax_/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
