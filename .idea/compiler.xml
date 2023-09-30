@@ -14,6 +14,7 @@
         <module name="jsp-demo" />
         <module name="axios" />
         <module name="cookie_" />
+        <module name="json_" />
         <module name="webServlet-demo2" />
       </profile>
     </annotationProcessing>
