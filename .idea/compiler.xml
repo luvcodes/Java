@@ -12,6 +12,7 @@
         <module name="filter_" />
         <module name="ajax_" />
         <module name="jsp-demo" />
+        <module name="axios" />
         <module name="cookie_" />
         <module name="webServlet-demo2" />
       </profile>
