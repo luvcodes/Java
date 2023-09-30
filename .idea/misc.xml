@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
         <option value="$PROJECT_DIR$/axios/pom.xml" />
         <option value="$PROJECT_DIR$/json_/pom.xml" />
+        <option value="$PROJECT_DIR$/cookie_session_/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
