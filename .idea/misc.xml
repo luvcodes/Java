@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/jsp-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat_/pom.xml" />
         <option value="$PROJECT_DIR$/cookie_/pom.xml" />
+        <option value="$PROJECT_DIR$/filter_/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -11,6 +11,7 @@
         <module name="cookie_" />
         <module name="mybatis-demo04" />
         <module name="webServlet-demo2" />
+        <module name="filter_" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
