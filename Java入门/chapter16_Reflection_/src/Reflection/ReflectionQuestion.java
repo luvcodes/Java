@@ -33,12 +33,10 @@ public class ReflectionQuestion {
          * (2) 通过 aClass 得到你加载的类，Cat类的对象实例。创建这个类的一个新实例
          * */
         Object o = aClass.newInstance();
+        System.out.println(o.getClass());
 
         /**
-         * (3) 通过aClass 得到你加载的类 Reflection.Cat的 methodName 的方法对象
-         *          即: 在反射中，可以把方法视为对象(万物皆对象)
-         *     这里不能直接使用 Cat cat = (Cat) o; cat.hi(); 因为应该是从配置文件里读取方法，而不是直接强转再调用方法。
-         *     因为如果mysql配置文件里写的不是hi方法，那么就会形成错误了。
+         * (3) 通过aClass得到你加载的类 Reflection.Cat的methodName的方法对象。在反射中，可以把方法视为对象(万物皆对象)
          * */
         Method method1 = aClass.getMethod(methodName);
 

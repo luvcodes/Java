@@ -9,5 +9,3 @@ java:S3740:"/Provide the parametrized type for this generic.(Àéæüÿÿÿÿ
 java:S1192"^Define a constant instead of duplicating this literal "=============================" 4 times.(ıØ±üÿÿÿÿ8È¶Ã®1
 h
 java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(®–ôÿÿÿÿÿ
-I
-java:S1874"3Remove this use of "newInstance"; it is deprecated.(¼Ç—Î
