@@ -33,7 +33,7 @@ public class Class02 {
         //6. 通过反射获取属性 brand
         System.out.println();
         Field brand = cls.getField("brand");
-        System.out.println(brand.get(car));//宝马
+        System.out.println("Car value, " + brand.get(car));//宝马
 
         // 通过方法对象调用方法来得到方法体内的内容
         Method method = cls.getMethod("printMethod");

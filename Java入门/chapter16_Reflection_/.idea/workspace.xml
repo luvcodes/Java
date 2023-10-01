@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="" />
+    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/MavenWeb_project",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter16_Reflection_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,13 +50,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectionQuestion">
-    <configuration name="Reflection01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Reflection01" />
+  <component name="RunManager" selected="Application.GetClass_">
+    <configuration name="Class01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.class_.Class01" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.*" />
+          <option name="PATTERN" value="Reflection.class_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +64,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Reflection02" />
+    <configuration name="Class02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.class_.Class02" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.*" />
+          <option name="PATTERN" value="Reflection.class_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetClass_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.class_.GetClass_" />
+      <module name="chapter16_Reflection_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.class_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionQuestion" />
+    <configuration name="ReflectionAccessProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionAccessProperty" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
@@ -102,10 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectionQuestion" />
+        <item itemvalue="Application.GetClass_" />
+        <item itemvalue="Application.Class02" />
+        <item itemvalue="Application.Class01" />
+        <item itemvalue="Application.ReflectionAccessProperty" />
         <item itemvalue="Application.ReflectionAccessMethod" />
-        <item itemvalue="Application.Reflection01" />
-        <item itemvalue="Application.Reflection02" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +136,7 @@
       <updated>1691557512683</updated>
       <workItem from="1691557514791" duration="44000" />
       <workItem from="1695270284805" duration="2454000" />
+      <workItem from="1696115850319" duration="3556000" />
     </task>
     <servers />
   </component>

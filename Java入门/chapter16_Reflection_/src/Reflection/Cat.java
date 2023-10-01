@@ -9,7 +9,7 @@ public class Cat {
         this.name = name;
     }
     public void hi() { //常用方法
-        System.out.println("hi " + name);
+        System.out.println("hi, " + name);
     }
     public void cry() { //常用方法
         System.out.println(name + " 喵喵叫..");

@@ -29,6 +29,7 @@ public class ReflectionQuestion {
          * 这个 Class 对象存储在变量 aClass 中，它包含了该类的所有元数据信息，比如字段、方法等。
          * */
         // 加载指定的类，其完整路径由变量 classfullpath 提供，在这里就是Cat，因为在配置文件中写的就是Cat
+        // 从这里开始就是反射了
         Class aClass = Class.forName(classfullpath);
         /**
          * (2) 通过 aClass 得到你加载的类 Cat类的对象实例

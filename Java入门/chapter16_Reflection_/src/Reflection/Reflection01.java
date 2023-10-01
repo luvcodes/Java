@@ -24,19 +24,21 @@ public class Reflection01 {
         //2. 使用反射机制解决
         //(1) 加载类, 返回Class类型的对象cls
         Class cls = Class.forName(classfullpath);
-        //(2) 通过 cls 得到你加载的类 PhaseThree.Reflection.Cat 的对象实例
+        //(2) 通过 cls 得到你加载的类 Cat 的对象实例
         Object o = cls.newInstance();
+        System.out.println("=============================");
         System.out.println("o的运行类型=" + o.getClass()); //运行类型
 
         /**
          * 通过方法对象来调用方法
          * */
-        //(3) 通过 cls 得到你加载的类 PhaseThree.Reflection.Cat 的 methodName"hi"  的方法对象
+        //(3) 通过 cls 得到你加载的类 Cat 的 methodName"hi"  的方法对象
         //    即：在反射中，可以把方法视为对象（万物皆对象）
         Method method1 = cls.getMethod(methodName);
         //(4) 通过method1 调用方法: 即通过方法对象来实现调用方法
         System.out.println("=============================");
         method1.invoke(o); //传统方法 对象.方法() , 反射机制 方法.invoke(对象)
+        System.out.println("=============================");
 
         /**
          * 通过成员变量对象来得到成员变量
@@ -45,7 +47,7 @@ public class Reflection01 {
         //得到name字段发现getField不能得到私有的属性
         Field nameField = cls.getField("age"); //
         System.out.println(nameField.get(o)); // 传统写法 对象.成员变量 , 反射 :  成员变量对象.get(对象)
-
+        System.out.println("=============================");
         /**
          * 通过构造器对象来得到构造器
          * */
@@ -53,7 +55,7 @@ public class Reflection01 {
         Constructor constructor = cls.getConstructor(); //()中可以指定构造器参数类型, 返回无参构造器
         System.out.println(constructor);//Cat()
 
-        Constructor constructor2 = cls.getConstructor(String.class); //这里老师传入的 String.class 就是String类的Class对象
+        Constructor constructor2 = cls.getConstructor(String.class); //这里传入的 String.class 就是String类的Class对象
         System.out.println(constructor2);//Cat(String name)
     }
 }

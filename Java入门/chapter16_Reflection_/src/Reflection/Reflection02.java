@@ -40,7 +40,6 @@ public class Reflection02 {
 
     //反射调用优化 + 关闭访问检查
     public static void m3() throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
-
         Class cls = Class.forName("Reflection.Cat");
         Object o = cls.newInstance();
         Method hi = cls.getMethod("hi");

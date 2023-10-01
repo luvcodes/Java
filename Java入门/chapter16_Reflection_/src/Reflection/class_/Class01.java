@@ -16,7 +16,7 @@ public class Class01 {
             }
          */
         //Cat cat = new Cat();
-        //(2) 反射方式, 刚才老师没有debug到 ClassLoader类的 loadClass, 原因是，我没有注销Cat cat = new Cat();
+        //(2) 反射方式
         /*
             ClassLoader类, 仍然是通过 ClassLoader类加载Cat类的 Class对象
             public Class<?> loadClass(String name) throws ClassNotFoundException {
@@ -29,8 +29,5 @@ public class Class01 {
         Class cls2 = Class.forName("Reflection.Cat");
         System.out.println(cls1.hashCode());
         System.out.println(cls2.hashCode());
-
-        Class cls3 = Class.forName("Reflection.Dog");
-        System.out.println(cls3.hashCode());
     }
 }

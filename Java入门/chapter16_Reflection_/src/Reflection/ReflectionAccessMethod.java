@@ -29,7 +29,6 @@ public class ReflectionAccessMethod {
         Object reVal = say.invoke(null, 300, "王五", '男');
         System.out.println("reVal 的运行类型=" + reVal.getClass());//String
 
-
         //在演示一个返回的案例
         Method m1 = bossCls.getDeclaredMethod("m1");
         Object reVal2 = m1.invoke(o);

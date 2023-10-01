@@ -44,10 +44,10 @@ public class GetClass_ {
 
         //6. 基本数据类型对应的包装类，可以通过 .TYPE 得到Class类对象
         Class<Integer> type1 = Integer.TYPE;
-        Class<Character> type2 = Character.TYPE; //其它包装类BOOLEAN, DOUBLE, LONG,BYTE等待
+        Class<Character> type2 = Character.TYPE; //其它包装类BOOLEAN, DOUBLE, LONG,BYTE等等
         System.out.println(type1);
 
-        System.out.println(integerClass.hashCode());//?
-        System.out.println(type1.hashCode());//?
+        System.out.println(integerClass.hashCode());
+        System.out.println(type1.hashCode());
     }
 }
