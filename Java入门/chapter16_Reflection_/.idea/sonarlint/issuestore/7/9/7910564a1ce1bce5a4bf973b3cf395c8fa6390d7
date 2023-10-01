@@ -1,0 +1,41 @@
+
+l
+java:S1104y"QMake hobby a static final constant or non-public and provide accessors if needed.(ï„è™ûÿÿÿÿ
+g
+java:S1104Š"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é€Ö5
+
+java:S1130"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(é€Ö5
+b	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÔöP
+
+java:S1130A"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(ºÔöP
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ´Šìÿÿÿÿÿ
+—
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÕÃÊØ
+_
+java:S6355†"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(õˆúš
+L
+java:S1133‡"5Do not forget to remove this deprecated code someday.(£˜îÒ
+˜
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ôóı§
+
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı¤À‚ıÿÿÿÿ
+
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à‰‰Šüÿÿÿÿ
+˜
+java:S1186’"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üÄ€Ğ
+˜
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö´ ½
+?
+java:S1123‡"(Add the missing @deprecated Javadoc tag.(£˜îÒ
+K
+java:S1172–"4Remove these unused method parameters "name", "age".(ö´ ½
+C
+java:S1068Œ"'Remove this unused "sal" private field.(‘®¦Áøÿÿÿÿ
+G
+java:S1144–"0Remove this unused private "Person" constructor.(ö´ ½
+C
+java:S1144§"'Remove this unused private "m4" method.(à‰‰Šüÿÿÿÿ
