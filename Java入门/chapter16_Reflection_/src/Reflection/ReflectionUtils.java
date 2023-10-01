@@ -16,7 +16,6 @@ interface IA {
 
 
 interface IB {
-
 }
 
 public class ReflectionUtils {
@@ -119,16 +118,9 @@ public class ReflectionUtils {
 
 class A {
     public String hobby;
-
-    public A() {
-    }
-
-    public A(String name) {
-    }
-
-    public void hi() {
-
-    }
+    public A() {}
+    public A(String name) {}
+    public void hi() {}
 }
 
 @Deprecated
@@ -140,32 +132,22 @@ class Person extends A implements IA, IB {
     private double sal;
 
     //构造器
-    public Person() {
-    }
+    public Person() {}
 
-    public Person(String name) {
-    }
+    public Person(String name) {}
 
     //私有的
-    private Person(String name, int age) {
-
-    }
+    private Person(String name, int age) {}
 
     //方法
-    public void m1(String name, int age, double sal) {
-
-    }
+    public void m1(String name, int age, double sal) {}
 
     protected String m2() {
         return null;
     }
 
-    void m3() {
+    void m3() {}
 
-    }
-
-    private void m4() {
-
-    }
+    private void m4() {}
 }
 

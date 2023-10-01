@@ -48,6 +48,7 @@ public class Reflection01 {
         Field nameField = cls.getField("age"); //
         System.out.println(nameField.get(o)); // 传统写法 对象.成员变量 , 反射 :  成员变量对象.get(对象)
         System.out.println("=============================");
+
         /**
          * 通过构造器对象来得到构造器
          * */

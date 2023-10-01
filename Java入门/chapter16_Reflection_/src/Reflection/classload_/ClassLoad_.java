@@ -13,7 +13,8 @@ public class ClassLoad_ {
             case "1":
                 /**
                  * 静态加载
-                 * 编译时会加载相关的类, 即使没有执行case "1"也会加载这个类
+                 * 编译时会加载相关的类, 即使没有执行case "1"也会加载这个类。
+                 * 相当于就是如果Dog类没有编写，直接在这里创建Dog类的实例是会报错的，即使放在了case语句中
                  * */
                 Dog dog = new Dog();
                 dog.cry();
@@ -36,7 +37,7 @@ public class ClassLoad_ {
 }
 
 /**
- * 因为new Dog() 是动态加载，因此必须编写Dog类
+ * 因为new Dog() 是静态加载，因此必须编写Dog类
  * Person类是动态加载，所以，没有编写Person类也不会报错，只有当动态加载该类的时候，才会报错
  * */
 class Dog {

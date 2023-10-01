@@ -35,6 +35,7 @@ public class GetClass_ {
         System.out.println(cls2.hashCode());
         System.out.println(cls3.hashCode());
         System.out.println(cls4.hashCode());
+        System.out.println();
 
         //5. 基本数据(int, char,boolean,float,double,byte,long,short) 按如下方式得到Class类对象
         Class<Integer> integerClass = int.class;

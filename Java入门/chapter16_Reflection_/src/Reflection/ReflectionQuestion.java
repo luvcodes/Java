@@ -8,7 +8,7 @@ import java.util.Properties;
 
 /**
  * 这样通过使用反射，可以通过使用方法对象来直接访问方法，同时不需要修改源码。
- * 比如说我想要将method改为cry，而不再是hi方法，我只需要修改配置文件中的method就可以，不需要修改该Cat类中的方法。
+ * 比如说我想要将method改为cry，而不再是hi方法，我只需要修改配置文件中的method就可以。
  * */
 @SuppressWarnings({"all"})
 public class ReflectionQuestion {
@@ -42,7 +42,7 @@ public class ReflectionQuestion {
 
         /**
          * (4) 通过method1 调用方法: 通过方法的对象来实现调用方法
-         * 传统方法: 对象.方法()，反射机制 方法.invoke(对象)
+         * 传统方法: 对象.方法()，反射机制里则是方法.invoke(对象)
          * */
         method1.invoke(o);
     }

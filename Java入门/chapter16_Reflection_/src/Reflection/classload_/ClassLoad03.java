@@ -16,7 +16,6 @@ public class ClassLoad03 {
                     num = 100;
                 }
                 合并: num = 100
-
          */
 
 //        new B();//类加载

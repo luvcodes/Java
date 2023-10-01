@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -47,26 +54,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectionQuestion">
-    <configuration name="Class01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.class_.Class01" />
+  <component name="RunManager" selected="Application.Homework01">
+    <configuration name="ClassLoad_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.classload_.ClassLoad_" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.class_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Class02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.class_.Class02" />
-      <module name="chapter16_Reflection_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Reflection.class_.*" />
+          <option name="PATTERN" value="Reflection.classload_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionAccessProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionAccessProperty" />
+    <configuration name="Homework01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.homework.Homework01" />
+      <module name="chapter16_Reflection_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionCreateInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionCreateInstance" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionQuestion" />
+    <configuration name="ReflectionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ReflectionPractice" />
       <module name="chapter16_Reflection_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectionQuestion" />
+        <item itemvalue="Application.Homework01" />
+        <item itemvalue="Application.ClassLoad_" />
         <item itemvalue="Application.GetClass_" />
-        <item itemvalue="Application.Class02" />
-        <item itemvalue="Application.Class01" />
-        <item itemvalue="Application.ReflectionAccessProperty" />
+        <item itemvalue="Application.ReflectionCreateInstance" />
+        <item itemvalue="Application.ReflectionPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +146,7 @@
       <workItem from="1696140725741" duration="4014000" />
       <workItem from="1696196568688" duration="226000" />
       <workItem from="1696196808493" duration="28000" />
+      <workItem from="1696196851142" duration="5420000" />
     </task>
     <servers />
   </component>

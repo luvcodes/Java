@@ -10,9 +10,9 @@ public class ReflectionAccessMethod {
         //2. 创建对象
         Object o = bossCls.newInstance();
         //3. 调用public的hi方法
-        //Method hi = bossCls.getMethod("hi", String.class);//OK
+        Method hi = bossCls.getMethod("hi", String.class);//OK
         //3.1 得到hi方法对象
-        Method hi = bossCls.getDeclaredMethod("hi", String.class);//OK
+//        Method hi = bossCls.getDeclaredMethod("hi", String.class);//OK
         //3.2 调用
         hi.invoke(o, "韩顺平教育~");
 

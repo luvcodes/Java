@@ -43,7 +43,8 @@ public class Reflection02 {
         Class cls = Class.forName("Reflection.Cat");
         Object o = cls.newInstance();
         Method hi = cls.getMethod("hi");
-        hi.setAccessible(true);//在反射调用方法时，取消访问检查
+        //在反射调用方法时，取消访问检查。这里其实并不是必要的。
+        hi.setAccessible(true);
         long start = System.currentTimeMillis();
         for (int i = 0; i < 900000000; i++) {
             hi.invoke(o);//反射调用方法
