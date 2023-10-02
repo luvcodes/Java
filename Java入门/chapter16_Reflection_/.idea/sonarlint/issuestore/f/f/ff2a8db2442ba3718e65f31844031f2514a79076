@@ -1,0 +1,11 @@
+
+P
+java:S1854#"5Remove this useless assignment to local variable "b".(µ¨Ñ¥ýÿÿÿÿ
+”
+java:S1130"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ªù›“øÿÿÿÿ
+<
+java:S2440#"!Remove this instantiation of "B".(µ¨Ñ¥ýÿÿÿÿ
+A
+java:S1481#"&Remove this unused "b" local variable.(µ¨Ñ¥ýÿÿÿÿ
+2
+java:S1118/"Hide this public constructor.(Ú‡´

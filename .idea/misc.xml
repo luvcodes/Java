@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/axios/pom.xml" />
         <option value="$PROJECT_DIR$/json_/pom.xml" />
         <option value="$PROJECT_DIR$/cookie_session_/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_01_quickstart/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/jsp-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_01_quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat-demo1/pom.xml" />
       </set>
     </option>

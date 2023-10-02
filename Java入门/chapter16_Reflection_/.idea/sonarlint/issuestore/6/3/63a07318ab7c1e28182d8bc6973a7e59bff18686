@@ -7,14 +7,14 @@ E
 java:S3740"/Provide the parametrized type for this generic.(È‰æ
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠüÈ•úÿÿÿÿ
 O
-java:S1854/"9Remove this useless assignment to local variable "type2".(Áïâƒ
+java:S18540"9Remove this useless assignment to local variable "type2".(Áïâƒ
 V
-java:S1854*"@Remove this useless assignment to local variable "booleanClass".(Œı¿ˆ
+java:S1854+"@Remove this useless assignment to local variable "booleanClass".(Œı¿ˆ
 X
-java:S1854)"BRemove this useless assignment to local variable "characterClass".(×º¶ñ
+java:S1854*"BRemove this useless assignment to local variable "characterClass".(×º¶ñ
 I
-java:S1481)"3Remove this unused "characterClass" local variable.(×º¶ñ
+java:S1481*"3Remove this unused "characterClass" local variable.(×º¶ñ
 G
-java:S1481*"1Remove this unused "booleanClass" local variable.(Œı¿ˆ
+java:S1481+"1Remove this unused "booleanClass" local variable.(Œı¿ˆ
 @
-java:S1481/"*Remove this unused "type2" local variable.(Áïâƒ
+java:S14810"*Remove this unused "type2" local variable.(Áïâƒ

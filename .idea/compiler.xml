@@ -23,6 +23,7 @@
       <module name="mybatis-demo" target="1.8" />
       <module name="mybatis-demo02" target="1.7" />
       <module name="mybatis-demo03" target="1.8" />
+      <module name="spring_01_quickstart" target="1.8" />
       <module name="tomcat-demo1" target="1.8" />
       <module name="webServlet-demo" target="1.7" />
     </bytecodeTargetLevel>
