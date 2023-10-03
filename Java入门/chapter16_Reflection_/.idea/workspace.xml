@@ -39,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter16_Reflection_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +54,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework01">
+  <component name="RunManager" selected="Application.ClassLoad03">
+    <configuration name="ClassLoad03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.classload_.ClassLoad03" />
+      <module name="chapter16_Reflection_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.classload_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassLoad_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflection.classload_.ClassLoad_" />
       <module name="chapter16_Reflection_" />
@@ -94,39 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionCreateInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionCreateInstance" />
+    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
       <module name="chapter16_Reflection_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ReflectionPractice" />
-      <module name="chapter16_Reflection_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassLoad03" />
+        <item itemvalue="Application.ReflectionTest" />
         <item itemvalue="Application.Homework01" />
         <item itemvalue="Application.ClassLoad_" />
         <item itemvalue="Application.GetClass_" />
-        <item itemvalue="Application.ReflectionCreateInstance" />
-        <item itemvalue="Application.ReflectionPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +141,7 @@
       <workItem from="1696196568688" duration="226000" />
       <workItem from="1696196808493" duration="28000" />
       <workItem from="1696196851142" duration="6262000" />
+      <workItem from="1696308965613" duration="1010000" />
     </task>
     <servers />
   </component>

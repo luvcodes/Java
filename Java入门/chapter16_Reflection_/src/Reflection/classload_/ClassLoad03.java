@@ -44,6 +44,7 @@ class B {
 
     static int num = 100;
 
+
     public B() {//构造器
         System.out.println("B() 构造器被执行");
     }
