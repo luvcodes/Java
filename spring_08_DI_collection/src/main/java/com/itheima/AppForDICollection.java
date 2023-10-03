@@ -1,12 +1,12 @@
 package com.itheima;
 
-import com.itheima.service.impl.BookService;
+import com.itheima.dao.impl.BookDao;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AppForDIAutoware {
+public class AppForDICollection {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        BookService bookService = (BookService) ctx.getBean("bookService");
-        bookService.save();
+        BookDao bookDao = (BookDao) ctx.getBean("bookDao");
+        bookDao.save();
     }
 }
