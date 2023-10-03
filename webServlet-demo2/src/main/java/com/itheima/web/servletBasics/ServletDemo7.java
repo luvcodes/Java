@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * urlPattern:
+ * urlPattern
  * */
 
 @WebServlet(urlPatterns = {"/demo7", "/demo8"})
