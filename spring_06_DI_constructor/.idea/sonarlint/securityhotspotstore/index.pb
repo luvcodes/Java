@@ -15,3 +15,5 @@ c
 3src/main/java/com/itheima/dao/impl/UserDaoImpl.java,3\1\31b69d65f67168f1993fdea6f8a7d08bd1db4857
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+b
+2src/main/java/com/itheima/AppForDIConstructor.java,6\6\6670f7bebda7fb93af1e734f0ad84b694124251f
