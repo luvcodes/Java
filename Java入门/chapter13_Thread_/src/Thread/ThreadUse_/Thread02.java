@@ -11,7 +11,8 @@ public class Thread02 {
 //        Thread thread = new Thread(dog);
 //        thread.start();
 
-        Tiger tiger = new Tiger();//实现了 Runnable接口
+        // 实现了 Runnable接口
+        Tiger tiger = new Tiger();
         ThreadProxy threadProxy = new ThreadProxy(tiger); // 能把tiger传进去，是因为Tiger类实现了Runnable接口
         threadProxy.start();
     }

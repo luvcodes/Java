@@ -26,7 +26,8 @@ public class Thread01 {
         //run方法就是一个普通的方法, 如果不先执行start方法而直接执行run方法，就相当于没有真正的启动一个线程，就会把run方法执行完毕，才向下执行
         //cat.run();
         /**
-         *  说明: 当main线程启动一个子线程 Thread-0, 主线程不会阻塞, 会继续执行
+         *  说明: 当main线程启动一个子线程 Thread-0, 主线程不会阻塞, 会继续执行。意思就是main线程不等thread-0执行完才执行
+         *  而是继续执行。
          *  这时 主线程和子线程是交替执行..
          */
         System.out.println("主线程继续执行" + Thread.currentThread().getName());
@@ -56,16 +57,14 @@ class Cat extends Thread {
     @Override
     public void run() {
         while (true) {
-            //该线程每隔1秒。在控制台输出 “喵喵, 我是小猫咪”
             System.out.println("喵喵, 我是小猫咪" + (++times) + " 线程名=" + Thread.currentThread().getName());
-            //让该线程休眠1秒 ctrl+alt+t
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             if(times == 80) {
-                break;//当times 到80, 退出while, 这时线程也就退出..
+                break;
             }
         }
     }
