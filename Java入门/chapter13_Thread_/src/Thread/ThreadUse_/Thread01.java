@@ -15,7 +15,12 @@ public class Thread01 {
             //真正实现多线程的效果， 是start0(), 而不是 run
             private native void start0();
          */
-        // 启动线程 -> 最终会执行cat的run方法
+        /**
+         * 这一行代码实际上做了两件事：
+         * 1. 它启动了一个新的线程。
+         * 2. 在这个新线程中，它自动调用了 cat 对象的 run() 方法。
+         * */
+        // 启动线程
         cat.start();
 
         //run方法就是一个普通的方法, 如果不先执行start方法而直接执行run方法，就相当于没有真正的启动一个线程，就会把run方法执行完毕，才向下执行
@@ -37,7 +42,7 @@ public class Thread01 {
 //1. 当一个类继承了 Thread 类， 该类就可以当做线程使用
 //2. 我们会重写 run方法，写上自己的业务代码
 //3. run Thread 类 实现了 Runnable 接口的run方法
-/*
+/**
     @Override
     public void run() {
         if (target != null) {
@@ -47,8 +52,9 @@ public class Thread01 {
  */
 class Cat extends Thread {
     int times = 0;
+    //重写run方法，写上自己的业务逻辑
     @Override
-    public void run() {//重写run方法，写上自己的业务逻辑
+    public void run() {
         while (true) {
             //该线程每隔1秒。在控制台输出 “喵喵, 我是小猫咪”
             System.out.println("喵喵, 我是小猫咪" + (++times) + " 线程名=" + Thread.currentThread().getName());
