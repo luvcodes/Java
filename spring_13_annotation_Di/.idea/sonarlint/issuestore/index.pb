@@ -13,3 +13,5 @@ d
 4src/main/java/com/itheima/dao/impl/BookDaoImpl2.java,2\e\2e1c394fa9d59e43cac22b4ad920065b76261373
 c
 3src/main/java/com/itheima/dao/impl/BookDaoImpl.java,3\f\3f5933654075b6c69bbde19b1946fe9545b55a0e
+g
+7src/main/java/com/itheima/service/impl/BookService.java,e\2\e2bfca256f469a73bb55f4c54b185b3d9e2b3f53

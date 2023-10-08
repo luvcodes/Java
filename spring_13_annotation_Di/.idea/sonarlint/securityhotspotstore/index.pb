@@ -13,3 +13,5 @@ b
 2src/main/java/com/itheima/config/SpringConfig.java,a\1\a1aea4362d9f0936753e8f3e44c728e39c96310d
 c
 3src/main/java/com/itheima/dao/impl/BookDaoImpl.java,3\f\3f5933654075b6c69bbde19b1946fe9545b55a0e
+g
+7src/main/java/com/itheima/service/impl/BookService.java,e\2\e2bfca256f469a73bb55f4c54b185b3d9e2b3f53

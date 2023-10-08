@@ -23,3 +23,5 @@ c
 3src/main/java/com/itheima/config/MybatisConfig.java,f\1\f183a423d0c359c0a24e8f11a28209277178d5e7
 G
 src/main/java/App2.java,4\e\4ee0c8d37d2837bb63018d69920fbebdf6c40ffd
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded

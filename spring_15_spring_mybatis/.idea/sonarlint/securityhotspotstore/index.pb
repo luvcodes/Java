@@ -23,3 +23,5 @@ i
 -src/main/java/com/itheima/dao/AccountDao.java,0\a\0adaae35610ad55858fac61071ced97b3b8d9cca
 G
 src/main/java/App2.java,4\e\4ee0c8d37d2837bb63018d69920fbebdf6c40ffd
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
