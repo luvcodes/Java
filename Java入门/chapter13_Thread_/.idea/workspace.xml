@@ -21,27 +21,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter13_Thread_&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/spring_14_annotation_third_bean_manager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ThreadMethod02">
     <configuration name="Thread01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_.Thread01" />
       <module name="chapter13_Thread_" />
@@ -55,8 +55,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadMethod01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadMethods.ThreadMethod01" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethod02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadMethods.ThreadMethod02" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadMethod02" />
+        <item itemvalue="Application.ThreadMethod01" />
         <item itemvalue="Application.Thread01" />
       </list>
     </recent_temporary>
@@ -76,7 +104,8 @@
       <workItem from="1696640680776" duration="62000" />
       <workItem from="1696645646592" duration="581000" />
       <workItem from="1696666829785" duration="2889000" />
-      <workItem from="1696669750820" duration="1703000" />
+      <workItem from="1696669750820" duration="6215000" />
+      <workItem from="1696716038242" duration="136000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,8 @@ public class ThreadMethod01 {
             System.out.println("hi " + i);
         }
 
-        System.out.println(t.getName() + " 线程的优先级 =" + t.getPriority());//1
+        // 1
+        System.out.println(t.getName() + " 线程的优先级 =" + t.getPriority());
 
         //当执行到这里，就会中断 t线程的休眠. 提前中断t线程的休眠，相当于那20秒还没有走完就直接被中断了
         t.interrupt();
