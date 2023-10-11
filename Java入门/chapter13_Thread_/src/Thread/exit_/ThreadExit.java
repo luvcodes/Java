@@ -23,7 +23,6 @@ class T extends Thread {
     @Override
     public void run() {
         while (loop) {
-
             try {
                 Thread.sleep(50);// 让当前线程休眠50ms
             } catch (InterruptedException e) {
@@ -31,9 +30,7 @@ class T extends Thread {
             }
             System.out.println("T 运行中...." + (++count));
         }
-
     }
-
     public void setLoop(boolean loop) {
         this.loop = loop;
     }

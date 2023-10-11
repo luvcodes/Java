@@ -5,13 +5,10 @@ package Thread.ThreadUse_;
  */
 public class Thread03 {
     public static void main(String[] args) {
-        T1 t1 = new T1();
-        T2 t2 = new T2();
-        Thread thread1 = new Thread(t1);
-        Thread thread2 = new Thread(t2);
+        Thread thread1 = new Thread(new T1());
+        Thread thread2 = new Thread(new T2());
         thread1.start();//启动第1个线程
         thread2.start();//启动第2个线程
-
     }
 }
 

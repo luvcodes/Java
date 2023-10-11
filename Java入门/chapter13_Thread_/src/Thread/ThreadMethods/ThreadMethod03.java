@@ -7,7 +7,8 @@ public class ThreadMethod03 {
         myDaemonThread.setDaemon(true);
         myDaemonThread.start();
 
-        for( int i = 1; i <= 10; i++) {//main线程
+        // main线程
+        for( int i = 1; i <= 10; i++) {
             System.out.println("宝强在辛苦的工作...");
             Thread.sleep(1000);
         }
