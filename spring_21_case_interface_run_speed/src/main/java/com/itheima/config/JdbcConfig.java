@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import javax.sql.DataSource;
 
 public class JdbcConfig {
-    @Value("${jdbc.driver}")
+    @Value("${jdbc.driverClassName}")
     private String driver;
     @Value("${jdbc.url}")
     private String url;
