@@ -4,10 +4,12 @@ public class BookDaoImpl implements BookDao {
     private String database;
     private int connectionNumber;
 
+    // setter注入简单类型
     public void setDatabase(String database) {
         this.database = database;
     }
 
+    // setter注入简单类型
     public void setConnectionNumber(int connectionNumber) {
         this.connectionNumber = connectionNumber;
     }

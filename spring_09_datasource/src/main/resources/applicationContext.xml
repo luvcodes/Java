@@ -18,10 +18,13 @@
     <!-- 这是加载一个jdbc文件的方法 -->
     <!-- 后面的system-properties-mode="NEVER"意思是为了因为系统属性会有可能跟jdbc中的username名称重复，never就是为了取消重复 -->
 <!--    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER"/>-->
+
     <!-- 这是加载两个jdbc文件的方法 -->
 <!--    <context:property-placeholder location="jdbc.properties, jdbc2.properties" system-properties-mode="NEVER"/>-->
+
     <!-- 加载所有jdbc文件的方法 -->
 <!--    <context:property-placeholder location="classpath:*.properties" system-properties-mode="NEVER"/>-->
+
     <!-- 上面的只能在当前工程中读，下面这个还可以表示从加载的框架的jar包中读取配置文件 -->
     <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
 

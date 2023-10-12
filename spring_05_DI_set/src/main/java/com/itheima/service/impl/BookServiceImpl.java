@@ -10,10 +10,12 @@ public class BookServiceImpl implements BookService {
     private BookDao bookDao;
     private UserDao userDao;
 
+    // setter注入引用类型
     public void setUserDao(UserDao userDao) {
         this.userDao = userDao;
     }
 
+    // setter注入引用类型
     public void setBookDao(BookDao bookDao) {
         this.bookDao = bookDao;
     }
