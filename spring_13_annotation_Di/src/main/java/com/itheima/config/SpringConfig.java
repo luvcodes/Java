@@ -7,6 +7,4 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @ComponentScan("com.itheima")
 @PropertySource("jdbc.properties")
-public class SpringConfig {
-
-}
+public class SpringConfig {}

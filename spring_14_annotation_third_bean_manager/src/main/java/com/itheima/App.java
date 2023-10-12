@@ -1,7 +1,6 @@
 package com.itheima;
 
 import com.itheima.config.SpringConfig;
-import com.itheima.dao.impl.BookDao;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import javax.sql.DataSource;

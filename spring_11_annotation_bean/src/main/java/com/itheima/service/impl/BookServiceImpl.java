@@ -3,7 +3,6 @@ package com.itheima.service.impl;
 import com.itheima.dao.impl.BookDao;
 import org.springframework.stereotype.Service;
 
-//@Component
 @Service
 public class BookServiceImpl implements BookService {
     private BookDao bookDao;

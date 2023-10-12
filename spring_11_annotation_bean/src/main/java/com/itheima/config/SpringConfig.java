@@ -5,6 +5,4 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.itheima")
-public class SpringConfig {
-
-}
+public class SpringConfig {}

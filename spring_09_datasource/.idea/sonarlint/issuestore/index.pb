@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-b
-2src/main/java/com/itheima/AppSystemProperties.java,1\e\1e6aa6bba32f73beac0f4c03fff028318530bdd6
 c
 3src/main/java/com/itheima/dao/impl/BookDaoImpl.java,3\f\3f5933654075b6c69bbde19b1946fe9545b55a0e
 R

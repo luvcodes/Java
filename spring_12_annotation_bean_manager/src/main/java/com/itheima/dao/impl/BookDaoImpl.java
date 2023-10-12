@@ -2,7 +2,6 @@ package com.itheima.dao.impl;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
