@@ -12,8 +12,7 @@ public class AppForLifeCycle {
         /**
          * 这里涉及到了很多个步骤
          * 1. 想要使用BookDaoImpl中的init和destroy方法，所以需要在配置文件中的bean加上init-method="init" destroy-method="destroy"
-         * 2. 发现destroy方法的内容不能输出，因为虚拟机是会在bean销毁之前就关闭了虚拟机，
-         * 程序执行完成，虚拟机关闭，所以出现destroy无法输出的情况。
+         * 2. 发现destroy方法的内容不能输出，因为虚拟机是会在bean销毁之前就关闭了虚拟机，程序执行完成，虚拟机关闭，所以出现destroy无法输出的情况。
          * </p>
          * <p>这样就引出两个解决方法，一个是下面的第一段</p>
          * <p>

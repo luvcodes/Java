@@ -4,8 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- 1. 导入spring的坐标 -->
     <!-- 2. 配置bean -->
-    <!-- id表示给bean起名字 -->
-    <!-- class表示给bean定义类型 -->
+    <!-- id表示给bean起名字，class表示给bean定义类型 -->
     <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl" />
     <bean id="serviceDao" class="com.itheima.service.impl.BookServiceImpl">
         <!-- 7. 配置server与dao的属性 -->

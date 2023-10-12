@@ -11,7 +11,6 @@ public class UserDaoFactoryBean implements FactoryBean<UserDao> {
         return new UserDaoImpl();
     }
 
-    //
     @Override
     public Class<?> getObjectType() {
         return UserDao.class;

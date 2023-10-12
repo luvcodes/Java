@@ -9,5 +9,4 @@
 
 <!--    <bean id="bookDao" name="dao" class="com.itheima.dao.impl.BookDaoImpl" />-->
     <bean id="bookDao" name="dao" class="com.itheima.dao.impl.BookDaoImpl" scope="prototype"/>
-
 </beans>
