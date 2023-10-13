@@ -1,0 +1,17 @@
+
+{
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìž¯–úÿÿÿÿ8Íôˆ»²1
+d
+java:S1192&"GDefine a constant instead of duplicating this literal "itcast" 4 times.(ò óú8å·†»²1
+s
+java:S1128"QRemove this unused import 'org.springframework.format.annotation.DateTimeFormat'.(‡ˆôƒøÿÿÿÿ8±ÿŠ»²1
+r
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àýÿÿÿÿ8²ÿŠ»²1
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8´ÿŠ»²1
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8´ÿŠ»²1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8µÿŠ»²1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8µÿŠ»²1
