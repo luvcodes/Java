@@ -35,6 +35,11 @@
       <artifactId>mybatis</artifactId>
       <version>3.5.13</version>
     </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>springmvc_04_request_param</finalName>
