@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Bean;
 import javax.sql.DataSource;
 
 public class MyBatisConfig {
-
     @Bean
     public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource) {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
