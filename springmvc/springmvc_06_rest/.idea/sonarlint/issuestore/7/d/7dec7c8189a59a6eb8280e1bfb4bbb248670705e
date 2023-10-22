@@ -1,0 +1,24 @@
+
+l
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ò›ÔÙùÿÿÿÿ8ü­Œó²1
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(ÀÃ¨üÿÿÿÿ8™®Œó²1
+k
+java:S4488"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(¼õÓ°8 ®Œó²1
+e
+java:S4488&"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(§›¡²8§®Œó²1
+e
+java:S4488-"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ù»ïÌ8®®Œó²1
+s
+java:S1128"QRemove this unused import 'org.springframework.format.annotation.DateTimeFormat'.(‡ˆôƒøÿÿÿÿ8Æ®Œó²1
+Q
+java:S1128	"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8Ç®Œó²1
+M
+java:S1128
+"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8È®Œó²1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8É®Œó²1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8É®Œó²1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ê®Œó²1
