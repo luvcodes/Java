@@ -5,5 +5,4 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.itheima.controller")
-public class SpringMVCConfig {
-}
+public class SpringMVCConfig {}

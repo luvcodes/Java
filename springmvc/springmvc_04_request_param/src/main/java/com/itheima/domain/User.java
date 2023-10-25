@@ -3,7 +3,6 @@ package com.itheima.domain;
 public class User {
     private String name;
     private int age;
-
     private Address address;
 
     public Address getAddress() {

@@ -12,5 +12,4 @@ import org.springframework.stereotype.Controller;
                 type = FilterType.ANNOTATION,
                 classes = Controller.class
         ))
-public class SpringConfig {
-}
+public class SpringConfig {}
