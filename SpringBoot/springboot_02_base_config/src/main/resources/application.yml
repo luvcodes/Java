@@ -1,0 +1,6 @@
+server:
+  port: 82
+
+logging:
+  level:
+    root: info
