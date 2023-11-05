@@ -5,7 +5,13 @@ spring:
     url: jdbc:mysql://localhost:3306/mybatisplus_db?serverTimezone=UTC
     username: root
     password: 123456
+  main:
+    banner-mode: off
 # 开启Mp的日志，输出到控制台
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    banner: false
+
+
