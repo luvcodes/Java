@@ -118,4 +118,10 @@ class Mybatisplus02DqlApplicationTests {
         List<User> loginUser = userDao.selectList(lqw);
         System.out.println(loginUser);
     }
+
+
+    @Test
+    void test() {
+
+    }
 }
