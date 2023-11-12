@@ -1,2 +1,6 @@
 
 v	java:S116"URename this field "subject_00" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Åöûÿÿÿÿ8ãƒŞ·1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8òŸÎ¼1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8òŸÎ¼1
