@@ -7,3 +7,7 @@ a
 1src/main/java/com/itheima/mapper/BrandMapper.java,c\5\c5024885d3cd3a0499fd213172afe8d02b2e713b
 Z
 *src/main/java/com/itheima/MyBatisDemo.java,2\2\2213df63e5b263bacce86a1ad85bd67e7a8d3fa2
+_
+/src/test/java/com/itheima/test/MyBatisTest.java,a\c\ac430fed122d0f2bff2b49986ab428e737bf255a
+`
+0src/main/java/com/itheima/mapper/UserMapper.java,a\f\afcce925126d00d1d4f869d750bba7cd32805eb0

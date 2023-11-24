@@ -16,7 +16,7 @@ public class FilterDemo implements Filter {
         filterChain.doFilter(servletRequest, servletResponse);
 
         // 2. 放行后，对Response数据进行处理
-        System.out.println("3. Filter demo...");
+        System.out.println("4. Filter demo...");
     }
 
     @Override
