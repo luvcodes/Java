@@ -11,3 +11,7 @@ _
 /src/test/java/com/itheima/test/MyBatisTest.java,a\c\ac430fed122d0f2bff2b49986ab428e737bf255a
 `
 0src/main/java/com/itheima/mapper/UserMapper.java,a\f\afcce925126d00d1d4f869d750bba7cd32805eb0
+X
+(src/main/java/com/itheima/pojo/User.java,d\b\db0bdd2159b10c95148e203380d1b5d6034ea41e
+Y
+)src/main/java/com/itheima/pojo/Brand.java,9\1\919f36e15e987a02ee9bdaa1f7171e2345f4eafd

@@ -21,7 +21,7 @@ public class MyBatisDemo {
 
         // 3. 执行sql
         // test相当于就是UserMapper部份的内容, 传参应该是传id的内容
-        List<Object> users = sqlSession.selectList("test.selectAll");
+        List<Object> users = sqlSession.selectList("com.itheima.mapper.UserMapper.selectAll");
         // sqlSession.selectOne();
         System.out.println(users);
 
