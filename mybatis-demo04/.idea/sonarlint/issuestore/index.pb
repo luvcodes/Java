@@ -15,3 +15,11 @@ X
 (src/main/java/com/itheima/pojo/User.java,d\b\db0bdd2159b10c95148e203380d1b5d6034ea41e
 Y
 )src/main/java/com/itheima/pojo/Brand.java,9\1\919f36e15e987a02ee9bdaa1f7171e2345f4eafd
+b
+2src/test/java/com/itheima/test/UserMapperTest.java,e\5\e587173c8f48fc98ac4f110cef233eece086045f
+Å
+Q.idea/sonarlint/securityhotspotstore/e/5/e587173c8f48fc98ac4f110cef233eece086045f,8\1\8143880205c9d055618cb3b0356fb36401c1892b
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
