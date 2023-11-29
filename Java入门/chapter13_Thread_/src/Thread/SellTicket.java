@@ -9,7 +9,7 @@ public class SellTicket {
 //        SellTicket01 sellTicket02 = new SellTicket01();
 //        SellTicket01 sellTicket03 = new SellTicket01();
 
-//        // 这里会出现票数超卖的现象
+        // 这里会出现票数超卖的现象
         /**
          * 创建了三个不同的SellTicket01实例，每个实例都有自己的ticketNum。
          * 由于ticketNum是静态的，这意味着它是所有实例共享的。
