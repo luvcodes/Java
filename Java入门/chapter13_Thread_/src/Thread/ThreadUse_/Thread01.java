@@ -10,11 +10,11 @@ public class Thread01 {
             public synchronized void start() {
                 start0();
             }
-            (2)
-            //start0() 是本地方法，是JVM调用, 底层是c/c++实现
-            //真正实现多线程的效果， 是start0(), 而不是 run
-            private native void start0();
+            (2) start0() 是本地方法，是JVM调用, 底层是c/c++实现
+                真正实现多线程的效果， 是start0(), 而不是 run
+                private native void start0();
          */
+
         /**
          * 这一行代码实际上做了两件事：
          * 1. 它启动了一个新的线程。

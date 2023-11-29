@@ -56,8 +56,8 @@ class ThreadProxy implements Runnable {
     }
 }
 
-
-class Dog implements Runnable { //通过实现Runnable接口，开发线程
+// 通过实现Runnable接口，开发线程
+class Dog implements Runnable {
     int count = 0;
 
     @Override

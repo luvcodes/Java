@@ -37,7 +37,7 @@ class SellTicket03 implements Runnable {
      * 2. 这时锁在 this对象
      * 3. 也可以在代码块上写 synchronize ,同步代码块, 互斥锁还是在this对象
      * */
-    //同步方法, 在同一时刻， 只能有一个线程来执行sell方法
+    //同步方法, 在同一时刻，只能有一个线程来执行sell方法
     public /*synchronized*/ void sell() {
         /**
          * 这里把this改成object依然可以运行的原因就在于

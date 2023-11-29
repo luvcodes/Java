@@ -2,9 +2,7 @@ package Thread.ThreadMethods;
 
 public class ThreadMethod01 {
     public static void main(String[] args) throws InterruptedException {
-        //测试相关的方法
         T t = new T();
-        // 给线程命名为老韩
         t.setName("老韩");
         t.setPriority(Thread.MIN_PRIORITY);//1
         t.start();//启动子线程
@@ -39,7 +37,7 @@ class T extends Thread { //自定义的线程类
     public void run() {
         while (true) {
             for (int i = 0; i < 100; i++) {
-                //Thread.currentThread().getName() 获取当前线程的名称
+                // 获取当前线程的名称
                 System.out.println(Thread.currentThread().getName() + "  吃包子~~~~" + i);
             }
             try {
