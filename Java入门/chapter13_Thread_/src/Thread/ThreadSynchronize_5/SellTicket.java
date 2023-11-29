@@ -65,3 +65,16 @@ class SellTicket03 implements Runnable {
         }
     }
 }
+
+// new SellTicket01().start();
+// new SellTicket01().start();
+// 两个对象是两个不同的this，所以相当于对象争夺的是不同的锁，所以这样是锁不住的，代码失效。
+// 必须要保证this对象是大家共享的对象
+class SellTicket01 extends Thread {
+    private static final int ticketNum = 100;
+    public void m1() {
+        synchronized (this) {
+            System.out.println("hello");
+        }
+    }
+}
