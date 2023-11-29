@@ -5,7 +5,7 @@ e
 java:S1192@"ODefine a constant instead of duplicating this literal " å‰©ä½™ç¥¨æ•°=" 3 times.(¹Ë‘Á
 f
 java:S11925"PDefine a constant instead of duplicating this literal "å”®ç¥¨ç»“æŸ..." 3 times.(ØğÁ
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹›Ş¼øÿÿÿÿ8¡¾ôÌÁ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àû­Ş8¡¾ôÌÁ1
 œ
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ä²ğıÿÿÿÿ
 `
