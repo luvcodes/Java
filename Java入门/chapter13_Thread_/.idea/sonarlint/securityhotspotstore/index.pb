@@ -11,14 +11,6 @@ Z
 *src/Thread/ThreadState_4/Threadstate_.java,5/f/5f7ad38a106e09c2afc9d3c1a38d3d2c7e025102
 ^
 .src/Thread/ThreadSynchronize_5/SellTicket.java,3\5\35734af33b15504bd4feb5a9e1826db41ae3f164
-T
-$src/Thread/WaitAndNotify_6/Cook.java,3\b\3b93ea0630eb52daf196fdf86babe1cbadbd6bc9
-V
-&src/Thread/WaitAndNotify_6/Foodie.java,1\b\1b310ca5f1816d5a8a712b01eabd7b1e8d1e3164
-Z
-*src/Thread/WaitAndNotify_6/ThreadDemo.java,f\2\f2c6fd0618c37f46fca5286b11a12b7658748287
-T
-$src/Thread/WaitAndNotify_6/Desk.java,3\6\36aea4a71fca4e3c4d083516b10967b3883a4024
 g
 7src/Thread/WaitAndNotify_6/ConsumerProducer/Foodie.java,7\b\7b8af8e5d01407164745ee0fddb3b1550c71c62c
 e
