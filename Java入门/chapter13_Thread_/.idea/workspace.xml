@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure">
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_01_quickstart/target/classes/com/itheima/Mybatisplus01QuickstartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_01_quickstart/target/classes/com/itheima/Mybatisplus01QuickstartApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_01_quickstart/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_01_quickstart/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/Mybatisplus02DqlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/Mybatisplus02DqlApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/config/MyBatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/config/MyBatisPlusConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/domain/query/UserQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/classes/com/itheima/domain/query/UserQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/test-classes/com/itheima/Mybatisplus02DqlApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_02_dql/target/test-classes/com/itheima/Mybatisplus02DqlApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/Mybatisplus03DmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/Mybatisplus03DmlApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/config/MyBatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/config/MyBatisPlusConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/domain/query/UserQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/classes/com/itheima/domain/query/UserQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/test-classes/com/itheima/Mybatisplus03DmlApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/mybatisplus_03_dml/target/test-classes/com/itheima/Mybatisplus03DmlApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_01_quickstart1/target/classes/com/itheima/Springboot01Quickstart1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_01_quickstart1/target/classes/com/itheima/Springboot01Quickstart1Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_01_quickstart1/target/classes/com/itheima/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_01_quickstart1/target/classes/com/itheima/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/com/itheima/Springboot02BaseConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/com/itheima/Springboot02BaseConfigApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/com/itheima/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_02_base_config/target/classes/com/itheima/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/Springboot03ReadDataApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/Springboot03ReadDataApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/domain/Enterprise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_03_read_data/target/classes/com/itheima/domain/Enterprise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_05_maven_and_boot_profile/target/classes/com/itheima/Springboot05MavenAndBootProfileApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_05_maven_and_boot_profile/target/classes/com/itheima/Springboot05MavenAndBootProfileApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_05_maven_and_boot_profile/target/classes/com/itheima/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_05_maven_and_boot_profile/target/classes/com/itheima/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/com/itheima/Springboot06ConfigFile01Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/com/itheima/Springboot06ConfigFile01Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/com/itheima/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/com/itheima/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_06_config_file01/target/classes/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/Springboot08MybatisApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/Springboot08MybatisApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/classes/com/itheima/domain/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/test-classes/com/itheima/Springboot08MybatisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot/springboot_08_mybatis/target/test-classes/com/itheima/Springboot08MybatisApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,28 +29,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter13_Thread_&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter13_Thread_",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -91,13 +60,13 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.WaitAndNotify_6.ThreadDemo">
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.WaitAndNotify_6.ConsumerProducer.ThreadDemo" />
+  <component name="RunManager" selected="Application.MyThreadPoolDemo">
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.MyThreadPoolDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.WaitAndNotify_6.ConsumerProducer.*" />
+          <option name="PATTERN" value="Thread.ThreadPool_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Method2_.ThreadDemo2" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.WaitAndNotify_6.ConsumerProducer.ThreadDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadUse_1.Method2_.*" />
+          <option name="PATTERN" value="Thread.WaitAndNotify_6.ConsumerProducer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.Thread.WaitAndNotify_6.ThreadDemo" />
         <item itemvalue="Application.ThreadExit" />
         <item itemvalue="Application.Threadstate_" />
         <item itemvalue="Application.ThreadMethod03" />
-        <item itemvalue="Application.ThreadDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +157,7 @@
       <workItem from="1696978046608" duration="16000" />
       <workItem from="1701192359321" duration="1983000" />
       <workItem from="1701212463439" duration="9473000" />
-      <workItem from="1701311560709" duration="4359000" />
+      <workItem from="1701311560709" duration="6418000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
