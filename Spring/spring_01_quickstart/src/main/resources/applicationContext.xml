@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 1. 导入spring的坐标 -->
+    <!-- 2. 配置bean -->
+    <!-- id表示给bean起名字，class表示给bean定义类型 -->
+    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl" />
+    <bean id="serviceDao" class="com.itheima.service.impl.BookServiceImpl">
+        <!-- 7. 配置server与dao的属性 -->
+<!--        property标签表示配置当前bean的属性-->
+<!--        name属性表示配置哪一个具体的属性, 指的是BookServiceImpl文件里的bookDao对象-->
+<!--        ref属性表示参照哪一个bean, 这里指的就是上面的id="bookDao"-->
+        <property name="bookDao" ref="bookDao" />
+    </bean>
+</beans>

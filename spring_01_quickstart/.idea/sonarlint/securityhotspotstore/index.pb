@@ -1,8 +1,6 @@
 
 g
 7src/main/java/com/itheima/service/impl/BookService.java,e\2\e2bfca256f469a73bb55f4c54b185b3d9e2b3f53
-R
-"src/main/java/com/itheima/App.java,d\1\d1b4334a0c96c205ea1c6c50d648c6aced028358
 _
 /src/main/java/com/itheima/dao/impl/BookDao.java,6\7\67ad864e0ec6b2dfddf0eb2ca61b36b011aaf656
 c
