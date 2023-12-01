@@ -1,8 +1,9 @@
 package com.itheima.service.impl;
 
-import com.itheima.dao.impl.BookDao;
+import com.itheima.dao.BookDao;
 import com.itheima.dao.impl.BookDaoImpl;
-import com.itheima.dao.impl.UserDao;
+import com.itheima.dao.UserDao;
+import com.itheima.service.BookService;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 

@@ -1,7 +1,6 @@
 package com.itheima;
 
-import com.itheima.dao.impl.BookDao;
-import com.itheima.service.impl.BookService;
+import com.itheima.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

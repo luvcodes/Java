@@ -1,4 +1,4 @@
-package com.itheima.service.impl;
+package com.itheima.service;
 
 public interface BookService {
     void save();

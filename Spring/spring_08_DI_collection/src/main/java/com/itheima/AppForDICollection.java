@@ -1,7 +1,8 @@
 package com.itheima;
 
-import com.itheima.dao.impl.BookDao;
+import com.itheima.dao.BookDao;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 public class AppForDICollection {
     public static void main(String[] args) {

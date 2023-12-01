@@ -1,6 +1,6 @@
 package com.itheima;
 
-import com.itheima.service.impl.BookService;
+import com.itheima.service.BookService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AppForDIAutoware {
