@@ -4,7 +4,7 @@ import com.itheima.service.impl.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class App2 {
+public class App {
     public static void main(String[] args) {
         // 3. 获取IoC容器
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
