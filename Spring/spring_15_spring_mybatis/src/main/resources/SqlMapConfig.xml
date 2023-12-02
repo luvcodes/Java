@@ -7,7 +7,7 @@
     <properties resource="jdbc.properties"></properties>
     <!-- 初始化类型别名 -->
     <typeAliases>
-        <package name="com.itheima.domain"/>
+        <package name="com.com.itheima.domain"/>
     </typeAliases>
     <!-- 初始化dataSource -->
     <environments default="mysql">
@@ -23,6 +23,6 @@
     </environments>
     <!-- 初始化映射配置 -->
     <mappers>
-        <package name="com.itheima.dao"></package>
+        <package name="com.com.itheima.dao"></package>
     </mappers>
 </configuration>

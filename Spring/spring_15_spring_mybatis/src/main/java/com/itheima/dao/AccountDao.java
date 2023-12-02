@@ -1,4 +1,4 @@
-package itheima.dao;
+package com.itheima.dao;
 
 import com.itheima.domain.Account;
 import org.apache.ibatis.annotations.Delete;

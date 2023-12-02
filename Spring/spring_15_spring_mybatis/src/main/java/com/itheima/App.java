@@ -1,3 +1,5 @@
+package com.itheima;
+
 import com.itheima.dao.AccountDao;
 import com.itheima.domain.Account;
 import org.apache.ibatis.io.Resources;

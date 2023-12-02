@@ -1,4 +1,4 @@
-package itheima.service;
+package com.itheima.service;
 
 import com.itheima.dao.AccountDao;
 import com.itheima.domain.Account;

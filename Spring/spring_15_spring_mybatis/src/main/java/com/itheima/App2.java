@@ -1,3 +1,5 @@
+package com.itheima;
+
 import com.itheima.config.SpringConfig;
 import com.itheima.domain.Account;
 import com.itheima.service.AccountService;

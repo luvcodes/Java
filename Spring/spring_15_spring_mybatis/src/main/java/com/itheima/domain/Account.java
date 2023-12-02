@@ -1,4 +1,4 @@
-package itheima.domain;
+package com.itheima.domain;
 
 import java.io.Serializable;
 
