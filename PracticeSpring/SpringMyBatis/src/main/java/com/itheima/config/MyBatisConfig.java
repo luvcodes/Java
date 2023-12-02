@@ -6,21 +6,20 @@ import org.springframework.context.annotation.Bean;
 
 import javax.sql.DataSource;
 
-public class MybatisConfig {
+public class MyBatisConfig {
     @Bean
     public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource) {
         SqlSessionFactoryBean ssfb = new SqlSessionFactoryBean();
-        ssfb.setTypeAliasesPackage("com.itheima.domain");
+        ssfb.setTypeAliasesPackage("com.com.itheima.domain");
         ssfb.setDataSource(dataSource);
 
         return ssfb;
     }
 
     // 这里是为了SqlMapConfig配置文件中的mapper标签
-    @Bean
     public MapperScannerConfigurer mapperScannerConfigurer() {
-        MapperScannerConfigurer msc = new MapperScannerConfigurer();
-        msc.setBasePackage("com.itheima.dao");
-        return msc;
+        MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
+        mapperScannerConfigurer.setBasePackage("com.com.itheima.dao");
+        return mapperScannerConfigurer;
     }
 }
