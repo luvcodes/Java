@@ -11,10 +11,8 @@ public class MyAdvice {
     // 切入点
     @Pointcut("execution(void com.itheima.dao.BookDao.update())")
     private void pt() {}
-
     @Pointcut("execution(int com.itheima.dao.BookDao.select())")
     private void pt2() {}
-
 
 //    @Before("pt()")
     public void before() {
@@ -29,22 +27,16 @@ public class MyAdvice {
     @Around("pt()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("around before advice...");
-        // 标识对原始操作的调用
+        // 表示对原始操作的调用
         // 抛出异常是因为它不知道原始方法里有没有异常
         Object ret = pjp.proceed();
         System.out.println("around after advice...");
         return ret;
     }
 
-
-    /**
-     * 重点
-     * */
     @Around("pt2()")
     public Object aroundSelect(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("around before advice...");
-        // 标识对原始操作的调用
-        // 抛出异常是因为它不知道原始方法里有没有异常
         Integer ret = (Integer) pjp.proceed();
         System.out.println("around after advice...");
         return ret;
@@ -53,7 +45,6 @@ public class MyAdvice {
     /**
      * 下面两个用的比较少
      * */
-
     @AfterReturning("pt2()")
     public void afterRuturning() {
         System.out.println("afterReturning advice ...");
