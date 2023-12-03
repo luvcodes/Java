@@ -10,10 +10,8 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyAdvice {
     // 切入点
-    @Pointcut("execution(void com.itheima.dao.impl.BookDao.update())")
-    private void pt() {
-
-    }
+    @Pointcut("execution(void com.itheima.dao.BookDao.update())")
+    private void pt() {}
 
     @Before("pt()")
     public void method() {
