@@ -20,24 +20,24 @@ public class JdbcConfig {
 
     // 定义一个方法获得要管理的对象
     // 添加@Bean标识当前方法的返回值是一个bean
-    @Bean
-    public DataSource dataSource() {
-        DruidDataSource ds = new DruidDataSource();
-        ds.setDriverClassName(driver);
-        ds.setUrl(url);
-        ds.setUsername(username);
-        ds.setPassword(password);
-        return ds;
-    }
+//    @Bean
+//    public DataSource dataSource() {
+//        DruidDataSource ds = new DruidDataSource();
+//        ds.setDriverClassName(driver);
+//        ds.setUrl(url);
+//        ds.setUsername(username);
+//        ds.setPassword(password);
+//        return ds;
+//    }
 
     // 注入引用类型, 就通过参数bookDao来实现
-    // @Bean
-    // public DataSource dataSource(BookDao bookDao) {
-    // DruidDataSource ds = new DruidDataSource();
-    // ds.setDriverClassName(driver);
-    // ds.setUrl(url);
-    // ds.setUsername(username);
-    // ds.setPassword(password);
-    // return ds;
-    // }
+     @Bean
+     public DataSource dataSource(BookDao bookDao) {
+     DruidDataSource ds = new DruidDataSource();
+     ds.setDriverClassName(driver);
+     ds.setUrl(url);
+     ds.setUsername(username);
+     ds.setPassword(password);
+     return ds;
+     }
 }

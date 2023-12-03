@@ -16,7 +16,6 @@ public class MybatisConfig {
         return ssfb;
     }
 
-    // 这里是为了SqlMapConfig配置文件中的mapper标签
     @Bean
     public MapperScannerConfigurer mapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
