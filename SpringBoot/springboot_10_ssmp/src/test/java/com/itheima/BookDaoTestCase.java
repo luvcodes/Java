@@ -1,5 +1,6 @@
 package com.itheima;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -63,6 +64,18 @@ public class BookDaoTestCase {
     void testGetBy() {
         QueryWrapper<Book> qw = new QueryWrapper<>();
         qw.like("name", "Spring"); // select * from tbl_book where name like '%Spring%';
+        bookDao.selectList(qw);
+    }
+
+    @Test
+    void testGetBy2() {
+        String name = "Spring";
+        LambdaQueryWrapper<Book> qw = new LambdaQueryWrapper<>();
+        /**
+         * 这里按条件查询只演示了like，还有其他的条件可以使用
+         * */
+//        if (name != null) qw.like(Book::getName, "Spring"); // select * from tbl_book where name like '%Spring%';
+        qw.like(name != null, Book::getName, name); // 第一个参数条件 如果true就可以走后面的参数; 如果false就不走了
         bookDao.selectList(qw);
     }
 }
