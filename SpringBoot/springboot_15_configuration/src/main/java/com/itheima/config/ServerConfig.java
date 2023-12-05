@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
+// @Component
 @Data
 @ConfigurationProperties(prefix = "servers")
 public class ServerConfig {

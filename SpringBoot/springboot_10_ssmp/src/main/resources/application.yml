@@ -12,3 +12,4 @@ mybatis-plus:
   global-config:
     db-config:
       table-prefix: tbl_
+      id-type: auto
