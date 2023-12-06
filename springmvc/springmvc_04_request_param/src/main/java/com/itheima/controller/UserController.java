@@ -36,7 +36,7 @@ public class UserController {
         return "{'module':'pojo param'}";
     }
 
-    // 这个是为了处理User里面如果带有引用属性，就是有Address类的实例对象，怎么处理
+    // 这个是为了处理User里面如果带有引用属性，就是在User类中有Address类的实例对象，怎么处理
     @RequestMapping("/pojoContainPojoParam")
     @ResponseBody
     public String pojoContainPojoParam(User user) {
