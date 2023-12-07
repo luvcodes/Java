@@ -17,7 +17,7 @@ public class Springboot15ConfigurationApplication {
     public DruidDataSource dataSource() {
         DruidDataSource dataSource = new DruidDataSource();
         // 这样是手动配置，第一种方法
-//        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        // dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         return dataSource;
     }
 
