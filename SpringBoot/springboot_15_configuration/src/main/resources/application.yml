@@ -1,6 +1,6 @@
 servers:
-  ipAddress: 192.168.0.1
-#  ip-address: 192.168.0.1
+#  ipAddress: 192.168.0.1
+  ip-address: 192.168.0.1
   port: 2345
   timeout: -1
   serverTimeOut: 3
