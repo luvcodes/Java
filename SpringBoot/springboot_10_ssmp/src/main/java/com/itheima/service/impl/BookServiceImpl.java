@@ -16,7 +16,8 @@ public class BookServiceImpl extends ServiceImpl<BookDao, Book> implements IBook
 
     @Override
     public boolean saveBook(Book book) {
-        return bookDao.insert(book) > 0; // 返回值是int类型，要判断是否大于0，大于0表示插入成功，否则插入失败。
+        // 返回值是int类型，要判断是否大于0，大于0表示插入成功，否则插入失败。
+        return bookDao.insert(book) > 0;
     }
 
     @Override

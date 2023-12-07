@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.controller.utils.R;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -23,34 +24,37 @@ public class BookController {
     @Autowired
     private IBookService bookService;
 
-    @GetMapping("{id}")
-    public Book getById(@PathVariable Integer id) {
-        return bookService.getById(id);
-    }
-
-    @GetMapping
-    public List<Book> getAll() {
-        return bookService.list();
-    }
 
     @PostMapping
-    public Boolean save(@RequestBody Book book) {
-        return bookService.save(book);
+    public R save(@RequestBody Book book) {
+        R r = new R(bookService.save(book));
+        return r;
     }
 
     @PutMapping
-    public Boolean update(@RequestBody Book book) {
-        return bookService.modify(book);
+    public R update(@RequestBody Book book) {
+        return new R(bookService.modify(book));
     }
 
     @DeleteMapping("{id}")
-    public Boolean delete(@PathVariable Integer id) {
-        return bookService.delete(id);
+    public R delete(@PathVariable Integer id) {
+        return new R(bookService.delete(id));
     }
+
+    @GetMapping("{id}")
+    public R getById(@PathVariable Integer id) {
+        // 这样写就是不管是不是空，都是查询成功
+        return new R(true, bookService.getById(id));
+    }
+
+    @GetMapping
+    public R getAll() {
+        return new R(true, bookService.list());
+    }
+
 
     @GetMapping("{currentPage}/{pageSize}")
-    public IPage<Book> getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
-        return bookService.getPage(currentPage, pageSize);
+    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
+        return new R(true, bookService.getPage(currentPage, pageSize));
     }
-
 }
