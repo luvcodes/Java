@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@RestController
+//@RestController // 这里注释掉是为了展示BookController的写法
 @RequestMapping("/books")
 public class BookController2 {
     @Autowired
@@ -43,5 +43,4 @@ public class BookController2 {
     public IPage<Book> getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
         return bookService.getPage(currentPage, pageSize);
     }
-
 }

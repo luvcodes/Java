@@ -24,10 +24,9 @@ public class BookController {
     @Autowired
     private IBookService bookService;
 
-
     @PostMapping
     public R save(@RequestBody Book book) {
-        R r = new R(bookService.save(book));
+        R r = new R(bookService.saveBook(book));
         return r;
     }
 
