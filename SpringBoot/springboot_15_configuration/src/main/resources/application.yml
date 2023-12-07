@@ -1,7 +1,9 @@
 servers:
 #  ipAddress: 192.168.0.1
-  ip-address: 192.168.0.1
-  port: 2345
+  ip-address: 192.168.0.1 # 这里可以验证宽松绑定
+#  port: 9999 # 这样可以验证port的最大值bean校验条件是否满足
+#  port: 201 # 这样可以验证port的最小值bean校验条件是否满足
+  port: 202
   timeout: -1
   serverTimeOut: 3
   dataSize: 10
