@@ -14,7 +14,7 @@ import javax.validation.constraints.Min;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
-// @Component
+//@Component
 @Data
 @ConfigurationProperties(prefix = "servers")
 @Validated
