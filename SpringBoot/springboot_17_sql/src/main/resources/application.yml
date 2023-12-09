@@ -13,3 +13,6 @@ mybatis-plus:
       id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# h2数据库
+server:
+  port: 80
