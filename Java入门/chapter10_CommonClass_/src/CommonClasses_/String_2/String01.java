@@ -13,7 +13,7 @@ public class String01 {
          7. String有属性 private final char value[]; 用于存放字符串内容
          8. 一定要注意: value是一个final类型，不可以修改(不可修改指的是value不能指向新的地址，但是单个字符内容是可以变化的)
         */
-         String name = "jack";
+        String name = "jack";
         name = "tom";
         final char[] value = {'a', 'b', 'c'};
         char[] v2 = {'t', 'o', 'm'};

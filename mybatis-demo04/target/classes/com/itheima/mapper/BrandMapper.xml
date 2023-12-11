@@ -47,8 +47,7 @@
 
 
     <select id="selectAll" resultMap="brandResultMap">
-        select *
-        from tb_brand;
+        select * from tb_brand;
     </select>
 
 

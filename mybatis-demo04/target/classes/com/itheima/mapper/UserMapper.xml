@@ -18,11 +18,13 @@
         where username = #{username} and password = #{password};
     </select>
 
+    <!-- 第一种默认参数 -->
     <!--    <select id="select" resultType="user">-->
 <!--        select * from tb_user-->
 <!--        where username = #{arg0} and password = #{arg1};-->
 <!--    </select>-->
 
+    <!-- 第二种默认参数 -->
 <!--    <select id="select" resultType="user">-->
 <!--        select * from tb_user-->
 <!--        where username = #{param1} and password = #{param2};-->
