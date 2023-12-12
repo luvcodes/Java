@@ -1,0 +1,7 @@
+cartoon:
+  cat:
+    name: mark
+    age: 3
+  mouse:
+    name: jerry
+    age: 4
