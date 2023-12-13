@@ -10,6 +10,9 @@ public class MsgServiceImpl implements MsgService {
     // 定义缓存
     private HashMap<String, String> cache = new HashMap<String, String>();
 
+    /**
+     * 取电话号的后6位作为验证码
+     * */
     @Override
     public String get(String tele) {
         String substring = tele.substring(tele.length() - 6);

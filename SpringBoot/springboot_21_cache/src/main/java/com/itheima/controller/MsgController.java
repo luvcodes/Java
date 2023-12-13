@@ -1,6 +1,5 @@
 package com.itheima.controller;
 
-import com.itheima.domain.Book;
 import com.itheima.service.MsgService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +11,7 @@ public class MsgController {
     private MsgService msgService;
 
     @GetMapping("{tele}")
-    public String getById(@PathVariable String tele) {
+    public String getTele(@PathVariable String tele) {
         return msgService.get(tele);
     }
 
