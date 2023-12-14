@@ -8,6 +8,16 @@ spring:
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
+  cache:
+    type: redis
+    redis:
+#      use-key-prefix: true
+#      cache-null-values: false
+#      key-prefix: aa
+      time-to-live: 10s
+  redis:
+    host: localhost
+    port: 6379
 
 
 mybatis-plus:
@@ -17,3 +27,4 @@ mybatis-plus:
       id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
