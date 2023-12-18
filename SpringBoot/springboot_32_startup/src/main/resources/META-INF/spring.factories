@@ -1,0 +1,3 @@
+# Application listeners
+org.springframework.context.ApplicationListener=\
+  com.itheima.listener.MyListener
