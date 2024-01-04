@@ -1,5 +1,6 @@
 package com.ryanyang.test;
 
+import com.ryanyang.jedis.util.JedisConnectionFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +15,9 @@ public class JedisTest {
     void setUp() {
         // 1. 建立连接
         // 指定ip和端口号
-        jedis = new Jedis("127.0.0.1", 6379);
+//        jedis = new Jedis("127.0.0.1", 6379);
+
+        jedis = JedisConnectionFactory.getJedis();
 
         // 2. 设置密码
         jedis.auth("123456");
