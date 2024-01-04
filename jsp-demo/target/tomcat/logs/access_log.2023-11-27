@@ -1,5 +1,0 @@
-0:0:0:0:0:0:0:1 - - [27/Nov/2023:08:34:39 +1100] "GET /jsp-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
-0:0:0:0:0:0:0:1 - - [27/Nov/2023:08:34:39 +1100] "GET /jsp-demo/ HTTP/1.1" 404 969 http-bio-8080-exec-2 15
-0:0:0:0:0:0:0:1 - - [27/Nov/2023:08:34:39 +1100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
-0:0:0:0:0:0:0:1 - - [27/Nov/2023:08:34:47 +1100] "GET /brand HTTP/1.1" 404 - http-bio-8080-exec-4 0
-0:0:0:0:0:0:0:1 - - [27/Nov/2023:08:35:02 +1100] "GET /jsp-demo/brand.jsp HTTP/1.1" 200 1340 http-bio-8080-exec-5 35

@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:03 +1100] "GET /axios/02-axios-demo.html HTTP/1.1" 200 920 http-bio-8080-exec-1 26
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:03 +1100] "GET /axios/js/axios-0.18.0.js HTTP/1.1" 304 - http-bio-8080-exec-2 6
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:03 +1100] "POST /axios/axiosServlet HTTP/1.1" 200 11 http-bio-8080-exec-3 5
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:03 +1100] "GET /axios/axiosServlet?username=zhangsan HTTP/1.1" 200 11 http-bio-8080-exec-4 4
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:07 +1100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-6 0
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:44:38 +1100] "POST /axios/axiosServlet HTTP/1.1" 200 11 http-bio-8080-exec-7 2
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:45:03 +1100] "GET /axios/02-axios-demo.html HTTP/1.1" 200 929 http-bio-8080-exec-1 25
-0:0:0:0:0:0:0:1 - - [01/Oct/2023:08:45:03 +1100] "GET /axios/axiosServlet?username=zhangsan HTTP/1.1" 200 11 http-bio-8080-exec-2 2

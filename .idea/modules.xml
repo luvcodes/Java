@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jsp-demo/jsp-demo.iml" filepath="$PROJECT_DIR$/jsp-demo/jsp-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/各类语言学习.iml" filepath="$PROJECT_DIR$/各类语言学习.iml" />
     </modules>
   </component>
