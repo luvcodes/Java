@@ -1,13 +1,13 @@
-package org.ryanyang;
+package com.ryanyang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RedisDemoApplication {
+public class SpringDataRedisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RedisDemoApplication.class, args);
+        SpringApplication.run(SpringDataRedisApplication.class, args);
     }
 
 }

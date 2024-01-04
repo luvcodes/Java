@@ -1,4 +1,4 @@
-package org.ryanyang.redis.pojo;
+package com.ryanyang.redis.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
