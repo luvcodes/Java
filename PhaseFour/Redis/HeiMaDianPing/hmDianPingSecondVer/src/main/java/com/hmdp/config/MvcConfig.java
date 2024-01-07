@@ -15,13 +15,13 @@ import javax.annotation.Resource;
  */
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
-    @Autowired
+    @Resource
     private StringRedisTemplate stringRedisTemplate;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         // 登录拦截器
-        registry.addInterceptor(new LoginInterceptor(stringRedisTemplate))
+        registry.addInterceptor(new LoginInterceptor())
                 .excludePathPatterns(
                         "/shop/**",
                         "/voucher/**",
@@ -31,5 +31,8 @@ public class MvcConfig implements WebMvcConfigurer {
                         "/user/code",
                         "/user/login"
                 );
+        // 拦截所有请求，下一步发送给登录拦截器
+        // 这个RefreshTokenInterceptor应该是先于LoginInterceptor执行，所以设置order()的参数值比较小
+        registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate)).addPathPatterns("/**").order(0);
     }
 }
