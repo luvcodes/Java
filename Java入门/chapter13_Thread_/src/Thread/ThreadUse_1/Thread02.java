@@ -2,24 +2,25 @@ package Thread.ThreadUse_1;
 
 /**
  * 通过实现接口Runnable 来开发线程
+ * @author ryanw
  */
 public class Thread02 {
     public static void main(String[] args) {
-//        Dog dog = new Dog();
-//        //dog.start(); 这里不能调用start
-//        //创建了Thread对象，把 dog对象(实现Runnable),放入Thread
+        Dog dog = new Dog();
+//        dog.start(); // 这里不能调用start
+        //创建了Thread对象，把 dog对象(实现Runnable),放入Thread
 //        Thread thread = new Thread(dog);
 //        thread.start();
 
-        // 实现了 Runnable接口
-        Tiger tiger = new Tiger();
-        ThreadProxy threadProxy = new ThreadProxy(tiger); // 能把tiger传进去，是因为Tiger类实现了Runnable接口
-        threadProxy.start();
+//        // 实现了 Runnable接口
+//        Tiger tiger = new Tiger();
+//        // 能把tiger传进去，是因为Tiger类实现了Runnable接口
+//        ThreadProxy threadProxy = new ThreadProxy(tiger);
+//        threadProxy.start();
     }
 }
 
-class Animal {
-}
+class Animal {}
 
 class Tiger extends Animal implements Runnable {
     @Override
@@ -28,7 +29,7 @@ class Tiger extends Animal implements Runnable {
     }
 }
 
-//线程代理类 , 模拟了一个极简的Thread类
+//线程代理类, 模拟了一个极简的Thread类
 //你可以把Proxy类当做 ThreadProxy
 class ThreadProxy implements Runnable {
     //属性，类型是 Runnable

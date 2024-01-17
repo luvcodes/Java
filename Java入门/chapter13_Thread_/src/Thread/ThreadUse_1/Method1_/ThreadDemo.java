@@ -1,5 +1,8 @@
 package Thread.ThreadUse_1.Method1_;
 
+/**
+ * @author ryanw
+ */
 public class ThreadDemo {
     public static void main(String[] args) {
         // create two threads and the set the names

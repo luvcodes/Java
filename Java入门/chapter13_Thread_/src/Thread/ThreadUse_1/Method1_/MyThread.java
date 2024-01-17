@@ -1,5 +1,8 @@
 package Thread.ThreadUse_1.Method1_;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread {
     @Override
     public void run() {

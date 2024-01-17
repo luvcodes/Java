@@ -1,16 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âªì¢
-T
-java:S1854"9Remove this useless assignment to local variable "split".(µþñ€ÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(­þ…Ý
-E	java:S106
-"+Replace this use of System.out by a logger.(ÆÚ²”úÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(Î’ÛÚ
-@	java:S106"+Replace this use of System.out by a logger.(Î’ÛÚ
-E	java:S106 "+Replace this use of System.out by a logger.(ÌÈ–Ñüÿÿÿÿ
-E	java:S106""+Replace this use of System.out by a logger.(ä·šòýÿÿÿÿ
-E	java:S106)"+Replace this use of System.out by a logger.(¯—¹Ÿøÿÿÿÿ
-@	java:S1068"+Replace this use of System.out by a logger.(Ýºéó
-@	java:S106C"+Replace this use of System.out by a logger.(™Ãø¤
-Q	java:S125M"<This block of commented-out lines of code should be removed.(çŸÄ
-E	java:S106P"+Replace this use of System.out by a logger.(ùÞ¡«üÿÿÿÿ

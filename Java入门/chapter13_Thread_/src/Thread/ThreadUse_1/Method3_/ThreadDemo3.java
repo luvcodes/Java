@@ -3,6 +3,9 @@ package Thread.ThreadUse_1.Method3_;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
+/**
+ * @author ryanw
+ */
 public class ThreadDemo3 {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         // 表示多线程要执行的任务

@@ -1,5 +1,8 @@
 package Thread.ThreadUse_1;
 
+/**
+ * @author ryanw
+ */
 public class Thread01 {
     public static void main(String[] args) throws InterruptedException {
         //创建Cat对象，可以当做线程使用
@@ -23,7 +26,8 @@ public class Thread01 {
         // 启动线程
         cat.start();
 
-        //run方法就是一个普通的方法, 如果不先执行start方法而直接执行run方法，就相当于没有真正的启动一个线程，就会把run方法执行完毕，才向下执行
+        //run方法就是一个普通的方法, 如果不先执行start方法而直接执行run方法，就相当于没有真正的启动一个线程，
+        // 就会把run方法执行完毕，才向下执行
         //cat.run();
         /**
          *  说明: 当main线程启动一个子线程 Thread-0, 主线程不会阻塞, 会继续执行。意思就是main线程不等thread-0执行完才执行
@@ -43,17 +47,9 @@ public class Thread01 {
 //1. 当一个类继承了 Thread 类， 该类就可以当做线程使用
 //2. 我们会重写 run方法，写上自己的业务代码
 //3. run Thread 类 实现了 Runnable 接口的run方法
-/**
-    @Override
-    public void run() {
-        if (target != null) {
-            target.run();
-        }
-    }
- */
 class Cat extends Thread {
     int times = 0;
-    //重写run方法，写上自己的业务逻辑
+    //重写run方法，写自己的业务逻辑
     @Override
     public void run() {
         while (true) {

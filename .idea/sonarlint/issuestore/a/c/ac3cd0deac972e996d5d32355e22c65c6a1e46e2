@@ -1,22 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÆ¢Ğ
-z
-java:S1149	"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(±Ù¾åıÿÿÿÿ
-z
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(°’¬Çşÿÿÿÿ
-u
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(†Õ¥ß
-Q
-java:S1854"6Remove this useless assignment to local variable "s1".(ì™Êüúÿÿÿÿ
-P
-java:S1854"5Remove this useless assignment to local variable "s".(œ„ƒıÿÿÿÿ
-W
-java:S1854"ARemove this useless assignment to local variable "stringBuffer1".(ÿíşé
-[
-java:S1854	"@Remove this useless assignment to local variable "stringBuffer".(±Ù¾åıÿÿÿÿ
-L
-java:S1481	"1Remove this unused "stringBuffer" local variable.(±Ù¾åıÿÿÿÿ
-A
-java:S1481"&Remove this unused "s" local variable.(œ„ƒıÿÿÿÿ
-B
-java:S1481"'Remove this unused "s1" local variable.(ì™Êüúÿÿÿÿ

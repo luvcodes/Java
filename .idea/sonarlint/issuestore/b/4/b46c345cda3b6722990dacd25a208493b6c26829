@@ -1,41 +1,0 @@
-
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(³×¦‡
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(‘ÑÀ¢
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(¹Â£†
-W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(Û­¨ùÿÿÿÿ
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(È¼¹Ç
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿¯şÿÿÿÿ
-<
-java:S2129"!Remove this "Integer" constructor(éòí°ÿÿÿÿÿ
-c
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(éòí°ÿÿÿÿÿ
-7
-java:S2129"!Remove this "Integer" constructor(Å£²Ä
-^
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(Å£²Ä
-@	java:S106"+Replace this use of System.out by a logger.(³×¦‡
-7
-java:S2129	"!Remove this "Integer" constructor(¼ª¥˜
-^
-java:S5738	"HRemove this call to a deprecated method, it has been marked for removal.(¼ª¥˜
-<
-java:S2129
-"!Remove this "Integer" constructor(È‚ğøÿÿÿÿ
-c
-java:S5738
-"HRemove this call to a deprecated method, it has been marked for removal.(È‚ğøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(‘ÑÀ¢
-@	java:S106"+Replace this use of System.out by a logger.(¹Â£†
-E	java:S106"+Replace this use of System.out by a logger.(Û­¨ùÿÿÿÿ
-7
-java:S2129"!Remove this "Integer" constructor(ú¸¨Ö
-^
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ú¸¨Ö
-@	java:S106"+Replace this use of System.out by a logger.(È¼¹Ç
-E	java:S106$"+Replace this use of System.out by a logger.(íŠğ£ùÿÿÿÿ
-@	java:S106,"+Replace this use of System.out by a logger.(‚ç÷

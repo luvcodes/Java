@@ -1,11 +1,0 @@
-
-‰
-java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(±Œ©À8ÊŸéË­1
-L	java:S106"+Replace this use of System.out by a logger.(·ÊÉàþÿÿÿÿ8ËŸéË­1
-G	java:S106,"+Replace this use of System.out by a logger.(®€À£8Ü÷ðË­1
-]	java:S125%"<This block of commented-out lines of code should be removed.(“Š‚ÿÿÿÿÿ8…ˆ²Ì­1
-X	java:S125*"<This block of commented-out lines of code should be removed.(Ú÷íÿ8¡Ã»Ì­1
-|
-java:S19892"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû8ÐŸéË­1
-[
-java:S1128	">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ÞÛ8¢Ã»Ì­1

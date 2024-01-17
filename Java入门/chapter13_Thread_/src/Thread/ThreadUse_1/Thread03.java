@@ -2,6 +2,7 @@ package Thread.ThreadUse_1;
 
 /**
  * main线程启动两个子线程
+ * @author ryanw
  */
 public class Thread03 {
     public static void main(String[] args) {
@@ -33,7 +34,6 @@ class T1 implements Runnable {
 }
 
 class T2 implements Runnable {
-
     int count = 0;
 
     @Override

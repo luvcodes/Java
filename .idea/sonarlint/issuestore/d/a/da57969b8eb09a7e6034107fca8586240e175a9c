@@ -1,21 +1,0 @@
-
-]
-java:S1192"GDefine a constant instead of duplicating this literal "hspedu" 3 times.(Ä°šÕ
-f
-java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(ÁËƒÑ
-W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(ü¤Ÿ¥şÿÿÿÿ
-W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(«ç¤Âÿÿÿÿÿ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úşØ/
-@	java:S106
-"+Replace this use of System.out by a logger.(ø‰«ù
-@	java:S106"+Replace this use of System.out by a logger.(ÁËƒÑ
-E	java:S106"+Replace this use of System.out by a logger.(ü¤Ÿ¥şÿÿÿÿ
-6
-java:S2129" Remove this "String" constructor(ü½©œ
-6
-java:S2129" Remove this "String" constructor(€«â·
-E	java:S106"+Replace this use of System.out by a logger.(«ç¤Âÿÿÿÿÿ

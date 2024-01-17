@@ -1,23 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(Þç½Å
-E
-java:S3740"/Provide the parametrized type for this generic.(Þç½Å
-J
-java:S3740"/Provide the parametrized type for this generic.(þ”ƒ¦ûÿÿÿÿ
-g
-java:S1192"LDefine a constant instead of duplicating this literal "linkedList=" 3 times.(ÊÄá‹ùÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è¦žÖ
-E	java:S106"+Replace this use of System.out by a logger.(ÊÄá‹ùÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ÊÄá‹ùÿÿÿÿ
-P	java:S125"<This block of commented-out lines of code should be removed.(‰žØ~
-E	java:S106"+Replace this use of System.out by a logger.(ÊÄá‹ùÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ìÎ­‡
-?	java:S106"+Replace this use of System.out by a logger.(ù¬ØE
-@	java:S106""+Replace this use of System.out by a logger.(’¾Öæ
-@	java:S106&"+Replace this use of System.out by a logger.(óÇ¸ï
-E	java:S106("+Replace this use of System.out by a logger.(Â°ü–ûÿÿÿÿ
-@	java:S106*"+Replace this use of System.out by a logger.(æ–Þð
-E	java:S106,"+Replace this use of System.out by a logger.(‡íþ€úÿÿÿÿ
-Q	java:S1251"<This block of commented-out lines of code should be removed.(—óÄÆ
-V	java:S125K"<This block of commented-out lines of code should be removed.(ôú­¾úÿÿÿÿ

@@ -1,5 +1,8 @@
 package Thread.ThreadUse_1.Method2_;
 
+/**
+ * @author ryanw
+ */
 public class ThreadDemo2 {
     public static void main(String[] args) {
         // 创建MyThreadDemo2对象表示多线程要执行的任务
