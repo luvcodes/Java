@@ -1,5 +1,6 @@
 server:
   port: 8081
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
@@ -13,6 +14,7 @@ spring:
       server-addr: localhost:8848
       discovery:
         cluster-name: HZ # 可以自定义 集群名称 杭州
+
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
