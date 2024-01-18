@@ -1,5 +1,8 @@
 package Thread.ThreadExit_3;
 
+/**
+ * @author ryanw
+ */
 public class ThreadExit {
     public static void main(String[] args) throws InterruptedException {
         T t1 = new T();

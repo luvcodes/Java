@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure">
-      <change afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/eureka-server/src/main/java/cn/itcast/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +40,7 @@
     "Application.Thread02.executor": "Run",
     "Application.ThreadDemo.executor": "Run",
     "Application.ThreadDemo2.executor": "Run",
+    "Application.ThreadLocalClass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -63,7 +48,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Algorithms-DataStructure-Java/Algorithm/HorseChessboard",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter13_Thread_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,20 +74,7 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo2">
-    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.MyThreadPoolDemo" />
-      <module name="chapter13_Thread_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.ThreadPool_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalClass">
     <configuration name="Thread01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Thread01" />
       <module name="chapter13_Thread_" />
@@ -155,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadLocal_.ThreadLocalClass" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadLocal_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.Thread02" />
         <item itemvalue="Application.Thread01" />
-        <item itemvalue="Application.MyThreadPoolDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +179,7 @@
       <workItem from="1705356271055" duration="611000" />
       <workItem from="1705488150900" duration="2503000" />
       <workItem from="1705531159407" duration="305000" />
+      <workItem from="1705576456423" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />

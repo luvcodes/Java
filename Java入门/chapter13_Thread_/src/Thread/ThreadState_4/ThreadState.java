@@ -1,6 +1,9 @@
 package Thread.ThreadState_4;
 
-public class Threadstate_ {
+/**
+ * @author ryanw
+ */
+public class ThreadState {
     public static void main(String[] args) throws InterruptedException {
         T t = new T();
         System.out.println(t.getName() + " 状态 " + t.getState());

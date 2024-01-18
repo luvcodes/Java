@@ -1,5 +1,8 @@
 package Thread.WaitAndNotify_6.ConsumerProducer;
 
+/**
+ * @author ryanw
+ */
 public class Desk {
     /**
      * 控制生产者和消费者的执行
