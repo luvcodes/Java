@@ -1,12 +1,9 @@
 package Thread.WaitAndNotify_6.ConsumerProducer;
 
+/**
+ * @author ryanw
+ */
 public class Cook extends Thread {
-    /**
-     * 1. Loop
-     * 2. Synchronized code block
-     * 3. Check shared data has reached to the end (Reached end)
-     * 4. Check shared data has reached to the end (Haven't reached end, 执行核心逻辑)
-     */
     @Override
     public void run() {
         while (true) {

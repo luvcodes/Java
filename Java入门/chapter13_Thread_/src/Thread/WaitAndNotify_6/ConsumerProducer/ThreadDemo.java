@@ -5,7 +5,6 @@ public class ThreadDemo {
         Cook c = new Cook();
         Foodie f = new Foodie();
 
-        // set thread name
         c.setName("厨师");
         f.setName("吃货");
 

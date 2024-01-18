@@ -25,7 +25,8 @@ class T extends Thread {
     public void run() {
         while (loop) {
             try {
-                Thread.sleep(50);// 让当前线程休眠50ms
+                // 让当前线程休眠50ms
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

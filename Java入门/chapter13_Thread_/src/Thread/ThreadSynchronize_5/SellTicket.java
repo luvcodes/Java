@@ -1,11 +1,14 @@
 package Thread.ThreadSynchronize_5;
 
+/**
+ * @author ryanw
+ */
 public class SellTicket {
     public static void main(String[] args) {
         SellTicket03 sellTicket03 = new SellTicket03();
-        new Thread(sellTicket03).start();//第1个线程-窗口
-        new Thread(sellTicket03).start();//第2个线程-窗口
-        new Thread(sellTicket03).start();//第3个线程-窗口
+        new Thread(sellTicket03).start();
+        new Thread(sellTicket03).start();
+        new Thread(sellTicket03).start();
     }
 }
 
@@ -53,8 +56,9 @@ class SellTicket03 implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            // 1 - 0 - -1  - -2
             System.out.println("窗口 " + Thread.currentThread().getName() + " 售出一张票"
-                    + " 剩余票数=" + (--ticketNum));//1 - 0 - -1  - -2
+                    + " 剩余票数=" + (--ticketNum));
         }
     }
 

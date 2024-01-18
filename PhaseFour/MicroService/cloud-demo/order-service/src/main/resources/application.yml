@@ -6,6 +6,13 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: orderservice
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        cluster-name: HZ # 选择本地集群，也就是user-service 1 和 2
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -15,3 +22,23 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+#eureka: # nacos替代了eureka
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka
+
+
+#userservice: # 给某个微服务配置负载均衡规则，这里是userservice服务
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡规则
+
+# 这里是对应day01的5.3.2中的同集群优先的负载均衡而设置的
+userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
+
+ribbon:
+  eager-load:
+    enabled: true # 开启饥饿加载
+    clients: # 指定接加载的服务名称
+      - userservice
