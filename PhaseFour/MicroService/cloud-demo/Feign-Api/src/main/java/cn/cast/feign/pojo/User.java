@@ -1,7 +1,10 @@
-package cn.itcast.order.pojo;
+package cn.cast.feign.pojo;
 
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 public class User {
     private Long id;
