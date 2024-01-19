@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure">
-      <change beforePath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhaseFour/MicroService/cloud-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-    </list>
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Demo.executor": "Debug",
+    "Application.MyThreadPoolDemo.executor": "Run",
     "Application.Thread01.executor": "Run",
     "Application.Thread02.executor": "Run",
     "Application.ThreadDemo.executor": "Run",
@@ -48,7 +48,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Java入门/chapter13_Thread_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/PhaseFour/MicroService/cloud-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,13 +74,13 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalClass">
-    <configuration name="Thread01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Thread01" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.Demo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadUse_1.*" />
+          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Thread02" />
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadUse_1.*" />
+          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.Thread02" />
-        <item itemvalue="Application.Thread01" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,8 @@
       <workItem from="1705356271055" duration="611000" />
       <workItem from="1705488150900" duration="2503000" />
       <workItem from="1705531159407" duration="305000" />
-      <workItem from="1705576456423" duration="1547000" />
+      <workItem from="1705576456423" duration="3857000" />
+      <workItem from="1705617088034" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
