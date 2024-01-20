@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/feign-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Feign-Api/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -14,6 +14,7 @@
         <module name="user-service" />
         <module name="Feign-Api" />
         <module name="eureka-server" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -25,6 +26,7 @@
       <module name="Feign-Api" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign-api" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
