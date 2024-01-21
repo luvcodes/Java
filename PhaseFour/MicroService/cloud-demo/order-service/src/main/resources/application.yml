@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
+    url: jdbc:mysql://mysql:3306/cloud_order?useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
@@ -10,7 +10,7 @@ spring:
     name: orderservice
   cloud:
     nacos:
-      server-addr: localhost:8848
+      server-addr: nacos:8848
       discovery:
         cluster-name: HZ # 选择本地集群，也就是user-service 1 和 2
 #        namespace: 01e0b6f5-2082-4133-9e42-e0a79a5de179 # nacos的命名空间ID
