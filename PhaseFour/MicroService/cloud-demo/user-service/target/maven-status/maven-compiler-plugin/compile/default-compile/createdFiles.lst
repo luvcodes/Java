@@ -1,0 +1,6 @@
+cn\itcast\user\mapper\UserMapper.class
+cn\itcast\user\service\UserService.class
+cn\itcast\user\UserApplication.class
+cn\itcast\user\web\UserController.class
+cn\itcast\user\config\PatternProperties.class
+cn\itcast\user\pojo\User.class
