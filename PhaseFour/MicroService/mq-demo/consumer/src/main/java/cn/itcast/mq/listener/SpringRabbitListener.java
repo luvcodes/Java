@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 import java.time.LocalTime;
 import java.util.Map;
 
+/**
+ * @author ryanw
+ * 处理消息的行为，编写消费逻辑
+ */
 @Component
 public class SpringRabbitListener {
 
