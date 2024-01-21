@@ -31,6 +31,7 @@ public class SpringAmqpTest {
         }
     }
 
+    // fanout exchange test method
     @Test
     public void testSendFanoutExchange() {
         // 交换机名称
@@ -41,6 +42,7 @@ public class SpringAmqpTest {
         rabbitTemplate.convertAndSend(exchangeName, "", message);
     }
 
+    // direct exchange test method
     @Test
     public void testSendDirectExchange() {
         // 交换机名称
@@ -58,6 +60,7 @@ public class SpringAmqpTest {
         // 消息
         String message = "今天天气不错，我的心情好极了!";
         // 发送消息
-        rabbitTemplate.convertAndSend(exchangeName, "china.weather", message);
+        // 这里如果把news改成weather，那么只能listenTopicQueue1收到
+        rabbitTemplate.convertAndSend(exchangeName, "china.news", message);
     }
 }

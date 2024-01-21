@@ -34,6 +34,7 @@ public class SpringRabbitListener {
         Thread.sleep(200);
     }
 
+    // fanout exchange消费者监听队列1和队列2，不需要指定routingKey，只需要指定exchange即可。
     @RabbitListener(queues = "fanout.queue1")
     public void listenFanoutQueue1(String msg) {
         System.out.println("消费者接收到fanout.queue1的消息：【" + msg + "】");
@@ -43,6 +44,8 @@ public class SpringRabbitListener {
         System.out.println("消费者接收到fanout.queue2的消息：【" + msg + "】");
     }
 
+
+    // direct exchange消费者监听队列1和队列2，需要指定routingKey。
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(name = "direct.queue1"),
             exchange = @Exchange(name = "itcast.direct", type = ExchangeTypes.DIRECT),
@@ -61,6 +64,8 @@ public class SpringRabbitListener {
         System.out.println("消费者接收到direct.queue2的消息：【" + msg + "】");
     }
 
+
+    // topic exchange消费者监听队列1和队列2，需要指定routingKey。
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(name = "topic.queue1"),
             exchange = @Exchange(name = "itcast.topic", type = ExchangeTypes.TOPIC),
