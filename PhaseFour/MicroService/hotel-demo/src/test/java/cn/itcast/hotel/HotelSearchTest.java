@@ -42,7 +42,6 @@ public class HotelSearchTest {
         request.source().query(QueryBuilders.matchAllQuery());
         // 3.发送请求
         SearchResponse response = client.search(request, RequestOptions.DEFAULT);
-
         // 4.解析响应
         handleResponse(response);
     }
@@ -58,7 +57,6 @@ public class HotelSearchTest {
         SearchResponse response = client.search(request, RequestOptions.DEFAULT);
         // 4.解析响应
         handleResponse(response);
-
     }
 
     @Test
@@ -85,7 +83,6 @@ public class HotelSearchTest {
     void testPageAndSort() throws IOException {
         // 页码，每页大小
         int page = 1, size = 5;
-
         // 1.准备Request
         SearchRequest request = new SearchRequest("hotel");
         // 2.准备DSL
@@ -99,7 +96,6 @@ public class HotelSearchTest {
         SearchResponse response = client.search(request, RequestOptions.DEFAULT);
         // 4.解析响应
         handleResponse(response);
-
     }
 
     @Test
@@ -115,7 +111,6 @@ public class HotelSearchTest {
         SearchResponse response = client.search(request, RequestOptions.DEFAULT);
         // 4.解析响应
         handleResponse(response);
-
     }
 
     private void handleResponse(SearchResponse response) {
