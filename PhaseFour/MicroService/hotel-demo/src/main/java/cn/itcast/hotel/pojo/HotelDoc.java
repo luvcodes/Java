@@ -3,9 +3,7 @@ package cn.itcast.hotel.pojo;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author ryanw
- */
+
 @Data
 @NoArgsConstructor
 public class HotelDoc {
@@ -20,6 +18,8 @@ public class HotelDoc {
     private String business;
     private String location;
     private String pic;
+    // 排序时的 距离值
+    private Object distance;
 
     public HotelDoc(Hotel hotel) {
         this.id = hotel.getId();
@@ -31,7 +31,6 @@ public class HotelDoc {
         this.city = hotel.getCity();
         this.starName = hotel.getStarName();
         this.business = hotel.getBusiness();
-        // 这里就实现了数据库数据到索引库数据的转换了
         this.location = hotel.getLatitude() + ", " + hotel.getLongitude();
         this.pic = hotel.getPic();
     }
