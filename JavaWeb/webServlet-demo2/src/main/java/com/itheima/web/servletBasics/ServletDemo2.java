@@ -4,6 +4,9 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 // 定义访问路径
 @WebServlet("/demo2")
 public class ServletDemo2 implements Servlet {

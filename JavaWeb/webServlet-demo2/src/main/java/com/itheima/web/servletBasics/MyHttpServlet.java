@@ -4,6 +4,9 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 public class MyHttpServlet implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {

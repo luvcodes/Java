@@ -4,10 +4,12 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 public class ServletDemo6 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-
     }
 
     @Override

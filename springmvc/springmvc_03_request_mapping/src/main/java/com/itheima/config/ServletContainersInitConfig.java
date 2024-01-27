@@ -5,6 +5,9 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;
 
+/**
+ * @author ryanw
+ */
 public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {

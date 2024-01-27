@@ -21,6 +21,7 @@ public class UserController {
         return "{'module':'commonParam'}";
     }
 
+    // 参数名与形参变量名不同
     @RequestMapping("/commonParamDifferentName")
     @ResponseBody
     public String commonParamDifferentName(@RequestParam("name") String userName, int age) {
@@ -66,6 +67,7 @@ public class UserController {
         return "{'module':'list common for json param'}";
     }
 
+    // POJO参数 JSON格式
     @RequestMapping("/pojoParamForJson")
     @ResponseBody
     public String PojoParamForJson(@RequestBody User user) {
@@ -73,6 +75,7 @@ public class UserController {
         return "{'module':'user pojo for json param'}";
     }
 
+    // List POJO形式 JSON格式
     @RequestMapping("/listPojoParamForJson")
     @ResponseBody
     public String listPojoParamForJson(@RequestBody List<User> list) {

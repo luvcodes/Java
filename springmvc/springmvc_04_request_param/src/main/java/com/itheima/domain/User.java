@@ -1,5 +1,8 @@
 package com.itheima.domain;
 
+/**
+ * @author ryanw
+ */
 public class User {
     private String name;
     private int age;

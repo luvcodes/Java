@@ -4,6 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * @author ryanw
+ */
 @Controller
 public class UserController {
     @RequestMapping("/save") // 设置当前操作的访问路径

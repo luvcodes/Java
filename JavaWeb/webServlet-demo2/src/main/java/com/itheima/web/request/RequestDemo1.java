@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 @WebServlet("/req1")
 public class RequestDemo1 extends HttpServlet {
     @Override
@@ -16,15 +19,19 @@ public class RequestDemo1 extends HttpServlet {
         // String getMethod() 获取请求方式: GET
         String method = req.getMethod();
         System.out.println(method);
+
         // String getContextPath() 获取虚拟目录(项目访问路径)
         String contextPath = req.getContextPath();
         System.out.println(contextPath);
+
         // StringBuffer getRequestURL() 获取URL(统一资源标识符)
         StringBuffer url = req.getRequestURL();
         System.out.println(url.toString());
+
         // String getRequestURI() 获取URI(统一资源标识符)
         String uri = req.getRequestURI();
         System.out.println(uri);
+
         // String getQueryString() 获取请求参数(GET方式)
         String queryString = req.getQueryString();
         System.out.println(queryString);
