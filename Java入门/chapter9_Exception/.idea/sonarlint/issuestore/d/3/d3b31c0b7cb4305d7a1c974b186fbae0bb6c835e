@@ -1,9 +1,0 @@
-
-Z
-java:S2259"DA "NullPointerException" could be thrown; "person" is nullable here.(ˆÒÓÀ
-U
-java:S1854":Remove this useless assignment to local variable "person".(½Ñã„üÿÿÿÿ
-M
-java:S1854"7Remove this useless assignment to local variable "res".(´À½ð
->
-java:S1481"(Remove this unused "res" local variable.(´À½ð

@@ -1,8 +1,0 @@
-
-a
-java:S2184"FCast one of the operands of this multiplication operation to a "long".(´Î”Úþÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï¨‚Ï
-?	java:S106"+Replace this use of System.out by a logger.(ˆ¤Ç0
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-E	java:S106 "+Replace this use of System.out by a logger.(’‡¬Žýÿÿÿÿ

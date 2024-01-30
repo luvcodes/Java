@@ -1,8 +1,0 @@
-
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÄáI8ÊÔÕÀÁ1
-L	java:S106!"+Replace this use of System.out by a logger.(ÒÔºïøÿÿÿÿ8ŞÔÕÀÁ1
-X	java:S125"<This block of commented-out lines of code should be removed.(ªŠ·í8ŞÔÕÀÁ1
-L	java:S106#"+Replace this use of System.out by a logger.(×ëÂâüÿÿÿÿ8ßÔÕÀÁ1
-G	java:S106<"+Replace this use of System.out by a logger.(Á€íÅ8åÔÕÀÁ1
-{
-java:S2142?"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8æÔÕÀÁ1
