@@ -1,0 +1,52 @@
+
+C
+java:S1604J"(Make this anonymous inner class a lambda(×Šüíýÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢÷Š¥
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ÿÝ»
+V
+java:S1612!"@Replace this lambda with method reference 'System.out::println'.(ìïÏ²
+@	java:S106!"+Replace this use of System.out by a logger.(ìïÏ²
+@	java:S106#"+Replace this use of System.out by a logger.(Œ–­ï
+E	java:S106$"+Replace this use of System.out by a logger.(·Ü‹ûÿÿÿÿ
+O
+java:S1612."9Replace this lambda with method reference 'emp::getName'.(Êªí’
+@	java:S1061"+Replace this use of System.out by a logger.(Ê™ïË
+E	java:S1063"+Replace this use of System.out by a logger.(±žô™ùÿÿÿÿ
+X
+java:S1612="=Replace this lambda with method reference 'Integer::compare'.(‚§ã˜ýÿÿÿÿ
+@	java:S106>"+Replace this use of System.out by a logger.(¤»Þ÷
+@	java:S106@"+Replace this use of System.out by a logger.(â÷ºß
+E	java:S106B"+Replace this use of System.out by a logger.(Î‰œßúÿÿÿÿ
+T
+java:S1854J"9Remove this useless assignment to local variable "func1".(×Šüíýÿÿÿÿ
+u
+java:S4276J"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(×Šüíýÿÿÿÿ
+E
+java:S1481J"*Remove this unused "func1" local variable.(×Šüíýÿÿÿÿ
+E	java:S106P"+Replace this use of System.out by a logger.( ­‡àúÿÿÿÿ
+o
+java:S4276Q"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(çÀö<
+M
+java:S1612Q"8Replace this lambda with method reference 'Math::round'.(çÀö<
+@	java:S106R"+Replace this use of System.out by a logger.(ƒ’ž½
+E	java:S106S"+Replace this use of System.out by a logger.( ­‡àúÿÿÿÿ
+p
+java:S4276T"ZRefactor this code to use the more specialised Functional Interface 'DoubleToLongFunction'(°Ê¯
+E	java:S106U"+Replace this use of System.out by a logger.(ñþá§ýÿÿÿÿ
+X
+java:S1612_"BReplace this lambda with method reference 'Comparable::compareTo'.(Ì¢·Ò
+@	java:S106`"+Replace this use of System.out by a logger.(‡¬³ï
+@	java:S106a"+Replace this use of System.out by a logger.(ší‹±
+E	java:S106d"+Replace this use of System.out by a logger.(˜®ÜÂþÿÿÿÿ
+Q	java:S125g"<This block of commented-out lines of code should be removed.(ýÍ¸˜
+Q
+java:S1612k";Replace this lambda with method reference 'Object::equals'.(ö¶æà
+@	java:S106l"+Replace this use of System.out by a logger.(³×ê¼
+@	java:S106n"+Replace this use of System.out by a logger.(ší‹±
+E	java:S106p"+Replace this use of System.out by a logger.(È­¿Ïúÿÿÿÿ
+V	java:S125t"<This block of commented-out lines of code should be removed.(¤Ô¶Šûÿÿÿÿ
+T
+java:S1612x">Replace this lambda with method reference 'Employee::getName'.(÷Ê–†
+@	java:S106y"+Replace this use of System.out by a logger.(˜Ò£Ð
+E	java:S106z"+Replace this use of System.out by a logger.(Ÿ‰û§þÿÿÿÿ
+E	java:S106|"+Replace this use of System.out by a logger.(‰Äí½þÿÿÿÿ

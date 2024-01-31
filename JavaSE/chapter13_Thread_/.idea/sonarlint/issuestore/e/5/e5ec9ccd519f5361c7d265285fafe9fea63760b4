@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸÛ¯ò8‰ÀäöÁ1
+N
+java:S1481
+"1Remove this unused "poolExecutor" local variable.(Ó°8šñöÁ1
+X	java:S125"<This block of commented-out lines of code should be removed.(µ’ıÎ8šñöÁ1

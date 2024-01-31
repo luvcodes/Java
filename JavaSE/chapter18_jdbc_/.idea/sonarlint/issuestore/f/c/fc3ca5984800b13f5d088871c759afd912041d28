@@ -1,0 +1,29 @@
+
+
+java:S1192"fDefine a constant instead of duplicating this literal "jdbc:mysql://localhost:3306/ryan_db03" 4 times.(Äà˜šûÿÿÿÿ
+d
+java:S1192"IDefine a constant instead of duplicating this literal "password" 3 times.(’æ…şÿÿÿÿ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "123456" 4 times.(’æ…şÿÿÿÿ
+l
+java:S1192$"VDefine a constant instead of duplicating this literal "com.mysql.jdbc.Driver" 3 times.(ßº®„
+c
+java:S2095B"HUse try-with-resources or close this "Connection" in a "finally" clause.(¹»­èúÿÿÿÿ
+c
+java:S2095h"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Å‰‹
+c
+java:S2095^"HUse try-with-resources or close this "Connection" in a "finally" clause.(¹»­èúÿÿÿÿ
+c
+java:S2095s"HUse try-with-resources or close this "Connection" in a "finally" clause.(¹»­èúÿÿÿÿ
+C
+java:S4925$"-Remove this "Class.forName()", it is useless.(ßº®„
+C
+java:S49258"-Remove this "Class.forName()", it is useless.(ßº®„
+Q
+java:S6437B"6Revoke and change this password, as it is compromised.(¹»­èúÿÿÿÿ
+H
+java:S4925X"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+Q
+java:S6437^"6Revoke and change this password, as it is compromised.(¹»­èúÿÿÿÿ
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ

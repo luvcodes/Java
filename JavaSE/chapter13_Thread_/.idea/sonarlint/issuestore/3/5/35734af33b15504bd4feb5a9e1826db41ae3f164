@@ -1,0 +1,12 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ä²ğıÿÿÿÿ8ØÍ¡ÒÁ1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ä²ğıÿÿÿÿ8ÚÍ¡ÒÁ1
+Y
+java:S22764"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(ãØ¸Ö
+v	java:S115J"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹Ãüí8áÕÒÁ1
+b
+java:S2134I"@Don't extend "Thread", since the "run" method is not overridden.(ı®áÈùÿÿÿÿ8ÇˆÓÒÁ1
+J
+java:S1068J"-Remove this unused "ticketNum" private field.(‹Ãüí8íÕÒÁ1

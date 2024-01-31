@@ -1,0 +1,53 @@
+
+F
+java:S3740»"/Provide the parametrized type for this generic.(ŠÜÂ
+p
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(­—×Û
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·ÌÎc
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹íØ¤şÿÿÿÿ
+Q
+java:S1854=";Remove this useless assignment to local variable "numbers".(•Ù¥Œ
+V	java:S125"<This block of commented-out lines of code should be removed.(™ñ„Âúÿÿÿÿ
+E
+java:S1197)"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+E	java:S106*"+Replace this use of System.out by a logger.(äŠ¯¨üÿÿÿÿ
+@	java:S106."+Replace this use of System.out by a logger.(õÉçá
+E	java:S1061"+Replace this use of System.out by a logger.(¹­›Éÿÿÿÿÿ
+@	java:S1064"+Replace this use of System.out by a logger.(¦Õˆı
+@	java:S1068"+Replace this use of System.out by a logger.(„Ü™”
+E	java:S106<"+Replace this use of System.out by a logger.(“Í¹ûÿÿÿÿ
+B
+java:S1481=",Remove this unused "numbers" local variable.(•Ù¥Œ
+E	java:S106B"+Replace this use of System.out by a logger.(Üüæ‰ûÿÿÿÿ
+@	java:S106C"+Replace this use of System.out by a logger.(ÑŞÔë
+E	java:S106D"+Replace this use of System.out by a logger.(ëüÒøÿÿÿÿ
+@	java:S106E"+Replace this use of System.out by a logger.(ïÈü
+E	java:S106F"+Replace this use of System.out by a logger.(Èø¯üùÿÿÿÿ
+E	java:S106G"+Replace this use of System.out by a logger.(şùÙ¸ùÿÿÿÿ
+E	java:S106M"+Replace this use of System.out by a logger.(Ü³Äşÿÿÿÿ
+E	java:S106P"+Replace this use of System.out by a logger.(ˆ×ˆ şÿÿÿÿ
+@	java:S106Q"+Replace this use of System.out by a logger.(õÉçá
+W
+java:S1612S"<Replace this lambda with method reference 'String::isEmpty'.(¸¹¿Ëûÿÿÿÿ
+E	java:S106T"+Replace this use of System.out by a logger.(õ¢ƒşúÿÿÿÿ
+@	java:S106W"+Replace this use of System.out by a logger.(¦Õˆı
+@	java:S106Z"+Replace this use of System.out by a logger.(„Ü™”
+E	java:S106]"+Replace this use of System.out by a logger.(“Í¹ûÿÿÿÿ
+E
+java:S1611_"/Remove the parentheses around the "x" parameter(ïóò
+E	java:S106a"+Replace this use of System.out by a logger.(Ğşêçùÿÿÿÿ
+E	java:S106b"+Replace this use of System.out by a logger.(­Â˜Ôúÿÿÿÿ
+E	java:S106c"+Replace this use of System.out by a logger.(ş²¤şÿÿÿÿ
+@	java:S106d"+Replace this use of System.out by a logger.(Â™ıû
+E	java:S106e"+Replace this use of System.out by a logger.(şùÙ¸ùÿÿÿÿ
+E	java:S106g"+Replace this use of System.out by a logger.(úˆÏ¨ıÿÿÿÿ
+R
+java:S1612j"<Replace this lambda with method reference 'String::isEmpty'.(“ˆé¯
+@	java:S106k"+Replace this use of System.out by a logger.(ä½×Ì
+M
+java:S1128"7Remove this unused import 'org.junit.jupiter.api.Test'.(Öºˆß
+E
+java:S1128
+"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”

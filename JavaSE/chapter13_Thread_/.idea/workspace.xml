@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TjXBWuAveH1pLxLKoiSqgFPR5a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo.executor": "Debug",
+    "Application.MyThreadPoolDemo.executor": "Run",
+    "Application.Thread01.executor": "Run",
+    "Application.Thread02.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadDemo2.executor": "Run",
+    "Application.ThreadLocalClass.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/PhaseFour/MicroService/cloud-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread.ThreadUse_.Method3_" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.Demo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Method1_.ThreadDemo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadUse_1.Method1_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Method2_.ThreadDemo2" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadUse_1.Method2_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadLocal_.ThreadLocalClass" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ThreadLocal_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.MyThreadPoolDemo" />
+        <item itemvalue="Application.ThreadLocalClass" />
+        <item itemvalue="Application.ThreadDemo2" />
+        <item itemvalue="Application.ThreadDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="" />
+      <created>1691557331841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691557331841</updated>
+      <workItem from="1691557333685" duration="66000" />
+      <workItem from="1696464477724" duration="2794000" />
+      <workItem from="1696543221649" duration="104000" />
+      <workItem from="1696580833168" duration="2247000" />
+      <workItem from="1696640680776" duration="62000" />
+      <workItem from="1696645646592" duration="581000" />
+      <workItem from="1696666829785" duration="2889000" />
+      <workItem from="1696669750820" duration="6215000" />
+      <workItem from="1696716038242" duration="136000" />
+      <workItem from="1696808012907" duration="5067000" />
+      <workItem from="1696978046608" duration="16000" />
+      <workItem from="1701192359321" duration="1983000" />
+      <workItem from="1701212463439" duration="9473000" />
+      <workItem from="1701311560709" duration="7063000" />
+      <workItem from="1701383018011" duration="1855000" />
+      <workItem from="1702681327451" duration="614000" />
+      <workItem from="1702694953552" duration="39000" />
+      <workItem from="1705322678949" duration="3667000" />
+      <workItem from="1705356271055" duration="611000" />
+      <workItem from="1705488150900" duration="2503000" />
+      <workItem from="1705531159407" duration="305000" />
+      <workItem from="1705576456423" duration="3857000" />
+      <workItem from="1705617088034" duration="51000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update thread chapter structure">
+      <option name="closed" value="true" />
+      <created>1701237343747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701237343747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update thread chapter structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update thread chapter structure" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/MySQL/17.18 CRUD/select/select.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/17.37 mysql索引/index.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/17.37 mysql索引/practice.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/存储过程/使用变量_/使用变量.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/存储过程/存储过程.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/MySQL/存储过程/存储过程2.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
