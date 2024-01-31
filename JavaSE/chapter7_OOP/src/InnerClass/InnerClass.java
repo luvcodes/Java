@@ -1,5 +1,8 @@
 package InnerClass;
 
+/**
+ * @author ryanw
+ */
 public class InnerClass {
     public static void main(String[] args) {
         
