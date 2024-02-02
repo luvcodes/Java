@@ -1,5 +1,8 @@
 package InnerClass.LocalInnerClass;
 
+/**
+ * @author ryanw
+ */
 public class LocalInnerClass {
     public static void main(String[] args) {
         Outer02 outer02 = new Outer02();

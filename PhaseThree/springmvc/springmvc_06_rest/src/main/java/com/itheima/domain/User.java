@@ -1,17 +1,11 @@
 package com.itheima.domain;
 
+/**
+ * @author ryanw
+ */
 public class User {
     private String name;
     private int age;
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
-
 
     public String getName() {
         return name;
@@ -29,4 +23,11 @@ public class User {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

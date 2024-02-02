@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:32 +1100] "GET /cookie_session_ HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:32 +1100] "GET /cookie_session_/ HTTP/1.1" 404 983 http-bio-8080-exec-2 17
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:33 +1100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:39 +1100] "GET /cookie_session_/aServlet HTTP/1.1" 200 - http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:54 +1100] "GET /cookie_session_/aServlet HTTP/1.1" 200 - http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:58:56 +1100] "GET /cookie_session_/aServlet HTTP/1.1" 200 - http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:59:07 +1100] "GET /cookie_session_/aServlet/doGet HTTP/1.1" 404 1011 http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:59:11 +1100] "GET /cookie_session_/aServlet HTTP/1.1" 200 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:21:59:51 +1100] "GET /cookie_session_/bServlet HTTP/1.1" 200 - http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:22:00:06 +1100] "GET /cookie_session_/aServlet HTTP/1.1" 200 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:22:01:12 +1100] "GET /cookie_session_/demo1 HTTP/1.1" 200 - http-bio-8080-exec-6 10

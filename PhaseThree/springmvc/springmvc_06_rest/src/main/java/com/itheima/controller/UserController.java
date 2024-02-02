@@ -12,6 +12,9 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author ryanw
+ */
 @Controller
 public class UserController {
     @RequestMapping(value = "/users", method = RequestMethod.POST)

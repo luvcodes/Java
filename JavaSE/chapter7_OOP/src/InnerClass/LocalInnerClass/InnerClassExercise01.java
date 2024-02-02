@@ -1,5 +1,8 @@
 package InnerClass.LocalInnerClass;
 
+/**
+ * @author ryanw
+ */
 public class InnerClassExercise01 {
     public static void main(String[] args) {
         // 匿名内部类可以当作实参直接传递
@@ -24,7 +27,6 @@ interface IL {
     void show();
 }
 
-// 类 -> 实现IL -> 编程领域(硬编码)
 class Picture implements IL {
     @Override
     public void show() {

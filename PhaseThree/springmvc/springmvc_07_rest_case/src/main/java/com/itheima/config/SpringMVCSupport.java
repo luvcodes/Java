@@ -4,6 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
+/**
+ * @author ryanw
+ */
 @Configuration
 public class SpringMVCSupport extends WebMvcConfigurationSupport {
     @Override
