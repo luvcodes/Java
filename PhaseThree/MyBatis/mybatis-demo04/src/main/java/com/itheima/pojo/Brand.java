@@ -1,5 +1,8 @@
 package com.itheima.pojo;
 
+/**
+ * @author ryanw
+ */
 public class Brand {
     private int id;
     private String brandName;
