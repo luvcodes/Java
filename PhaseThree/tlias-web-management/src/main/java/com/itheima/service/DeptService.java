@@ -5,24 +5,24 @@ import com.itheima.pojo.Dept;
 import java.util.List;
 
 /**
- * @author ryanw
+ * 部门管理
  */
 public interface DeptService {
     /**
-     * 查询所有的部门数据
-     * @return   存储Dept对象的集合
+     * 查询全部部门数据
+     * @return
      */
     List<Dept> list();
 
     /**
-     * 根据id删除部门
-     * @param id 部门id
+     * 删除部门
+     * @param id
      */
     void delete(Integer id);
 
     /**
      * 新增部门
-     * @param dept 部门对象
+     * @param dept
      */
     void add(Dept dept);
 }
