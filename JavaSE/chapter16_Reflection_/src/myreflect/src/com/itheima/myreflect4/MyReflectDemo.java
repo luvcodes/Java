@@ -34,7 +34,7 @@ public class MyReflectDemo {
         //1. 获取class字节码文件对象
         Class clazz = Class.forName("com.itheima.myreflect4.Student");
 
-        //2. 获取里面所有的方法对象(包含父类中所有的公共方法)
+        // 2. 获取里面所有的方法对象(包含父类中所有的公共方法)
        /* Method[] methods = clazz.getMethods();
         for (Method method : methods) {
             System.out.println(method);
@@ -51,24 +51,24 @@ public class MyReflectDemo {
         System.out.println(m);
 
         // 获取方法的修饰符
-        int modifiers = m.getModifiers();
-        System.out.println(modifiers);
+//        int modifiers = m.getModifiers();
+//        System.out.println(modifiers);
 
         // 获取方法的名字
         String name = m.getName();
         System.out.println(name);
 
         // 获取方法的形参
-        Parameter[] parameters = m.getParameters();
-        for (Parameter parameter : parameters) {
-            System.out.println(parameter);
-        }
+//        Parameter[] parameters = m.getParameters();
+//        for (Parameter parameter : parameters) {
+//            System.out.println(parameter);
+//        }
 
         //获取方法的抛出的异常
-        Class[] exceptionTypes = m.getExceptionTypes();
-        for (Class exceptionType : exceptionTypes) {
-            System.out.println(exceptionType);
-        }
+//        Class[] exceptionTypes = m.getExceptionTypes();
+//        for (Class exceptionType : exceptionTypes) {
+//            System.out.println(exceptionType);
+//        }
 
         //方法运行
         /*Method类中用于创建对象的方法
@@ -80,8 +80,8 @@ public class MyReflectDemo {
 
         Student s = new Student();
         m.setAccessible(true);
-        //参数一s：表示方法的调用者
-        //参数二"汉堡包"：表示在调用方法的时候传递的实际参数
+        // 参数一 s：表示方法的调用者
+        // 参数二 "汉堡包"：表示在调用方法的时候传递的实际参数
         String result = (String) m.invoke(s, "汉堡包");
         System.out.println(result);
 

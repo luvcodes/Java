@@ -15,7 +15,7 @@ public class MyReflectDemo {
        saveObject(s);
     }
 
-    //把对象里面所有的成员变量名和值保存到本地文件中
+    // 把对象里面所有的成员变量名和值保存到本地文件中
     public static void saveObject(Object obj) throws IllegalAccessException, IOException {
         //1.获取字节码文件的对象
         Class clazz = obj.getClass();
@@ -25,9 +25,9 @@ public class MyReflectDemo {
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             field.setAccessible(true);
-            //获取成员变量的名字
+            // 获取成员变量的名字
             String name = field.getName();
-            //获取成员变量的值
+            // 获取成员变量的值
             Object value = field.get(obj);
             //写出数据
             bw.write(name + "=" + value);

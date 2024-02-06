@@ -44,6 +44,7 @@ public class MyReflectDemo {
         // 获取成员变量的数据类型
         Class<?> type = name.getType();
         System.out.println(type);
+        System.out.println("========================");
 
         // 获取成员变量记录的值
         Student s = new Student("zhangsan", 23, "男");
@@ -53,7 +54,6 @@ public class MyReflectDemo {
 
         // 修改对象里面记录的值
         name.set(s, "lisi");
-
         System.out.println(s);
 
     }
