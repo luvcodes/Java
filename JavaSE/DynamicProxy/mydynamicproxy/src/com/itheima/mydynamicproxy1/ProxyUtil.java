@@ -4,15 +4,13 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-/*
-*
-* 类的作用：
-*       创建一个代理
+/**
+ * 类的作用：创建一个代理
+ * @author ryanw
+ */ /*
 *
 * */
 public class ProxyUtil {
-
-
     /*
     *
     * 方法的作用：
@@ -23,8 +21,6 @@ public class ProxyUtil {
     *
     *  返回值：
     *       给明星创建的代理
-    *
-    *
     *
     * 需求：
     *   外面的人想要大明星唱一首歌
