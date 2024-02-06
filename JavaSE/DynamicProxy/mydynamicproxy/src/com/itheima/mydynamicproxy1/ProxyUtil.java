@@ -37,7 +37,7 @@ public class ProxyUtil {
         */
 
         Star star = (Star) Proxy.newProxyInstance(
-                //参数一：用于指定用哪个类加载器，去加载生成的代理类
+                //参数一：用于指定用哪个类加载器去加载生成的代理类
                 ProxyUtil.class.getClassLoader(),
                 //参数二：指定接口，这些接口用于指定生成的代理长什么，也就是有哪些方法
                 new Class[]{Star.class},
