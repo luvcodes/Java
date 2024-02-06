@@ -1,30 +1,25 @@
 package com.itheima.mydynamicproxy1;
 
+/**
+ * @author ryanw
+ */
 public class Test {
     public static void main(String[] args) {
-
-
-
     /*
-        éœ€æ±‚ï¼š
-            å¤–é¢çš„äººæƒ³è¦å¤§æ˜æ˜Ÿå”±ä¸€é¦–æ­Œ
-             1. è·å–ä»£ç†çš„å¯¹è±¡
-                ä»£ç†å¯¹è±¡ = ProxyUtil.createProxy(å¤§æ˜æ˜Ÿçš„å¯¹è±¡);
-             2. å†è°ƒç”¨ä»£ç†çš„å”±æ­Œæ–¹æ³•
-                ä»£ç†å¯¹è±¡.å”±æ­Œçš„æ–¹æ³•("åªå› ä½ å¤ªç¾");
+        ĞèÇó£º
+            ÍâÃæµÄÈËÏëÒª´óÃ÷ĞÇ³ªÒ»Ê×¸è
+             1. »ñÈ¡´úÀíµÄ¶ÔÏó
+                ´úÀí¶ÔÏó = ProxyUtil.createProxy(´óÃ÷ĞÇµÄ¶ÔÏó);
+             2. ÔÙµ÷ÓÃ´úÀíµÄ³ª¸è·½·¨
+                ´úÀí¶ÔÏó.³ª¸èµÄ·½·¨("Ö»ÒòÄãÌ«ÃÀ");
      */
 
-
-        //1. è·å–ä»£ç†çš„å¯¹è±¡
-        BigStar bigStar = new BigStar("é¸¡å“¥");
+        //1. »ñÈ¡´úÀíµÄ¶ÔÏó
+        BigStar bigStar = new BigStar("¼¦¸ç");
         Star proxy = ProxyUtil.createProxy(bigStar);
 
-        //2. è°ƒç”¨å”±æ­Œçš„æ–¹æ³•
-        String result = proxy.sing("åªå› ä½ å¤ªç¾");
+        //2. µ÷ÓÃ³ª¸èµÄ·½·¨
+        String result = proxy.sing("Ö»ÒòÄãÌ«ÃÀ");
         System.out.println(result);
-
-
-
-
     }
 }
