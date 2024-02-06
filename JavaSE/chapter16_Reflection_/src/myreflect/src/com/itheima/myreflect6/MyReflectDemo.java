@@ -9,10 +9,9 @@ import java.util.Properties;
 
 public class MyReflectDemo {
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-    /*
-        反射可以跟配置文件结合的方式，动态的创建对象，并调用方法
-    */
-
+        /*
+            反射可以跟配置文件结合的方式，动态的创建对象，并调用方法
+        */
 
         //1.读取配置文件中的信息
         Properties prop = new Properties();

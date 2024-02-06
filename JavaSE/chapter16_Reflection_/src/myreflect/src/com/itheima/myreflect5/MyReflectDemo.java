@@ -24,12 +24,13 @@ public class MyReflectDemo {
         //3. 获取所有的成员变量
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
+            // 设置所有都是可访问的
             field.setAccessible(true);
             // 获取成员变量的名字
             String name = field.getName();
             // 获取成员变量的值
             Object value = field.get(obj);
-            //写出数据
+            // 写出数据
             bw.write(name + "=" + value);
             bw.newLine();
         }
