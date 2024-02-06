@@ -1,5 +1,8 @@
 package com.itheima.myreflect3;
 
+/**
+ * @author ryanw
+ */
 public class Student {
     private String name;
     private int age;
@@ -62,6 +65,7 @@ public class Student {
         this.gender = gender;
     }
 
+    @Override
     public String toString() {
         return "Student{name = " + name + ", age = " + age + ", gender = " + gender + "}";
     }
