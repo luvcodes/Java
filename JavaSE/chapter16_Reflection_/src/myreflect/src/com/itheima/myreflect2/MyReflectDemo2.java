@@ -8,7 +8,7 @@ import java.lang.reflect.Parameter;
 /**
  * @author ryanw
  */
-public class MyReflectDemo {
+public class MyReflectDemo2 {
     @SuppressWarnings("unchecked")
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         //1.获取class字节码文件对象
@@ -41,6 +41,7 @@ public class MyReflectDemo {
         // System.out.println(con4);
 
         // 获取构造方法的权限修饰符
+        // 修饰符本身是根据java的设置，不同的修饰符对应不同的数字
 //        int modifiers = con4.getModifiers();
 //        System.out.println(modifiers);
 

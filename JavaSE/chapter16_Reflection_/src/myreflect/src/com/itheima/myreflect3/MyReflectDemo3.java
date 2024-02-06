@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 /**
  * @author ryanw
  */
-public class MyReflectDemo {
+public class MyReflectDemo3 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException {
     /*
        Class类中用于获取成员变量的方法
@@ -22,6 +22,12 @@ public class MyReflectDemo {
 
         // 1.获取class字节码文件的对象
         Class clazz = Class.forName("com.itheima.myreflect3.Student");
+
+        // 2. 获取公有的成员变量
+        /* Field[] fields = clazz.getFields();
+        for (Field field : fields) {
+            System.out.println(field);
+        }*/
 
         // 2.获取所有的成员变量
        /* Field[] fields = clazz.getDeclaredFields();
