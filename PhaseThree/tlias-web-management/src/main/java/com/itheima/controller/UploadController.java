@@ -12,10 +12,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 @RestController
 public class UploadController {
-
     @Autowired
     private AliOSSUtils aliOSSUtils;
     //本地存储文件

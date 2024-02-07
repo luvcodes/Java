@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
     username: root
-    password: 1234
+    password: 123456
   #文件上传的配置
   servlet:
     multipart:
