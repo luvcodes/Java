@@ -1,5 +1,8 @@
 package class_object.method;
 
+/**
+ * @author ryanw
+ */
 public class Method01 {
     public static void main(String[] args) {
         Person person = new Person();

@@ -3,6 +3,8 @@ package this_keyword;
 /**
  * this在堆内存中是一个印象的属性，指向当前的对象
  * 简单地说，this就是哪个对象调用，this就代表哪个对象
+ *
+ * @author ryanw
  * */
 
 public class This01 {
@@ -23,8 +25,7 @@ class Dog {
     int age;
 
     // 出现一个问题，根据变量的作用域原则，
-    // 构造器的name 就是局部变量，而不是属性
-    // 构造器的age 就是局部变量，而不是属性
+    // 构造器的name, age 就是局部变量，而不是属性
 //    public Dog(String name, int age) {
 //        name = name;
 //        age = age;

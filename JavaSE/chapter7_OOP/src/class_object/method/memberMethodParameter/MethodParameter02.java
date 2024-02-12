@@ -1,5 +1,8 @@
 package class_object.method.memberMethodParameter;
 
+ /**
+  * @author ryanw
+  */
  public class MethodParameter02 {
      public static void main(String[] args) {
          B b = new B();

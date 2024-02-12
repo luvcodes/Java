@@ -1,5 +1,8 @@
 package class_object.method.memberMethodParameter;
 
+/**
+ * @author ryanw
+ */
 public class MethodParameter01 {
     public static void main(String[] args) {
         int a = 10;

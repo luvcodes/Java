@@ -7,6 +7,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializer;
 
+/**
+ * @author ryanw
+ */
 @Configuration
 public class RedisConfig {
     // 方法参数RedisConnectionFactory是一个连接工厂，用于创建与Redis服务器的连接。

@@ -1,5 +1,8 @@
 package class_object.method;
 
+/**
+ * @author ryanw
+ */
 public class Method02 {
     public static void main(String[] args) {
         int[][] map = {{1,1,1}, {2,2,2}, {3,3,3}};

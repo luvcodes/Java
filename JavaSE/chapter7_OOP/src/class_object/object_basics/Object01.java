@@ -1,5 +1,8 @@
 package class_object.object_basics;
 
+/**
+ * @author ryanw
+ */
 public class Object01 {
     public static void main(String[] args) {
         Person a = new Person();
@@ -13,9 +16,4 @@ public class Object01 {
         System.out.println(a.age);
         System.out.println(b.age);
     }
-}
-
-class Person {
-    int age;
-    String name;
 }
