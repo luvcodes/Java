@@ -1,5 +1,8 @@
 package recursion;
 
+/**
+ * @author ryanw
+ */
 public class RecursionExercise01 {
     public static void main(String[] args) {
         A a = new A();

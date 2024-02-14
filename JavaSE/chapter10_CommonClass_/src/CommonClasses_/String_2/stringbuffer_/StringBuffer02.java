@@ -1,5 +1,8 @@
 package CommonClasses_.String_2.stringbuffer_;
 
+/**
+ * @author ryanw
+ */
 public class StringBuffer02 {
     public static void main(String[] args) {
         // 构造器的使用:

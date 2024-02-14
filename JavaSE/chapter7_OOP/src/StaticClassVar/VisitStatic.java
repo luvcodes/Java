@@ -5,6 +5,7 @@ public class VisitStatic {
         // 类名.类变量名
         // 说明: 类变量是随着类的加载而创建，所以即使没有创建对象实例也可以访问
         System.out.println(A.name);
+        // System.out.println(A.addr); // 编译错误，类变量不允许访问私有变量
 
         A a = new A();
         // 通过对象名.类变量名

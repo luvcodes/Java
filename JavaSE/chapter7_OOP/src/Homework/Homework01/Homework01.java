@@ -2,6 +2,8 @@ package Homework.Homework01;
 /**
  * 定义一个Person类，name，age，job，初始化Person对象数组，有3个Person对象
  * 并按照age从大到小进行排序，提示，使用冒泡排序
+ *
+ * @author ryanw
  * */
 public class Homework01 {
     public static void main(String[] args) {

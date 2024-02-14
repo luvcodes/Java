@@ -1,14 +1,19 @@
 package codeblock;
 
+/**
+ * @author ryanw
+ */
 public class CodeBlockDetail02 {
     public static void main(String[] args) {
-        // getN1 -> static code block -> getN2 -> regular code block -> 构造器
-        A a = new A(); // 因为getN1()在class中调用，所以是先getN1() 再是静态代码块
+        // getN1 -> 静态代码块 -> getN2 -> 普通代码块 -> 构造器
+        // 因为getN1()在class中调用，所以是先getN1() 再是静态代码块
+        A a = new A();
     }
 }
 
 class A {
-    private int n2 = getN2(); // 普通属性初始化
+    // 普通属性初始化
+    private int n2 = getN2();
 
     // 静态属性初始化
     private static int n1 = getN1();

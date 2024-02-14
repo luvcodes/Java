@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/7/f7cfca4f2de4880c20984a3abd96e1397cbe464e" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/7/f7cfca4f2de4880c20984a3abd96e1397cbe464e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10_CommonClass_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10_CommonClass_.iml" afterDir="false" />
-    </list>
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -31,25 +26,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.StringDemo1.executor": "Run",
+    "Application.StringJoinerDemo1.executor": "Run",
+    "Application.StringJoinerDemo2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/chapter10_CommonClass_",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src/CommonClasses_/String_2/stringbuffer_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2\stringbuffer_" />
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CommonClasses_.String_2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StringBufferExercise01">
+  <component name="RunManager" selected="Application.StringJoinerDemo2">
     <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.String01" />
       <module name="chapter10_CommonClass_" />
@@ -76,8 +81,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.StringDemo1" />
+      <module name="chapter10_CommonClass_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CommonClasses_.String_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringJoinerDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.stringjoiner_.StringJoinerDemo1" />
+      <module name="chapter10_CommonClass_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CommonClasses_.String_2.stringjoiner_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringJoinerDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.stringjoiner_.StringJoinerDemo2" />
+      <module name="chapter10_CommonClass_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CommonClasses_.String_2.stringjoiner_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringJoinerDemo2" />
+        <item itemvalue="Application.StringJoinerDemo1" />
+        <item itemvalue="Application.StringDemo1" />
         <item itemvalue="Application.StringBufferExercise01" />
         <item itemvalue="Application.String01" />
       </list>
@@ -93,6 +140,7 @@
       <updated>1691557027129</updated>
       <workItem from="1691557028690" duration="57000" />
       <workItem from="1693722536581" duration="2074000" />
+      <workItem from="1707780587854" duration="3003000" />
     </task>
     <servers />
   </component>

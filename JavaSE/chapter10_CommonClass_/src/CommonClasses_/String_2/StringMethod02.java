@@ -1,5 +1,8 @@
 package CommonClasses_.String_2;
 
+/**
+ * @author ryanw
+ */
 public class StringMethod02 {
     public static void main(String[] args) {
         // 1. toUpperCase转换成大写

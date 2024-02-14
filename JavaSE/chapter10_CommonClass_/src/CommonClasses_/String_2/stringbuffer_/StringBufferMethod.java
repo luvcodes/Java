@@ -1,5 +1,8 @@
 package CommonClasses_.String_2.stringbuffer_;
 
+/**
+ * @author ryanw
+ */
 public class StringBufferMethod {
     public static void main(String[] args) {
         StringBuffer s = new StringBuffer("hello");
@@ -23,7 +26,8 @@ public class StringBufferMethod {
         System.out.println(s);
         // 查找指定的字串在字符串第一次出现的索引，如果找不到返回-1
         int indexOf = s.indexOf("张三丰");
-        System.out.println(indexOf); // 6
+        // 6
+        System.out.println(indexOf);
 
         // 插
         // 在索引为9的位置插入 "赵敏", 原来索引额外为9的内容自动后移

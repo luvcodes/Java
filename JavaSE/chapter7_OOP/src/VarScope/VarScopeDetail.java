@@ -11,6 +11,8 @@ package VarScope;
  * 修饰符不同：
  *      全局变量/属性可以加修饰符
  *      局部变量不可以加修饰符
+ *
+ * @author ryanw
  * */
 public class VarScopeDetail {
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package CommonClasses_.String_2.stringbuffer_;
 
+/**
+ * @author ryanw
+ */
 public class StringBufferExercise02 {
     public static void main(String[] args) {
         /**

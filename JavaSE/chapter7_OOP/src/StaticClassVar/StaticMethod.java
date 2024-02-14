@@ -1,5 +1,8 @@
 package StaticClassVar;
 
+/**
+ * @author ryanw
+ */
 public class StaticMethod {
     public static void main(String[] args) {
         Stu tom = new Stu("tom");

@@ -1,5 +1,8 @@
 package class_object.method.memberMethodParameter;
 
+/**
+ * @author ryanw
+ */
 public class MethodExercise02 {
     public static void main(String[] args) {
         // 编写方法copyPerson，复制一个Person对象，返回复制的对象。

@@ -1,10 +1,13 @@
 package recursion;
 
+/**
+ * @author ryanw
+ */
 public class Recursion1
 {
     public static void main(String[] args) {
         T t1 = new T();
-//        t1.practice_.test(4); // n = 2, n = 3, n = 4
+//        t1.test(4); // n = 2, n = 3, n = 4
         int res = t1.factorial(5);
         System.out.println(res);
     }

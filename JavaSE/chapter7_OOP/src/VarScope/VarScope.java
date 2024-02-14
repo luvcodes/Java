@@ -7,6 +7,8 @@ package VarScope;
  *      全局变量：也就是属性，作用域为整个类体
  *      局部变量：也就是除了属性之外的其他变量，作用域为定义它的代码块中
  * 全局变量可以不赋值，直接使用，因为有默认值，局部变量必须赋值后，才能使用，因为没有默认值
+ *
+ * @author ryanw
  * */
 public class VarScope {
     public static void main(String[] args) {

@@ -7,6 +7,8 @@ package VarParameter;
  * 可变参数的本质就是数组
  * 可变参数可以和普通类型的参数一起放在参数列表，但必须保证可变参数在最后
  * 一个形参列表只能出现一个可变参数
+ *
+ * @author ryanw
  * */
 public class VarParameterDetail {
     public static void main(String[] args) {
