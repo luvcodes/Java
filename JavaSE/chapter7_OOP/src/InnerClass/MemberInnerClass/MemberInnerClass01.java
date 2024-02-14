@@ -1,5 +1,8 @@
 package InnerClass.MemberInnerClass;
 
+/**
+ * @author ryanw
+ */
 public class MemberInnerClass01 {
     public static void main(String[] args) {
         Outer08 outer08 = new Outer08();

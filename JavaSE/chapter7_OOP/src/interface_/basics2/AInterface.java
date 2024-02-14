@@ -1,9 +1,10 @@
 package interface_.basics2;
 
+/**
+ * @author ryanw
+ */
 public interface AInterface {
-    // 可以写属性
     public int n1 = 10;
-    // 也可以写方法
     // 在接口中，抽象方法可以省略abstract关键字
     public abstract void hi();
 

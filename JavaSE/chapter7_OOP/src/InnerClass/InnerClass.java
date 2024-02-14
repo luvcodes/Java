@@ -21,6 +21,7 @@ class Outer {
     {
         System.out.println("Code block...");
     }
+
     // 内部类
     class Inner {
         
