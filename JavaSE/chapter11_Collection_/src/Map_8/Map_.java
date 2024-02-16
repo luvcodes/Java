@@ -3,10 +3,13 @@ package Map_8;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author ryanw
+ */
 public class Map_ {
     public static void main(String[] args) {
         /**
-         *         老韩解读Map 接口实现类的特点, 使用实现类HashMap
+         *         接口实现类的特点, 使用实现类HashMap
          *         1. Map与Collection并列存在。用于保存具有映射关系的数据:Key-Value(双列元素)
          *         2. Map 中的 key 和  value 可以是任何引用类型的数据，会封装到HashMap$Node 对象中
          *         3. Map 中的 key 不允许重复，原因和HashSet 一样，前面分析过源码.

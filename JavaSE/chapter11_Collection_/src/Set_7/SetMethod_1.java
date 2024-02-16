@@ -9,7 +9,6 @@ import java.util.Set;
  */
 public class SetMethod_1 {
     public static void main(String[] args) {
-        //老韩解读
         //1. 以Set 接口的实现类 HashSet 来讲解Set 接口的方法
         //2. set 接口的实现类的对象(Set接口对象), 不能存放重复的元素, 可以添加一个null
         //3. set 接口对象存放数据是无序(即添加的顺序和取出的顺序不一致)
@@ -17,12 +16,14 @@ public class SetMethod_1 {
         Set<String> set = new HashSet<>();
         set.add("john");
         set.add("lucy");
-        set.add("john");//重复
+        // 重复
+        set.add("john");
         set.add("jack");
         set.add("hsp");
         set.add("mary");
         set.add(null);
-        set.add(null);//再次添加null
+        // 再次添加null
+        set.add(null);
         for(int i = 0; i <10;i ++) {
             System.out.println("set=" + set);
         }

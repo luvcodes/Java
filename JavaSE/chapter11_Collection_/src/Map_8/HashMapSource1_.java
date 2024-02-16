@@ -2,6 +2,9 @@ package Map_8;
 
 import java.util.HashMap;
 
+/**
+ * @author ryanw
+ */
 public class HashMapSource1_ {
     public static void main(String[] args) {
         HashMap map = new HashMap();
