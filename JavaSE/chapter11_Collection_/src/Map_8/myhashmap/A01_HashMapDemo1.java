@@ -3,6 +3,7 @@ package Map_8.myhashmap;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.BiConsumer;
 
 /**
  * @author ryanw
@@ -35,6 +36,7 @@ public class A01_HashMapDemo1 {
         hm.put(s4,"山东");
 
         //4.遍历集合
+        // keySet循环
         Set<Student> keys = hm.keySet();
         for (Student key : keys) {
             String value = hm.get(key);
@@ -43,6 +45,7 @@ public class A01_HashMapDemo1 {
 
         System.out.println("--------------------------");
 
+        // entrySet循环
         Set<Map.Entry<Student, String>> entries = hm.entrySet();
         for (Map.Entry<Student, String> entry : entries) {
             Student key = entry.getKey();
@@ -52,6 +55,7 @@ public class A01_HashMapDemo1 {
 
         System.out.println("--------------------------");
 
+        // lambda表达式循环
         hm.forEach((student, s)-> System.out.println(student + "=" +  s));
 
     }
