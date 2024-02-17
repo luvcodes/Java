@@ -43,7 +43,6 @@ public class ListExercise02_5 {
                 }
             }
         }
-
     }
 }
 

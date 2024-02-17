@@ -19,6 +19,7 @@ public class List_1 {
             System.out.print(i + " ");
         }
         System.out.println();
+
         // 2. List集合中的每个元素都有其对应的顺序索引，即支持索引
         // 索引是从0开始的
         System.out.println(list.get(3));

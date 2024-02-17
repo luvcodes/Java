@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * @author ryanw
+ */
 public class Generic02 {
     public static void main(String[] args) {
         /**

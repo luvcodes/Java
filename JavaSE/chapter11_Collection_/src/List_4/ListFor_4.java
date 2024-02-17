@@ -4,8 +4,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+@SuppressWarnings({"all"})
 public class ListFor_4 {
-    @SuppressWarnings({"all"})
     public static void main(String[] args) {
 
         //List 接口的实现子类 Vector LinkedList
