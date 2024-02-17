@@ -34,7 +34,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src/CommonClasses_/String_2/stringbuffer_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2\stringbuffer_" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2" />
       <recent name="$PROJECT_DIR$/src" />
@@ -56,11 +57,11 @@
   </component>
   <component name="RunManager" selected="Application.StringJoinerDemo2">
     <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.String01" />
+      <option name="MAIN_CLASS_NAME" value="String_2.String01" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonClasses_.String_2.*" />
+          <option name="PATTERN" value="String_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +70,11 @@
       </method>
     </configuration>
     <configuration name="StringBufferExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.stringbuffer_.StringBufferExercise01" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringbuffer_.StringBufferExercise01" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonClasses_.String_2.stringbuffer_.*" />
+          <option name="PATTERN" value="String_2.stringbuffer_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +83,11 @@
       </method>
     </configuration>
     <configuration name="StringDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.StringDemo1" />
+      <option name="MAIN_CLASS_NAME" value="String_2.StringDemo1" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonClasses_.String_2.*" />
+          <option name="PATTERN" value="String_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="StringJoinerDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.stringjoiner_.StringJoinerDemo1" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringjoiner_.StringJoinerDemo1" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonClasses_.String_2.stringjoiner_.*" />
+          <option name="PATTERN" value="String_2.stringjoiner_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="StringJoinerDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonClasses_.String_2.stringjoiner_.StringJoinerDemo2" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringjoiner_.StringJoinerDemo2" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonClasses_.String_2.stringjoiner_.*" />
+          <option name="PATTERN" value="String_2.stringjoiner_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +142,8 @@
       <workItem from="1691557028690" duration="57000" />
       <workItem from="1693722536581" duration="2074000" />
       <workItem from="1707780587854" duration="3003000" />
+      <workItem from="1708146475848" duration="598000" />
+      <workItem from="1708148616069" duration="870000" />
     </task>
     <servers />
   </component>
