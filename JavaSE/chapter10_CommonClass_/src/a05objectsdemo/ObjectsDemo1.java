@@ -2,6 +2,9 @@ package a05objectsdemo;
 
 import java.util.Objects;
 
+/**
+ * @author ryanw
+ */
 public class ObjectsDemo1 {
     public static void main(String[] args) {
         /*
@@ -32,8 +35,6 @@ public class ObjectsDemo1 {
 
 
 
-
-
         //public static boolean isNull(Obiect obi) 判断对象是否为null，为nul1返回true,反之
         Student s3 = new Student();
         Student s4 = null;
@@ -43,8 +44,6 @@ public class ObjectsDemo1 {
 
         System.out.println(Objects.nonNull(s3));//true
         System.out.println(Objects.nonNull(s4));//false
-
-
 
     }
 }

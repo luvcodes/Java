@@ -10,17 +10,21 @@ public class ObjectDemo1 {
             public boolean equals(Object obj) 比较两个对象是否相等
             protected object clone(int a) 对象克隆
         */
+
         //1.tostring 返回对象的字符串表示形式
         Object obj = new Object();
         String str1 = obj.toString();
-        System.out.println(str1);//java.lang.Object@119d7047
+        //java.lang.Object@119d7047
+        System.out.println(str1);
 
         Student stu = new Student();
         String str2 = stu.toString();
-        System.out.println(str2);//com.itheima.a04objectdemo.student@4eec7777
+        //a04objectdemo.student@4eec7777
+        System.out.println(str2);
 
-        //细节:
-        System.out.println(stu);//com.itheima.a04objectdemo.student@4eec7777
+        // 细节:
+        // a04objectdemo.student@4eec7777
+        System.out.println(stu);
 
 
         //细节:
@@ -33,12 +37,14 @@ public class ObjectDemo1 {
         //当我们打印一个对象的时候，底层会调用对象的tostring方法，把对象变成字符串。
         //然后再打印在控制台上，打印完毕换行处理。
 
-        //思考:默认情况下，因为Object类中的tostring方法返回的是地址值
-        //所以，默认情况下，打印一个对象打印的就是地址值
-        //但是地址值对于我们是没什么意义的?
-        //我想要看到对象内部的属性值?我们该怎么办?
-        //处理方案：重写父类Object类中的toString方法
-        System.out.println(stu);//com.itheima.a04objectdemo.Student@4eec7777
+        /**
+         * 思考:默认情况下，因为Object类中的tostring方法返回的是地址值
+         * 所以，默认情况下，打印一个对象打印的就是地址值
+         * 但是地址值对于我们是没什么意义的?
+         * 我想要看到对象内部的属性值?我们该怎么办? 处理方案：重写父类Object类中的toString方法
+         */
+        // a04objectdemo.Student@4eec7777
+        System.out.println(stu);
 
 
         //tostring方法的结论:

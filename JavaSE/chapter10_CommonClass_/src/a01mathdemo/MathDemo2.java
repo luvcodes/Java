@@ -1,5 +1,8 @@
 package a01mathdemo;
 
+/**
+ * @author ryanw
+ */
 public class MathDemo2 {
     public static void main(String[] args) {
         //判断一个数是否为一个质数

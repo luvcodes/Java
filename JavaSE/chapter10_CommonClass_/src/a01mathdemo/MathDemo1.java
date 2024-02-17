@@ -33,8 +33,6 @@ public class MathDemo1 {
         System.out.println(Math.ceil(12.54));//13.0
         System.out.println(Math.ceil(-12.34));//-12.0
         System.out.println(Math.ceil(-12.54));//-12.0
-
-
         System.out.println("-------------------------------");
 
 
@@ -44,12 +42,14 @@ public class MathDemo1 {
         System.out.println(Math.floor(-12.34));//-13.0
         System.out.println(Math.floor(-12.54));//-13.0
         System.out.println("-------------------------------");
+
         //四舍五入
         System.out.println(Math.round(12.34));//12
         System.out.println(Math.round(12.54));//13
         System.out.println(Math.round(-12.34));//-12
         System.out.println(Math.round(-12.54));//-13
         System.out.println("-------------------------------");
+
         //获取两个整数的较大值
         System.out.println(Math.max(20,30));//30
         //获取两个整数的较小值
@@ -58,6 +58,7 @@ public class MathDemo1 {
 
         // 获取a的b次幂
         System.out.println(Math.pow(2,3));//8
+
         // 细节:
         //如果第二个参数 0~ 1之间的小数
         //system.out.println(Math.pow(4,0.5));//2.0

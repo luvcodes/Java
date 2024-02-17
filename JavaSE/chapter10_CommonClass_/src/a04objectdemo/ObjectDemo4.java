@@ -1,5 +1,8 @@
 package a04objectdemo;
 
+/**
+ * @author ryanw
+ */
 public class ObjectDemo4 {
     public static void main(String[] args) throws CloneNotSupportedException {
         // protected object clone(int a) 对象克隆 
@@ -15,16 +18,15 @@ public class ObjectDemo4 {
         //1.重写Object中的clone方法
         //2.让javabean类实现Cloneable接口
         //3.创建原对象并调用clone就可以了
-        //User u2 =(User)u1.clone();
+        User u2 =(User)u1.clone();
 
         //验证一件事情：Object中的克隆是浅克隆
         //想要进行深克隆，就需要重写clone方法并修改里面的方法体
-        //int[] arr = u1.getData();
-        //arr[0] = 100;
+        int[] arr = u1.getData();
+        arr[0] = 100;
 
-        //System.out.println(u1);
-        //System.out.println(u2);
-
+        System.out.println(u1);
+        System.out.println(u2);
 
         //以后一般会用第三方工具进行克隆
         //1.第三方写的代码导入到项目中
@@ -40,9 +42,6 @@ public class ObjectDemo4 {
 
         //打印对象
         //System.out.println(user);
-
-
-
 
     }
 }

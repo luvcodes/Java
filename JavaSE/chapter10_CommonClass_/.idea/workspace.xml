@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="" />
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a05objectsdemo/ObjectsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a05objectsdemo/ObjectsDemo1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,30 +30,32 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2TjWZCcDfywOrde3trz6eiCNJSD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StringDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringJoinerDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringJoinerDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ObjectDemo3.executor": "Run",
+    "Application.StringDemo1.executor": "Run",
+    "Application.StringJoinerDemo1.executor": "Run",
+    "Application.StringJoinerDemo2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src" />
@@ -55,13 +67,13 @@
       <recent name="CommonClasses_.String_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringJoinerDemo2">
-    <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.String01" />
+  <component name="RunManager" selected="Application.ObjectDemo4">
+    <configuration name="ObjectDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04objectdemo.ObjectDemo3" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="a04objectdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferExercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.stringbuffer_.StringBufferExercise01" />
+    <configuration name="ObjectDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a04objectdemo.ObjectDemo4" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.stringbuffer_.*" />
+          <option name="PATTERN" value="a04objectdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectDemo4" />
+        <item itemvalue="Application.ObjectDemo3" />
         <item itemvalue="Application.StringJoinerDemo2" />
         <item itemvalue="Application.StringJoinerDemo1" />
         <item itemvalue="Application.StringDemo1" />
-        <item itemvalue="Application.StringBufferExercise01" />
-        <item itemvalue="Application.String01" />
       </list>
     </recent_temporary>
   </component>
@@ -145,10 +157,16 @@
       <workItem from="1708146475848" duration="598000" />
       <workItem from="1708148616069" duration="1833000" />
       <workItem from="1708164990541" duration="145000" />
+      <workItem from="1708210460660" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

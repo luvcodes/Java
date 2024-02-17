@@ -1,5 +1,8 @@
 package a01mathdemo;
 
+/**
+ * @author ryanw
+ */
 public class MathDemo3 {
     public static void main(String[] args) {
         //要求1:统计一共有多少个水仙花数。
@@ -20,7 +23,6 @@ public class MathDemo3 {
             if (sum == i) {
                 count++;
                 //System.out.println(i);
-
                 System.out.println(count);
             }
         }

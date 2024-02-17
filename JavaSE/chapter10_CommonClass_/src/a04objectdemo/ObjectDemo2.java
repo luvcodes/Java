@@ -1,5 +1,8 @@
 package a04objectdemo;
 
+/**
+ * @author ryanw
+ */
 public class ObjectDemo2 {
     public static void main(String[] args) {
         /*
@@ -9,7 +12,8 @@ public class ObjectDemo2 {
         Student s2 =new Student("zhangsan",23);
 
         boolean result1 = s1.equals(s2);
-        System.out.println(result1);//true
+        //true
+        System.out.println(result1);
 
         //结论:
         //1.如果没有重写equals方法，那么默认使用Object中的方法进行比较，比较的是地址值是否相等
