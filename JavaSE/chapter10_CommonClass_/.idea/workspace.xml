@@ -24,26 +24,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.StringDemo1.executor": "Run",
-    "Application.StringJoinerDemo1.executor": "Run",
-    "Application.StringJoinerDemo2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.StringDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src" />
@@ -144,6 +144,7 @@
       <workItem from="1707780587854" duration="3003000" />
       <workItem from="1708146475848" duration="598000" />
       <workItem from="1708148616069" duration="1833000" />
+      <workItem from="1708164990541" duration="145000" />
     </task>
     <servers />
   </component>
