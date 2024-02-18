@@ -6,13 +6,11 @@ import java.util.ArrayList;
 public class CollectionMethod_2 {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
-        // add method: 1 element
         list.add("jack");
         list.add(10);
         list.add(true);
         System.out.println("list = " + list);
 
-        // remove target element
         list.remove(0); // 删除第一个元素
         list.remove(true); // 指定删除某个元素
         System.out.println("list = " + list);

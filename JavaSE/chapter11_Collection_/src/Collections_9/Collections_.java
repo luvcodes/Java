@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * @author ryanw
+ */
 public class Collections_ {
     public static void main(String[] args) {
 
@@ -16,11 +19,11 @@ public class Collections_ {
         list.add("milan");
         list.add("tom");
 
-
-//        reverse(List)：反转 List 中元素的顺序
+        // 反转 List 中元素的顺序
         Collections.reverse(list);
         System.out.println("list=" + list);
-//        shuffle(List)：对 List 集合元素进行随机排序
+
+//        对 List 集合元素进行随机排序
 //        for (int i = 0; i < 5; i++) {
 //            Collections.shuffle(list);
 //            System.out.println("list=" + list);
@@ -30,6 +33,7 @@ public class Collections_ {
         Collections.sort(list);
         System.out.println("自然排序后");
         System.out.println("list=" + list);
+
 //        sort(List，Comparator)：根据指定的 Comparator 产生的顺序对 List 集合元素进行排序
         //我们希望按照 字符串的长度大小排序
         Collections.sort(list, new Comparator() {
