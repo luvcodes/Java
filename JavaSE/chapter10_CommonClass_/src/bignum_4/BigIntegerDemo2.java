@@ -1,4 +1,4 @@
-package a06bigintegerdemo;
+package bignum_4;
 
 import java.math.BigInteger;
 

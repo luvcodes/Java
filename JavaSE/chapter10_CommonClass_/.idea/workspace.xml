@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.6.2.jar" afterDir="false" />
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Deep clone content update">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10_CommonClass_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10_CommonClass_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a06bigintegerdemo/BigIntegerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a06bigintegerdemo/BigIntegerDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a07bigdecimaldemo/BigDecimalDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigDecimalDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a07bigdecimaldemo/BigDecimalDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigDecimalDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a07bigdecimaldemo/BigDecimalDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigDecimalDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   "keyToString": {
     "Application.ObjectDemo3.executor": "Run",
     "Application.ObjectDemo4.executor": "Run",
+    "Application.ObjectsDemo1.executor": "Run",
     "Application.StringDemo1.executor": "Run",
     "Application.StringJoinerDemo1.executor": "Run",
     "Application.StringJoinerDemo2.executor": "Run",
@@ -68,7 +69,7 @@
       <recent name="CommonClasses_.String_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectDemo4">
+  <component name="RunManager" selected="Application.ObjectsDemo1">
     <configuration name="ObjectDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a04objectdemo.ObjectDemo3" />
       <module name="chapter10_CommonClass_" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.StringDemo1" />
+    <configuration name="ObjectsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a05objectsdemo.ObjectsDemo1" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="a05objectsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectsDemo1" />
         <item itemvalue="Application.ObjectDemo4" />
         <item itemvalue="Application.ObjectDemo3" />
         <item itemvalue="Application.StringJoinerDemo2" />
         <item itemvalue="Application.StringJoinerDemo1" />
-        <item itemvalue="Application.StringDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +162,15 @@
       <workItem from="1708210460660" duration="2124000" />
       <workItem from="1708212994177" duration="1796000" />
     </task>
+    <task id="LOCAL-00001" summary="Deep clone content update">
+      <option name="closed" value="true" />
+      <created>1708216114022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708216114022</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,5 +180,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Deep clone content update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deep clone content update" />
   </component>
 </project>

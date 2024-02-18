@@ -1,4 +1,4 @@
-package a07bigdecimaldemo;
+package bignum_4;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

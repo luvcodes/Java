@@ -1,5 +1,8 @@
-package a07bigdecimaldemo;
+package bignum_4;
 
+/**
+ * @author ryanw
+ */
 public class BigDecimalDemo1 {
     public static void main(String[] args) {
         System.out.println(0.09 + 0.01);
