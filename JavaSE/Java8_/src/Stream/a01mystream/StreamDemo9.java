@@ -1,4 +1,4 @@
-package Stream_10.a01mystream;
+package Stream.a01mystream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

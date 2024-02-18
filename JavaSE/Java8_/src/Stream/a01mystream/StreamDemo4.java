@@ -1,4 +1,4 @@
-package Stream_10.a01mystream;
+package Stream.a01mystream;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -8,7 +8,8 @@ import java.util.stream.Stream;
  */
 public class StreamDemo4 {
     public static void main(String[] args) {
-        // 数组          public static <T> Stream<T> stream(T[] array)        Arrays工具类中的静态方法
+        // 数组 public static <T> Stream<T> stream(T[] array)
+        // Arrays工具类中的静态方法
 
         //1.创建数组
         int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

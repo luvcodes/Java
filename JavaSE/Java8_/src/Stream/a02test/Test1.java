@@ -1,4 +1,4 @@
-package Stream_10.a02test;
+package Stream.a02test;
 
 import java.util.ArrayList;
 import java.util.Collections;

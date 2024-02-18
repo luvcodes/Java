@@ -1,4 +1,4 @@
-package StreamAPI_.createStream_;
+package Stream.createStream_;
 
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
