@@ -20,13 +20,14 @@ public class ObjectDemo4 {
         //3.创建原对象并调用clone就可以了
         User u2 =(User)u1.clone();
 
-        //验证一件事情：Object中的克隆是浅克隆
-        //想要进行深克隆，就需要重写clone方法并修改里面的方法体
+        //验证一件事情：Object中的克隆是浅克隆。因为修改数组中的值，两个对象都改变内容了
         int[] arr = u1.getData();
         arr[0] = 100;
 
         System.out.println(u1);
         System.out.println(u2);
+
+        //想要进行深克隆，就需要重写clone方法并修改里面的方法体
 
         //以后一般会用第三方工具进行克隆
         //1.第三方写的代码导入到项目中

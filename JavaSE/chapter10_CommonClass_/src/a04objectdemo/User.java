@@ -2,8 +2,6 @@ package a04objectdemo;
 
 import java.util.StringJoiner;
 
-
-
 //Cloneable
 //如果一个接口里面没有抽象方法
 //表示当前的接口是一个标记性接口
@@ -15,9 +13,6 @@ public class User implements Cloneable {
     private String password;
     private String path;
     private int[] data;
-
-
-
 
     public User() {
     }
@@ -59,8 +54,6 @@ public class User implements Cloneable {
 
     /**
      * 设置
-     *
-     * @param username
      */
     public void setUsername(String username) {
         this.username = username;
@@ -77,8 +70,6 @@ public class User implements Cloneable {
 
     /**
      * 设置
-     *
-     * @param password
      */
     public void setPassword(String password) {
         this.password = password;
@@ -95,8 +86,6 @@ public class User implements Cloneable {
 
     /**
      * 设置
-     *
-     * @param path
      */
     public void setPath(String path) {
         this.path = path;
@@ -113,8 +102,6 @@ public class User implements Cloneable {
 
     /**
      * 设置
-     *
-     * @param data
      */
     public void setData(int[] data) {
         this.data = data;
@@ -142,15 +129,16 @@ public class User implements Cloneable {
         //先把被克隆对象中的数组获取出来
         int[] data = this.data;
         //创建新的数组
-        int[] newData =new int[data.length];
+        int[] newData = new int[data.length];
         //拷贝数组中的数据
         for (int i = 0; i < data.length; i++) {
             newData[i] = data[i];
         }
-        //调用父类中的方法克隆对象
-            User u=(User)super.clone();
-        //因为父类中的克隆方法是浅克隆，替换克隆出来对象中的数组地址值
-        u.data =newData;
+        // 调用父类中的方法克隆对象
+        User u = (User) super.clone();
+        // 因为父类中的克隆方法是浅克隆，将克隆出来的User对象u中的data数组引用
+        // 指向新创建并填充的数组newData
+        u.data = newData;
         return u;
     }
 }

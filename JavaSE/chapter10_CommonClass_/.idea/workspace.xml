@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01mathdemo/MathDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a01mathdemo/MathDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a05objectsdemo/ObjectsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a05objectsdemo/ObjectsDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a04objectdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter11_Collection_/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11_Collection_/.idea/aws.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter10_CommonClass_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,6 +153,7 @@
       <workItem from="1708148616069" duration="1833000" />
       <workItem from="1708164990541" duration="145000" />
       <workItem from="1708210460660" duration="2124000" />
+      <workItem from="1708212994177" duration="1796000" />
     </task>
     <servers />
   </component>
