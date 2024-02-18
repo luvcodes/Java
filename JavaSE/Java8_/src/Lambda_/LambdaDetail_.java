@@ -18,6 +18,7 @@ import java.util.function.Consumer;
  * 这样做可以检查它是否是一个函数式接口。
  * </p>
  * 所以以前用匿名实现类表示的现在都可以用Lambda表达式来写
+ * @author ryanw
  */
 
 public class LambdaDetail_ {

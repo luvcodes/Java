@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Big Integer content update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo2.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Big integer contents update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/lib",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/Java8_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708218942853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Big integer contents update">
+      <option name="closed" value="true" />
+      <created>1708235735304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708235735304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +190,7 @@
     </ignored-roots>
     <MESSAGE value="Deep clone content update" />
     <MESSAGE value="Big Integer content update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Integer content update" />
+    <MESSAGE value="Big integer contents update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big integer contents update" />
   </component>
 </project>
