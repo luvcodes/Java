@@ -2,6 +2,9 @@ package bignum_4;
 
 import java.math.BigInteger;
 
+/**
+ * @author ryanw
+ */
 public class BigIntegerDemo2 {
     public static void main(String[] args) {
         /*
@@ -49,6 +52,7 @@ public class BigIntegerDemo2 {
 
         BigInteger bd6 = BigInteger.valueOf(200);
         double v = bd6.doubleValue();
-        System.out.println(v);//200.0
+        //200.0
+        System.out.println(v);
     }
 }
