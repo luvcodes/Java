@@ -1,5 +1,6 @@
 package a04objectdemo;
 
+import java.util.Arrays;
 import java.util.StringJoiner;
 
 //Cloneable
@@ -107,10 +108,16 @@ public class User implements Cloneable {
         this.data = data;
     }
 
+    @Override
     public String toString() {
-        return "角色编号为：" + id + "，用户名为：" + username + "密码为：" + password + ", 游戏图片为:" + path + ", 进度:" + arrToString();
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", path='" + path + '\'' +
+                ", data=" + Arrays.toString(data) +
+                '}';
     }
-
 
     public String arrToString() {
         StringJoiner sj = new StringJoiner(", ", "[", "]");

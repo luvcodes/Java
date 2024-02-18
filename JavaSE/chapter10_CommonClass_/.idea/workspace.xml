@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.6.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10_CommonClass_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10_CommonClass_.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/ObjectDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a04objectdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a04objectdemo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter11_Collection_/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11_Collection_/.idea/aws.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +36,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ObjectDemo3.executor": "Run",
+    "Application.ObjectDemo4.executor": "Run",
     "Application.StringDemo1.executor": "Run",
     "Application.StringJoinerDemo1.executor": "Run",
     "Application.StringJoinerDemo2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter10_CommonClass_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\lib" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2\stringbuffer_" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\src\CommonClasses_\String_2" />
