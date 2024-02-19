@@ -3,6 +3,9 @@ package Stream.a01mystream;
 import java.util.*;
 import java.util.stream.Stream;
 
+/**
+ * @author ryanw
+ */
 public class StreamDemo {
     public static void main(String[] args) {
         //Collection体系的集合可以使用默认方法stream()生成流
@@ -22,7 +25,7 @@ public class StreamDemo {
         String[] strArray = {"hello","world","java"};
         Stream<String> strArrayStream = Arrays.stream(strArray);
 
-        //同种数据类型的多个数据可以通过Stream接口的静态方法of(T... values)生成流
+        //同种数据类型的多个数据可以通过Stream接口的静态方法of(T... values)生成流, 零散数据
         Stream<String> strArrayStream2 = Stream.of("hello", "world", "java");
         Stream<Integer> intStream = Stream.of(10, 20, 30);
     }

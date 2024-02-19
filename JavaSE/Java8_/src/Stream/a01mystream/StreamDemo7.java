@@ -25,11 +25,9 @@ public class StreamDemo7 {
 
 
         // distinct 元素去重，依赖(hashCode和equals方法)
-        //list1.stream().distinct().forEach(s -> System.out.println(s));
+        // list1.stream().distinct().forEach(s -> System.out.println(s));
 
 
         Stream.concat(list1.stream(), list2.stream()).forEach(s -> System.out.println(s));
-
-
     }
 }

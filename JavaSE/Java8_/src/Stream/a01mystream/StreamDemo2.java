@@ -35,8 +35,6 @@ public class StreamDemo2 {
 
 
         list.stream().forEach(s -> System.out.println(s));
-
-
     }
 }
 

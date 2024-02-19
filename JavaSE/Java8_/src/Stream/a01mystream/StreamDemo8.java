@@ -37,13 +37,11 @@ public class StreamDemo8 {
                 return age;
             }
         }).forEach(s-> System.out.println(s));
-
         System.out.println("------------------------");
 
 
         list.stream()
                 .map(s-> Integer.parseInt(s.split("-")[1]))
                 .forEach(s-> System.out.println(s));
-
     }
 }

@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * @author ryanw
+ */
 public class Test3 {
     public static void main(String[] args) {
       /*
@@ -31,16 +34,18 @@ public class Test3 {
         //2.添加数据
         Collections.addAll(manList, "蔡坤坤,24", "叶齁咸,23", "刘不甜,22", "吴签,24", "谷嘉,30", "肖梁梁,27");
         Collections.addAll(womenList, "赵小颖,35", "杨颖,36", "高元元,43", "张天天,31", "刘诗,35", "杨小幂,33");
-        //3.男演员只要名字为3个字的前两人
+
+        //3.男演员只要名字为3个字 (length) 的前两人 (limit)
         Stream<String> stream1 = manList.stream()
                 .filter(s -> s.split(",")[0].length() == 3)
                 .limit(2);
+
         //4.女演员只要姓杨的，并且不要第一个
         Stream<String> stream2 = womenList.stream()
                 .filter(s -> s.split(",")[0].startsWith("杨"))
                 .skip(1);
-        //5.把过滤后的男演员姓名和女演员姓名合并到一起
-        //演员信息封装成Actor对象。
+
+        // 5.把过滤后的男演员姓名和女演员姓名合并到一起, 演员信息封装成Actor对象。
 
         //String -> Actor对象 （类型转换）
        /* Stream.concat(stream1,stream2).map(new Function<String, Actor>() {

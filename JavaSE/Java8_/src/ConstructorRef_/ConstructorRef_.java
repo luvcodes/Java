@@ -1,6 +1,6 @@
 package ConstructorRef_;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import java.util.Arrays;
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -13,9 +13,9 @@ import java.util.function.Supplier;
  *      抽象方法的返回值类型即为构造器所属的类的类型
  * 二、数组引用
  *      大家可以把数组看做是一个特殊的类，则写法与构造器引用已知。
+ *
+ * @author ryanw
  * */
-
-
 public class ConstructorRef_ {
     /**
      * 构造器引用
