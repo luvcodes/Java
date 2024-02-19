@@ -36,6 +36,7 @@
   "keyToString": {
     "Application.Demo.executor": "Debug",
     "Application.MyThreadPoolDemo.executor": "Run",
+    "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
     "Application.Thread01.executor": "Run",
     "Application.Thread02.executor": "Run",
     "Application.ThreadDemo.executor": "Run",
@@ -48,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/PhaseFour/MicroService/cloud-demo",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,13 +69,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Thread.mythread.a03threadcase3.ThreadDemo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.Demo" />
       <module name="chapter13_Thread_" />
@@ -94,19 +96,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Method1_.ThreadDemo" />
-      <module name="chapter13_Thread_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.ThreadUse_1.Method1_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread.mythread.a03threadcase3.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a03threadcase3.ThreadDemo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.mythread.a03threadcase3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.mythread.a03threadcase3.ThreadDemo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +183,7 @@
       <workItem from="1705531159407" duration="305000" />
       <workItem from="1705576456423" duration="3857000" />
       <workItem from="1705617088034" duration="51000" />
+      <workItem from="1708339727118" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
