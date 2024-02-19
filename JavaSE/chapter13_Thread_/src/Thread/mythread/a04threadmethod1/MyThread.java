@@ -1,6 +1,9 @@
 package Thread.mythread.a04threadmethod1;
 
-public class MyThread extends Thread{
+/**
+ * @author ryanw
+ */
+public class MyThread extends Thread {
 
     public MyThread() {
     }

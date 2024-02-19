@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/ThreadDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Thread.mythread.a03threadcase3.ThreadDemo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
+        <item itemvalue="Application.MyThreadPoolDemo" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +188,8 @@
       <workItem from="1705531159407" duration="305000" />
       <workItem from="1705576456423" duration="3857000" />
       <workItem from="1705617088034" duration="51000" />
-      <workItem from="1708339727118" duration="1519000" />
+      <workItem from="1708339727118" duration="3484000" />
+      <workItem from="1708347035715" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -211,6 +217,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Update thread chapter structure" />
     <option name="LAST_COMMIT_MESSAGE" value="Update thread chapter structure" />
   </component>
