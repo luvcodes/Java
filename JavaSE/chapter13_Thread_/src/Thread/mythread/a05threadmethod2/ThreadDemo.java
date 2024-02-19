@@ -1,5 +1,8 @@
 package Thread.mythread.a05threadmethod2;
 
+/**
+ * @author ryanw
+ */
 public class ThreadDemo {
     public static void main(String[] args){
        /*
@@ -18,8 +21,5 @@ public class ThreadDemo {
 
         t1.start();
         t2.start();
-
-
-
     }
 }

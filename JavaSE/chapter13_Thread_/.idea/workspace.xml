@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter structure">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread content">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a04threadmethod1/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadMethods_2/ThreadMethod01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadMethods_2/ThreadMethod01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadUse_1/Thread03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadUse_1/Thread03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,41 +44,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Demo.executor": "Debug",
-    "Application.MyThreadPoolDemo.executor": "Run",
-    "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
-    "Application.Thread01.executor": "Run",
-    "Application.Thread02.executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadDemo2.executor": "Run",
-    "Application.ThreadLocalClass.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a03threadcase3.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalClass.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread" />
@@ -189,7 +197,9 @@
       <workItem from="1705576456423" duration="3857000" />
       <workItem from="1705617088034" duration="51000" />
       <workItem from="1708339727118" duration="3484000" />
-      <workItem from="1708347035715" duration="611000" />
+      <workItem from="1708347035715" duration="1022000" />
+      <workItem from="1708348100019" duration="939000" />
+      <workItem from="1708383638501" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -199,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701237343747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Thread content">
+      <option name="closed" value="true" />
+      <created>1708348029430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708348029430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +240,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Update thread chapter structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update thread chapter structure" />
+    <MESSAGE value="Thread content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread content" />
   </component>
 </project>

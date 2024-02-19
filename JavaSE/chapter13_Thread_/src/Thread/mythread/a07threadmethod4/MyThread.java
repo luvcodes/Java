@@ -1,5 +1,8 @@
 package Thread.mythread.a07threadmethod4;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread{
 
     @Override

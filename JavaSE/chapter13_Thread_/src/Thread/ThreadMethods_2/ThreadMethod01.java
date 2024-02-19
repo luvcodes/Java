@@ -1,10 +1,14 @@
 package Thread.ThreadMethods_2;
 
+/**
+ * @author ryanw
+ */
 public class ThreadMethod01 {
     public static void main(String[] args) throws InterruptedException {
         T t = new T();
         t.setName("老韩");
-        t.setPriority(Thread.MIN_PRIORITY);//1
+        //1
+        t.setPriority(Thread.MIN_PRIORITY);
         t.start();//启动子线程
 
         //主线程打印5 hi ,然后我就中断 子线程的休眠

@@ -1,5 +1,8 @@
 package Thread.mythread.a05threadmethod2;
 
+/**
+ * @author ryanw
+ */
 public class MyRunnable implements Runnable{
 
     @Override

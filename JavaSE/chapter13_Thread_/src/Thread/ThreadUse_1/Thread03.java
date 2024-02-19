@@ -8,8 +8,10 @@ public class Thread03 {
     public static void main(String[] args) {
         Thread thread1 = new Thread(new T1());
         Thread thread2 = new Thread(new T2());
-        thread1.start();//启动第1个线程
-        thread2.start();//启动第2个线程
+        //启动第1个线程
+        thread1.start();
+        //启动第2个线程
+        thread2.start();
     }
 }
 

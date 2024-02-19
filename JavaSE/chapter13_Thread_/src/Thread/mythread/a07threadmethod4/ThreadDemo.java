@@ -1,5 +1,8 @@
 package Thread.mythread.a07threadmethod4;
 
+/**
+ * @author ryanw
+ */
 public class ThreadDemo {
     public static void main(String[] args) {
        /*
