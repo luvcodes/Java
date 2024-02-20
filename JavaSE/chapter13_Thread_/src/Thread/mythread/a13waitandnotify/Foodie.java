@@ -16,10 +16,10 @@ public class Foodie extends Thread{
 
         while(true){
             synchronized (Desk.lock){
-                if(Desk.count == 0){
+                if (Desk.count == 0) {
                     break;
-                }else{
-                    //先判断桌子上是否有面条
+                } else {
+                    // 先判断桌子上是否有面条
                     if(Desk.foodFlag == 0){
                         //如果没有，就等待
                         try {

@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread chapter content review">
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread chapter content update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/TransferRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/TransferRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/UnsynchBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/UnsynchBankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a01threadcase1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a01threadExtendThread/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a01threadcase1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a01threadExtendThread/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a02threadcase2/MyRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a02threadRunnable/MyRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a02threadcase2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a02threadRunnable/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a03threadcase3/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a03threadCallable/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a03threadcase3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a03threadCallable/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadSetPriority/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadSetPriority/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/MyThread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/MyThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadyield/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadyield/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a08threadmethod5/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a08threadjoin/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a08threadmethod5/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a08threadjoin/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a10threadsafe2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a10threadsafe2/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +191,7 @@
       <workItem from="1708339727118" duration="3484000" />
       <workItem from="1708347035715" duration="1022000" />
       <workItem from="1708348100019" duration="939000" />
-      <workItem from="1708383638501" duration="4760000" />
+      <workItem from="1708383638501" duration="6560000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -245,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708384830084</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Thread chapter content update">
+      <option name="closed" value="true" />
+      <created>1708388754547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708388754547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +250,7 @@
     <MESSAGE value="Update thread chapter structure" />
     <MESSAGE value="Thread content" />
     <MESSAGE value="Thread chapter content review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread chapter content review" />
+    <MESSAGE value="Thread chapter content update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread chapter content update" />
   </component>
 </project>
