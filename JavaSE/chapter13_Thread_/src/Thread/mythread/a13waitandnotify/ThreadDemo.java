@@ -11,7 +11,6 @@ public class ThreadDemo {
        *         实现线程轮流交替执行的效果
        * */
 
-
         //创建线程的对象
         Cook c = new Cook();
         Foodie f = new Foodie();
@@ -23,14 +22,5 @@ public class ThreadDemo {
         //开启线程
         c.start();
         f.start();
-
-
-
-
-
-
-
-
-
     }
 }

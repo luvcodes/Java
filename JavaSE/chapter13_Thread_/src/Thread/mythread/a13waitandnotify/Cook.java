@@ -27,7 +27,7 @@ public class Cook extends Thread{
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-                    }else{
+                    } else {
                         //如果没有，就制作食物
                         System.out.println("厨师做了一碗面条");
                         //修改桌子上的食物状态

@@ -23,11 +23,12 @@ public class Foodie extends Thread{
                     if(Desk.foodFlag == 0){
                         //如果没有，就等待
                         try {
-                            Desk.lock.wait();//让当前线程跟锁进行绑定
+                            // 让当前线程跟锁进行绑定
+                            Desk.lock.wait();
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-                    }else{
+                    } else {
                         //把吃的总数-1
                         Desk.count--;
                         //如果有，就开吃

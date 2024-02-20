@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread chapter content update">
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -41,6 +47,7 @@
     "Application.MyThreadPoolDemo.executor": "Run",
     "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
     "Application.Thread.mythread.a07threadyield.ThreadDemo.executor": "Run",
+    "Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor": "Run",
     "Application.Thread01.executor": "Run",
     "Application.Thread02.executor": "Run",
     "Application.ThreadDemo.executor": "Run",
@@ -54,7 +61,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter13_Thread_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,26 +88,13 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.mythread.a07threadyield.ThreadDemo">
+  <component name="RunManager" selected="Application.Thread.mythread.a13waitandnotify.ThreadDemo">
     <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a03threadCallable.ThreadDemo" />
-      <module name="chapter13_Thread_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.mythread.a03threadCallable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,15 +141,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread.mythread.a13waitandnotify.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a13waitandnotify.ThreadDemo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.mythread.a13waitandnotify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.mythread.a13waitandnotify.ThreadDemo" />
         <item itemvalue="Application.Thread.mythread.a07threadyield.ThreadDemo" />
-        <item itemvalue="Application.Thread.mythread.a03threadcase3.ThreadDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.MyThreadPoolDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -192,6 +206,7 @@
       <workItem from="1708347035715" duration="1022000" />
       <workItem from="1708348100019" duration="939000" />
       <workItem from="1708383638501" duration="6560000" />
+      <workItem from="1708403189618" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
