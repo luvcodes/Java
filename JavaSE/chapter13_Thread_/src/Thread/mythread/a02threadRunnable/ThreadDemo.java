@@ -1,4 +1,4 @@
-package Thread.mythread.a02threadcase2;
+package Thread.mythread.a02threadRunnable;
 
 /**
  * @author ryanw

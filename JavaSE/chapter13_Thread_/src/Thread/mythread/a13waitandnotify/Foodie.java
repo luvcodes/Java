@@ -1,5 +1,8 @@
 package Thread.mythread.a13waitandnotify;
 
+/**
+ * @author ryanw
+ */
 public class Foodie extends Thread{
 
     @Override

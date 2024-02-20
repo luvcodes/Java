@@ -1,4 +1,4 @@
-package Thread.mythread.a01threadcase1;
+package Thread.mythread.a01threadExtendThread;
 
 /**
  * @author ryanw

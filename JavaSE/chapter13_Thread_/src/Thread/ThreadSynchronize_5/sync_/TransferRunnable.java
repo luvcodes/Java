@@ -1,5 +1,8 @@
 package Thread.ThreadSynchronize_5.sync_;
 
+/**
+ * @author ryanw
+ */
 public class TransferRunnable implements Runnable{
     private Bank bank;
     private int fromAccount;
@@ -28,7 +31,9 @@ public class TransferRunnable implements Runnable{
             e.printStackTrace();
         }
         System.out.println("Thread is over");
-        System.exit(0); //结束程序，但是不会导致程序结束，因为程序还在运行。
-        System.out.println("Thread is over"); //这个代码不会执行，因为程序已经结束。
+        //结束程序，但是不会导致程序结束，因为程序还在运行。
+        System.exit(0);
+        //这个代码不会执行，因为程序已经结束。
+        System.out.println("Thread is over");
     }
 }

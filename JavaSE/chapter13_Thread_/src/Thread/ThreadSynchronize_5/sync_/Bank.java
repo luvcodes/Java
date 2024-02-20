@@ -3,6 +3,9 @@ package Thread.ThreadSynchronize_5.sync_;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * @author ryanw
+ */
 public class Bank {
     private final double[] accounts;
     private Lock bankLock = new ReentrantLock();

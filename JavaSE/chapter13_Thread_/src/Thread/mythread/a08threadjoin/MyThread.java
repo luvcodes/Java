@@ -1,13 +1,12 @@
-package Thread.mythread.a06threadmethod3;
+package Thread.mythread.a08threadjoin;
 
 /**
  * @author ryanw
  */
-public class MyThread1 extends Thread{
-
+public class MyThread extends Thread{
     @Override
     public void run() {
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 100; i++) {
             System.out.println(getName() + "@" + i);
         }
     }

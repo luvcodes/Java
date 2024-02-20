@@ -1,12 +1,14 @@
-package Thread.mythread.a08threadmethod5;
+package Thread.mythread.a06threadSetDaemon;
 
-public class MyThread extends Thread{
+/**
+ * @author ryanw
+ */
+public class MyThread2 extends Thread{
 
     @Override
     public void run() {
         for (int i = 1; i <= 100; i++) {
             System.out.println(getName() + "@" + i);
-
         }
     }
 }

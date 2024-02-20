@@ -1,13 +1,11 @@
 package Thread.mythread.a12deadlock;
 
 
-public class ThreadDemo {
+/**
+ * @author ryanw
+ */
+public class DeadLock {
     public static void main(String[] args) {
-       /*
-           需求：
-                死锁
-       */
-
 
         MyThread t1 = new MyThread();
         MyThread t2 = new MyThread();
@@ -17,6 +15,5 @@ public class ThreadDemo {
 
         t1.start();
         t2.start();
-
     }
 }

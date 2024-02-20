@@ -1,4 +1,4 @@
-package Thread.mythread.a06threadmethod3;
+package Thread.mythread.a06threadSetDaemon;
 
 /**
  * @author ryanw

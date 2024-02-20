@@ -1,9 +1,13 @@
 package Thread.mythread.a09threadsafe1;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread {
 
-    //表示这个类所有的对象，都共享ticket数据
-    static int ticket = 0;//0 ~ 99
+    // 表示这个类所有的对象，都共享ticket数据
+    // 0 ~ 99
+    static int ticket = 0;
 
     @Override
     public void run() {
@@ -24,7 +28,4 @@ public class MyThread extends Thread {
             }
         }
     }
-
-
-
 }

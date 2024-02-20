@@ -1,4 +1,4 @@
-package Thread.mythread.a05threadmethod2;
+package Thread.mythread.a05threadSetPriority;
 
 /**
  * @author ryanw

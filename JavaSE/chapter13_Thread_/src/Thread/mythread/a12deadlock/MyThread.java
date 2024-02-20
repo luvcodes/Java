@@ -1,5 +1,8 @@
 package Thread.mythread.a12deadlock;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread {
 
     static Object objA = new Object();
@@ -11,7 +14,8 @@ public class MyThread extends Thread {
         while (true) {
             if ("线程A".equals(getName())) {
                 synchronized (objA) {
-                    System.out.println("线程A拿到了A锁，准备拿B锁");//A
+                    //A
+                    System.out.println("线程A拿到了A锁，准备拿B锁");
                     synchronized (objB) {
                         System.out.println("线程A拿到了B锁，顺利执行完一轮");
                     }
@@ -19,7 +23,8 @@ public class MyThread extends Thread {
             } else if ("线程B".equals(getName())) {
                 if ("线程B".equals(getName())) {
                     synchronized (objB) {
-                        System.out.println("线程B拿到了B锁，准备拿A锁");//B
+                        //B
+                        System.out.println("线程B拿到了B锁，准备拿A锁");
                         synchronized (objA) {
                             System.out.println("线程B拿到了A锁，顺利执行完一轮");
                         }

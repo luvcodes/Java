@@ -1,4 +1,4 @@
-package Thread.mythread.a07threadmethod4;
+package Thread.mythread.a07threadyield;
 
 /**
  * @author ryanw
@@ -6,8 +6,7 @@ package Thread.mythread.a07threadmethod4;
 public class ThreadDemo {
     public static void main(String[] args) {
        /*
-            public static void yield()      出让线程/礼让线程
-
+            public static void yield() 出让线程/礼让线程
        */
 
         MyThread t1 = new MyThread();
@@ -18,7 +17,5 @@ public class ThreadDemo {
 
         t1.start();
         t2.start();
-
-
     }
 }

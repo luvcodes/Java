@@ -3,8 +3,10 @@ package Thread.mythread.a11threadsafe3;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread{
-
     static int ticket = 0;
 
     static Lock lock = new ReentrantLock();

@@ -4,18 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread content">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread chapter content review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadMethods_2/ThreadMethod01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadMethods_2/ThreadMethod01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadUse_1/Thread03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadUse_1/Thread03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/TransferRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/TransferRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/UnsynchBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ThreadSynchronize_5/sync_/UnsynchBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a01threadcase1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a01threadExtendThread/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a01threadcase1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a01threadExtendThread/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a02threadcase2/MyRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a02threadRunnable/MyRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a02threadcase2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a02threadRunnable/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a03threadcase3/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a03threadCallable/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a03threadcase3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a03threadCallable/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadSetPriority/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a05threadmethod2/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a05threadSetPriority/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/MyThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a06threadmethod3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a06threadSetDaemon/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadyield/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a07threadmethod4/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a07threadyield/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a08threadmethod5/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a08threadjoin/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a08threadmethod5/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a08threadjoin/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a09threadsafe1/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a10threadsafe2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a10threadsafe2/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a11threadsafe3/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a12deadlock/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,42 +63,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread.mythread.a03threadcase3.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocalClass.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo.executor": "Debug",
+    "Application.MyThreadPoolDemo.executor": "Run",
+    "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
+    "Application.Thread.mythread.a07threadyield.ThreadDemo.executor": "Run",
+    "Application.Thread01.executor": "Run",
+    "Application.Thread02.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadDemo2.executor": "Run",
+    "Application.ThreadLocalClass.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread" />
@@ -89,9 +109,9 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.mythread.a03threadcase3.ThreadDemo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.Demo" />
+  <component name="RunManager" selected="Application.Thread.mythread.a07threadyield.ThreadDemo">
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a03threadCallable.ThreadDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
+          <option name="PATTERN" value="Thread.mythread.a03threadCallable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread.mythread.a03threadcase3.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a03threadcase3.ThreadDemo" />
+    <configuration name="Thread.mythread.a07threadyield.ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a07threadyield.ThreadDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.mythread.a03threadcase3.*" />
+          <option name="PATTERN" value="Thread.mythread.a07threadyield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.mythread.a07threadyield.ThreadDemo" />
         <item itemvalue="Application.Thread.mythread.a03threadcase3.ThreadDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.MyThreadPoolDemo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +219,7 @@
       <workItem from="1708339727118" duration="3484000" />
       <workItem from="1708347035715" duration="1022000" />
       <workItem from="1708348100019" duration="939000" />
-      <workItem from="1708383638501" duration="1122000" />
+      <workItem from="1708383638501" duration="4760000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -217,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708348029430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Thread chapter content review">
+      <option name="closed" value="true" />
+      <created>1708384830084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708384830084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +269,7 @@
     </ignored-roots>
     <MESSAGE value="Update thread chapter structure" />
     <MESSAGE value="Thread content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread content" />
+    <MESSAGE value="Thread chapter content review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread chapter content review" />
   </component>
 </project>
