@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Consumer and producer content update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +88,11 @@
   </component>
   <component name="RunManager" selected="Application.Thread.mythread.a13waitandnotify.ThreadDemo">
     <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadPool_7.Basics_.MyThreadPoolDemo" />
+      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadPool_7.Basics_.MyThreadPoolDemo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadPool_7.Basics_.*" />
+          <option name="PATTERN" value="Thread.BackUpPack.ThreadPool_7.Basics_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadUse_1.Method2_.ThreadDemo2" />
+      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadUse_1.Method2_.ThreadDemo2" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadUse_1.Method2_.*" />
+          <option name="PATTERN" value="Thread.BackUpPack.ThreadUse_1.Method2_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="ThreadLocalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadLocal_.ThreadLocalClass" />
+      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadLocal_.ThreadLocalClass" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.ThreadLocal_.*" />
+          <option name="PATTERN" value="Thread.BackUpPack.ThreadLocal_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,6 +206,7 @@
       <workItem from="1708383638501" duration="6560000" />
       <workItem from="1708403189618" duration="3010000" />
       <workItem from="1708406327785" duration="112000" />
+      <workItem from="1708408979375" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />

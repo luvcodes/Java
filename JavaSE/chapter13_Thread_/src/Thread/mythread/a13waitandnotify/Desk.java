@@ -14,6 +14,4 @@ public class Desk {
 
     // 锁对象
     public static Object lock = new Object();
-
-
 }
