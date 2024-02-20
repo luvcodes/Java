@@ -2,7 +2,7 @@ package Thread.mythread.a14waitandnotify;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class Cook extends Thread{
+public class Cook extends Thread {
 
     ArrayBlockingQueue<String> queue;
 
@@ -12,7 +12,7 @@ public class Cook extends Thread{
 
     @Override
     public void run() {
-        while(true){
+        while (true) {
             //不断的把面条放到阻塞队列当中
             try {
                 queue.put("面条");

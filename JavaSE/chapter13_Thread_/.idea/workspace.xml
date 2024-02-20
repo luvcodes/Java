@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Thread chapter content update">
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Consumer producer content update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/Foodie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a14waitandnotify/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -206,7 +205,8 @@
       <workItem from="1708347035715" duration="1022000" />
       <workItem from="1708348100019" duration="939000" />
       <workItem from="1708383638501" duration="6560000" />
-      <workItem from="1708403189618" duration="2499000" />
+      <workItem from="1708403189618" duration="3010000" />
+      <workItem from="1708406327785" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -240,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708388754547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Consumer producer content update">
+      <option name="closed" value="true" />
+      <created>1708405845437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708405845437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +274,7 @@
     <MESSAGE value="Thread content" />
     <MESSAGE value="Thread chapter content review" />
     <MESSAGE value="Thread chapter content update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread chapter content update" />
+    <MESSAGE value="Consumer producer content update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consumer producer content update" />
   </component>
 </project>
