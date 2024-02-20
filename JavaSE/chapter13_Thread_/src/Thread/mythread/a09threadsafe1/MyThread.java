@@ -12,8 +12,8 @@ public class MyThread extends Thread {
     @Override
     public void run() {
             while (true) {
+                // 同步代码块
                 synchronized (MyThread.class) {
-                //同步代码块
                 if (ticket < 100) {
                     try {
                         Thread.sleep(10);
