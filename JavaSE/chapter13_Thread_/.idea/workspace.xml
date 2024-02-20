@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the folder structure">
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the thread pool content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/BackUpPack/ThreadPool_7/Basics_/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/BackUpPack/ThreadPool_7/Basics_/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/BackUpPack/ThreadPool_7/Basics_/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/BackUpPack/ThreadPool_7/Basics_/MyThreadPoolDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,7 @@
       <workItem from="1708403189618" duration="3010000" />
       <workItem from="1708406327785" duration="112000" />
       <workItem from="1708408979375" duration="4055000" />
-      <workItem from="1708429932476" duration="683000" />
+      <workItem from="1708429932476" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -268,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708419410456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update on the thread pool content">
+      <option name="closed" value="true" />
+      <created>1708430705260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708430705260</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +304,7 @@
     <MESSAGE value="Consumer producer content update" />
     <MESSAGE value="Consumer and producer content update" />
     <MESSAGE value="Update on the folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the folder structure" />
+    <MESSAGE value="Update on the thread pool content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the thread pool content" />
   </component>
 </project>

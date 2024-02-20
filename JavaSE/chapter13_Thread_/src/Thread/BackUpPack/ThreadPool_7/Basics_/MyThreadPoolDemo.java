@@ -21,6 +21,7 @@ public class MyThreadPoolDemo {
         pool.submit(new MyRunnable());
         pool.submit(new MyRunnable());
         pool.submit(new MyRunnable());
+
 //        // 销毁线程池
 //        pool.shutdown();
     }
