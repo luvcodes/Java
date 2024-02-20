@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Consumer and producer content update">
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the folder structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Desk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a13waitandnotify/Foodie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/MyThreadPoolDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     &quot;Application.Thread.mythread.a03threadcase3.ThreadDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread.mythread.a07threadyield.ThreadDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a15threadpool.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread01.executor&quot;: &quot;Run&quot;,
     &quot;Application.Thread02.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
@@ -59,7 +61,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter13_Thread_&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter13_Thread_/src/Thread/mythread/a15threadpool&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,6 +81,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Thread/mythread/a15threadpool" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -86,20 +89,7 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.mythread.a13waitandnotify.ThreadDemo">
-    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadPool_7.Basics_.MyThreadPoolDemo" />
-      <module name="chapter13_Thread_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.BackUpPack.ThreadPool_7.Basics_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Thread.mythread.a15threadpool.MyThreadPoolDemo">
     <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadUse_1.Method2_.ThreadDemo2" />
       <module name="chapter13_Thread_" />
@@ -152,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread.mythread.a15threadpool.MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a15threadpool.MyThreadPoolDemo" />
+      <module name="chapter13_Thread_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.mythread.a15threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.mythread.a15threadpool.MyThreadPoolDemo" />
         <item itemvalue="Application.Thread.mythread.a13waitandnotify.ThreadDemo" />
         <item itemvalue="Application.Thread.mythread.a07threadyield.ThreadDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.MyThreadPoolDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +209,8 @@
       <workItem from="1708383638501" duration="6560000" />
       <workItem from="1708403189618" duration="3010000" />
       <workItem from="1708406327785" duration="112000" />
-      <workItem from="1708408979375" duration="1681000" />
+      <workItem from="1708408979375" duration="4055000" />
+      <workItem from="1708429932476" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -256,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708407385464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update on the folder structure">
+      <option name="closed" value="true" />
+      <created>1708419410456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708419410456</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +296,7 @@
     <MESSAGE value="Thread chapter content update" />
     <MESSAGE value="Consumer producer content update" />
     <MESSAGE value="Consumer and producer content update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consumer and producer content update" />
+    <MESSAGE value="Update on the folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the folder structure" />
   </component>
 </project>
