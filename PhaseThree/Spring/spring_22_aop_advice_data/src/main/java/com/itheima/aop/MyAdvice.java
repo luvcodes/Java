@@ -6,6 +6,9 @@ import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
+/**
+ * @author ryanw
+ */
 @Component
 @Aspect
 public class MyAdvice {
