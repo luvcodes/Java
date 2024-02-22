@@ -3,6 +3,9 @@ package com.itheima.dao.impl;
 import com.itheima.dao.BookDao;
 import org.springframework.stereotype.Repository;
 
+/**
+ * @author ryanw
+ */
 @Repository
 public class BookDaoImpl implements BookDao {
     @Override

@@ -1,10 +1,11 @@
 package com.itheima.aop;
 
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author ryanw
+ */
 @Component
 @Aspect
 public class MyAdvice {
@@ -13,7 +14,12 @@ public class MyAdvice {
     private void pt() {}
 
     @Before("pt()")
-    public void method() {
+    public void beforeUpdate() {
+        System.out.println(System.currentTimeMillis());
+    }
+
+    @After("pt()")
+    public void afterUpdate() {
         System.out.println(System.currentTimeMillis());
     }
 }
