@@ -3,6 +3,9 @@ package com.itheima.dao.impl;
 import org.springframework.stereotype.Repository;
 import com.itheima.dao.BookDao;
 
+/**
+ * @author ryanw
+ */
 @Repository
 public class BookDaoImpl implements BookDao{
     @Override
@@ -12,6 +15,7 @@ public class BookDaoImpl implements BookDao{
         System.out.println("book dao save");
     }
 
+    @Override
     public void update() {
         System.out.println("book dao update");
     }
