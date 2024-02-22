@@ -4,6 +4,9 @@ import org.springframework.stereotype.Repository;
 
 import com.itheima.dao.BookDao;
 
+/**
+ * @author ryanw
+ */
 @Repository
 public class BookDaoImpl implements BookDao{
 

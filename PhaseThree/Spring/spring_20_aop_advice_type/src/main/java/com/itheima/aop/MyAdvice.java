@@ -5,6 +5,9 @@ import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 
+/**
+ * @author ryanw
+ */
 @Component
 @Aspect
 public class MyAdvice {
