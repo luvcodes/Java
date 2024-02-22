@@ -11,12 +11,13 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
-//切面类
+/**
+ * @author ryanw
+ */ //切面类
 @Slf4j
 @Aspect
 @Component
 public class MyAspect8 {
-
     @Pointcut("execution(* com.itheima.service.DeptService.*(..))")
     private void pt(){}
 

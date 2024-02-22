@@ -29,5 +29,4 @@ class SpringbootAopQuickstart1ApplicationTests {
         Dept dept = deptService.getById(1);
         System.out.println(dept);
     }
-
 }

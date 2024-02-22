@@ -5,11 +5,13 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 @Component
 //@Aspect
 public class MyAspect1 {
-
     @Pointcut("execution(* com.itheima.service.impl.DeptServiceImpl.*(..))")
     public void pt(){}
 

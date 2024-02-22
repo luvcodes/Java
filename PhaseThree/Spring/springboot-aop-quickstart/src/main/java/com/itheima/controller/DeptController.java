@@ -8,10 +8,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * @author ryanw
+ */
 @RestController
 @RequestMapping("/depts")
 public class DeptController {
-
     @Autowired
     private DeptService deptService;
 

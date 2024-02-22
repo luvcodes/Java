@@ -6,6 +6,9 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 @Component
 //@Aspect //AOP类
