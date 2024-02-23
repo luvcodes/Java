@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc99461-a238-40d3-a1d4-df261e986339" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/springboot-web-config2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/SpringbootWebConfig2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/config/CommonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/mapper/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/pojo/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/java/com/itheima/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/resources/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/src/test/java/com/itheima/SpringbootWebConfig2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/SpringbootWebConfig2Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/config/CommonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/mapper/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/pojo/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/pojo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/classes/com/itheima/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdditonalContents/springboot-web-config2/target/test-classes/com/itheima/SpringbootWebConfig2ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/.idea/springboot_manageBean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/springboot-web-config2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/SpringbootWebConfig2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/config/CommonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/mapper/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/pojo/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/java/com/itheima/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/resources/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/src/test/java/com/itheima/SpringbootWebConfig2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/SpringbootWebConfig2Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/config/CommonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/mapper/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/pojo/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/pojo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/service/DeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/classes/com/itheima/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_manageBean/springboot-web-config2/target/test-classes/com/itheima/SpringbootWebConfig2ApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4" />
+        <option name="userSettingsFile" value="C:\Users\ryanw\Downloads\apache-maven-3.9.4-bin\apache-maven-3.9.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-1.8" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2clbH11Ak7BdY0HmMFd7Qw177dG" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.SpringbootWebConfig2ApplicationTests.testGetBean.executor": "Run",
+    "JUnit.SpringbootWebConfig2ApplicationTests.testHeaderParser.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringbootWebConfig2Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/PhaseThree/SpringBoot/springboot_principle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SpringbootWebConfig2Application">
+    <configuration name="SpringbootWebConfig2ApplicationTests.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-web-config2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.SpringbootWebConfig2ApplicationTests" />
+      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWebConfig2ApplicationTests.testHeaderParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-web-config2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.SpringbootWebConfig2ApplicationTests" />
+      <option name="METHOD_NAME" value="testHeaderParser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWebConfig2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-web-config2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.SpringbootWebConfig2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/itheima-utils/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootWebConfig2ApplicationTests.testHeaderParser" />
+        <item itemvalue="JUnit.SpringbootWebConfig2ApplicationTests.testGetBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc99461-a238-40d3-a1d4-df261e986339" name="Changes" comment="" />
+      <created>1708689020503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708689020503</updated>
+      <workItem from="1708689021664" duration="4280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
