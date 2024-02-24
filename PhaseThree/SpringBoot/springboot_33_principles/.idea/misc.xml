@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/itheima-utils/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web-config2/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web-config/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-autoconfiguration-test/pom.xml" />
       </list>
     </option>
   </component>

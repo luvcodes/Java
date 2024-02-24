@@ -8,6 +8,7 @@ import java.util.UUID;
 
 /**
  * 阿里云 OSS 工具类
+ * @author ryanw
  */
 public class AliOSSUtils {
 
@@ -55,7 +56,8 @@ public class AliOSSUtils {
         String url = endpoint.split("//")[0] + "//" + bucketName + "." + endpoint.split("//")[1] + "/" + fileName;
         // 关闭ossClient
         ossClient.shutdown();
-        return url;// 把上传到oss的路径返回
+        // 把上传到oss的路径返回
+        return url;
     }
 
 }

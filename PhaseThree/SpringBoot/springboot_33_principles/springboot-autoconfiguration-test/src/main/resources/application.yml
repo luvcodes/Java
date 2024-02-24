@@ -1,0 +1,7 @@
+#配置阿里云OSS参数
+aliyun:
+  oss:
+    endpoint: https://oss-cn-shanghai.aliyuncs.com
+    accessKeyId: LTAI5tFrfTybhV9CiCWiFcKU
+    accessKeySecret: 7eHsswEwQQBFIrLOUVqCFBjl0jPdC8
+    bucketName: to-web-project

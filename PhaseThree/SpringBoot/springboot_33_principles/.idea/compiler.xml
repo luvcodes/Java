@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-web-config" />
+        <module name="aliyun-oss-spring-boot-starter" />
+        <module name="springboot-autoconfiguration-test" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
         <module name="springboot-web-config2" />
         <module name="itheima-utils" />
       </profile>
@@ -16,6 +19,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
+      <module name="springboot-autoconfiguration-test" options="-parameters" />
       <module name="springboot-web-config" options="-parameters" />
       <module name="springboot-web-config2" options="-parameters" />
     </option>

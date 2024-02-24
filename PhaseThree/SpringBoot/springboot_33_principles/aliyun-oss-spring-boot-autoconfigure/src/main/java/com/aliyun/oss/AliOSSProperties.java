@@ -2,6 +2,9 @@ package com.aliyun.oss;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * @author ryanw
+ */
 @ConfigurationProperties(prefix = "aliyun.oss")
 public class AliOSSProperties {
     private String endpoint;
