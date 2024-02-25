@@ -3,7 +3,6 @@ package Thread.mythread.a15threadpool.test3;
  * @author ryanw
  */
 public class MyRunnable implements Runnable {
-
     // 第二种方式实现多线程，测试类中MyRunnable只创建一次，所以不需要加static
     int number = 1;
 

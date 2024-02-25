@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the workspace">
-      <change afterPath="$PROJECT_DIR$/src/Thread/practice/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter13_Thread_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_Thread_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test2/MyRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,46 +41,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Demo.executor": "Debug",
-    "Application.MyThreadPoolDemo.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
-    "Application.Thread.mythread.a07threadyield.ThreadDemo.executor": "Run",
-    "Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor": "Run",
-    "Application.Thread.mythread.a15threadpool.MyThreadPoolDemo.executor": "Run",
-    "Application.Thread01.executor": "Run",
-    "Application.Thread02.executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadDemo2.executor": "Run",
-    "Application.ThreadLocalClass.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.31264368",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a03threadcase3.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a07threadyield.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread.mythread.a15threadpool.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thread02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalClass.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Thread/mythread/a15threadpool" />
@@ -211,7 +206,8 @@
       <workItem from="1708406327785" duration="112000" />
       <workItem from="1708408979375" duration="4055000" />
       <workItem from="1708429932476" duration="1317000" />
-      <workItem from="1708862552274" duration="1830000" />
+      <workItem from="1708862552274" duration="2656000" />
+      <workItem from="1708902424800" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
