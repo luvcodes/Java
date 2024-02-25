@@ -28,7 +28,7 @@ public class MyThread extends Thread{
                     double bounds = money.subtract(BigDecimal.valueOf(count-1).multiply(MIN)).doubleValue();
                     Random r = new Random();
                     //抽奖金额
-                    prize = BigDecimal.valueOf(r.nextDouble(bounds));
+                    prize = BigDecimal.valueOf(r.nextDouble());
                 }
                 //设置抽中红包，小数点保留两位，四舍五入
                 prize = prize.setScale(2,RoundingMode.HALF_UP);

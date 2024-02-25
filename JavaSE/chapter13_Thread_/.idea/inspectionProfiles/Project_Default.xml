@@ -56,5 +56,7 @@
     <inspection_tool class="AlibabaUnsupportedExceptionWithModifyAsList" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaUseQuietReferenceNotation" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaUseRightCaseForDateFormat" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BusyWait" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ThreadWithDefaultRunMethod" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>

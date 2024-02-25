@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the workspace" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update on the workspace">
+      <change afterPath="$PROJECT_DIR$/src/Thread/practice/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter13_Thread_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter13_Thread_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test2/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test2/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test3/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a15threadpool/test4case1/MyThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +50,7 @@
   "keyToString": {
     "Application.Demo.executor": "Debug",
     "Application.MyThreadPoolDemo.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
     "Application.Thread.mythread.a07threadyield.ThreadDemo.executor": "Run",
     "Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor": "Run",
@@ -56,7 +68,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Projects/TakeOutProjects/sky_take_out/sky-take-out",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +76,7 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.31264368",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
@@ -84,13 +96,13 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.mythread.a15threadpool.MyThreadPoolDemo">
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadUse_1.Method2_.ThreadDemo2" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.practice.Test" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.BackUpPack.ThreadUse_1.Method2_.*" />
+          <option name="PATTERN" value="Thread.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,20 +164,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Thread.mythread.a15threadpool.MyThreadPoolDemo" />
         <item itemvalue="Application.Thread.mythread.a13waitandnotify.ThreadDemo" />
         <item itemvalue="Application.Thread.mythread.a07threadyield.ThreadDemo" />
         <item itemvalue="Application.ThreadLocalClass" />
-        <item itemvalue="Application.ThreadDemo2" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -206,6 +211,7 @@
       <workItem from="1708406327785" duration="112000" />
       <workItem from="1708408979375" duration="4055000" />
       <workItem from="1708429932476" duration="1317000" />
+      <workItem from="1708862552274" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />

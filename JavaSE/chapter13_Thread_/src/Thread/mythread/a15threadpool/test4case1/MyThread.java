@@ -2,6 +2,9 @@ package Thread.mythread.a15threadpool.test4case1;
 
 import java.util.Random;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread{
 
     //共享数据
@@ -34,7 +37,7 @@ public class MyThread extends Thread{
                     //第一个红包：99.98
                     //100 - (3-1) * 0.01
                     double bounds = money - (count - 1) * MIN;
-                    prize = r.nextDouble(bounds);
+                    prize = r.nextDouble();
                     if(prize < MIN){
                         prize = MIN;
                     }

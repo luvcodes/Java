@@ -1,8 +1,10 @@
 package Thread.mythread.a15threadpool.test1;
 
+/**
+ * @author ryanw
+ */
 public class MyThread extends Thread {
-
-    //第一种方式实现多线程，测试类中MyThread会创建多次，所以需要加static
+    // 第一种方式实现多线程，测试类中MyThread会创建多次，所以需要加static
     static int ticket = 1000;
 
     @Override

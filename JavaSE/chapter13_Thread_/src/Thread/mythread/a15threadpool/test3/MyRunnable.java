@@ -1,8 +1,10 @@
 package Thread.mythread.a15threadpool.test3;
-
+/**
+ * @author ryanw
+ */
 public class MyRunnable implements Runnable {
 
-    //第二种方式实现多线程，测试类中MyRunnable只创建一次，所以不需要加static
+    // 第二种方式实现多线程，测试类中MyRunnable只创建一次，所以不需要加static
     int number = 1;
 
     @Override
@@ -10,7 +12,7 @@ public class MyRunnable implements Runnable {
         //1.循环
         while (true) {
             //2.同步代码块
-            synchronized (MyThread.class) {
+            synchronized (MyRunnable.class) {
                 //3.判断共享数据（已经到末尾）
                 if (number > 100) {
                     break;
