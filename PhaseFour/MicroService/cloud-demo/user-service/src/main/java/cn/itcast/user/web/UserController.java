@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 @RestController
 @RequestMapping("/user")
 //@RefreshScope // 实现配置热更新的第一种方式
 public class UserController {
-
     @Autowired
     private UserService userService;
 
