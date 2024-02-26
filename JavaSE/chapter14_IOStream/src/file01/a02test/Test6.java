@@ -24,10 +24,8 @@ public class Test6 {
     }
 
     /*
-    * 作用：
-    *       统计一个文件夹中每种文件的个数
-    * 参数：
-    *       要统计的那个文件夹
+    * 作用：统计一个文件夹中每种文件的个数
+    * 参数：要统计的那个文件夹
     * 返回值：
     *       用来统计map集合
     *       键：后缀名 值：次数
@@ -47,6 +45,10 @@ public class Test6 {
             if(file.isFile()){
                 //a.txt
                 String name = file.getName();
+                // 使用正则表达式: 在正则表达式中，点（.）是一个特殊字符，
+                // 它代表任何单个字符。为了指定点字符本身，需要对它进行转义。
+                // 在Java的字符串中，转义字符是反斜杠（\），但是在Java字符串中反斜杠本身也是一个特殊字符，
+                // 所以需要使用两个反斜杠（\\）来表示一个普通的反斜杠。
                 String[] arr = name.split("\\.");
                 if(arr.length >= 2){
                     String endName = arr[arr.length - 1];
@@ -60,7 +62,7 @@ public class Test6 {
                         hm.put(endName,1);
                     }
                 }
-            }else{
+            } else {
             //5.判断，如果是文件夹，递归
                 //sonMap里面是子文件中每一种文件的个数
                 HashMap<String, Integer> sonMap = getCount(file);
