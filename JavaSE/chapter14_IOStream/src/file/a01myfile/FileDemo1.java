@@ -1,4 +1,4 @@
-package a01myfile;
+package file.a01myfile;
 
 import java.io.File;
 
@@ -15,18 +15,18 @@ public class FileDemo1 {
     */
     public static void main(String[] args) {
         // 1. 根据字符串表示的路径，变成File对象
-        String str = "C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\a01myfile\\a.txt";
+        String str = "C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file.a01myfile\\a.txt";
         File file = new File(str);
         System.out.println(file);
 
         // 2. 根据父路径名字符串和子路径名字符串创建文件对象
-        String parent = "C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\a01myfile";
+        String parent = "C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file.a01myfile";
         String child = "a.txt";
         File file2 = new File(parent, child);
         System.out.println(file2);
 
         // 3. 把一个File表示的路径和String表示路径进行拼接
-        File parent2 = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\a01myfile");
+        File parent2 = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file.a01myfile");
         String child2 ="a.txt";
         File file3 = new File(parent2, child2);
         System.out.println(file3);
