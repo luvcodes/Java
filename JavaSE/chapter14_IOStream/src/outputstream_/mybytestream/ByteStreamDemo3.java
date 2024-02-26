@@ -3,6 +3,9 @@ package outputstream_.mybytestream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 public class ByteStreamDemo3 {
     public static void main(String[] args) throws IOException {
         /*

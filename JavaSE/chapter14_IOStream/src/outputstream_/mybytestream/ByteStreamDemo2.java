@@ -4,6 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 public class ByteStreamDemo2 {
     public static void main(String[] args) throws IOException {
         /*
@@ -16,11 +19,12 @@ public class ByteStreamDemo2 {
                     细节：write方法的参数是整数，但是实际上写到本地文件中的是整数在ASCII上对应的字符
                     ‘9’
                     ‘7’
-              3.释放资源
-                    每次使用完流之后都要释放资源
+              3.释放资源: 每次使用完流之后都要释放资源
         */
 
         FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\outputstream_\\mybytestream\\a.txt");
+        fileOutputStream.write(97);
+        fileOutputStream.write(100);
         fileOutputStream.write(57);
         fileOutputStream.write(55);
         fileOutputStream.close();

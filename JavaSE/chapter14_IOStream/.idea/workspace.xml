@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Update on the folder structure of the File class">
-      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,6 +47,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ByteStreamDemo2.executor": "Run",
+    "Application.ByteStreamDemo3.executor": "Run",
+    "Application.ByteStreamDemo4.executor": "Run",
     "Application.FileDemo1.executor": "Run",
     "Application.FileDemo3.executor": "Run",
     "Application.FileDemo6.executor": "Run",
@@ -86,7 +89,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteStreamDemo2">
+  <component name="RunManager" selected="Application.ByteStreamDemo4">
     <configuration name="ByteStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo1" />
       <module name="chapter14_IOStream" />
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test1" />
+    <configuration name="ByteStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo3" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file01.a02test.*" />
+          <option name="PATTERN" value="outputstream_.mybytestream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test2" />
+    <configuration name="ByteStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo4" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file01.a02test.*" />
+          <option name="PATTERN" value="outputstream_.mybytestream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteStreamDemo4" />
         <item itemvalue="Application.ByteStreamDemo2" />
+        <item itemvalue="Application.ByteStreamDemo3" />
         <item itemvalue="Application.ByteStreamDemo1" />
         <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
