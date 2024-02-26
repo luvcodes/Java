@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.util.Arrays;
 
+/**
+ * @author ryanw
+ */
 public class FileDemo7 {
     public static void main(String[] args) {
 
@@ -18,7 +21,7 @@ public class FileDemo7 {
       */
 
 
-      /*  //1.listRoots  获取系统中所有的盘符
+        /* //1.listRoots  获取系统中所有的盘符
         File[] arr = File.listRoots();
         System.out.println(Arrays.toString(arr));
 
@@ -46,7 +49,5 @@ public class FileDemo7 {
         });
 
         System.out.println(Arrays.toString(arr3));
-
-
     }
 }

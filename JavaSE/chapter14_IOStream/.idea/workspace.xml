@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Update on the File class contents learning">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file/a02test/Test6.java" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File class contents learning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01myfile/FileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01myfile/FileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01myfile/FileDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01myfile/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a01myfile/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/FileCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileDemo6">
+  <component name="RunManager" selected="Application.FileDemo8">
     <configuration name="FileDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file.a01myfile.FileDemo1" />
       <module name="chapter14_IOStream" />
@@ -129,8 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file.a01myfile.FileDemo8" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="file.a01myfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDemo8" />
         <item itemvalue="Application.FileDemo6" />
         <item itemvalue="Application.FileDemo3" />
         <item itemvalue="Application.FileDemo1" />
@@ -149,7 +147,7 @@
       <workItem from="1693883256843" duration="724000" />
       <workItem from="1693895380887" duration="51000" />
       <workItem from="1706950306502" duration="1878000" />
-      <workItem from="1708904423110" duration="7865000" />
+      <workItem from="1708904423110" duration="9491000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -159,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708909458944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="File class contents learning">
+      <option name="closed" value="true" />
+      <created>1708919930683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708919930683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +176,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Update on the File class contents learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the File class contents learning" />
+    <MESSAGE value="File class contents learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="File class contents learning" />
   </component>
 </project>
