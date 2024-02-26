@@ -2,6 +2,9 @@ package file.a02test;
 
 import java.io.File;
 
+/**
+ * @author ryanw
+ */
 public class Test4 {
     public static void main(String[] args) {
         /*
@@ -11,9 +14,8 @@ public class Test4 {
            2.再删除自己
         */
 
-        File file = new File("D:\\aaa\\src");
+        File file = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file\\a01myfile\\aaa");
         delete(file);
-
     }
 
     /*
@@ -22,7 +24,6 @@ public class Test4 {
     * */
     public static void delete(File src){
         //1.先删除文件夹里面所有的内容
-        //进入src
         File[] files = src.listFiles();
         //遍历
         for (File file : files) {
@@ -37,6 +38,4 @@ public class Test4 {
         //2.再删除自己
         src.delete();
     }
-
-
 }

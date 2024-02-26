@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author ryanw
+ */
 public class Test6 {
     public static void main(String[] args) throws IOException {
        /*
@@ -14,16 +17,8 @@ public class Test6 {
             txt:3个
             doc:4个
             jpg:6个
-
-
         */
-
-
-
-
-
-
-        File file = new File("D:\\aaa\\src");
+        File file = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file\\a01myfile\\aaa");
         HashMap<String, Integer> hm = getCount(file);
         System.out.println(hm);
     }
@@ -40,8 +35,6 @@ public class Test6 {
     *       a.txt
     *       a.a.txt
     *       aaa（不需要统计的）
-    *
-    *
     * */
     public static HashMap<String,Integer> getCount(File src){
         //1.定义集合用来统计

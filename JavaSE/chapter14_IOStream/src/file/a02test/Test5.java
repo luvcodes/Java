@@ -2,30 +2,30 @@ package file.a02test;
 
 import java.io.File;
 
+/**
+ * @author ryanw
+ */
 public class Test5 {
     public static void main(String[] args) {
-       /*需求：
-            统计一个文件夹的总大小
-      */
-
-
-        File file = new File("D:\\aaa\\src");
+       /*需求：统计一个文件夹的总大小*/
+        File file = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\file\\a01myfile\\aaa");
 
         long len = getLen(file);
-        System.out.println(len);//4919189
+        //4919189
+        System.out.println(len);
     }
 
     /*
-    * 作用：
-    *       统计一个文件夹的总大小
-    * 参数：
-    *       表示要统计的那个文件夹
-    * 返回值：
-    *       统计之后的结果
-    *
-    * 文件夹的总大小：
-    *       说白了，文件夹里面所有文件的大小
-    * */
+     * 作用：
+     *       统计一个文件夹的总大小
+     * 参数：
+     *       表示要统计的那个文件夹
+     * 返回值：
+     *       统计之后的结果
+     *
+     * 文件夹的总大小：
+     *       说白了，文件夹里面所有文件的大小
+     * */
     public static long getLen(File src){
         //1.定义变量进行累加
         long len = 0;
@@ -44,11 +44,5 @@ public class Test5 {
         }
 
         return len;
-
-
     }
-
-
-
-
 }
