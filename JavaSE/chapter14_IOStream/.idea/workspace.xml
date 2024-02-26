@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File class practice questions">
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Update on the folder structure of the File class">
+      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/FileCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/FileDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/FileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/aaa/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/aaa/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/news1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/news1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +27,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -60,41 +43,41 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FileDemo1.executor": "Run",
-    "Application.FileDemo3.executor": "Run",
-    "Application.FileDemo6.executor": "Run",
-    "Application.FileDemo8.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.Practice2.executor": "Run",
-    "Application.Test1.executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.Test5.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/阶段一 - Java基础/Java基础下/day28-IO（字节流&字符流）/代码/myio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31264368",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FileDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDemo6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDemo8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/阶段一 - Java基础/Java基础下/day28-IO（字节流&amp;字符流）/代码/myio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src" />
@@ -102,13 +85,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test5">
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.practice.Practice" />
+  <component name="RunManager" selected="Application.ByteStreamDemo1">
+    <configuration name="ByteStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo1" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.practice.*" />
+          <option name="PATTERN" value="outputstream_.mybytestream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteStreamDemo1" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Practice2" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +176,7 @@
       <workItem from="1708904423110" duration="12026000" />
       <workItem from="1708933859455" duration="90000" />
       <workItem from="1708933963616" duration="309000" />
-      <workItem from="1708934286004" duration="749000" />
+      <workItem from="1708934286004" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -227,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708923663125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update on the folder structure of the File class">
+      <option name="closed" value="true" />
+      <created>1708935156438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708935156438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +232,7 @@
     <MESSAGE value="File class contents learning" />
     <MESSAGE value="File class contents update" />
     <MESSAGE value="File class practice questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="File class practice questions" />
+    <MESSAGE value="Update on the folder structure of the File class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the folder structure of the File class" />
   </component>
 </project>
