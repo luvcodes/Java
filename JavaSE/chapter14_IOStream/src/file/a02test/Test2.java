@@ -13,6 +13,7 @@ public class Test2 {
         boolean b = haveAVI(file);
         System.out.println(b);
     }
+
     /*
     * 作用：用来找某一个文件夹中，是否有以avi结尾的电影
     * 形参：要查找的文件夹

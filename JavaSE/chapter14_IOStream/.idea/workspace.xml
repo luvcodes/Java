@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File class contents update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/file/a02test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/file/a02test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +34,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -65,7 +62,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream/src",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -161,6 +158,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -174,6 +178,7 @@
       <workItem from="1693895380887" duration="51000" />
       <workItem from="1706950306502" duration="1878000" />
       <workItem from="1708904423110" duration="11352000" />
+      <workItem from="1708924143759" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
