@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01myfile/FileDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01myfile/FileDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01myfile/FileDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01myfile/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a01myfile/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter14_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14_IOStream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/Directory_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileDirectory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -20,28 +39,35 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2TjXJra3NcameOn8oLzxAC4nWdf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FileDemo1.executor": "Run",
+    "Application.FileDemo3.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Projects/TakeOutProjects/sky_take_out/sky-take-out",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/阶段一 - Java基础/Java基础下/day27-IO(异常&File&综合案例）/代码/myfile",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -50,6 +76,40 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.FileDemo3">
+    <configuration name="FileDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01myfile.FileDemo1" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a01myfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a01myfile.FileDemo3" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a01myfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileDemo3" />
+        <item itemvalue="Application.FileDemo1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,10 +123,16 @@
       <workItem from="1693883256843" duration="724000" />
       <workItem from="1693895380887" duration="51000" />
       <workItem from="1706950306502" duration="1878000" />
+      <workItem from="1708904423110" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

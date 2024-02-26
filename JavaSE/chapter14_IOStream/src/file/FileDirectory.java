@@ -4,7 +4,10 @@ import org.junit.Test;
 
 import java.io.File;
 
-public class Directory_ {
+/**
+ * @author ryanw
+ */
+public class FileDirectory {
     //判断文件是否存在，如果存在就删除
     @Test
     public void m1() {
