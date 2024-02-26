@@ -1,14 +1,9 @@
 package homework;
 
-import org.junit.jupiter.api.Test;
-
+import org.junit.Test;
 import java.io.*;
 import java.util.Properties;
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 public class Homework03 {
     public static void main(String[] args) throws IOException {
         /**

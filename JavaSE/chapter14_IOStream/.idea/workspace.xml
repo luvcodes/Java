@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File practices question answer update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/Homework03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Homework03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +177,7 @@
       <workItem from="1693895380887" duration="51000" />
       <workItem from="1706950306502" duration="1878000" />
       <workItem from="1708904423110" duration="11352000" />
-      <workItem from="1708924143759" duration="2967000" />
+      <workItem from="1708924143759" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
