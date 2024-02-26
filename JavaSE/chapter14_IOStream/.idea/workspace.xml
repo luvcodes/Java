@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File class contents update">
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File class practice questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/FileCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/FileDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/FileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/FileInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/aaa/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/aaa/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a01myfile/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a01myfile/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/a02test/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file/news1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file01/news1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +54,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -65,7 +82,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream/src",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/阶段一 - Java基础/Java基础下/day28-IO（字节流&字符流）/代码/myio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +91,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31264368",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.a02test.Test1" />
+      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test1" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.a02test.*" />
+          <option name="PATTERN" value="file01.a02test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +143,11 @@
       </method>
     </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.a02test.Test2" />
+      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test2" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.a02test.*" />
+          <option name="PATTERN" value="file01.a02test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +156,11 @@
       </method>
     </configuration>
     <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.a02test.Test5" />
+      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test5" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.a02test.*" />
+          <option name="PATTERN" value="file01.a02test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,7 +190,10 @@
       <workItem from="1693883256843" duration="724000" />
       <workItem from="1693895380887" duration="51000" />
       <workItem from="1706950306502" duration="1878000" />
-      <workItem from="1708904423110" duration="11352000" />
+      <workItem from="1708904423110" duration="12026000" />
+      <workItem from="1708933859455" duration="90000" />
+      <workItem from="1708933963616" duration="309000" />
+      <workItem from="1708934286004" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -199,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708921999115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="File class practice questions">
+      <option name="closed" value="true" />
+      <created>1708923663125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708923663125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +240,7 @@
     <MESSAGE value="Update on the File class contents learning" />
     <MESSAGE value="File class contents learning" />
     <MESSAGE value="File class contents update" />
-    <option name="LAST_COMMIT_MESSAGE" value="File class contents update" />
+    <MESSAGE value="File class practice questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="File class practice questions" />
   </component>
 </project>

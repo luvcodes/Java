@@ -1,4 +1,4 @@
-package file.a02test;
+package file01.a02test;
 
 import java.io.File;
 import java.io.IOException;
