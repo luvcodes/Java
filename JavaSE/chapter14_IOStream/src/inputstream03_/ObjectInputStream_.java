@@ -1,7 +1,7 @@
-package inputstream_;
+package inputstream03_;
 
 
-import outputstream_.Dog;
+import outputstream02_.Dog;
 
 import java.io.FileInputStream;
 import java.io.IOException;

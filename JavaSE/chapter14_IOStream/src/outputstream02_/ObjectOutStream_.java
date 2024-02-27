@@ -1,4 +1,4 @@
-package outputstream_;
+package outputstream02_;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
