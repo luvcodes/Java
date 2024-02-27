@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="ByteStream content learning update">
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/FileInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/FileInputStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,8 @@
     "Application.ByteStreamDemo2.executor": "Run",
     "Application.ByteStreamDemo3.executor": "Run",
     "Application.ByteStreamDemo4.executor": "Run",
+    "Application.ByteStreamDemo5.executor": "Run",
+    "Application.ByteStreamDemo6.executor": "Run",
     "Application.FileDemo1.executor": "Run",
     "Application.FileDemo3.executor": "Run",
     "Application.FileDemo6.executor": "Run",
@@ -61,6 +61,7 @@
     "Application.Test5.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo4.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -92,13 +93,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.inputstream_.mybytestream2.ByteStreamDemo2">
-    <configuration name="ByteStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo2" />
+  <component name="RunManager" selected="Application.ByteStreamDemo6">
+    <configuration name="ByteStreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo5" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="outputstream_.mybytestream.*" />
+          <option name="PATTERN" value="inputstream_.mybytestream2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo3" />
+    <configuration name="ByteStreamDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo6" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="outputstream_.mybytestream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ByteStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo4" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="outputstream_.mybytestream.*" />
+          <option name="PATTERN" value="inputstream_.mybytestream2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="inputstream_.mybytestream2.ByteStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo4" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inputstream_.mybytestream2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteStreamDemo6" />
+        <item itemvalue="Application.ByteStreamDemo5" />
+        <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo4" />
         <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo2" />
         <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo1" />
-        <item itemvalue="Application.ByteStreamDemo4" />
-        <item itemvalue="Application.ByteStreamDemo2" />
-        <item itemvalue="Application.ByteStreamDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708989076255</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ByteStream content learning update">
+      <option name="closed" value="true" />
+      <created>1709002072401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709002072401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
