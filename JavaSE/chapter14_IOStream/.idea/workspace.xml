@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Update on the folder structure of the File class">
-      <change afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo4.java" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="ByteStream content learning update">
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/FileInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/FileInputStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,8 @@
     "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test5.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -89,20 +92,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteStreamDemo4">
-    <configuration name="ByteStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo1" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="outputstream_.mybytestream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.inputstream_.mybytestream2.ByteStreamDemo2">
     <configuration name="ByteStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="outputstream_.mybytestream.ByteStreamDemo2" />
       <module name="chapter14_IOStream" />
@@ -142,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file01.a02test.Test5" />
+    <configuration name="inputstream_.mybytestream2.ByteStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo1" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file01.a02test.*" />
+          <option name="PATTERN" value="inputstream_.mybytestream2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inputstream_.mybytestream2.ByteStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo2" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inputstream_.mybytestream2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo2" />
+        <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo1" />
         <item itemvalue="Application.ByteStreamDemo4" />
         <item itemvalue="Application.ByteStreamDemo2" />
         <item itemvalue="Application.ByteStreamDemo3" />
-        <item itemvalue="Application.ByteStreamDemo1" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708935156438</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ByteStream content learning update">
+      <option name="closed" value="true" />
+      <created>1708989076255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708989076255</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
     <MESSAGE value="File class contents update" />
     <MESSAGE value="File class practice questions" />
     <MESSAGE value="Update on the folder structure of the File class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the folder structure of the File class" />
+    <MESSAGE value="ByteStream content learning update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ByteStream content learning update" />
   </component>
 </project>
