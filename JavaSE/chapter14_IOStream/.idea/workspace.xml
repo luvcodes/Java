@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="ByteStream content learning update">
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo6.java" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="ByteStream update contents">
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter14_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14_IOStream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/c.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -50,6 +52,7 @@
     "Application.ByteStreamDemo4.executor": "Run",
     "Application.ByteStreamDemo5.executor": "Run",
     "Application.ByteStreamDemo6.executor": "Run",
+    "Application.ByteStreamDemo7.executor": "Run",
     "Application.FileDemo1.executor": "Run",
     "Application.FileDemo3.executor": "Run",
     "Application.FileDemo6.executor": "Run",
@@ -79,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31264368",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -93,7 +96,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteStreamDemo6">
+  <component name="RunManager" selected="Application.ByteStreamDemo7">
     <configuration name="ByteStreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo5" />
       <module name="chapter14_IOStream" />
@@ -120,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inputstream_.mybytestream2.ByteStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo1" />
+    <configuration name="ByteStreamDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputstream_.mybytestream2.ByteStreamDemo7" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteStreamDemo7" />
         <item itemvalue="Application.ByteStreamDemo6" />
         <item itemvalue="Application.ByteStreamDemo5" />
         <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo4" />
         <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo2" />
-        <item itemvalue="Application.inputstream_.mybytestream2.ByteStreamDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709002072401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ByteStream update contents">
+      <option name="closed" value="true" />
+      <created>1709005204384</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709005204384</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +277,7 @@
     <MESSAGE value="File class practice questions" />
     <MESSAGE value="Update on the folder structure of the File class" />
     <MESSAGE value="ByteStream content learning update" />
-    <option name="LAST_COMMIT_MESSAGE" value="ByteStream content learning update" />
+    <MESSAGE value="ByteStream update contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="ByteStream update contents" />
   </component>
 </project>
