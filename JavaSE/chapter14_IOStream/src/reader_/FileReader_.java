@@ -5,12 +5,13 @@ import org.junit.jupiter.api.Test;
 import java.io.FileReader;
 import java.io.IOException;
 
+
 /**
- * @author 韩顺平
- * @version 1.0
+ * @author ryanw
  */
 public class FileReader_ {
     public static void main(String[] args) {
+
     }
 
     /**

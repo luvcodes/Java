@@ -3,6 +3,9 @@ package printstream_;
 import java.io.IOException;
 import java.io.PrintStream;
 
+/**
+ * @author ryanw
+ */
 public class PrintStream_ {
     public static void main(String[] args) throws IOException {
         PrintStream out = System.out;

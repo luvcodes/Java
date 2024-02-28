@@ -3,11 +3,6 @@ package reader_;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-/**
- * @author 韩顺平
- * @version 1.0
- * 演示bufferedReader 使用
- */
 public class BufferedReader_ {
     public static void main(String[] args) throws Exception {
         String filePath = "C:\\Users\\ryanw\\IdeaProjects\\Java\\MyJava\\src\\PhaseOne\\Amatuer\\reader_\\practice_.test.txt";
@@ -39,6 +34,5 @@ public class BufferedReader_ {
 
          */
         bufferedReader.close();
-
     }
 }
