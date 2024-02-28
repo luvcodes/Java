@@ -4,30 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="ByteStream catch exception with different version of JDK implementation differences">
-      <change afterPath="$PROJECT_DIR$/src/mycharstream1/CharStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mycharstream1/a.txt" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="CharStream contents learning">
+      <change afterPath="$PROJECT_DIR$/src/inputstream03_/mybytestream2/ByteStreamDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharset04/CharSetDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharset04/CharSetDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharset04/CharSetDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharset04/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharstream1/CharStreamDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/ByteStreamDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream2/copy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printstream_/PrintStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/printstream_/PrintStream_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_/BufferedReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reader_/BufferedReader_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_/FileReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reader_/FileReader_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/FileInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream03_/FileInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/ObjectInputStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream03_/ObjectInputStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream03_/data.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream03_/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/ByteStreamDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream_/mybytestream2/copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream_/mybytestream2/copy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/BufferedCopy02_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/BufferedCopy02_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/FileOutputStream01_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/FileOutputStream01_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/Master.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/ObjectOutStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/ObjectOutStream_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/data.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/ByteStreamDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream_/mybytestream/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/wallhaven-z8wxoo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/wallhaven-z8wxoo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputstream_/wallhaven-z8wxoo01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputstream02_/wallhaven-z8wxoo01.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +85,7 @@
     "Application.ByteStreamDemo6.executor": "Run",
     "Application.ByteStreamDemo7.executor": "Run",
     "Application.CharStreamDemo1.executor": "Run",
+    "Application.CharStreamDemo2.executor": "Run",
     "Application.FileDemo1.executor": "Run",
     "Application.FileDemo3.executor": "Run",
     "Application.FileDemo6.executor": "Run",
@@ -90,7 +106,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream",
@@ -99,7 +115,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31264368",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -113,20 +129,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharStreamDemo1">
-    <configuration name="ByteStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mybytestream2.ByteStreamDemo4" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybytestream2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CharStreamDemo2">
     <configuration name="ByteStreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mybytestream2.ByteStreamDemo5" />
       <module name="chapter14_IOStream" />
@@ -179,8 +182,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CharStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo2" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mycharstream1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharStreamDemo2" />
         <item itemvalue="Application.CharStreamDemo1" />
         <item itemvalue="Application.ByteStreamDemo7" />
         <item itemvalue="Application.ByteStreamDemo6" />
@@ -206,7 +223,7 @@
       <workItem from="1708934286004" duration="1825000" />
       <workItem from="1708986591071" duration="962000" />
       <workItem from="1709121091476" duration="5666000" />
-      <workItem from="1709157586152" duration="482000" />
+      <workItem from="1709157586152" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -280,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709006861406</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CharStream contents learning">
+      <option name="closed" value="true" />
+      <created>1709158377468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709158377468</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +323,7 @@
     <MESSAGE value="ByteStream content learning update" />
     <MESSAGE value="ByteStream update contents" />
     <MESSAGE value="ByteStream catch exception with different version of JDK implementation differences" />
-    <option name="LAST_COMMIT_MESSAGE" value="ByteStream catch exception with different version of JDK implementation differences" />
+    <MESSAGE value="CharStream contents learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="CharStream contents learning" />
   </component>
 </project>
