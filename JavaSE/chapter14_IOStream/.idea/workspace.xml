@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="CharStream contents learning update">
-      <change afterPath="$PROJECT_DIR$/src/mycharstream1/CharStreamDemo3.java" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="File writer methods usage">
+      <change afterPath="$PROJECT_DIR$/src/mycharstream1/CharStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharstream1/CharStreamDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycharstream1/b.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharstream1/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharstream1/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream/src/mycharstream1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +91,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\mycharstream1" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\a01myfile" />
       <recent name="$PROJECT_DIR$/src" />
@@ -189,7 +191,7 @@
       <workItem from="1708934286004" duration="1825000" />
       <workItem from="1708986591071" duration="962000" />
       <workItem from="1709121091476" duration="5666000" />
-      <workItem from="1709157586152" duration="3230000" />
+      <workItem from="1709157586152" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -279,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709159620134</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="File writer methods usage">
+      <option name="closed" value="true" />
+      <created>1709161206014</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709161206014</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +309,7 @@
     <MESSAGE value="ByteStream catch exception with different version of JDK implementation differences" />
     <MESSAGE value="CharStream contents learning" />
     <MESSAGE value="CharStream contents learning update" />
-    <option name="LAST_COMMIT_MESSAGE" value="CharStream contents learning update" />
+    <MESSAGE value="File writer methods usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="File writer methods usage" />
   </component>
 </project>
