@@ -25,6 +25,8 @@ public class CharStreamDemo2 {
         FileReader fileReader = new FileReader("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mycharstream1\\a.txt");
         char[] chars = new char[2];
         int len;
+        //read(chars)：读取数据，解码，强转三步合并了，把强转之后的字符放到数组当中
+        //空参的read + 强转类型转换
         while ((len = fileReader.read(chars)) != -1) {
             // 把数组中的数据变成字符串再进行打印
             System.out.print(new String(chars, 0, len));
