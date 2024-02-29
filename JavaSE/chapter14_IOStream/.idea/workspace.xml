@@ -4,79 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Char stream details">
-      <change afterPath="$PROJECT_DIR$/src/mytest/Test01.java" afterDir="false" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Practice questions on the IO stream questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/FileCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/FileDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/FileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/FileDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/FileDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/aaa/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/aaa/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a01myfile/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a01myfile/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/a02test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/a02test/Test6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file01/news1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/news1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/homework/Homework01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/homework/Homework02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/homework/Homework03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream03_/FileInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/inputstream03_/FileInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream03_/ObjectInputStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/inputstream03_/ObjectInputStream_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream03_/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/inputstream03_/data.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream03_/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/inputstream03_/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream03_/mybytestream2/ByteStreamDemo9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream1/ByteStreamDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream1/ByteStreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream1/ByteStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream1/ByteStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream1/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharset04/CharSetDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharset/CharSetDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharset04/CharSetDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharset/CharSetDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharset04/CharSetDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharset/CharSetDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharset04/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharset/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/BufferedCopy02_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/BufferedCopy02_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/FileCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/FileOutputStream01_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/FileOutputStream01_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/Master.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/ObjectOutStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/ObjectOutStream_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/data.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/wallhaven-z8wxoo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/wallhaven-z8wxoo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outputstream02_/wallhaven-z8wxoo01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/wallhaven-z8wxoo01.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printstream_/PrintStream_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/printstream_/PrintStream_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printstream_/f1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/printstream_/f1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/Properties01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/Properties01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/Properties02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/Properties02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/Properties03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/Properties03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/dog.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/dog.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties_/mysql2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/properties_/mysql2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_/BufferedReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/reader_/BufferedReader_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_/FileReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/reader_/FileReader_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader_/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/reader_/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/standard/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/standard/InputAndOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transformation/CodeQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/transformation/CodeQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transformation/InputStreamReader_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/transformation/InputStreamReader_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transformation/OutputStreamWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/transformation/OutputStreamWriter_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transformation/PrintWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/transformation/PrintWriter_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer_/BufferedCopy_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/writer_/BufferedCopy_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer_/BufferedWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/writer_/BufferedWriter_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer_/FileWriter_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/writer_/FileWriter_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer_/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/writer_/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer_/ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/writer_/ok.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,55 +39,55 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ByteStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ByteStreamDemo2.executor": "Run",
+    "Application.ByteStreamDemo3.executor": "Run",
+    "Application.ByteStreamDemo4.executor": "Run",
+    "Application.ByteStreamDemo5.executor": "Run",
+    "Application.ByteStreamDemo6.executor": "Run",
+    "Application.ByteStreamDemo7.executor": "Run",
+    "Application.CharStreamDemo1.executor": "Run",
+    "Application.CharStreamDemo2.executor": "Run",
+    "Application.CharStreamDemo3.executor": "Run",
+    "Application.FileDemo1.executor": "Run",
+    "Application.FileDemo3.executor": "Run",
+    "Application.FileDemo6.executor": "Run",
+    "Application.FileDemo8.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.Practice2.executor": "Run",
+    "Application.Test01.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.Test5.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo4.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\mycharstream1" />
@@ -263,7 +192,8 @@
       <workItem from="1709121091476" duration="5666000" />
       <workItem from="1709157586152" duration="5531000" />
       <workItem from="1709163200205" duration="757000" />
-      <workItem from="1709164029691" duration="55000" />
+      <workItem from="1709164029691" duration="121000" />
+      <workItem from="1709206729792" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -369,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709162130379</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Practice questions on the IO stream questions">
+      <option name="closed" value="true" />
+      <created>1709164122387</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709164122387</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +329,11 @@
     <MESSAGE value="CharStream contents learning update" />
     <MESSAGE value="File writer methods usage" />
     <MESSAGE value="Char stream details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Char stream details" />
+    <MESSAGE value="Practice questions on the IO stream questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice questions on the IO stream questions" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
