@@ -17,7 +17,7 @@ public class ByteStreamDemo1 {
          *       读取数据
          *       释放资源
          * */
-        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\inputstream_\\mybytestream2\\a.txt");
+        FileInputStream fileInputStream = new FileInputStream("src/mybytestream2/a.txt");
         int b1 = fileInputStream.read();
         System.out.println((char) b1);
         int b2 = fileInputStream.read();

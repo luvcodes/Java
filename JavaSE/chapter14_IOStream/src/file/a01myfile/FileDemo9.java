@@ -34,7 +34,5 @@ public class FileDemo9 {
             }
         });
         System.out.println(Arrays.toString(arr2));
-
-
     }
 }
