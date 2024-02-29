@@ -21,9 +21,10 @@ public class BufferedStreamDemo3 {
         // readLine方法在读取的时候，一次读一整行，遇到回车换行结束
         // 但是他不会把回车换行读到内存当中
         /*
+        // 这样就读到的第一行
          * String line1 = br.readLine();
          * System.out.println(line1);
-         * 
+        // 这样就读到的第二行
          * String line2 = br.readLine();
          * System.out.println(line2);
          */

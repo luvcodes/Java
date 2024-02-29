@@ -14,9 +14,9 @@ public class BufferedStreamDemo4 {
          * public void newLine() 跨平台的换行
          */
         // 1. 创建字符缓冲输出流的对象
+        // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/mybufferedstream1/b.txt"));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/mybufferedstream1/b.txt", true));
         // 2. 写出数据
-        bufferedWriter.newLine();
         bufferedWriter.write("hello");
         bufferedWriter.newLine();
         bufferedWriter.write("world");
