@@ -9,7 +9,7 @@ public class Test01 {
     public static void main(String[] args) throws IOException {
         // 拷贝一个文件夹，考虑子文件夹
         File source = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mytest");
-        File destination = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mytest\\aaa");
+        File destination = new File("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mytest");
 
         copyDirectory(source, destination);
     }
