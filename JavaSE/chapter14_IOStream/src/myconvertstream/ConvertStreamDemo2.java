@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 
+/**
+ * @author ryanw
+ */
 public class ConvertStreamDemo2 {
     public static void main(String[] args) throws IOException {
         /*

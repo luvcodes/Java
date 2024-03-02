@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Practice questions on the IO stream questions">
-      <change afterPath="$PROJECT_DIR$/src/mytest/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myconvertstream/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mytest/Test07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/Test07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +59,7 @@
     "Application.CharStreamDemo1.executor": "Run",
     "Application.CharStreamDemo2.executor": "Run",
     "Application.CharStreamDemo3.executor": "Run",
+    "Application.ConvertStreamDemo4.executor": "Run",
     "Application.FileDemo1.executor": "Run",
     "Application.FileDemo3.executor": "Run",
     "Application.FileDemo6.executor": "Run",
@@ -102,20 +107,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test07">
-    <configuration name="CharStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo1" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mycharstream1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ConvertStreamDemo4">
     <configuration name="CharStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo2" />
       <module name="chapter14_IOStream" />
@@ -135,6 +127,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mycharstream1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myconvertstream.ConvertStreamDemo4" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myconvertstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertStreamDemo4" />
         <item itemvalue="Application.Test07" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.CharStreamDemo3" />
         <item itemvalue="Application.CharStreamDemo2" />
-        <item itemvalue="Application.CharStreamDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +207,7 @@
       <workItem from="1709206729792" duration="1690000" />
       <workItem from="1709249862624" duration="604000" />
       <workItem from="1709268949748" duration="529000" />
+      <workItem from="1709355316619" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />

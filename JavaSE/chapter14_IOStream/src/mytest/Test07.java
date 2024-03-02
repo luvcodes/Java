@@ -3,6 +3,9 @@ package mytest;
 import java.io.*;
 
 
+/**
+ * @author ryanw
+ */
 public class Test07 {
     public static void main(String[] args) throws IOException {
         /*
