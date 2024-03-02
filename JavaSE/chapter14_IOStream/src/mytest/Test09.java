@@ -6,6 +6,7 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 public class Test09 {
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // 1. 创建反序列化流的对象
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("src/mytest/aaa.txt"));
