@@ -1,15 +1,15 @@
-package myobjectstream;
+package myobjectstream.practice;
 
 import java.io.Serializable;
 
 public class Student implements Serializable {
     // private static final long serialVersionUID = 1L;
     private String name;
-    private int age;
+    private String nickname;
 
-    public Student(String name, int age) {
+    public Student(String name, String nickname) {
         this.name = name;
-        this.age = age;
+        this.nickname = nickname;
     }
 
     public String getName() {
@@ -20,15 +20,15 @@ public class Student implements Serializable {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getNickname() {
+        return nickname;
     }
 
     public String toString() {
-        return "Student{name = " + name + ", age = " + age + "}";
+        return "Student{name = " + name + ", nickname = " + nickname +"}";
     }
 }
