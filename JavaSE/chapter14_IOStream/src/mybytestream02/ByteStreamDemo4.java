@@ -19,14 +19,10 @@ public class ByteStreamDemo4 {
                 java也可以实现换行，因为java在底层会补全。
             建议：
                 不要省略，还是写全了。
-
-
             续写：
                 如果想要续写，打开续写开关即可
                 开关位置：创建对象的第二个参数
-                默认false：表示关闭续写，此时创建对象会清空文件
-                手动传递true：表示打开续写，此时创建对象不会清空文件
-
+                默认false：表示关闭续写，此时创建对象会清空文件；手动传递true：表示打开续写，此时创建对象不会清空文件
         */
         public static void main(String[] args) throws IOException {
             FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\outputstream_\\mybytestream\\a.txt", true);

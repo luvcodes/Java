@@ -8,18 +8,19 @@ import java.io.IOException;
  */
 public class CharStreamDemo5 {
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mycharstream1\\a.txt");
+        FileWriter fw = new FileWriter("src/mycharstream04/a.txt");
 
-        fw.write("我的同学各个都很厉害");
-        fw.write("说话声音很好听");
-
+        // 写出数据，通过flush
+        fw.write('刷'); // 写出第1个字符
+        fw.flush();
+        fw.write('新'); // 继续写出第2个字符，写出成功
         fw.flush();
 
-        fw.write("都是人才");
-        fw.write("超爱这里哟");
-
+        // 写出数据，通过close
+        fw.write('关'); // 写出第1个字符
         fw.close();
+//        fw.write('闭'); // 继续写出第2个字符,【报错】java.io.IOException: Stream closed
+//        fw.close();
 
-        fw.write("B站");
     }
 }

@@ -15,7 +15,9 @@ public class BufferedStreamDemo4 {
          */
         // 1. 创建字符缓冲输出流的对象
         // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/mybufferedstream1/b.txt"));
+        // true参数表示可以在后面继续追加
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/mybufferedstream1/b.txt", true));
+
         // 2. 写出数据
         bufferedWriter.write("hello");
         bufferedWriter.newLine();

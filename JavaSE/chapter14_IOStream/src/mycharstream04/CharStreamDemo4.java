@@ -9,7 +9,6 @@ import java.io.IOException;
  */
 public class CharStreamDemo4 {
     public static void main(String[] args) throws IOException {
-
         FileReader fr = new FileReader("C:\\Users\\ryanw\\IdeaProjects\\Java\\JavaSE\\chapter14_IOStream\\src\\mycharstream1\\b.txt");
         fr.read();//会把文件中的数据放到缓冲区当中
 
@@ -28,10 +27,7 @@ public class CharStreamDemo4 {
             System.out.println((char)ch);
         }
 
-
         fw.close();
         fr.close();
-
-
     }
 }

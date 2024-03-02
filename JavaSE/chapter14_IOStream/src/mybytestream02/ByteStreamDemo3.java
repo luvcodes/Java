@@ -22,7 +22,7 @@ public class ByteStreamDemo3 {
         fileOutputStream.write(bytes, 1, 2);
         fileOutputStream.close();
 
-        /*byte[] b = "后段程序员".getBytes();
+        /*byte[] b = "后端程序员".getBytes();
         fileOutputStream.write(b);
         fileOutputStream.close();*/
     }
