@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Object stream content learning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Object stream content learning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -105,11 +103,11 @@
   </component>
   <component name="RunManager" selected="Application.ObjectStreamDemo1">
     <configuration name="CharStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo3" />
+      <option name="MAIN_CLASS_NAME" value="mycharstream04.CharStreamDemo3" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mycharstream1.*" />
+          <option name="PATTERN" value="mycharstream04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="ConvertStreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myconvertstream.ConvertStreamDemo4" />
+      <option name="MAIN_CLASS_NAME" value="myconvertstream06.ConvertStreamDemo4" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myconvertstream.*" />
+          <option name="PATTERN" value="myconvertstream06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,6 +212,7 @@
       <workItem from="1709355886922" duration="133000" />
       <workItem from="1709356040537" duration="2697000" />
       <workItem from="1709417523667" duration="48000" />
+      <workItem from="1709417588412" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
