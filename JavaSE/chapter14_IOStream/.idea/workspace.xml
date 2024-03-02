@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Practice questions on the IO stream questions">
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Update on the convert stream demo 3 practice question.">
+      <change afterPath="$PROJECT_DIR$/src/myobjectstream/ObjectStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myobjectstream/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myobjectstream/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/ConvertStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myconvertstream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/myconvertstream/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream/src/myobjectstream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,26 +98,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/myobjectstream" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\mycharstream1" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\a01myfile" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConvertStreamDemo4">
-    <configuration name="CharStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo2" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mycharstream1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ObjectStreamDemo1">
     <configuration name="CharStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mycharstream1.CharStreamDemo3" />
       <module name="chapter14_IOStream" />
@@ -136,6 +125,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myconvertstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myobjectstream.ObjectStreamDemo1" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myobjectstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectStreamDemo1" />
         <item itemvalue="Application.Test07" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.ConvertStreamDemo4" />
         <item itemvalue="Application.CharStreamDemo3" />
-        <item itemvalue="Application.CharStreamDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1709268949748" duration="529000" />
       <workItem from="1709355316619" duration="379000" />
       <workItem from="1709355886922" duration="133000" />
-      <workItem from="1709356040537" duration="997000" />
+      <workItem from="1709356040537" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -326,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709164122387</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update on the convert stream demo 3 practice question.">
+      <option name="closed" value="true" />
+      <created>1709357294701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709357294701</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +360,8 @@
     <MESSAGE value="File writer methods usage" />
     <MESSAGE value="Char stream details" />
     <MESSAGE value="Practice questions on the IO stream questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice questions on the IO stream questions" />
+    <MESSAGE value="Update on the convert stream demo 3 practice question." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the convert stream demo 3 practice question." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
