@@ -4,7 +4,11 @@ package Thread.mythread.a10threadsafe2;
  * @author ryanw
  */
 public class MyRunnable implements Runnable {
-
+    // 使用实现Runnable接口方法，就不需要是static了
+    // 原因: 使用继承Thread类的方法来实现类，这样就会出现在main方法中new多个Thread示例对象的情况
+    // 又想要将ticket变量共享，所以就需要设置成static。
+    // 可是这里使用的是实现Runnable接口的方法，在main方法中Runnable接口的实例对象只会创建一次，
+    // 所以这里的ticket变量就不需要加static了。
     int ticket = 0;
 
     @Override
