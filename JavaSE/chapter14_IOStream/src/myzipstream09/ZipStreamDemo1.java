@@ -9,7 +9,8 @@ import java.util.zip.ZipInputStream;
 
 /**
  * 解压缩流
- **/
+ *
+ * @author ryanw*/
 public class ZipStreamDemo1 {
     public static void main(String[] args) throws IOException {
         // 1. 创建一个File表示要解压的压缩包
@@ -41,11 +42,12 @@ public class ZipStreamDemo1 {
                     fos.write(b);
                 }
                 fos.close();
-                // 表示在压缩包中的一个文件处理完毕了
-                zip.closeEntry(); // 关闭当前zipentry对象，表示当前文件处理完毕了，进入下一个文件处理
+                // 关闭当前zipentry对象, 表示在压缩包中的一个文件处理完毕了，进入下一个文件处理
+                zip.closeEntry();
             }
         }
 
-        zip.close(); // 关闭解压缩流
+        // 关闭解压缩流
+        zip.close();
     }
 }
