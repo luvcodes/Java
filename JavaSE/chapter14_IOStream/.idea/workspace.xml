@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Print stream contents learning update">
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method">
+      <change afterPath="$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myzipstream09/aaa.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybufferedstream05/BufferedStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybufferedstream05/BufferedStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream02/ByteStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream02/ByteStreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybytestream02/ByteStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybytestream02/ByteStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharstream04/CharStreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharstream04/CharStreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharstream04/CharStreamDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharstream04/CharStreamDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycharstream04/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycharstream04/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,7 @@
     "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test5.executor": "Run",
+    "Application.ZipStreamDemo1.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo4.executor": "Run",
@@ -113,7 +110,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharStreamDemo5">
+  <component name="RunManager" selected="Application.ZipStreamDemo1">
     <configuration name="CharStreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mycharstream04.CharStreamDemo5" />
       <module name="chapter14_IOStream" />
@@ -166,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mytest.Test07" />
+    <configuration name="ZipStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myzipstream09.ZipStreamDemo1" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mytest.*" />
+          <option name="PATTERN" value="myzipstream09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZipStreamDemo1" />
         <item itemvalue="Application.CharStreamDemo5" />
         <item itemvalue="Application.PrintStreamDemo4" />
         <item itemvalue="Application.PrintStreamDemo3" />
         <item itemvalue="Application.PrintStreamDemo1" />
-        <item itemvalue="Application.Test07" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +223,7 @@
       <workItem from="1709356040537" duration="2697000" />
       <workItem from="1709417523667" duration="48000" />
       <workItem from="1709417588412" duration="172000" />
-      <workItem from="1709417772561" duration="3903000" />
+      <workItem from="1709417772561" duration="5557000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -380,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709420809848</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Modify the comments and re-learn the flush method">
+      <option name="closed" value="true" />
+      <created>1709421770097</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709421770098</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +414,8 @@
     <MESSAGE value="Update on the folder structure" />
     <MESSAGE value="Print stream contents learning" />
     <MESSAGE value="Print stream contents learning update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print stream contents learning update" />
+    <MESSAGE value="Modify the comments and re-learn the flush method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the comments and re-learn the flush method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
