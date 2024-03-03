@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method">
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/aaaa.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/aaaa/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myzipstream09/aaaa/aa/aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hutool-all-5.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mycommonsio10/CommonsIODemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myhutool11/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter14_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14_IOStream.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream/src/myobjectstream",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,11 +106,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/myobjectstream" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\mycharstream1" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\a01myfile" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZipStreamDemo3">
