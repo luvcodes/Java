@@ -1,4 +1,4 @@
-package Thread.mythread.a10threadsafe2;
+package Thread.mythread.a09synchronized.a10threadsafe2;
 
 /**
  * @author ryanw

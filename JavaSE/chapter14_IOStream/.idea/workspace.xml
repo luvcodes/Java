@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,65 +39,65 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ByteStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteStreamDemo7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharStreamDemo5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test07.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZipStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZipStreamDemo3.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputstream_.mybytestream2.ByteStreamDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter14_IOStream/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ByteStreamDemo2.executor": "Run",
+    "Application.ByteStreamDemo3.executor": "Run",
+    "Application.ByteStreamDemo4.executor": "Run",
+    "Application.ByteStreamDemo5.executor": "Run",
+    "Application.ByteStreamDemo6.executor": "Run",
+    "Application.ByteStreamDemo7.executor": "Run",
+    "Application.CharStreamDemo1.executor": "Run",
+    "Application.CharStreamDemo2.executor": "Run",
+    "Application.CharStreamDemo3.executor": "Run",
+    "Application.CharStreamDemo5.executor": "Run",
+    "Application.ConvertStreamDemo4.executor": "Run",
+    "Application.FileDemo1.executor": "Run",
+    "Application.FileDemo3.executor": "Run",
+    "Application.FileDemo6.executor": "Run",
+    "Application.FileDemo8.executor": "Run",
+    "Application.ObjectStreamDemo1.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.Practice2.executor": "Run",
+    "Application.PrintStreamDemo1.executor": "Run",
+    "Application.PrintStreamDemo3.executor": "Run",
+    "Application.PrintStreamDemo4.executor": "Run",
+    "Application.Test01.executor": "Run",
+    "Application.Test07.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.Test5.executor": "Run",
+    "Application.ZipStreamDemo1.executor": "Run",
+    "Application.ZipStreamDemo3.executor": "Debug",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
+    "Application.inputstream_.mybytestream2.ByteStreamDemo4.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />

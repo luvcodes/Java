@@ -1,4 +1,4 @@
-package Thread.mythread.a11threadsafe3;
+package Thread.mythread.a09synchronized.a11threadsafe3;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
