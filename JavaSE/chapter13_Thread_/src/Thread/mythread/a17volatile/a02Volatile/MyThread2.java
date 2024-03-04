@@ -1,4 +1,4 @@
-package Thread.mythread.a17atomicity.a02Volatile;
+package Thread.mythread.a17volatile.a02Volatile;
 
 /**
  * @author ryanw

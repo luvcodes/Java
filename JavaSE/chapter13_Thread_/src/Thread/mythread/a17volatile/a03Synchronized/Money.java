@@ -1,4 +1,4 @@
-package Thread.mythread.a17atomicity.a03Synchronized;
+package Thread.mythread.a17volatile.a03Synchronized;
 
 /**
  * @author ryanw

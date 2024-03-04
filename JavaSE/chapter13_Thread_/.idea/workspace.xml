@@ -103,11 +103,11 @@
   </component>
   <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a17myvolatile.a01Question.Demo" />
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a17atomicity.a01Question.Demo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.mythread.a17myvolatile.a01Question.*" />
+          <option name="PATTERN" value="Thread.mythread.a17atomicity.a01Question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

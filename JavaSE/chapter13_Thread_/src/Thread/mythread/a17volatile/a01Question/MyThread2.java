@@ -1,4 +1,4 @@
-package Thread.mythread.a17atomicity.a01Question;
+package Thread.mythread.a17volatile.a01Question;
 
 public class MyThread2 extends Thread {
     @Override
