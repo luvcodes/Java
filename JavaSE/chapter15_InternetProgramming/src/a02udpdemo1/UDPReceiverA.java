@@ -1,10 +1,9 @@
-package udp_;
+package a02udpdemo1;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 
 /**
  * UDP接收端

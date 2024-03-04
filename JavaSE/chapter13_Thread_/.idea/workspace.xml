@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update the basic files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a22mymap/MyConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a22mymap/MyConcurrentHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MotherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MotherThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MyCountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MyCountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MySemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MySemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter15_InternetProgramming/src/udp_/UDPSenderB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter15_InternetProgramming/src/udp_/UDPSenderB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +165,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -217,6 +216,7 @@
       <workItem from="1709505531648" duration="6110000" />
       <workItem from="1709516315522" duration="193000" />
       <workItem from="1709555940950" duration="1784000" />
+      <workItem from="1709593469056" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />

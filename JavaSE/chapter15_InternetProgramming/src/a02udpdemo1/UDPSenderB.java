@@ -1,7 +1,9 @@
-package udp_;
+package a02udpdemo1;
 
 import java.io.IOException;
-import java.net.*;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
 
 /**
  * 发送端B => 也可以接收数据s
@@ -9,7 +11,6 @@ import java.net.*;
 @SuppressWarnings({ "all" })
 public class UDPSenderB {
     public static void main(String[] args) throws IOException {
-
         // 1.创建 DatagramSocket 对象，准备在9998端口 接收数据
         DatagramSocket socket = new DatagramSocket(9998);
 
