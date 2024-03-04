@@ -1,4 +1,4 @@
-package Thread.mythread.a15threadpool.test6case1;
+package Thread.mythread.a16threadtest.test6case2;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,12 +23,15 @@ public class Test {
         MyThread t1 = new MyThread(list);
         MyThread t2 = new MyThread(list);
 
+
         //设置名字
         t1.setName("抽奖箱1");
         t2.setName("抽奖箱2");
 
+
         //启动线程
         t1.start();
         t2.start();
+
     }
 }

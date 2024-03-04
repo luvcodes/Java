@@ -1,4 +1,4 @@
-package Thread.mythread.a15threadpool.test6case1;
+package Thread.mythread.a16threadtest.test6case1;
 
 import java.util.ArrayList;
 import java.util.Collections;

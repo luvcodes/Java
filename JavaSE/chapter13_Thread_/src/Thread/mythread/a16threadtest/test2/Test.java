@@ -1,4 +1,4 @@
-package Thread.mythread.a15threadpool.test2;
+package Thread.mythread.a16threadtest.test2;
 
 public class Test {
     public static void main(String[] args) {

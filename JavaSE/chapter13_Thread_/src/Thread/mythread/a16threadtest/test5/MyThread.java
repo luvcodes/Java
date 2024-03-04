@@ -1,10 +1,9 @@
-package Thread.mythread.a15threadpool.test6case2;
+package Thread.mythread.a16threadtest.test5;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class MyThread extends Thread {
-
     ArrayList<Integer> list;
 
     public MyThread(ArrayList<Integer> list) {
@@ -13,17 +12,20 @@ public class MyThread extends Thread {
 
     @Override
     public void run() {
-        ArrayList<Integer> boxList = new ArrayList<>();//1 //2
+        //1.循环
+        //2.同步代码块
+        //3.判断
+        //4.判断
+
         while (true) {
             synchronized (MyThread.class) {
                 if (list.size() == 0) {
-                    System.out.println(getName() + boxList);
                     break;
                 } else {
                     //继续抽奖
                     Collections.shuffle(list);
                     int prize = list.remove(0);
-                    boxList.add(prize);
+                    System.out.println(getName() + "又产生了一个" + prize + "元大奖");
                 }
             }
             try {
@@ -31,7 +33,6 @@ public class MyThread extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
         }
     }
 }
