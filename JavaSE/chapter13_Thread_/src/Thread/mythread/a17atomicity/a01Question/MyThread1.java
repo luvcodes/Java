@@ -1,9 +1,6 @@
-package Thread.mythread.a17myvolatile.a02Volatile;
+package Thread.mythread.a17atomicity.a01Question;
 
-/**
- * @author ryanw
- */
-public class MyThread1 extends Thread {
+public class MyThread1 extends  Thread {
     @Override
     public void run() {
         while(Money.money == 100000){
