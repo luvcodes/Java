@@ -2,6 +2,9 @@ package Thread.mythread.a22mymap;
 
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * @author ryanw
+ */
 public class MyConcurrentHashMapDemo {
     public static void main(String[] args) throws InterruptedException {
         ConcurrentHashMap<String, String> hm = new ConcurrentHashMap<>(100);

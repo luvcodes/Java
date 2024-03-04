@@ -2,6 +2,9 @@ package Thread.mythread.a23mycountdownlatch;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * @author ryanw
+ */
 public class ChileThread3 extends Thread {
 
     private CountDownLatch countDownLatch;

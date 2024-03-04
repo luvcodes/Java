@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Atomicity in Thread update contents">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update the basic files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a22mymap/MyConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a22mymap/MyConcurrentHashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/ChileThread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MotherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MotherThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MyCountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a23mycountdownlatch/MyCountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MySemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a24mysemaphore/MySemaphoreDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +216,7 @@
       <workItem from="1708902424800" duration="996000" />
       <workItem from="1709505531648" duration="6110000" />
       <workItem from="1709516315522" duration="193000" />
-      <workItem from="1709555940950" duration="1019000" />
+      <workItem from="1709555940950" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="Update thread chapter structure">
       <option name="closed" value="true" />
@@ -339,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709525067710</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update the basic files">
+      <option name="closed" value="true" />
+      <created>1709559924242</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709559924242</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +392,7 @@
     <MESSAGE value="Volatile keyword" />
     <MESSAGE value="Atomicity in Thread" />
     <MESSAGE value="Atomicity in Thread update contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atomicity in Thread update contents" />
+    <MESSAGE value="Update the basic files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the basic files" />
   </component>
 </project>

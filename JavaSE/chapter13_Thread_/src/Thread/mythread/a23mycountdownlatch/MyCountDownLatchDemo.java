@@ -2,6 +2,9 @@ package Thread.mythread.a23mycountdownlatch;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * @author ryanw
+ */
 public class MyCountDownLatchDemo {
     public static void main(String[] args) {
         // 1.创建CountDownLatch的对象，需要传递给四个线程。

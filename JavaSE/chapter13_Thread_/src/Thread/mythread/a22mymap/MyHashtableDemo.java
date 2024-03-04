@@ -2,6 +2,9 @@ package Thread.mythread.a22mymap;
 
 import java.util.Hashtable;
 
+/**
+ * @author ryanw
+ */
 public class MyHashtableDemo {
     public static void main(String[] args) throws InterruptedException {
         Hashtable<String, String> hashtable = new Hashtable<>();

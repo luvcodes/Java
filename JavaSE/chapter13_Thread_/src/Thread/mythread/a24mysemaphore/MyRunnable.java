@@ -2,6 +2,9 @@ package Thread.mythread.a24mysemaphore;
 
 import java.util.concurrent.Semaphore;
 
+/**
+ * @author ryanw
+ */
 public class MyRunnable implements Runnable {
     // 1.获得管理员对象，
     private Semaphore semaphore = new Semaphore(2);

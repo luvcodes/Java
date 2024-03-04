@@ -1,5 +1,8 @@
 package Thread.mythread.a24mysemaphore;
 
+/**
+ * @author ryanw
+ */
 public class MySemaphoreDemo {
     public static void main(String[] args) {
         MyRunnable mr = new MyRunnable();
