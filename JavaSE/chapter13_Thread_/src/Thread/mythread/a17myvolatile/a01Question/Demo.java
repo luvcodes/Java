@@ -1,5 +1,8 @@
-package Thread.mythread.a17myvolatile;
+package Thread.mythread.a17myvolatile.a01Question;
 
+/**
+ * @author ryanw
+ */
 public class Demo {
     public static void main(String[] args) {
         MyThread1 t1 = new MyThread1();

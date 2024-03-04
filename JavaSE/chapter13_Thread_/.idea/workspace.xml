@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter folder structure" />
+    <list default="true" id="63a848ad-8ed4-4381-bef9-f32702542572" name="Changes" comment="Update thread chapter folder structure">
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a02Volatile/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a02Volatile/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a02Volatile/MyThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a02Volatile/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a03Synchronized/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a03Synchronized/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a03Synchronized/MyThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a03Synchronized/MyThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a01Question/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a01Question/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a01Question/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/MyThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/mythread/a17myvolatile/a01Question/MyThread2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,48 +49,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread.mythread.a03threadcase3.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread.mythread.a07threadyield.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread.mythread.a15threadpool.MyThreadPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocalClass.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter13_Thread_&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo.executor": "Run",
+    "Application.MyThreadPoolDemo.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Thread.mythread.a03threadcase3.ThreadDemo.executor": "Run",
+    "Application.Thread.mythread.a07threadyield.ThreadDemo.executor": "Run",
+    "Application.Thread.mythread.a13waitandnotify.ThreadDemo.executor": "Run",
+    "Application.Thread.mythread.a15threadpool.MyThreadPoolDemo.executor": "Run",
+    "Application.Thread01.executor": "Run",
+    "Application.Thread02.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadDemo2.executor": "Run",
+    "Application.ThreadLocalClass.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_/src/Thread/mythread/a17myvolatile/a03Synchronized",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.31264368",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread\a17myvolatile\a03Synchronized" />
+      <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread\a17myvolatile\a02Volatile" />
       <recent name="$PROJECT_DIR$/src/Thread/mythread/a15threadpool" />
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter13_Thread_\src\Thread\mythread" />
       <recent name="$PROJECT_DIR$/src" />
@@ -85,13 +101,13 @@
       <recent name="Thread.ThreadUse_.Method3_" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.practice.Test" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.mythread.a17myvolatile.a01Question.Demo" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.practice.*" />
+          <option name="PATTERN" value="Thread.mythread.a17myvolatile.a01Question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.BackUpPack.ThreadLocal_.ThreadLocalClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.practice.Test" />
       <module name="chapter13_Thread_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.BackUpPack.ThreadLocal_.*" />
+          <option name="PATTERN" value="Thread.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Thread.mythread.a15threadpool.MyThreadPoolDemo" />
         <item itemvalue="Application.Thread.mythread.a13waitandnotify.ThreadDemo" />
         <item itemvalue="Application.Thread.mythread.a07threadyield.ThreadDemo" />
-        <item itemvalue="Application.ThreadLocalClass" />
       </list>
     </recent_temporary>
   </component>

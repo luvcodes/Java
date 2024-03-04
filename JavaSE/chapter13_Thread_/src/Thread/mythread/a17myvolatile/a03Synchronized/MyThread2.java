@@ -1,5 +1,8 @@
-package Thread.mythread.a17myvolatile;
+package Thread.mythread.a17myvolatile.a03Synchronized;
 
+/**
+ * @author ryanw
+ */
 public class MyThread2 extends Thread {
     @Override
     public void run() {
