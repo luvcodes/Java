@@ -4,6 +4,9 @@ package a10test4;
 import java.io.*;
 import java.net.Socket;
 
+/**
+ * @author ryanw
+ */
 public class Client {
     public static void main(String[] args) throws IOException {
         //客户端：将本地文件上传到服务器。接收服务器的反馈。

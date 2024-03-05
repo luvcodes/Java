@@ -4,6 +4,9 @@ import java.io.*;
 import java.net.Socket;
 import java.util.UUID;
 
+/**
+ * @author ryanw
+ */
 public class MyRunnable implements Runnable{
 
     Socket socket;
