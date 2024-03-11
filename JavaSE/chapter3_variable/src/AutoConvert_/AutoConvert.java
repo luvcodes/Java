@@ -1,5 +1,8 @@
 package AutoConvert_;
 
+/**
+ * @author ryanw
+ */
 public class AutoConvert {
     public static void main(String[] args) {
         // 自动类型转换
