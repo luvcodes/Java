@@ -25,34 +25,13 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        // 1. 获取请求头中的token
-        // authorization是前端代码中定义的请求头
-        String token = request.getHeader("authorization");
-        if (StrUtil.isBlank(token)) {
-            // 用户不存在，拦截 返回401状态码
+        // 1. 判断是否需要拦截 (ThreadLocal中是否有用户)
+        if (UserHolder.getUser() == null) {
+            // 没有，需要拦截，设置状态码
             response.setStatus(401);
-            return false;
+            // 拦截
         }
-        // 2. 基于token获取redis中的用户
-        // 使用Hash存储，所以用entries方法返回的就是Map
-        Map<Object, Object> userMap = stringRedisTemplate.opsForHash()
-                .entries(RedisConstants.LOGIN_USER_KEY + token);
-        // 3. 判断用户是否存在
-        if (userMap.isEmpty()) {
-            // 4. 用户不存在，拦截 返回401状态码
-            response.setStatus(401);
-            return false;
-        }
-        // 5. 将查询到的Hash数据转为UserDTO对象
-        UserDTO userDTO = BeanUtil.fillBeanWithMap(userMap, new UserDTO(), false);
-
-        // 6. 用户存在，保存用户信息到ThreadLocal
-        UserHolder.saveUser(userDTO);
-
-        // 7. 刷新token有效期
-        stringRedisTemplate.expire(RedisConstants.LOGIN_USER_KEY + token, RedisConstants.LOGIN_USER_TTL, TimeUnit.MINUTES);
-
-        // 8. 放行
+        // 有用户，则方形
         return true;
     }
 
