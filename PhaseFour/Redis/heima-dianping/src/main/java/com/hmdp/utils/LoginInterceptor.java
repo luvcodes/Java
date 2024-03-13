@@ -31,7 +31,7 @@ public class LoginInterceptor implements HandlerInterceptor {
             response.setStatus(401);
             // 拦截
         }
-        // 有用户，则方形
+        // 有用户，则放行
         return true;
     }
 

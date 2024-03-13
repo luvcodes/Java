@@ -1,5 +1,8 @@
 package encapsulation;
 
+/**
+ * @author ryanw
+ */
 public class AccountTest {
     public static void main(String[] args) {
         Account account1 = new Account();
