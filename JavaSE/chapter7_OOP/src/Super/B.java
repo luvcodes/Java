@@ -1,5 +1,8 @@
 package Super;
 
+/**
+ * @author yangrunze
+ */
 public class B extends A{
     public int n1 = 888;
 
@@ -7,6 +10,7 @@ public class B extends A{
     public void hi() {
         System.out.println(super.n1 + " " + super.n2 + " " + super.n3);
     }
+
     // 访问父类的方法，不能访问父类的private方法。super.方法名
     public void ok() {
         super.test100();
@@ -14,6 +18,7 @@ public class B extends A{
         super.test300();
 //        super.test400(); // 不能访问父类private方法
     }
+
     // 访问父类的构造器：super(参数列表);只能放在构造器的第一句，只能出现一句
     public B() {
         super(); // 这样就是调用的父类的无参构造器

@@ -1,5 +1,8 @@
 package Super;
 
+/**
+ * @author yangrunze
+ */
 public class Base {
     public int n1 = 999;
     public int age = 111;

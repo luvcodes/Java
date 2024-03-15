@@ -1,6 +1,8 @@
 package inheritance.improve_;
 
-// 父类，是Pupil和Graduate的父类
+/**
+ * @author yangrunze
+ */
 public class Student {
     public String name;
     public int age;

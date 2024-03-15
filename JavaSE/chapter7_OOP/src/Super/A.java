@@ -1,5 +1,8 @@
 package Super;
 
+/**
+ * @author yangrunze
+ */
 public class A extends Base {
 //    public int n1 = 100;
     protected int n2 = 200;
@@ -13,7 +16,6 @@ public class A extends Base {
     public void cal() {
         System.out.println("Class A's cal method...");
     }
-
     public void test100() {
         System.out.println("test100");
     }

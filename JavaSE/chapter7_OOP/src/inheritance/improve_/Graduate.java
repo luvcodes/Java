@@ -1,5 +1,8 @@
 package inheritance.improve_;
 
+/**
+ * @author yangrunze
+ */
 public class Graduate extends Student{
     // 和Pupil不一样
     public void testing() {

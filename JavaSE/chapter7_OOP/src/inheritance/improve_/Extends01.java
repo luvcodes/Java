@@ -1,5 +1,8 @@
 package inheritance.improve_;
 
+/**
+ * @author yangrunze
+ */
 public class Extends01 {
     public static void main(String[] args) {
         Pupil pupil = new Pupil();
