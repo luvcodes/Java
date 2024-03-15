@@ -10,7 +10,8 @@ public class ArrayExercise01 {
         for (int i = 0; i < chars.length; i++) {
             // chars是char[]类型
             // chars[i]是char类型
-            chars[i] = (char) ('A' + i); // 'A' + i是int类型，需要强制转换
+            // 'A' + i是int类型，需要强制转换
+            chars[i] = (char) ('A' + i);
         }
         // 打印
         for (int i = 0; i < chars.length; i++) {
