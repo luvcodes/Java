@@ -1,5 +1,8 @@
 package Array_.one_dimension.array_basic_1;
 
+/**
+ * @author yangrunze
+ */
 public class ArrayExercise01 {
     public static void main(String[] args) {
         /*

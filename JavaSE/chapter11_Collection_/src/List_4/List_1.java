@@ -6,6 +6,7 @@ import java.util.List;
 @SuppressWarnings({ "all" })
 public class List_1 {
     public static void main(String[] args) {
+
         // 1. List集合类中元素有序(即添加顺序和取出顺序一致)、且可重复
         List list = new ArrayList();
         list.add("jack");
@@ -17,6 +18,12 @@ public class List_1 {
         System.out.println("list=" + list);
         for (Object i : list) {
             System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("============");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
         }
         System.out.println();
 

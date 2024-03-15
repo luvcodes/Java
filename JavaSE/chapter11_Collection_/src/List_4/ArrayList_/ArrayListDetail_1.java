@@ -1,7 +1,10 @@
-package List_4;
+package List_4.ArrayList_;
 
 import java.util.ArrayList;
 
+/**
+ * @author yangrunze
+ */
 public class ArrayListDetail_1 {
     public static void main(String[] args) {
         /**
