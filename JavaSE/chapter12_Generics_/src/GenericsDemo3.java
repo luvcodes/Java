@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * @author ryanw
+ */
 /*
     定义一个工具类：ListUtil
     类中定义一个静态方法addAll，用来添加多个集合的元素。
