@@ -1,5 +1,8 @@
 package InnerClass.Exercises;
 
+/**
+ * @author yangrunze
+ */
 public class InnerClassExercise {
     public static void main(String[] args) {
         Test t = new Test();
@@ -12,6 +15,7 @@ class Test {
     public Test() {
         Inner s1 = new Inner();
         s1.a = 10;
+        System.out.println(s1.a);
         Inner s2 = new Inner();
         System.out.println(s2.a);
     }

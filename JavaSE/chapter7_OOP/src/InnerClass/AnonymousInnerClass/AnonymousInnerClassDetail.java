@@ -1,5 +1,8 @@
 package InnerClass.AnonymousInnerClass;
 
+/**
+ * @author yangrunze
+ */
 public class AnonymousInnerClassDetail {
     public static void main(String[] args) {
         Outer05 outer05 = new Outer05();
