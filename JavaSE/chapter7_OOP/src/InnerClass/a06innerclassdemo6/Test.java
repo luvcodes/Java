@@ -24,14 +24,12 @@ public class Test {
 
         //在测试类中调用下面的method方法？
         //以前的方式如何调用？
-        //要自己写一个子类继承Animal类
-        //再创建子类的对象，传递给method方法
+        //要自己写一个子类继承Animal类，再创建子类的对象，传递给method方法
         /*
         Dog d = new Dog();
         method(d);
         */
         //如果Dog类我只要用一次，那么还需要单独定义一个类太麻烦了。
-
 
         method(
                 new Animal() {
@@ -44,7 +42,9 @@ public class Test {
     }
 
 
-    public static void method(Animal a) {//Animal a = 子类对象 多态
-        a.eat();//编译看左边，运行看右边
+    public static void method(Animal a) {
+        // Animal a = 子类对象 多态
+        // 编译看左边，运行看右边。编译的时候会先看Animal类中有没有eat方法，运行的时候会执行Dog的具体eat方法。
+        a.eat();
     }
 }

@@ -1,4 +1,6 @@
+/*
 package Homework.Homework13;
+*/
 /**
  * (1) 做一个Student类，Student类有name，sex，age，stu_id，做合理封装，通过构造器在创建对象时将4个属性赋值
  * (2) 写一个Teacher类，Teacher类有name，sex，age，work_age，做合理封装，通过构造器在创建对象时将4个属性赋值
@@ -11,7 +13,8 @@ package Homework.Homework13;
  * </p>
  * (7) 定义多态数组，里面保存2个学生和2个教师，要求按年龄从高到低排序
  * (8) 定义方法，形参为Person类型，功能：调用学生的study或教师的taech方法
- * */
+ * *//*
+
 public class Homework13 {
     public static void main(String[] args) {
         Student student = new Student("小明", '男', 15, "00023102");
@@ -72,3 +75,4 @@ public class Homework13 {
     }
 
 }
+*/
