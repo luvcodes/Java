@@ -33,7 +33,7 @@ public class GenericExercise {
     }
 }
 
-class Student {
+/*class Student {
     public String name;
     public int age;
 
@@ -49,4 +49,4 @@ class Student {
                 ", age=" + age +
                 '}';
     }
-}
+}*/

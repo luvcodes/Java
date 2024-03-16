@@ -27,19 +27,21 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2TjWwm10QfoOWvqWei5ZygfkpbT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GenericsDemo1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter11_Collection_",
+    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter12_Generics_/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main01">
+  <component name="RunManager" selected="Application.GenericsDemo1">
     <configuration name="CustomGenericExercise_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CustomGeneric_.CustomGenericExercise_" />
       <module name="chapter12_Generics_" />
@@ -99,15 +101,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericExercise02_improve.GenericExercise02" />
+    <configuration name="GenericsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsDemo1" />
       <module name="chapter12_Generics_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GenericExercise02_improve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsDemo1" />
         <item itemvalue="Application.Main01" />
         <item itemvalue="Application.CustomGenericExercise_" />
         <item itemvalue="Application.CustomMethodGenericExercise" />
         <item itemvalue="Application.CustomMethodGeneric_" />
-        <item itemvalue="Application.GenericExercise02" />
       </list>
     </recent_temporary>
   </component>
