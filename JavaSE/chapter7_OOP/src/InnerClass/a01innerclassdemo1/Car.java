@@ -8,6 +8,7 @@ public class Car {
     int carAge;
     String carColor;
 
+    // 这里要注意，可能Car this这样传参数的方法是不正确的
     public void show(Car this){
         //是打印调用者车的名字：宾利
         System.out.println(this.carName);
