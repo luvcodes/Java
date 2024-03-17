@@ -3,6 +3,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+/**
+ * @author yangrunze
+ */
 public class MyArrayList2 implements List<String> {
     @Override
     public int size() {

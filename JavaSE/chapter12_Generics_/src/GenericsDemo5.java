@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * @author yangrunze
+ */
 public class GenericsDemo5 {
     public static void main(String[] args) {
         /*
@@ -19,17 +22,14 @@ public class GenericsDemo5 {
         list1.add(new Ye());
         list1.add(new Fu());
         list1.add(new Zi());
-   }
-
+    }
 
     /*
-    * 此时，泛型里面写的是什么类型，那么只能传递什么类型的数据。
-    * */
+     * 此时，泛型里面写的是什么类型，那么只能传递什么类型的数据。
+     * */
     public static void method(ArrayList<Ye> list) {
 
     }
-
-
 }
 
 
