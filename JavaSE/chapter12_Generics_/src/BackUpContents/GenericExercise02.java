@@ -1,9 +1,11 @@
+package BackUpContents;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
  * 定义Employee类
- * 1) 该类包含：private成员变量name,sal,birthday，其中 birthday 为 MyDate 类的对象；
+ * 1) 该类包含：private成员变量name,sal,birthday，其中 birthday 为 BackUpContents.MyDate 类的对象；
  * 2) 为每一个属性定义 getter, setter 方法；
  * 3) 重写 toString 方法输出 name, sal, birthday
  * 4) MyDate类包含: private成员变量month,day,year；并为每一个属性定义 getter, setter 方法；
@@ -96,7 +98,7 @@ class Employee {
 
     @Override
     public String toString() {
-        return "\nEmployee{" +
+        return "\nBackUpContents.Employee{" +
                 "name='" + name + '\'' +
                 ", sal=" + sal +
                 ", birthday=" + birthday +
@@ -142,7 +144,7 @@ class MyDate {
 
     @Override
     public String toString() {
-        return "MyDate{" +
+        return "BackUpContents.MyDate{" +
                 "month=" + month +
                 ", day=" + day +
                 ", year=" + year +

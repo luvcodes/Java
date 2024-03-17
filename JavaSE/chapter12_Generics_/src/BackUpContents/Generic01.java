@@ -1,38 +1,35 @@
+package BackUpContents;
+
 import java.util.ArrayList;
 
 /**
  * @author ryanw
  */
-public class Generic02 {
+public class Generic01 {
     public static void main(String[] args) {
-        /**
-         * <p>
-         *     1. 当我们ArrayList<Dog>表示存放到ArrayList集合中
-         *     2. 如果编译器发现添加的类型，不满足要求，就会报错
-         *     3. 在遍历的时候，可以直接取出Dog类型，而不是Object
-         * </p>
-         * */
-        ArrayList<Dog> arrayList = new ArrayList<Dog>();
-        arrayList.add(new Dog("teddy", 3));
-        arrayList.add(new Dog("beta", 4));
-        arrayList.add(new Dog("mark", 3));
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(new Dog01("teddy", 3));
+        arrayList.add(new Dog01("beta", 4));
+        arrayList.add(new Dog01("mark", 3));
 
-        // accidentally added a cat
-//        arrayList.add(new Cat("zhaocaimao", 5));
+        arrayList.add(new Cat01("zhaocaimao", 5));
 
-        for (Dog dog : arrayList) {
+        for (Object o : arrayList) {
+            // 向下转型
+            // 为了获取到dog.getName和getAge方法，所以必须要进行向下转型
+            // 不支持直接把arrayList直接给Dog o，所以必须得给Object o，然后在进行向下转型
+            Dog01 dog = (Dog01) o;
             System.out.println(dog.getName() + " " + dog.getAge());
         }
     }
 }
 
 
-
-class Dog {
+class Dog01 {
     private String name;
     private int age;
 
-    public Dog(String name, int age) {
+    public Dog01(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -55,18 +52,18 @@ class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "BackUpContents.Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }
 }
 
-class Cat {
+class Cat01 {
     private String name;
     private int age;
 
-    public Cat(String name, int age) {
+    public Cat01(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -89,7 +86,7 @@ class Cat {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "BackUpContents.Cat{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

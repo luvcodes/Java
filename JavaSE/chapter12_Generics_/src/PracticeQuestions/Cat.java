@@ -4,6 +4,9 @@ package PracticeQuestions;
  * @author yangrunze
  */
 public abstract class Cat extends Animal {
+    public Cat(String name, int age) {
+        super(name, age);
+    }
     //1.继承抽象类，重写里面所有的抽象方法
     //2.本身Cat也是一个抽象的，让Cat的子类再重写重写方法
 

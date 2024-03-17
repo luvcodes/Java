@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5838ec20-dcd3-4d49-86a8-b807dad6406c" name="Changes" comment="Generics wildcard content learning">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/HuskyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/LihuaCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/PersianCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/TeddyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeQuestions/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomGeneric_/CustomGenericExercise_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/CustomGeneric_/CustomGenericExercise_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomGeneric_/CustomGeneric_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/CustomGeneric_/CustomGeneric_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomGeneric_/CustomInterfaceGeneric_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/CustomGeneric_/CustomInterfaceGeneric_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomGeneric_/CustomMethodGenericExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/CustomGeneric_/CustomMethodGenericExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomGeneric_/CustomMethodGeneric_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/CustomGeneric_/CustomMethodGeneric_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generic01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Generic01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Generic02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generic03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Generic03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExercise02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExercise02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExercise02_improve/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExercise02_improve/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExercise02_improve/GenericExercise02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExercise02_improve/GenericExercise02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExercise02_improve/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExercise02_improve/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/GenericExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Homework/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Homework01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Homework/Homework01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/Homework/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/HuskyDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/HuskyDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/LihuaCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/LihuaCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/PersianCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/PersianCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/TeddyDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/TeddyDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeQuestions/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeQuestions/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_quetionMarkAndT/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/_quetionMarkAndT/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_quetionMarkAndT/WildcardExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUpContents/_quetionMarkAndT/WildcardExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +59,36 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GenericsDemo1.executor": "Run",
-    "Application.GenericsDemo3.executor": "Run",
-    "Application.Test01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter12_Generics_/src/PracticeQuestions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GenericsDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericsDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter12_Generics_/src/PracticeQuestions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/PracticeQuestions" />
@@ -99,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_quetionMarkAndT.Main01" />
+      <option name="MAIN_CLASS_NAME" value="BackUpContents._quetionMarkAndT.Main01" />
       <module name="chapter12_Generics_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_quetionMarkAndT.*" />
+          <option name="PATTERN" value="BackUpContents._quetionMarkAndT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

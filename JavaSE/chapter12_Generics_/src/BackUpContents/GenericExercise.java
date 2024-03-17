@@ -1,3 +1,5 @@
+package BackUpContents;
+
 import java.util.*;
 
 @SuppressWarnings({"all"})
@@ -33,7 +35,7 @@ public class GenericExercise {
     }
 }
 
-/*class Student {
+class Student {
     public String name;
     public int age;
 
@@ -49,4 +51,4 @@ public class GenericExercise {
                 ", age=" + age +
                 '}';
     }
-}*/
+}

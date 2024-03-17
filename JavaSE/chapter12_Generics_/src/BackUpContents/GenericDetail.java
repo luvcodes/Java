@@ -1,3 +1,5 @@
+package BackUpContents;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +11,7 @@ public class GenericDetail {
 //        ArrayList<int> list2 = new ArrayList<int>(); // Error
 
         /**
-         * 2. 因为E指定了A类型，构造器传入了 new A()
+         * 2. 因为E指定了A类型，构造器传入了 new BackUpContents.A()
          *    在给泛型执行具体类型后，可以传入该类型或者起子类类型
          * */
         Pig<A> aPig = new Pig<A>(new A());

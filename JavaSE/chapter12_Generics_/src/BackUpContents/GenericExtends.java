@@ -1,3 +1,5 @@
+package BackUpContents;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,14 +24,14 @@ public class GenericExtends {
         printCollection1(list4);
         printCollection1(list5);
 
-        //List<? extends AA> c： 表示 上限，可以接受 AA或者AA子类
+        //List<? extends BackUpContents.AA> c： 表示 上限，可以接受 AA或者AA子类
 //        printCollection2(list1);//×
 //        printCollection2(list2);//×
         printCollection2(list3);//√
         printCollection2(list4);//√
         printCollection2(list5);//√
 
-        //List<? super AA> c: 支持AA类以及AA类的父类，不限于直接父类
+        //List<? super BackUpContents.AA> c: 支持AA类以及AA类的父类，不限于直接父类
         printCollection3(list1);//√
         //printCollection3(list2);//×
         printCollection3(list3);//√
@@ -45,7 +47,7 @@ public class GenericExtends {
 
     }
 
-    // ? extends AA 表示 上限，可以接受 AA或者AA子类
+    // ? extends BackUpContents.AA 表示 上限，可以接受 AA或者AA子类
     public static void printCollection2(List<? extends AA> c) {
         for (Object object : c) {
             System.out.println(object);
