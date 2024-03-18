@@ -25,6 +25,7 @@ public class A02_MapDemo2 {
         //3.1获取所有的键，把这些键放到一个单列集合当中
         Set<String> keys = map.keySet();
         //3.2遍历单列集合，得到每一个键
+
         // 增强for遍历
         for (String key : keys) {
             //3.3 利用map集合中的键获取对应的值 get
@@ -34,13 +35,12 @@ public class A02_MapDemo2 {
         System.out.println("=======================");
 
         // 迭代器遍历
-        Iterator<String> iterator = map.keySet().iterator();
+        Iterator<String> iterator = keys.iterator();
         while (iterator.hasNext()) {
             String key = iterator.next();
             String value = map.get(key);
             System.out.println("key: " + key + ", value: " + value);
         }
-        System.out.println("=======================");
 
         // 匿名内部类遍历
         map.keySet().forEach(new Consumer<String>() {
@@ -50,9 +50,10 @@ public class A02_MapDemo2 {
                 System.out.println("key: " + key + ", value: " + value);
             }
         });
+        System.out.println("=======================");
 
         // Lambda表达式遍历
-        map.keySet().forEach(key -> {
+        keys.forEach(key -> {
             String value = map.get(key);
             System.out.println("key: " + key + ", value: " + value);
         });
