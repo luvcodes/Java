@@ -40,7 +40,7 @@ public class A04_LinkedHashSetDemo {
             System.out.println(student);
         }
 
-        // 内部类遍历
+        // 匿名内部类遍历
         lhs.forEach(new Consumer<Student>() {
             @Override
             public void accept(Student student) {
