@@ -2,6 +2,9 @@ package Set_7;
 
 import java.util.TreeSet;
 
+/**
+ * @author yangrunze
+ */
 public class A07_TreeSetDemo4 {
     public static void main(String[] args) {
       /*  需求：创建5个学生对象
@@ -21,7 +24,6 @@ public class A07_TreeSetDemo4 {
 
         课堂练习：
             要求：在遍历集合的时候，我想看到总分。
-
       */
 
 
@@ -45,9 +47,10 @@ public class A07_TreeSetDemo4 {
 
         // 4. 打印集合
         // System.out.println(ts);
+
+        // 迭代器遍历
         for (Student2 t : ts) {
             System.out.println(t);
         }
-
     }
 }
