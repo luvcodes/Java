@@ -1,5 +1,7 @@
 package Set_7;
 
+import java.util.Objects;
+
 /**
  * @author ryanw
  */
@@ -69,5 +71,22 @@ public class Student implements Comparable<Student>{
         //指定排序的规则
         //只看年龄，我想要按照年龄的升序进行排列
         return this.getAge() - o.getAge();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }

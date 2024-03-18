@@ -1,20 +1,18 @@
 package Set_7;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
+import java.util.function.Consumer;
 
 /**
  * @author ryanw
  */
 public class A01_SetDemo1 {
+    /**
+     * 利用Set系列的集合，添加字符串，并使用多种方式遍历
+     */
     public static void main(String[] args) {
-        /*
-         * 利用Set系列的集合，添加字符串，并使用多种方式遍历。
-         * 迭代器
-         * 增强for
-         * Lambda表达式
-         */
-
         // 1.创建一个Set集合的对象
         Set<String> s = new HashSet<>();
 
@@ -31,20 +29,26 @@ public class A01_SetDemo1 {
         // System.out.println(s);//[李四, 张三, 王五]
 
         // 迭代器遍历
-        /*
-         * Iterator<String> it = s.iterator();
-         * while (it.hasNext()){
-         * String str = it.next();
-         * System.out.println(str);
-         * }
-         */
+        Iterator<String> iterator = s.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+        System.out.println("---------------------------");
 
         // 增强for
-        /*
-         * for (String str : s) {
-         * System.out.println(str);
-         * }
-         */
+        for (String string : s) {
+            System.out.println(string);
+        }
+        System.out.println("---------------------------");
+
+        // 匿名内部类
+        s.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
+        });
+        System.out.println("---------------------------");
 
         // Lambda表达式
         s.forEach(str -> System.out.println(str));
