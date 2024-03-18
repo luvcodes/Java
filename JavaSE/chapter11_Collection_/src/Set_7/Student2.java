@@ -1,5 +1,8 @@
 package Set_7;
 
+/**
+ * @author yangrunze
+ */
 public class Student2 implements Comparable<Student2> {
     //姓名
     private String name;
