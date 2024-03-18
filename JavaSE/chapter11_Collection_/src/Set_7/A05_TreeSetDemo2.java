@@ -21,7 +21,6 @@ public class A05_TreeSetDemo2 {
                 Student实现Comparable接口，重写里面的抽象方法，再指定比较规则
         */
 
-
         // 1. 创建三个学生对象
         Student s1 = new Student("zhangsan",23);
         Student s2 = new Student("lisi",24);
@@ -38,10 +37,7 @@ public class A05_TreeSetDemo2 {
         ts.add(s4);
 
         //4.打印集合
+        System.out.println("最终结果");
         System.out.println(ts);
-
-
-        //TreeSet 底层是红黑树
-
     }
 }
