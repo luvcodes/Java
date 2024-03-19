@@ -11,17 +11,16 @@ public class A04_MapDemo4 {
     public static void main(String[] args) {
         //Map集合的第三种遍历方式
 
-
         //1.创建Map集合的对象
-        Map<String,String> map = new HashMap<>();
+        Map<String, String> map = new HashMap<>();
 
         //2.添加元素
         //键：人物的名字
         //值：名人名言
-        map.put("鲁迅","这句话是我说的");
-        map.put("曹操","不可能绝对不可能");
-        map.put("刘备","接着奏乐接着舞");
-        map.put("柯镇恶","看我眼色行事");
+        map.put("鲁迅", "这句话是我说的");
+        map.put("曹操", "不可能绝对不可能");
+        map.put("刘备", "接着奏乐接着舞");
+        map.put("柯镇恶", "看我眼色行事");
 
         //3.利用lambda表达式进行遍历
         //底层：
@@ -33,18 +32,14 @@ public class A04_MapDemo4 {
                 System.out.println(key + "=" + value);
             }
         });
-
         System.out.println("-----------------------------------");
 
-        map.forEach((String key, String value)->{
-                System.out.println(key + "=" + value);
-            }
+        map.forEach((String key, String value) -> {
+                    System.out.println(key + "=" + value);
+                }
         );
-
         System.out.println("-----------------------------------");
 
-        map.forEach((key, value)-> System.out.println(key + "=" + value));
-
-
+        map.forEach((key, value) -> System.out.println(key + "=" + value));
     }
 }
