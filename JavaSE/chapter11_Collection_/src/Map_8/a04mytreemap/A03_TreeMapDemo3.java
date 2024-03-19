@@ -2,6 +2,7 @@ package Map_8.a04mytreemap;
 
 import java.util.StringJoiner;
 import java.util.TreeMap;
+import java.util.function.BiConsumer;
 
 /**
  * @author yangrunze
@@ -23,12 +24,11 @@ public class A03_TreeMapDemo3 {
 
         */
 
-
         //1.定义字符串
         String s = "aababcabcdabcde";
 
         //2.创建集合
-        TreeMap<Character, Integer> tm = new TreeMap<>();
+        TreeMap<Character, Integer> treeMap = new TreeMap<>();
 
         //3.遍历字符串得到里面的每一个字符
         for (int i = 0; i < s.length(); i++) {
@@ -36,30 +36,36 @@ public class A03_TreeMapDemo3 {
             //拿着c到集合中判断是否存在
             //存在，表示当前字符又出现了一次
             //不存在，表示当前字符是第一次出现
-            if (tm.containsKey(c)) {
+            if (treeMap.containsKey(c)) {
                 //存在
                 //先把已经出现的次数拿出来
-                int count = tm.get(c);
+                int count = treeMap.get(c);
                 //当前字符又出现了一次
                 count++;
                 //把自增之后的结果再添加到集合当中
-                tm.put(c, count);
+                treeMap.put(c, count);
             } else {
                 //不存在
-                tm.put(c, 1);
+                treeMap.put(c, 1);
             }
         }
 
         //4.遍历集合，并按照指定的格式进行拼接
         // a（5）b（4）c（3）d（2）e（1）
+        StringBuilder stringBuilder = new StringBuilder();
+        treeMap.forEach(new BiConsumer<Character, Integer>() {
+            @Override
+            public void accept(Character character, Integer integer) {
+                stringBuilder.append(character).append("(").append(integer).append(")");
+            }
+        });
+        System.out.println(stringBuilder);
+
         //StringBuilder sb = new StringBuilder();
         //tm.forEach((key, value)->sb.append(key).append("(").append(value).append(")"));
 
-        StringJoiner sj = new StringJoiner("", "", "");
-        tm.forEach((key, value) -> sj.add(key + "").add("(").add(value + "").add(")"));
-
-        System.out.println(sj);
-
-
+        /*StringJoiner sj = new StringJoiner("", "", "");
+        treeMap.forEach((key, value) -> sj.add(key + " ").add("(").add(value + "").add(") "));
+        System.out.println(sj);*/
     }
 }
