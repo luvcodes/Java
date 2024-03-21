@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="http-server-demo" />
+        <module name="maven-project01" />
+        <module name="maven-project02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
