@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="maven-project01" />
         <module name="maven-project02" />
+        <module name="maven-projectA" />
+        <module name="maven-projectB" />
+        <module name="maven-projectC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
