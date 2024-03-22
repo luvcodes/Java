@@ -1,16 +1,11 @@
 package com.itheima.pojo;
 
+/**
+ * @author ryanw
+ */
 public class Address {
     private String province;
     private String city;
-
-    @Override
-    public String toString() {
-        return "Address{" +
-                "province='" + province + '\'' +
-                ", city='" + city + '\'' +
-                '}';
-    }
 
     public String getProvince() {
         return province;
@@ -26,5 +21,13 @@ public class Address {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "province='" + province + '\'' +
+                ", city='" + city + '\'' +
+                '}';
     }
 }

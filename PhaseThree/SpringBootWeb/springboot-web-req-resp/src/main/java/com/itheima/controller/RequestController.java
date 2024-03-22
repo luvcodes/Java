@@ -50,7 +50,6 @@ public class RequestController {
         return "OK";
     }
 
-
     //2. 实体参数
     @RequestMapping("/simplePojo")
     public String simplePojo(User user){
@@ -64,13 +63,15 @@ public class RequestController {
         return "OK";
     }
 
-    //3. 数组集合参数
+    //3. 数组封装参数
     @RequestMapping("/arrayParam")
     public String arrayParam(String[] hobby){
         System.out.println(Arrays.toString(hobby));
         return "OK";
     }
 
+    // 集合封装参数
+    // 使用requestparam才能将多个参数封装到这个集合
     @RequestMapping("/listParam")
     public String listParam(@RequestParam List<String> hobby){
         System.out.println(hobby);
@@ -100,8 +101,7 @@ public class RequestController {
 
     @RequestMapping("/path/{id}/{name}")
     public String pathParam2(@PathVariable Integer id , @PathVariable String name){
-        System.out.println(id);
-        System.out.println(name);
+        System.out.println(id + " : " + name);
         return "OK";
     }
 }

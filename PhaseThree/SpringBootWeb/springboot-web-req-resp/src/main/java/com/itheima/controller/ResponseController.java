@@ -4,11 +4,14 @@ import com.itheima.pojo.Address;
 import com.itheima.pojo.Result;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * 测试响应数据
+ *
+ * @author ryanw
  */
 @RestController
 public class ResponseController {
@@ -44,24 +47,25 @@ public class ResponseController {
         return list;
     }*/
 
-
+    // 统一响应结果为Result
     @RequestMapping("/hello")
-    public Result hello(){
+    public Result hello() {
         System.out.println("Hello World ~");
         //return new Result(1,"success","Hello World ~");
         return Result.success("Hello World ~");
     }
 
     @RequestMapping("/getAddr")
-    public Result getAddr(){
+    public Result getAddr() {
         Address addr = new Address();
         addr.setProvince("广东");
         addr.setCity("深圳");
+
         return Result.success(addr);
     }
 
     @RequestMapping("/listAddr")
-    public Result listAddr(){
+    public Result listAddr() {
         List<Address> list = new ArrayList<>();
 
         Address addr = new Address();
@@ -74,6 +78,7 @@ public class ResponseController {
 
         list.add(addr);
         list.add(addr2);
+
         return Result.success(list);
     }
 }
