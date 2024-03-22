@@ -1,5 +1,8 @@
 package com.itheima.pojo;
 
+/**
+ * @author ryanw
+ */
 public class Emp {
     private String name;
     private Integer age;
