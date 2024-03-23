@@ -3,12 +3,15 @@ package com.itheima.dao.impl;
 import com.itheima.dao.EmpDao;
 import com.itheima.pojo.Emp;
 import com.itheima.utils.XmlParserUtils;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * @author ryanw
  */
+@Repository
 public class EmpDaoA implements EmpDao {
 
     @Override
