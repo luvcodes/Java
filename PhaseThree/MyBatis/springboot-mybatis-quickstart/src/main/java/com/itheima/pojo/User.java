@@ -1,8 +1,15 @@
 package com.itheima.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * @author ryanw
  */
+@Data
+@NoArgsConstructor //无参构造
+@AllArgsConstructor //全参构造
 public class User {
     private Integer id;
     private String name;
@@ -11,7 +18,6 @@ public class User {
     private String phone;
 
     // 省略GET, SET方法
-
 
     @Override
     public String toString() {
