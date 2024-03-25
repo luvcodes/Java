@@ -19,7 +19,7 @@ public class User {
 
     // 省略GET, SET方法
 
-    @Override
+    /*@Override
     public String toString() {
         return "User{" +
                 "id=" + id +
@@ -28,5 +28,5 @@ public class User {
                 ", gender=" + gender +
                 ", phone='" + phone + '\'' +
                 '}';
-    }
+    }*/
 }
