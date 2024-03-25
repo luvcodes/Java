@@ -3,11 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.mapper.EmpMapper">
-<!--    模糊查询实现查询name，精准查询gender，范围查询入职时间。就是搜索框中的内容-->
-    <select id="list" resultType="com.itheima.pojo.Emp">
+
+
+    <!-- 模糊查询实现查询name，精准查询gender，范围查询入职时间。就是搜索框中的内容 -->
+    <!--<select id="list" resultType="com.itheima.pojo.Emp">
         select * from emp
         <where>
-            <!-- if做为where标签的子元素 -->
+            &lt;!&ndash; if做为where标签的子元素 &ndash;&gt;
             <if test="name != null">
                 and name like concat('%',#{name},'%')
             </if>
@@ -19,55 +21,55 @@
             </if>
         </where>
         order by update_time desc
-    </select>
+    </select>-->
 
-<!--    update语句 因为update方法在mapper中定义返回值是void，所以不用设置resultType-->
-    <update id="update">
-        update emp
-        <!-- 使用set标签，代替update语句中的set关键字 -->
-        <set>
-            <if test="username != null">
-                username=#{username},
-            </if>
-            <if test="name != null">
-                name=#{name},
-            </if>
-            <if test="gender != null">
-                gender=#{gender},
-            </if>
-            <if test="image != null">
-                image=#{image},
-            </if>
-            <if test="job != null">
-                job=#{job},
-            </if>
-            <if test="entrydate != null">
-                entrydate=#{entrydate},
-            </if>
-            <if test="deptId != null">
-                dept_id=#{deptId},
-            </if>
-            <if test="updateTime != null">
-                update_time=#{updateTime}
-            </if>
-        </set>
-        where id=#{id}
-    </update>
+    <!-- update语句 因为update方法在mapper中定义返回值是void，所以不用设置resultType -->
+<!--    <update id="update">-->
+<!--        update emp-->
+<!--        &lt;!&ndash; 使用set标签，代替update语句中的set关键字 &ndash;&gt;-->
+<!--        <set>-->
+<!--            <if test="username != null">-->
+<!--                username=#{username},-->
+<!--            </if>-->
+<!--            <if test="name != null">-->
+<!--                name=#{name},-->
+<!--            </if>-->
+<!--            <if test="gender != null">-->
+<!--                gender=#{gender},-->
+<!--            </if>-->
+<!--            <if test="image != null">-->
+<!--                image=#{image},-->
+<!--            </if>-->
+<!--            <if test="job != null">-->
+<!--                job=#{job},-->
+<!--            </if>-->
+<!--            <if test="entrydate != null">-->
+<!--                entrydate=#{entrydate},-->
+<!--            </if>-->
+<!--            <if test="deptId != null">-->
+<!--                dept_id=#{deptId},-->
+<!--            </if>-->
+<!--            <if test="updateTime != null">-->
+<!--                update_time=#{updateTime}-->
+<!--            </if>-->
+<!--        </set>-->
+<!--        where id=#{id}-->
+<!--    </update>-->
 
 
     <!--删除操作-->
-    <delete id="deleteByIds">
-        delete from emp where id in
-        <foreach collection="ids" item="id" separator="," open="(" close=")">
-            #{id}
-        </foreach>
-    </delete>
+<!--    <delete id="deleteByIds">-->
+<!--        delete from emp where id in-->
+<!--        <foreach collection="ids" item="id" separator="," open="(" close=")">-->
+<!--            #{id}-->
+<!--        </foreach>-->
+<!--    </delete>-->
 
 
     <!-- 使用sql标签来包含冗余代码 -->
-    <sql id="commonSelect">
-        select id, username, password, name, gender, image, job, entrydate, dept_id, create_time, update_time from emp
-    </sql>
+<!--    <sql id="commonSelect">-->
+<!--        select id, username, password, name, gender, image, job, entrydate, dept_id, create_time, update_time from emp-->
+<!--    </sql>-->
 
 <!--    <select id="list" resultType="com.itheima.pojo.Emp">
         <include refid="commonSelect"/>
@@ -85,8 +87,8 @@
         order by update_time desc
     </select>-->
 
-    <select id="getById" resultType="com.itheima.pojo.Emp">
+    <!--<select id="getById" resultType="com.itheima.pojo.Emp">
         <include refid="commonSelect"/>
         where id = #{id}
-    </select>
+    </select>-->
 </mapper>
