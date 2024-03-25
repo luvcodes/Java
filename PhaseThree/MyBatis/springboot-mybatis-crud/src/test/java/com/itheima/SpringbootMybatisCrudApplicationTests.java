@@ -64,6 +64,15 @@ class SpringbootMybatisCrudApplicationTests {
         System.out.println(emp);
     }
 
+    @Test
+    void testList() {
+        List<Emp> empList = empMapper.list("张", (short) 1, LocalDate.of(2010, 1, 1), LocalDate.of(2020, 1, 1));
+        System.out.println(empList);
+
+        /*for (Emp emp : empList) {
+            System.out.println(emp);
+        }*/
+    }
 
 //    /*@Test
 //    public void testGetByMultiCondition() {
@@ -93,13 +102,7 @@ class SpringbootMybatisCrudApplicationTests {
 //    }*/
 //
 //
-//    /*@Test
-//    void testList() {
-//        List<Emp> empList = empMapper.list();
-//        for (Emp emp : empList) {
-//            System.out.println(emp);
-//        }
-//    }*/
+
 //
 //    /**
 //     * update方法修改成XML配置文件中实现 对应的测试方法
