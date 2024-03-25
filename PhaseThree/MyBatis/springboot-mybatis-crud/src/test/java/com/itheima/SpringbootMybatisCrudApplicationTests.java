@@ -2,12 +2,15 @@ package com.itheima;
 
 import com.itheima.mapper.EmpMapper;
 import com.itheima.pojo.Emp;
+
+import org.assertj.core.util.Arrays;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
@@ -27,9 +30,9 @@ class SpringbootMybatisCrudApplicationTests {
         emp.setUsername("tom3");
         emp.setName("汤姆");
         emp.setImage("1.jpg");
-        emp.setGender((short)1);
-        emp.setJob((short)1);
-        emp.setEntrydate(LocalDate.of(2000,1,1));
+        emp.setGender((short) 1);
+        emp.setJob((short) 1);
+        emp.setEntrydate(LocalDate.of(2000, 1, 1));
         emp.setCreateTime(LocalDateTime.now());
         emp.setUpdateTime(LocalDateTime.now());
         emp.setDeptId(1);
@@ -48,9 +51,9 @@ class SpringbootMybatisCrudApplicationTests {
         emp.setPassword(null);
         emp.setName("老宋");
         emp.setImage("2.jpg");
-        emp.setGender((short)1);
-        emp.setJob((short)2);
-        emp.setEntrydate(LocalDate.of(2012,1,1));
+        emp.setGender((short) 1);
+        emp.setJob((short) 2);
+        emp.setEntrydate(LocalDate.of(2012, 1, 1));
         emp.setCreateTime(null);
         emp.setUpdateTime(LocalDateTime.now());
         emp.setDeptId(2);
@@ -59,77 +62,48 @@ class SpringbootMybatisCrudApplicationTests {
     }
 
     @Test
-    public void testGetById(){
+    public void testGetById() {
         Emp emp = empMapper.getById(1);
         System.out.println(emp);
     }
 
     @Test
     void testList() {
-        List<Emp> empList = empMapper.list("张", (short) 1, LocalDate.of(2010, 1, 1), LocalDate.of(2020, 1, 1));
-        System.out.println(empList);
+        // List<Emp> empList = empMapper.list("张", (short) 1, LocalDate.of(2010, 1, 1),
+        // LocalDate.of(2020, 1, 1));
+        // List<Emp> list = empMapper.list("张", null, null, null);
+        // List<Emp> list = empMapper.list("张", (short) 1, null, null);
+        // List<Emp> list = empMapper.list(null, (short) 1, null, null);
+        List<Emp> list = empMapper.list(null, null, null, null);
 
-        /*for (Emp emp : empList) {
-            System.out.println(emp);
-        }*/
+        System.out.println(list);
     }
 
-//    /*@Test
-//    public void testGetByMultiCondition() {
-//        // 定义查询参数
-//        String name = "张无忌";
-//        Short gender = 1; // 假设性别用1表示男性
-//        LocalDate begin = LocalDate.of(2015, 1, 1);
-//        LocalDate end = LocalDate.now(); // 假设查询结束日期为当前日期
-//
-//        // 调用Mapper接口的list方法
-//        List<Emp> result = empMapper.list(name, gender, begin, end);
-//
-//        // 断言结果不为空
-//        assert !result.isEmpty();
-//
-//        // 打印结果，或进行其他形式的验证
-//        result.forEach(emp -> System.out.println(emp.toString()));
-//    }*/
-//
-//    /*@Test
-//    public void testList(){
-//        //只有性别
-//        List<Emp> list = empMapper.list(null, (short)1, null, null);
-//        for(Emp emp : list){
-//            System.out.println(emp);
-//        }
-//    }*/
-//
-//
+    /**
+     * update方法修改成XML配置文件中实现的对应的测试方法
+     */
+    @Test
+    void testUpdate2() {
+        // 要修改的员工信息
+        Emp emp = new Emp();
+        emp.setId(19);
+        emp.setUsername("Tom111");
+        emp.setName("汤姆111");
+        emp.setUpdateTime(LocalDateTime.now());
 
-//
-//    /**
-//     * update方法修改成XML配置文件中实现 对应的测试方法
-//     * */
-//    @Test
-//    void testUpdate2() {
-//        // 要修改的员工信息
-//        Emp emp = new Emp();
-//        emp.setId(18);
-//        emp.setUsername("Tom111");
-//        emp.setName("汤姆111");
-//        emp.setUpdateTime(LocalDateTime.now());
-//
-//        // 调用方法，修改员工数据
-//        empMapper.update(emp);
-//    }
-//
-///*    @Test
-//    public void testUpdate2(){
-//        //要修改的员工信息
-//        Emp emp = new Emp();
-//        emp.setId(20);
-//        emp.setUsername("Tom222");
-//
-//        //调用方法，修改员工数据
-//        empMapper.update(emp);
-//    }*/
+        // 调用方法，修改员工数据
+        empMapper.update2(emp);
+    }
 
-
+    /**
+     * deleteByIds方法实现批量删除emp
+     */
+    @Test
+    void deleteByIds() {
+        List<Integer> ids = new ArrayList<Integer>();
+        ids.add(13);
+        ids.add(14);
+        ids.add(15);
+        empMapper.deleteByIds(ids);
+    }
 }

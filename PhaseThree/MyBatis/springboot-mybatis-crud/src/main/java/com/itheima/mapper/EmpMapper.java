@@ -28,12 +28,18 @@ public interface EmpMapper {
     public void insert(Emp emp);
 
 
-    // @Update注解也可以用XML配置文件来替代
+    
     /**
      * 根据id修改员工信息
      */
+    // @Update注解也可以用XML配置文件来替代
     @Update("update emp set username=#{username}, name=#{name}, gender=#{gender}, image=#{image}, job=#{job}, entrydate=#{entrydate}, dept_id=#{deptId}, update_time=#{updateTime} where id=#{id}")
     public void update(Emp emp);
+
+    /**
+     * 使用XML来替代@Update, 动态更新Emp数据
+     */
+    public void update2(Emp emp);
 
     /**
      * 根据id查询员工, 需要返回类型
@@ -56,7 +62,6 @@ public interface EmpMapper {
     @Select("select * from emp where id = #{id}")
     public Emp getById(Integer id);*/
 
-
     // 方案三: 开启MyBatis的驼峰命名自动映射开关
     // mybatis.configuration.map-underscore-to-camel-case=true
     @Select("select * from emp where id = #{id}")
@@ -76,12 +81,16 @@ public interface EmpMapper {
     public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);*/
 
     // 改进条件查询，使用concat函数，解决SQL注入的风险，生成预编译的SQL
-    @Select("select * from emp where name like concat('%', #{name}, '%') and gender = #{gender} and entrydate between #{begin} and #{end} order by update_time desc")
+    /*@Select("select * from emp where name like concat('%', #{name}, '%') and gender = #{gender} and entrydate between #{begin} and #{end} order by update_time desc")
+    public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);*/
+
+    /**
+     * 通过XML语句实现条件查询
+     * 通过使用XML文件中的select语句 id=list来实现的
+     * */
     public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
 
-    /*@Select("select * from emp")
-    public List<Emp> list();*/
 
     // 批量删除
-    // public void deleteByIds(List<Integer> ids);
+    public void deleteByIds(List<Integer> ids);
 }
