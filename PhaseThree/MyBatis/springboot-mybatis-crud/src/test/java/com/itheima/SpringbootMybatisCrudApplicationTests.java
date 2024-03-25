@@ -3,7 +3,6 @@ package com.itheima;
 import com.itheima.mapper.EmpMapper;
 import com.itheima.pojo.Emp;
 
-import org.assertj.core.util.Arrays;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest
@@ -100,10 +100,13 @@ class SpringbootMybatisCrudApplicationTests {
      */
     @Test
     void deleteByIds() {
-        List<Integer> ids = new ArrayList<Integer>();
+        // ArrayList的结构也可以当作存储ids的选项之一
+        /*List<Integer> ids = new ArrayList<Integer>();
         ids.add(13);
         ids.add(14);
-        ids.add(15);
+        ids.add(15);*/
+        // 使用Array.asList方法来存储数字
+        List<Integer> ids = Arrays.asList(16, 17, 19);
         empMapper.deleteByIds(ids);
     }
 }
