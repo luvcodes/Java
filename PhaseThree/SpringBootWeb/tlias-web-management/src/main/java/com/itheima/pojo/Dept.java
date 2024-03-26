@@ -12,8 +12,12 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Dept {
-    private Integer id; //ID
-    private String name; //部门名称
-    private LocalDateTime createTime; //创建时间
-    private LocalDateTime updateTime; //修改时间
+    //ID
+    private Integer id;
+    //部门名称
+    private String name;
+    //创建时间
+    private LocalDateTime createTime;
+    //修改时间
+    private LocalDateTime updateTime;
 }

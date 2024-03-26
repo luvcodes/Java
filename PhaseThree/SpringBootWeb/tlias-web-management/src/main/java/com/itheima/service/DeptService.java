@@ -18,4 +18,9 @@ public interface DeptService {
      * 根据id删除指定部门
      * */
     void delete(Integer id);
+
+    /**
+     * 新增部门
+     * */
+    void add(Dept dept);
 }
