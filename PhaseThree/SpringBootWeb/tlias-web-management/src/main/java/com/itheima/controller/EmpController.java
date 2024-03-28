@@ -29,21 +29,21 @@ public class EmpController {
      */
     @GetMapping
     public Result page(@RequestParam(defaultValue = "1") Integer page,
-                       @RequestParam(defaultValue = "10") Integer pageSize,
-                       String name, Short gender,
-                       @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate begin,
-                       @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate end) {
-        //记录日志
-        log.info("分页查询，参数：{},{},{},{},{},{}", page, pageSize,name, gender, begin, end);
-        //调用业务层分页查询功能
+            @RequestParam(defaultValue = "10") Integer pageSize,
+            String name, Short gender,
+            @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate begin,
+            @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate end) {
+        // 记录日志
+        log.info("分页查询，参数：{},{},{},{},{},{}", page, pageSize, name, gender, begin, end);
+        // 调用业务层分页查询功能
         PageBean pageBean = empService.page(page, pageSize, name, gender, begin, end);
-        //响应
+        // 响应
         return Result.success(pageBean);
     }
 
     /**
      * 批量删除员工
-     * */
+     */
     @DeleteMapping("/{ids}")
     public Result delete(@PathVariable List<Integer> ids) {
         empService.delete(ids);
