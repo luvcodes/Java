@@ -13,6 +13,9 @@ import java.util.List;
  */
 @Mapper
 public interface EmpMapper {
+    /**
+     * 分页查询员工
+     * */
     /*//获取总记录数
     @Select("select count(*) from emp")
     public Long count();
@@ -24,4 +27,9 @@ public interface EmpMapper {
     // 分页插件改进上面的方法
     // @Select("select * from emp")
     public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
+
+    /**
+     * 批量删除
+     * */
+    void delete(List<Integer> ids);
 }
