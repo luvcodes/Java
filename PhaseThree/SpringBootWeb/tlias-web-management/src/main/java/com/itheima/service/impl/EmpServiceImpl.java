@@ -101,4 +101,13 @@ public class EmpServiceImpl implements EmpService {
         emp.setUpdateTime(LocalDateTime.now());
         empMapper.update(emp);
     }
+
+    /**
+     * 员工登录
+     */
+    @Override
+    public Emp login(Emp emp) {
+        // 调用dao层功能：登录
+        return empMapper.getByUsernameAndPassword(emp);
+    }
 }

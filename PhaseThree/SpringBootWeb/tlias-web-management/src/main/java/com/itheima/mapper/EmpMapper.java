@@ -49,4 +49,11 @@ public interface EmpMapper {
      * 更新员工
      * */
     void update(Emp emp);
+
+    /**
+     * 员工登录
+     * */
+    @Select("select username, password " +
+            "from emp where username=#{username} and password =#{password}")
+    Emp getByUsernameAndPassword(Emp emp);
 }

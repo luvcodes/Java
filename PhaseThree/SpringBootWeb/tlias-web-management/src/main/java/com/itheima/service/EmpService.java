@@ -40,4 +40,10 @@ public interface EmpService {
      * 更新员工
      * */
     void update(Emp emp);
+
+    /**
+     * 员工登录
+     * */
+    Emp login(Emp emp);
+
 }
