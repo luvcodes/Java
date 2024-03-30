@@ -1,5 +1,6 @@
 package com.itheima.service;
 
+import com.itheima.pojo.Emp;
 import com.itheima.pojo.PageBean;
 
 import java.time.LocalDate;
@@ -23,4 +24,10 @@ public interface EmpService {
      * @param ids id集合
      */
     void delete(List<Integer> ids);
+
+    /**
+     * 保存员工信息
+     * @param emp 员工对象
+     */
+    void save(Emp emp);
 }

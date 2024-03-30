@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.pojo.Emp;
 import com.itheima.pojo.PageBean;
 import com.itheima.pojo.Result;
 import com.itheima.service.EmpService;
@@ -47,6 +48,18 @@ public class EmpController {
     @DeleteMapping("/{ids}")
     public Result delete(@PathVariable List<Integer> ids) {
         empService.delete(ids);
+        return Result.success();
+    }
+
+    /**
+     * 添加员工
+     */
+    @PostMapping
+    public Result save(@RequestBody Emp emp) {
+        // 记录日志
+        log.info("新增员工, emp:{}",emp);
+        // 调用业务层新增功能
+        empService.save(emp);
         return Result.success();
     }
 }

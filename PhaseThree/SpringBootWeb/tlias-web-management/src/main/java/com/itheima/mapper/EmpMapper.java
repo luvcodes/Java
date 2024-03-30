@@ -1,6 +1,7 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.Emp;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
@@ -32,4 +33,8 @@ public interface EmpMapper {
      * 批量删除
      * */
     void delete(List<Integer> ids);
+
+    @Insert("insert into emp (username, name, gender, image, job, entrydate, dept_id, create_time, update_time) " +
+            "values (#{username}, #{name}, #{gender}, #{image}, #{job}, #{entrydate}, #{deptId}, #{createTime}, #{updateTime});")
+    void insert(Emp emp);
 }

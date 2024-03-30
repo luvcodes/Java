@@ -6,16 +6,19 @@ import com.itheima.mapper.EmpMapper;
 import com.itheima.pojo.Emp;
 import com.itheima.pojo.PageBean;
 import com.itheima.service.EmpService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
  * @author ryanw
  */
 @Service
+@Slf4j
 public class EmpServiceImpl implements EmpService {
     @Autowired
     private EmpMapper empMapper;
@@ -60,5 +63,19 @@ public class EmpServiceImpl implements EmpService {
     @Override
     public void delete(List<Integer> ids) {
         empMapper.delete(ids);
+    }
+
+    /**
+     * 保存员工信息
+     *
+     * @param emp 员工对象
+     */
+    @Override
+    public void save(Emp emp) {
+        // 补全数据
+        emp.setCreateTime(LocalDateTime.now());
+        emp.setUpdateTime(LocalDateTime.now());
+        // 调用添加方法
+        empMapper.insert(emp);
     }
 }
