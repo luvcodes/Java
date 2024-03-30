@@ -25,6 +25,7 @@ public class EmpServiceImpl implements EmpService {
 
     /**
      * 条件分页查询
+     *
      * @param page     页码
      * @param pageSize 每页展示记录数
      */
@@ -81,10 +82,23 @@ public class EmpServiceImpl implements EmpService {
 
     /**
      * 根据ID查询员工
+     *
      * @param id 员工id
      */
     @Override
     public Emp getById(Integer id) {
         return empMapper.getById(id);
+    }
+
+    /**
+     * 更新员工
+     *
+     * @param emp 目标员工更新
+     */
+    @Override
+    public void update(Emp emp) {
+        // 更新修改时间为当前时间
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.update(emp);
     }
 }

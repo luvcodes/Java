@@ -44,4 +44,9 @@ public interface EmpMapper {
      */
     @Select("select * from emp where id = #{id}")
     Emp getById(Integer id);
+
+    /**
+     * 更新员工
+     * */
+    void update(Emp emp);
 }

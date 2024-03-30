@@ -35,4 +35,9 @@ public interface EmpService {
      * 根据ID查询员工
      * */
     Emp getById(Integer id);
+
+    /**
+     * 更新员工
+     * */
+    void update(Emp emp);
 }
