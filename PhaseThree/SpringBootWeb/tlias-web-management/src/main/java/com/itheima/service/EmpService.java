@@ -30,4 +30,9 @@ public interface EmpService {
      * @param emp 员工对象
      */
     void save(Emp emp);
+
+    /**
+     * 根据ID查询员工
+     * */
+    Emp getById(Integer id);
 }
