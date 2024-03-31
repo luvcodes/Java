@@ -13,7 +13,7 @@ import javax.servlet.annotation.WebFilter;
 /**
  * @author ryanw
  */
-@WebFilter(urlPatterns = "/*")
+//@WebFilter(urlPatterns = "/*")
 public class DemoFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
