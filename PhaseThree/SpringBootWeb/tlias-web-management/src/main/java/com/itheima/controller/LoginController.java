@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.HashMap;
 
 /**
@@ -26,7 +25,9 @@ public class LoginController {
         log.info("用户登录 {}", emp);
         // 调用业务层：登录功能
         Emp e = empService.login(emp);
+
         // 判断: 登录用户是否存在
+        // 登陆成功，下发JWT令牌
         if (e != null) {
             // 自定义信息
             HashMap<String, Object> claims = new HashMap<>();
@@ -35,9 +36,12 @@ public class LoginController {
             claims.put("name", e.getName());
 
             // 使用JWT工具类，生成身份令牌
+            // jwt包含了当前登录的员工信息
             String token = JwtUtils.generateJwt(claims);
             return Result.success(token);
         }
+
+        // 登陆失败，返回错误信息
         return Result.error("用户名或密码错误");
     }
 }
