@@ -15,7 +15,6 @@ import org.springframework.stereotype.Component;
 @Component
 //@Aspect
 public class MyAspect3 {
-
     @Before("execution(* com.itheima.service.impl.DeptServiceImpl.*(..))")
     public void before(){
         log.info("before ...3");
