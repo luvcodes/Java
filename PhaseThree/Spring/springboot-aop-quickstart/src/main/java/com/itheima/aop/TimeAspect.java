@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-//@Aspect //AOP类
+//@Aspect // AOP类
 public class TimeAspect {
-
-    //@Around("execution(* com.itheima.service.impl.DeptServiceImpl.*(..))") //切入点表达式
+    // 切入点表达式
+    //@Around("execution(* com.itheima.service.impl.DeptServiceImpl.*(..))")
     @Around("com.itheima.aop.MyAspect1.pt()")
     public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         //1. 记录开始时间
@@ -25,7 +25,7 @@ public class TimeAspect {
 
         //3. 记录结束时间, 计算方法执行耗时
         long end = System.currentTimeMillis();
-        log.info(joinPoint.getSignature()+"方法执行耗时: {}ms", end-begin);
+        log.info(joinPoint.getSignature() + "方法执行耗时: {}ms", end - begin);
 
         return result;
     }
