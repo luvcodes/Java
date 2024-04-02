@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author ryanw
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -4,6 +4,9 @@ import com.itheima.pojo.OperateLog;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 
+/**
+ * @author ryanw
+ */
 @Mapper
 public interface OperateLogMapper {
 
