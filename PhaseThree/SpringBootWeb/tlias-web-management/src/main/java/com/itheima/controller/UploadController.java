@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.UUID;
 
-/**
- * @author ryanw
- */
 @Slf4j
 @RestController
 public class UploadController {
@@ -48,4 +47,5 @@ public class UploadController {
 
         return Result.success(url);
     }
+
 }

@@ -1,6 +1,7 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.Emp;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -10,50 +11,73 @@ import java.util.List;
 
 /**
  * 员工管理
- * @author ryanw
  */
 @Mapper
 public interface EmpMapper {
+
     /**
-     * 分页查询员工
-     * */
-    /*//获取总记录数
-    @Select("select count(*) from emp")
-    public Long count();
+     * 查询总记录数
+     * @return
+     */
+    //@Select("select count(*) from emp")
+    //public Long count();
 
-    //获取当前页的结果列表
-    @Select("select * from emp limit #{start}, #{pageSize}")
-    public List<Emp> page(Integer start, Integer pageSize);*/
+    /**
+     * 分页查询,获取列表数据
+     * @param start
+     * @param pageSize
+     * @return
+     */
+    //@Select("select * from emp limit #{start},#{pageSize}")
+    //public List<Emp> page(Integer start, Integer pageSize);
 
-    // 分页插件改进上面的方法
-    // @Select("select * from emp")
+    /**
+     * 员工信息查询
+     * @return
+     */
+    //@Select("select * from emp")
     public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
 
     /**
      * 批量删除
-     * */
+     * @param ids
+     */
     void delete(List<Integer> ids);
 
-    @Insert("insert into emp (username, name, gender, image, job, entrydate, dept_id, create_time, update_time) " +
-            "values (#{username}, #{name}, #{gender}, #{image}, #{job}, #{entrydate}, #{deptId}, #{createTime}, #{updateTime});")
+    /**
+     * 新增员工
+     * @param emp
+     */
+    @Insert("insert into emp(username, name, gender, image, job, entrydate, dept_id, create_time, update_time) " +
+            " values(#{username},#{name},#{gender},#{image},#{job},#{entrydate},#{deptId},#{createTime},#{updateTime})")
     void insert(Emp emp);
 
     /**
      * 根据ID查询员工
-     * @return 目标员工
+     * @param id
+     * @return
      */
-    @Select("select * from emp where id = #{id}")
+    @Select("select * from emp where  id = #{id}")
     Emp getById(Integer id);
 
     /**
      * 更新员工
-     * */
+     * @param emp
+     */
     void update(Emp emp);
 
     /**
-     * 员工登录
-     * */
-    @Select("select username, password " +
-            "from emp where username=#{username} and password =#{password}")
+     * 根据用户名和密码查询员工
+     * @param emp
+     * @return
+     */
+    @Select("select * from emp where username = #{username} and password = #{password}")
     Emp getByUsernameAndPassword(Emp emp);
+
+    /**
+     * 根据部门ID删除该部门下的员工数据
+     * @param deptId
+     */
+    @Delete("delete  from emp where dept_id = #{deptId}")
+    void deleteByDeptId(Integer deptId);
 }

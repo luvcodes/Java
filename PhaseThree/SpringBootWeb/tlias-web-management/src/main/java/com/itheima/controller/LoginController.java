@@ -9,39 +9,35 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.HashMap;
 
-/**
- * @author ryanw
- */
+import java.util.HashMap;
+import java.util.Map;
+
 @Slf4j
 @RestController
 public class LoginController {
+
     @Autowired
     private EmpService empService;
 
     @PostMapping("/login")
-    public Result login(@RequestBody Emp emp) {
-        log.info("用户登录 {}", emp);
-        // 调用业务层：登录功能
+    public Result login(@RequestBody Emp emp){
+        log.info("员工登录: {}", emp);
         Emp e = empService.login(emp);
 
-        // 判断: 登录用户是否存在
-        // 登陆成功，下发JWT令牌
-        if (e != null) {
-            // 自定义信息
-            HashMap<String, Object> claims = new HashMap<>();
+        //登录成功,生成令牌,下发令牌
+        if (e != null){
+            Map<String, Object> claims = new HashMap<>();
             claims.put("id", e.getId());
-            claims.put("username", e.getUsername());
             claims.put("name", e.getName());
+            claims.put("username", e.getUsername());
 
-            // 使用JWT工具类，生成身份令牌
-            // jwt包含了当前登录的员工信息
-            String token = JwtUtils.generateJwt(claims);
-            return Result.success(token);
+            String jwt = JwtUtils.generateJwt(claims); //jwt包含了当前登录的员工信息
+            return Result.success(jwt);
         }
 
-        // 登陆失败，返回错误信息
+        //登录失败, 返回错误信息
         return Result.error("用户名或密码错误");
     }
+
 }

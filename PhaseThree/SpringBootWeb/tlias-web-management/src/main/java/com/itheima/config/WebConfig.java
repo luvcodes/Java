@@ -6,15 +6,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @author ryanw
- */
-@Configuration
+@Configuration //配置类
 public class WebConfig implements WebMvcConfigurer {
+
     @Autowired
     private LoginCheckInterceptor loginCheckInterceptor;
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(loginCheckInterceptor).addPathPatterns("/**");
+        registry.addInterceptor(loginCheckInterceptor).addPathPatterns("/**").excludePathPatterns("/login");
     }
 }

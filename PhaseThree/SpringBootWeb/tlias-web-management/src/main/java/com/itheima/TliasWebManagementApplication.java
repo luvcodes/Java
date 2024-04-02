@@ -7,8 +7,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 /**
  * @author ryanw
  */
+@ServletComponentScan //开启了对servlet组件的支持
 @SpringBootApplication
-@ServletComponentScan // 开启了对servlet组建的支持
 public class TliasWebManagementApplication {
     public static void main(String[] args) {
         SpringApplication.run(TliasWebManagementApplication.class, args);
