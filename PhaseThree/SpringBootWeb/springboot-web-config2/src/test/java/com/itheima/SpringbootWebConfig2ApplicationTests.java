@@ -13,8 +13,9 @@ import org.springframework.context.ApplicationContext;
 @SpringBootTest
 class SpringbootWebConfig2ApplicationTests {
 
+    // Spring的应用上下文，代表Spring IoC容器，负责实例化、配置和组装beans
     @Autowired
-    private ApplicationContext applicationContext; // IOC??????
+    private ApplicationContext applicationContext;
 
     // 获取bean对象
     @Test
