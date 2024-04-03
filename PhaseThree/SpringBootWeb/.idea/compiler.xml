@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aliyun-oss-spring-boot-starter" />
+        <module name="tlias-web-management" />
         <module name="springboot-web-req-resp" />
         <module name="itheima-utils" />
         <module name="springboot-web-config" />
@@ -25,6 +26,7 @@
       <module name="springboot-web-config" options="-parameters" />
       <module name="springboot-web-config2" options="-parameters" />
       <module name="springboot-web-req-resp" options="-parameters" />
+      <module name="tlias-web-management" options="-parameters" />
       <module name="tlias-web-management (1)" options="-parameters" />
     </option>
   </component>

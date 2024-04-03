@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-web-config/springboot-web-config.iml" filepath="$PROJECT_DIR$/springboot-web-config/springboot-web-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web-config2/springboot-web-config2.iml" filepath="$PROJECT_DIR$/springboot-web-config2/springboot-web-config2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web-req-resp/springboot-web-req-resp.iml" filepath="$PROJECT_DIR$/springboot-web-req-resp/springboot-web-req-resp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlias-web-management/tlias-web-management.iml" filepath="$PROJECT_DIR$/tlias-web-management/tlias-web-management.iml" />
     </modules>
   </component>
 </project>
