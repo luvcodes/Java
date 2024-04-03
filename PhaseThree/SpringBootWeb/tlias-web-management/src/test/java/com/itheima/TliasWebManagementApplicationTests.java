@@ -1,16 +1,18 @@
 package com.itheima;
 
 
+import com.mysql.cj.util.Base64Decoder;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.json.BasicJsonParser;
+import org.springframework.boot.json.JsonParser;
+import org.springframework.boot.json.YamlJsonParser;
+import org.springframework.util.Base64Utils;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.net.URLEncoder;
+import java.util.*;
 
 
 //@SpringBootTest
@@ -52,4 +54,5 @@ class TliasWebManagementApplicationTests {
                 .getBody();
         System.out.println(claims);
     }
+
 }

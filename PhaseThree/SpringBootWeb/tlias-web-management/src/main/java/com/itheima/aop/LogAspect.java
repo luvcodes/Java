@@ -11,16 +11,14 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
-/**
- * @author ryanw
- */
 @Slf4j
 @Component
-@Aspect
+@Aspect //切面类
 public class LogAspect {
 
     @Autowired
@@ -63,10 +61,10 @@ public class LogAspect {
 
 
         //记录操作日志
-        OperateLog operateLog = new OperateLog(null, operateUser, operateTime, className, methodName, methodParams, returnValue, costTime);
+        OperateLog operateLog = new OperateLog(null,operateUser,operateTime,className,methodName,methodParams,returnValue,costTime);
         operateLogMapper.insert(operateLog);
 
-        log.info("AOP记录操作日志: {}", operateLog);
+        log.info("AOP记录操作日志: {}" , operateLog);
 
         return result;
     }

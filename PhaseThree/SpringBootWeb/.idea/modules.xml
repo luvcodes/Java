@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootWeb.iml" filepath="$PROJECT_DIR$/.idea/SpringBootWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-starter.iml" filepath="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itheima-utils/itheima-utils.iml" filepath="$PROJECT_DIR$/itheima-utils/itheima-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-config/springboot-web-config.iml" filepath="$PROJECT_DIR$/springboot-web-config/springboot-web-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-config2/springboot-web-config2.iml" filepath="$PROJECT_DIR$/springboot-web-config2/springboot-web-config2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-req-resp/springboot-web-req-resp.iml" filepath="$PROJECT_DIR$/springboot-web-req-resp/springboot-web-req-resp.iml" />
     </modules>
   </component>
 </project>
