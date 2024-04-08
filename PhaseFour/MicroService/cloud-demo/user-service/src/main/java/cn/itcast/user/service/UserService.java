@@ -5,9 +5,11 @@ import cn.itcast.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author ryanw
+ */
 @Service
 public class UserService {
-
     @Autowired
     private UserMapper userMapper;
 
