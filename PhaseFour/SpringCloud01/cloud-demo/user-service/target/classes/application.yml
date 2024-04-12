@@ -2,12 +2,18 @@ server:
   port: 8081
 spring:
   application:
-    name: userService
+    name: userservice
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      server-addr: localhost:8848 # nacos服务地址
+      discovery:
+        cluster-name: HZ # 集群名称
+        namespace: d5eae089-e748-48b7-8ee1-a734e0cc8cbf # 命名空间，填ID - 填生成的ID 不是这个ID
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -18,7 +24,7 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 # 将userService注册进Eureka
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka
