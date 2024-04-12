@@ -35,7 +35,7 @@ logging:
 #      defaultZone: http://127.0.0.1:10086/eureka
 
 
-#userservice: # 给某个微服务配置负载均衡规则，这里是userservice服务
+#userservice: # 给某个微服务配置负载均衡规则，这里是userService服务
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡规则
 
