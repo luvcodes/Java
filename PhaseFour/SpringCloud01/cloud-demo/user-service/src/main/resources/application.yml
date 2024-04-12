@@ -1,6 +1,8 @@
 server:
   port: 8081
 spring:
+  application:
+    name: userService
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
     username: root
@@ -15,3 +17,8 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+# 将userService注册进Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
