@@ -36,35 +36,35 @@ class Mybatisplus02DqlApplicationTests {
         System.out.println(userList);
     }
 
-    @Test
-    void testGetAll3() {
-        // lambda按条件查询
-        QueryWrapper<User> wrapper = new QueryWrapper<User>();
-        wrapper.lambda().lt(User::getAge, 10).gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(wrapper);
-        System.out.println(userList);
-    }
+     @Test
+     void testGetAll3() {
+         // lambda按条件查询
+         QueryWrapper<User> wrapper = new QueryWrapper<User>();
+         wrapper.lambda().lt(User::getAge, 10).gt(User::getAge, 10);
+         List<User> userList = userDao.selectList(wrapper);
+         System.out.println(userList);
+     }
 
-    @Test
-    void testGetAll4() {
-        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-        lqw.lt(User::getAge, 30).gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(lqw);
-        System.out.println(userList);
-    }
+     @Test
+     void testGetAll4() {
+         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
+         lqw.lt(User::getAge, 30).gt(User::getAge, 10);
+         List<User> userList = userDao.selectList(lqw);
+         System.out.println(userList);
+     }
 
-    /**
-     * 使用or()范围查询
-     * 10 岁 < 年龄 < 30 岁
-     * 年龄 > 30 岁
-     * */
-    @Test
-    void testGetAll5() {
-        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-        lqw.lt(User::getAge, 30).or().gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(lqw);
-        System.out.println(userList);
-    }
+     /**
+      * 使用or()范围查询
+      * 10 岁 < 年龄 < 30 岁
+      * 年龄 > 30 岁
+      * */
+     @Test
+     void testGetAll5() {
+         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
+         lqw.lt(User::getAge, 30).or().gt(User::getAge, 10);
+         List<User> userList = userDao.selectList(lqw);
+         System.out.println(userList);
+     }
 
     // like查询
     @Test

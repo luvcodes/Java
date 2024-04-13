@@ -5,13 +5,12 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.dao.UserDao;
 import com.example.domain.User;
 import java.util.List;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class SearchProjection {
+class SearchProjection {
     @Autowired
     private UserDao userDao;
 
