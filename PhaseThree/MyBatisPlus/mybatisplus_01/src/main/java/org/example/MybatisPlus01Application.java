@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author ryanw
  */
 @SpringBootApplication
-public class Mybatisplus01Application {
+public class MybatisPlus01Application {
     public static void main(String[] args) {
-        SpringApplication.run(Mybatisplus01Application.class, args);
+        SpringApplication.run(MybatisPlus01Application.class, args);
     }
 }

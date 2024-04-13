@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest
-class Mybatisplus01ApplicationTests {
+class MybatisPlus01ApplicationTests {
     @Autowired
     private UserMapper userMapper;
 
