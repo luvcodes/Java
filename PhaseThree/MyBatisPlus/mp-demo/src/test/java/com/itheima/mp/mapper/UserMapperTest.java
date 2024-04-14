@@ -7,14 +7,12 @@ import com.itheima.mp.domain.po.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest
 class UserMapperTest {
-
     @Autowired
     private UserMapper userMapper;
 
@@ -96,18 +94,6 @@ class UserMapperTest {
     }
 
     @Test
-    void testLambdaQueryWrapper() {
-        // 1.构建查询条件
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<User>()
-                .select(User::getId, User::getUsername, User::getInfo, User::getBalance)
-                .like(User::getUsername, "o")
-                .ge(User::getBalance, 1000);
-        // 2.查询
-        List<User> users = userMapper.selectList(wrapper);
-        users.forEach(System.out::println);
-    }
-
-    @Test
     void testUpdateByQueryWrapper() {
         // 1.要更新的数据
         User user = new User();
@@ -139,5 +125,18 @@ class UserMapperTest {
         QueryWrapper<User> wrapper = new QueryWrapper<User>().in("id", ids);
         // 3.调用自定义SQl方法
         userMapper.updateBalanceByIds(wrapper, amount);
+    }
+
+
+    @Test
+    void testLambdaQueryWrapper() {
+        // 1.构建查询条件
+        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<User>()
+                .select(User::getId, User::getUsername, User::getInfo, User::getBalance)
+                .like(User::getUsername, "o")
+                .ge(User::getBalance, 1000);
+        // 2.查询
+        List<User> users = userMapper.selectList(wrapper);
+        users.forEach(System.out::println);
     }
 }
