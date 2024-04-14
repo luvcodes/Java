@@ -6,7 +6,7 @@ package InnerClass.a02innerclassdemo2;
 public class Outer {
     String name;
 
-    private class Inner{
+    private static class Inner{
         static int a = 10;
     }
 
