@@ -37,7 +37,6 @@ public class Student2 implements Comparable<Student2> {
 
     /**
      * 设置
-     * @param name
      */
     public void setName(String name) {
         this.name = name;
@@ -53,7 +52,6 @@ public class Student2 implements Comparable<Student2> {
 
     /**
      * 设置
-     * @param age
      */
     public void setAge(int age) {
         this.age = age;
@@ -69,7 +67,6 @@ public class Student2 implements Comparable<Student2> {
 
     /**
      * 设置
-     * @param chinese
      */
     public void setChinese(int chinese) {
         this.chinese = chinese;
@@ -85,7 +82,6 @@ public class Student2 implements Comparable<Student2> {
 
     /**
      * 设置
-     * @param math
      */
     public void setMath(int math) {
         this.math = math;
@@ -101,7 +97,6 @@ public class Student2 implements Comparable<Student2> {
 
     /**
      * 设置
-     * @param english
      */
     public void setEnglish(int english) {
         this.english = english;

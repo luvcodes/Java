@@ -15,22 +15,22 @@ public class A03_HashSetDemo2 {
             String   Integer 如果是这两种类型的，Java内部已经定义好了hashcode、equals方法重写，所以默认就不能重复添加相同值。
         */
 
-        //1.创建三个学生对象
+        // 1. 创建三个学生对象
         Student s1 = new Student("zhangsan", 23);
         Student s2 = new Student("lisi", 24);
         Student s3 = new Student("wangwu", 25);
         Student s4 = new Student("zhangsan", 23);
 
-        //2.创建集合用来添加学生
+        // 2. 创建集合用来添加学生
         HashSet<Student> hs = new HashSet<>();
 
-        //3.添加元素
+        // 3. 添加元素 这样输出的是true/false
         System.out.println(hs.add(s1));
         System.out.println(hs.add(s2));
         System.out.println(hs.add(s3));
         System.out.println(hs.add(s4));
 
-        //4.打印集合
+        // 4. 打印集合
         System.out.println(hs);
         System.out.println("---------------------------");
 
