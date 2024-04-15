@@ -27,7 +27,8 @@ class Outer05 {
                 System.out.println("Outer05.this hashcode = " + Outer05.this);
             }
         };
-        p.hi(); // 动态绑定，运行类型是 Outer05$1
+        // 动态绑定，运行类型是 Outer05$1
+        p.hi();
 
         // 也可以直接调用，因为匿名内部类本身也是返回对象
         new Person() {

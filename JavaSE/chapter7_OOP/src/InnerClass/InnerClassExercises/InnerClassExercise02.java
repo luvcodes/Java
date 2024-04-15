@@ -1,5 +1,8 @@
 package InnerClass.InnerClassExercises;
 
+/**
+ * @author yangrunze
+ */
 public class InnerClassExercise02 {
     public static void main(String[] args) {
         CellPhone cellPhone = new CellPhone();

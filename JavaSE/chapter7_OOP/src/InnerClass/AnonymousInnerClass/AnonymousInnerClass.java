@@ -88,13 +88,9 @@ interface IA {
 //    }
 //}
 class Father {
-    public Father(String name) {
+    public Father(String name) {}
 
-    }
-
-    public void test() {
-
-    }
+    public void test() {}
 }
 
 abstract class Animal {

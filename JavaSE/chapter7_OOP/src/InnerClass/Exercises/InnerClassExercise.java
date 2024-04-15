@@ -5,8 +5,7 @@ package InnerClass.Exercises;
  */
 public class InnerClassExercise {
     public static void main(String[] args) {
-        Test t = new Test();
-        Test.Inner r = t.new Inner();
+        Test.Inner r = new Test.Inner();
         System.out.println(r.a);
     }
 }
@@ -20,7 +19,7 @@ class Test {
         System.out.println(s2.a);
     }
 
-    class Inner {
+    static class Inner {
         public int a = 5; 
     }
 }
