@@ -48,7 +48,7 @@ public class A07_TreeSetDemo4 {
         // 4. 打印集合
         // System.out.println(ts);
 
-        // 迭代器遍历
+        // 增强for遍历
         for (Student2 t : ts) {
             System.out.println(t);
         }
