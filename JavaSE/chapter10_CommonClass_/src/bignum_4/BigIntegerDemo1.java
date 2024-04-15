@@ -20,12 +20,12 @@ public class BigIntegerDemo1 {
 
 
         // 1. 获取一个随机的大整数
-        Random r = new Random();
-        for (int i = e; i < 100; i++) {
-            BigInteger bd1 = new BigInteger(4, r);
-            //[0 ~ 15] -> 0 - (2 ^ 4 - 1)
-            System.out.println(bd1);
-        }
+//        Random r = new Random();
+//        for (int i = e; i < 100; i++) {
+//            BigInteger bd1 = new BigInteger(4, r);
+//            //[0 ~ 15] -> 0 - (2 ^ 4 - 1)
+//            System.out.println(bd1);
+//        }
 
 
         // 2. 获取一个指定的大整数，可以超出long的取值范围
