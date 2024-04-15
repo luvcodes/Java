@@ -17,7 +17,7 @@ public class A01_TreeMapDemo1 {
 
         //1.创建集合对象
         //Integer Double 默认情况下都是按照升序排列的
-        //String 按照字母再ASCII码表中对应的数字升序进行排列
+        //String 按照字母在ASCII码表中对应的数字升序进行排列
         //abcdefg ...
         TreeMap<Integer,String> tm = new TreeMap<>(new Comparator<Integer>() {
             @Override
