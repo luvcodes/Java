@@ -1,4 +1,4 @@
-package String_2;
+package String_2.stringdemo;
 
 /**
  * @author ryanw

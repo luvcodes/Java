@@ -1,4 +1,4 @@
-package String_2;
+package String_2.stringdemo;
 
 /**
  * @author ryanw
@@ -35,14 +35,11 @@ public class StringDemo11 {
         //'8' --->  56
         //'9' --->  57
 
-       int num = gender - 48;
-        if(num % 2 == 0){
+        int num = gender - 48;
+        if (num % 2 == 0) {
             System.out.println("性别为:女");
-        }else{
+        } else {
             System.out.println("性别为:男");
         }
-
-
-
     }
 }

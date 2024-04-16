@@ -1,4 +1,4 @@
-package String_2;
+package String_2.stringdemo;
 
 /**
  * @author ryanw
@@ -10,7 +10,7 @@ public class StringDemo13 {
         String talk = "你玩的真好，以后不要再玩了，TMD,CNM";
 
         //2.定义一个敏感词库
-        String[] arr = {"TMD","CNM","SB","MLGB"};
+        String[] arr = {"TMD", "CNM", "SB", "MLGB"};
 
         //3.循环得到数组中的每一个敏感词，依次进行替换
         for (int i = 0; i < arr.length; i++) {

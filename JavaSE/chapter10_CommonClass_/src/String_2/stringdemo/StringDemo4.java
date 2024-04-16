@@ -1,4 +1,4 @@
-package String_2;
+package String_2.stringdemo;
 
 import java.util.Scanner;
 
@@ -7,6 +7,7 @@ public class StringDemo4 {
         String correctUsername = "zhangsan";
         String correctPassword = "123456";
         Scanner scanner = new Scanner(System.in);
+
         for (int i = 0; i < 3; i++) {
             System.out.print("Enter username: ");
             String username = scanner.next();

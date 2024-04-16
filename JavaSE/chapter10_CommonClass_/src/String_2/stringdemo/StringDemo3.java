@@ -1,4 +1,4 @@
-package String_2;
+package String_2.stringdemo;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class StringDemo3 {
 
         // 3. 用==比较，这两者能一样吗？
         System.out.println(s1 == str2);
+        // System.out.println(s1.equals(str2));
 
         // 结论: 以后只要想比较字符串的内容，就必须要用String里面的方法
     }

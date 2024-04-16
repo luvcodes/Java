@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Big integer contents update">
-      <change afterPath="$PROJECT_DIR$/src/String_2/StringDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String_2/StringDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String_2/StringDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignum_4/BigIntegerDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/StringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/String_2.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +33,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "luvcodes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luvcodes&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/luvcodes/Java.git",
-    "accountId": "5d5b931b-0511-4d2c-a420-1856c6ef1d34"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luvcodes/Java.git&quot;,
+    &quot;accountId&quot;: &quot;5d5b931b-0511-4d2c-a420-1856c6ef1d34&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -62,6 +68,7 @@
     "Application.StringDemo1.executor": "Run",
     "Application.StringDemo2.executor": "Run",
     "Application.StringDemo3.executor": "Run",
+    "Application.StringDemo5.executor": "Run",
     "Application.StringJoinerDemo1.executor": "Run",
     "Application.StringJoinerDemo2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -70,7 +77,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/yangrunze/Desktop/各类语言学习/Java/JavaSE/chapter10_CommonClass_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,26 +99,13 @@
       <recent name="CommonClasses_.String_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringDemo3">
-    <configuration name="ObjectsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a05objectsdemo.ObjectsDemo1" />
-      <module name="chapter10_CommonClass_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a05objectsdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringDemo5">
     <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String_2.String01" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="String_2.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="StringDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.StringDemo1" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringdemo.StringDemo1" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="String_2.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="StringDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.StringDemo2" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringdemo.StringDemo2" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="String_2.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +140,24 @@
       </method>
     </configuration>
     <configuration name="StringDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_2.StringDemo3" />
+      <option name="MAIN_CLASS_NAME" value="String_2.stringdemo.StringDemo3" />
       <module name="chapter10_CommonClass_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_2.*" />
+          <option name="PATTERN" value="String_2.stringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String_2.stringdemo.StringDemo5" />
+      <module name="chapter10_CommonClass_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String_2.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDemo5" />
         <item itemvalue="Application.StringDemo3" />
         <item itemvalue="Application.StringDemo2" />
         <item itemvalue="Application.StringDemo1" />
         <item itemvalue="Application.String01" />
-        <item itemvalue="Application.ObjectsDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +200,7 @@
       <workItem from="1708210460660" duration="2124000" />
       <workItem from="1708212994177" duration="1796000" />
       <workItem from="1713220435047" duration="2249000" />
+      <workItem from="1713225366578" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="Deep clone content update">
       <option name="closed" value="true" />

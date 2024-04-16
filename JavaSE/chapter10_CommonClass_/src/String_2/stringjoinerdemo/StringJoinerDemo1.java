@@ -1,4 +1,4 @@
-package String_2.stringjoiner_;
+package String_2.stringjoinerdemo;
 
 import java.util.StringJoiner;
 
