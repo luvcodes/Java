@@ -15,7 +15,7 @@ public class StringBuilderDemo5 {
 
     public static String getString(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("请输入一个字符串");
+        System.out.print("请输入一个字符串: ");
         String str = sc.next();
         return str;
     }

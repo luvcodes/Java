@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Update on the String class chapter contents">
-      <change afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
