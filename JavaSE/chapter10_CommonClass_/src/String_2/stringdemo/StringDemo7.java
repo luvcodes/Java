@@ -11,8 +11,6 @@ public class StringDemo7 {
     }
 
     // 遍历数组并把数组拼接成一个字符串
-    // 数组
-    // 返回一个拼接之后的字符串
     // 如果调用处需要继续使用，那么必须返回
     // 如果调用处不需要继续使用，那么可以返回也可以不返回
     public static String arrToString(int[] arr) {
@@ -27,6 +25,7 @@ public class StringDemo7 {
         String result = "[";
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
+                // 这是拼接到了最后一个字符
                 result = result + arr[i];
             } else {
                 result = result + arr[i] + ", ";

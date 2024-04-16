@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Big integer contents update">
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Update on the String class chapter contents">
+      <change afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/StringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/StringMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/String_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringdemo/StringDemo8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,34 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ObjectDemo3.executor": "Run",
-    "Application.ObjectDemo4.executor": "Run",
-    "Application.ObjectsDemo1.executor": "Run",
-    "Application.String01.executor": "Run",
-    "Application.StringDemo1.executor": "Run",
-    "Application.StringDemo2.executor": "Run",
-    "Application.StringDemo3.executor": "Run",
-    "Application.StringDemo5.executor": "Run",
-    "Application.StringJoinerDemo1.executor": "Run",
-    "Application.StringJoinerDemo2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ObjectDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectDemo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectsDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter10_CommonClass_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter10_CommonClass_\lib" />
@@ -239,6 +232,7 @@
     <MESSAGE value="Deep clone content update" />
     <MESSAGE value="Big Integer content update" />
     <MESSAGE value="Big integer contents update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big integer contents update" />
+    <MESSAGE value="Update on the String class chapter contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the String class chapter contents" />
   </component>
 </project>

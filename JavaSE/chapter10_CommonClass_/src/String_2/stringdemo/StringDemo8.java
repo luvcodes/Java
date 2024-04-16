@@ -9,10 +9,11 @@ public class StringDemo8 {
         System.out.println(result);
     }
 
-
-    //1.我要干嘛？  --- 字符串的反转
-    //2.我干这件事情，需要什么才能完成？  --- 需要一个字符串
-    //3.调用处是否需要继续使用方法的结果呢？ ---需要结果进行输出
+    /**
+     * 字符串反转
+     * @param str input string
+     * @return reversed string result
+     */
     public static String reverse(String str) {
         String result = "";
         // i 依次表示字符串中的每一个索引 （倒着的）
