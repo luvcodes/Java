@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="StringBuilder contents review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

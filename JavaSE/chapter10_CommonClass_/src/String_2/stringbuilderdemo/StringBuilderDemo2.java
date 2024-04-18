@@ -10,7 +10,5 @@ public class StringBuilderDemo2 {
             sb.append("abc");
         }
         System.out.println(sb);
-
-
     }
 }
