@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="StringBuilder contents review">
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="StringJoiner contents review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +190,7 @@
       <workItem from="1708212994177" duration="1796000" />
       <workItem from="1713220435047" duration="2249000" />
       <workItem from="1713225366578" duration="3023000" />
+      <workItem from="1713437317600" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="Deep clone content update">
       <option name="closed" value="true" />
@@ -225,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713252950095</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="StringJoiner contents review">
+      <option name="closed" value="true" />
+      <created>1713421512645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713421512645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +247,7 @@
     <MESSAGE value="Big integer contents update" />
     <MESSAGE value="Update on the String class chapter contents" />
     <MESSAGE value="StringBuilder contents review" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder contents review" />
+    <MESSAGE value="StringJoiner contents review" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringJoiner contents review" />
   </component>
 </project>
