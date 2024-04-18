@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Update on the String class chapter contents">
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="StringBuilder contents review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String_2/stringbuilderdemo/StringBuilderDemo7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708235735304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="StringBuilder contents review">
+      <option name="closed" value="true" />
+      <created>1713252950094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713252950095</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +237,7 @@
     <MESSAGE value="Big Integer content update" />
     <MESSAGE value="Big integer contents update" />
     <MESSAGE value="Update on the String class chapter contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the String class chapter contents" />
+    <MESSAGE value="StringBuilder contents review" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder contents review" />
   </component>
 </project>
