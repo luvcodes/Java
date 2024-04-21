@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "98d741b73cd90d4a",
+        "id": "3067015c3a914306",
         "type": "tabs",
         "children": [
           {
-            "id": "615c201d75e053b7",
+            "id": "d234a6786d79c303",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 245.5
   },
   "right": {
     "id": "3e514bd6079fc878",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md"
+              }
             }
           }
         ],
@@ -142,8 +150,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "615c201d75e053b7",
+  "active": "d234a6786d79c303",
   "lastOpenFiles": [
+    "Java/01Java基础/09OOP/代码块.md",
+    "Java/01Java基础/09OOP/成员变量和局部变量.md",
+    "Java/01Java基础/10Java 8的新特性.md",
+    "Java/01Java基础/08位运算.md",
+    "Java/01Java基础/07正则表达式.md",
+    "Java/01Java基础/06条件语句.md",
+    "Java/01Java基础/05运算符.md",
+    "Java/01Java基础/04修饰符.md",
+    "Java/01Java基础/03隐式转换的练习.md",
+    "Java/01Java基础/03数据类型.md",
+    "Java/01Java基础/02命名规范.md",
+    "Java/01Java基础/01变量.md",
     "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
     "Java/Java.md",
     "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
@@ -174,17 +194,6 @@
     "images/image3.png.crdownload",
     "images/image2.png.crdownload",
     "Java/阶段四- 企业开发进阶/微服务/3. Eureka注册中心/3. Eureka注册中心.md",
-    "Java/阶段四- 企业开发进阶/微服务/2. 服务拆分和远程调用/2. 服务拆分和远程调用.md",
-    "Machine Learning/Supervised Learning/Supervised Learning.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Java/01Java基础/09OOP/成员变量和局部变量.md",
-    "算法与数据结构/算法/算法.md",
-    "未命名.md",
-    "Java/阶段四- 企业开发进阶/设计模式/代理模式.md",
-    "Java/01Java基础/09OOP/abstract关键字.md",
-    "Java/01Java基础/09OOP/OOP.md",
-    "Java/01Java基础/09OOP/动态绑定与静态绑定.md",
-    "Java/01Java基础/09OOP/代码块.md",
     "算法与数据结构/算法/求最小生成树/Prim算法",
     "算法与数据结构/算法/求最小生成树/Kruskal算法",
     "算法与数据结构/算法/排序/排序算法对比",
