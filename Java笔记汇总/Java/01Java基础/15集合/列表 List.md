@@ -1,7 +1,6 @@
 # ArrayList
 
 ## ArrayList和数组的区别
-
 [https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist](https://juejin.cn/s/%E6%95%B0%E7%BB%84%20(array)%20%E5%92%8C%E5%88%97%E8%A1%A8%20(arraylist)%20%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%20%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%20array%20%E8%80%8C%E4%B8%8D%E6%98%AF%20arraylist)
 
 1. **数组是一个固定大小的数据结构**，它在内存中分配了一段连续的空间来存储元素。**数组的长度在创建后不能改变**，可以通过下标来访问和修改元素。数组在**访问元素时速度很快**，但在插入和删除元素时需要移动其他元素，所以效率较低。
@@ -244,7 +243,7 @@ public class VectorExample {
 
 这个示例展示了如何创建一个 `Vector`，向其中添加元素，遍历元素以及通过索引访问元素。在现代 Java 应用中，除非需要与遗留代码兼容，否则通常建议使用 `ArrayList` 或其他更现代的集合类型。
 
-## **Vector底层结构和源码分析**
+## Vector底层结构和源码分析
 
 - Vector底层也是一个**对象数组**，`protected Object[] elementData`
 - Vector是线程同步的，即**线程安全**，Vector类的操作方法带有`synchronized`
@@ -256,10 +255,9 @@ Vector提供了一些常用的方法，例如`add()`、`get()`、`remove()`、`s
 
 为了保证线程安全性，Vector采用了`synchronized`关键字对部分方法进行同步，例如add()、`get()`、`remove()`、set()等。同时，Vector还提供了一些同步方法，例如`synchronizedAdd()`、`synchronizedGet()`、`synchronizedRemove()`、`synchronizedSet()`等，用于在多线程并发环境下进行操作。
 
-# **ArrayList和Vector的比较**
+# ArrayList和Vector的比较
 
 ArrayList和Vector都是Java中的动态数组容器，它们有一些相似之处，也有一些不同之处。
-
 ## 相似之处
 
 - 都实现了List接口，可以存储相同类型的元素并保持它们的顺序。
@@ -267,7 +265,7 @@ ArrayList和Vector都是Java中的动态数组容器，它们有一些相似之�
 
 ## 不同之处
 
-- **线程安全性**：Vector是线程安全的，通过synchronized关键字实现，而ArrayList不是线程安全的。在单线程环境下，ArrayList的性能优于Vector[2]。
+- **线程安全性**：**Vector是线程安全**的，通过synchronized关键字实现，而ArrayList不是线程安全的。在单线程环境下，ArrayList的性能优于Vector[2]。
 - **性能**：由于Vector是线程安全的，因此在多线程环境下使用时比较安全，但由于需要进行同步操作，可能导致性能下降。相比之下，ArrayList在单线程环境下的性能更好，因为不需要进行同步操作[2]。
 - **扩容机制**：Vector在扩容时会将**容量增加一倍**，而ArrayList在扩容时会增加约50%的容量，这也是它们性能差异的一个原因[1]。
 
@@ -325,7 +323,7 @@ public class VectorArrayListCompare {
 
 # LinkedList
 
-## **LinkedList底层结构**
+## LinkedList底层结构
 
 1. 底层实现了双向链表和双端队列特点
 2. 可以添加任意元素(元素可以重复)，包括null

@@ -11,8 +11,12 @@
             "id": "615c201d75e053b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java/01Java基础/19反射.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 294.5
   },
   "right": {
     "id": "3e514bd6079fc878",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/01Java基础/19反射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/01Java基础/19反射.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/01Java基础/19反射.md"
+              }
             }
           }
         ],
@@ -144,6 +152,9 @@
   },
   "active": "615c201d75e053b7",
   "lastOpenFiles": [
+    "Java/01Java基础/15集合/列表 List.md",
+    "Java/01Java基础/15集合/集合.md",
+    "Java/01Java基础/15集合/常见问题.md",
     "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
     "Java/Java.md",
     "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
@@ -183,8 +194,6 @@
     "Java/阶段四- 企业开发进阶/设计模式/代理模式.md",
     "Java/01Java基础/09OOP/abstract关键字.md",
     "Java/01Java基础/09OOP/OOP.md",
-    "Java/01Java基础/09OOP/动态绑定与静态绑定.md",
-    "Java/01Java基础/09OOP/代码块.md",
     "算法与数据结构/算法/求最小生成树/Prim算法",
     "算法与数据结构/算法/求最小生成树/Kruskal算法",
     "算法与数据结构/算法/排序/排序算法对比",
