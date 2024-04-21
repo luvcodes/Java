@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/01Java基础/09OOP/static关键字.md",
+                "file": "Java/JVM/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/01Java基础/09OOP/static关键字.md",
+                "file": "Java/JVM/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/01Java基础/09OOP/static关键字.md",
+                "file": "Java/JVM/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/01Java基础/09OOP/static关键字.md"
+                "file": "Java/JVM/JVM.md"
               }
             }
           }
@@ -150,8 +150,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d234a6786d79c303",
+  "active": "94805e9f31649f36",
   "lastOpenFiles": [
+    "images/截屏2024-04-21 下午11.46.31.png",
+    "Java/01Java基础/09OOP/static关键字.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
     "Java/01Java基础/09OOP/成员变量和局部变量.md",
@@ -186,11 +188,9 @@
     "Java/阶段四- 企业开发进阶/Redis/Redis.md",
     "Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md",
     "Untitled 29.png.md",
-    "Java/阶段四- 企业开发进阶/微服务/微服务.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
-    "Java/阶段四- 企业开发进阶/微服务/4. Ribbon负载均衡/4. Ribbon负载均衡.md",
     "images/image4.png.crdownload",
     "images/image3.png.crdownload",
     "images/image2.png.crdownload",
