@@ -13,11 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-                "file": "Java/01Java基础/19反射.md",
-=======
-                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
+                "file": "Java/01Java基础/09OOP/static关键字.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,11 +69,7 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-    "width": 294.5
-=======
     "width": 245.5
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
   },
   "right": {
     "id": "3e514bd6079fc878",
@@ -93,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-                "file": "Java/01Java基础/19反射.md",
-=======
-                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
+                "file": "Java/01Java基础/09OOP/static关键字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,11 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-                "file": "Java/01Java基础/19反射.md",
-=======
-                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
+                "file": "Java/01Java基础/09OOP/static关键字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,11 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-                "file": "Java/01Java基础/19反射.md"
-=======
-                "file": "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md"
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
+                "file": "Java/01Java基础/09OOP/static关键字.md"
               }
             }
           }
@@ -172,11 +152,7 @@
   },
   "active": "d234a6786d79c303",
   "lastOpenFiles": [
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-    "Java/01Java基础/15集合/列表 List.md",
-    "Java/01Java基础/15集合/集合.md",
-    "Java/01Java基础/15集合/常见问题.md",
-=======
+    "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
     "Java/01Java基础/09OOP/成员变量和局部变量.md",
     "Java/01Java基础/10Java 8的新特性.md",
@@ -189,7 +165,6 @@
     "Java/01Java基础/03数据类型.md",
     "Java/01Java基础/02命名规范.md",
     "Java/01Java基础/01变量.md",
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
     "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
     "Java/Java.md",
     "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
@@ -219,19 +194,6 @@
     "images/image4.png.crdownload",
     "images/image3.png.crdownload",
     "images/image2.png.crdownload",
-    "Java/阶段四- 企业开发进阶/微服务/3. Eureka注册中心/3. Eureka注册中心.md",
-<<<<<<< HEAD:Java笔记汇总/.obsidian/workspace.json
-    "Java/阶段四- 企业开发进阶/微服务/2. 服务拆分和远程调用/2. 服务拆分和远程调用.md",
-    "Machine Learning/Supervised Learning/Supervised Learning.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Java/01Java基础/09OOP/成员变量和局部变量.md",
-    "算法与数据结构/算法/算法.md",
-    "未命名.md",
-    "Java/阶段四- 企业开发进阶/设计模式/代理模式.md",
-    "Java/01Java基础/09OOP/abstract关键字.md",
-    "Java/01Java基础/09OOP/OOP.md",
-=======
->>>>>>> 8ff1ca9c8228874afe2ee1eb5753991ede6cd916:计算机笔记汇总/.obsidian/workspace.json
     "算法与数据结构/算法/求最小生成树/Prim算法",
     "算法与数据结构/算法/求最小生成树/Kruskal算法",
     "算法与数据结构/算法/排序/排序算法对比",
