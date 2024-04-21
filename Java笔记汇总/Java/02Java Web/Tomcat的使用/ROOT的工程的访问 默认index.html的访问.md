@@ -1,0 +1,1 @@
+使用localhost:8080默认访问的是ROOT文件夹的index文件

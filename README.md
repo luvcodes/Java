@@ -33,3 +33,6 @@ MySQL as the database.
   - Spring Cloud
   - Dubbo
 
+# Notes
+
+I have also attached the learning notes as I dive into the Java world, the folder of 'Java笔记汇总' is the folder where I keep the contents.

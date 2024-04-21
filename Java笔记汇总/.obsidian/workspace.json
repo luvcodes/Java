@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "3032d7087ba173bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "98d741b73cd90d4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "615c201d75e053b7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a4ecfd4d06671359",
+    "type": "split",
+    "children": [
+      {
+        "id": "182e6201dd21471c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94805e9f31649f36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df0bcac32b5ea6f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8c6980e1adec8a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3e514bd6079fc878",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4403eb57045a2bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb4ed1be2fd99f86",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0449d46816fa0469",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "925db6a166e7fd5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b52ba8644b2b5966",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "615c201d75e053b7",
+  "lastOpenFiles": [
+    "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
+    "Java/Java.md",
+    "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
+    "Java/阶段四- 企业开发进阶/微服务/7. Gateway网关/7. Gateway网关.md",
+    "Java/阶段四- 企业开发进阶/微服务/9. MQ.md",
+    "images/Pasted image 20240421091558.png",
+    "images/Pasted image 20240421091304.png",
+    "images/Pasted image 20240421091246.png",
+    "images/Pasted image 20240421085446.png",
+    "images/Pasted image 20240421085033.png",
+    "images/Pasted image 20240421084326.png",
+    "images/Pasted image 20240421083841.png",
+    "images/Pasted image 20240421083250.png",
+    "images/Pasted image 20240421082928.png",
+    "images/Pasted image 20240421082751.png",
+    "Java/阶段四- 企业开发进阶/微服务/8. Docker.md",
+    "Java/阶段四- 企业开发进阶/微服务/5. Nacos/Nacos配置管理.md",
+    "Java/阶段四- 企业开发进阶/微服务/5. Nacos/5. Nacos.md",
+    "Java/阶段四- 企业开发进阶/Redis/Redis.md",
+    "Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md",
+    "Untitled 29.png.md",
+    "Java/阶段四- 企业开发进阶/微服务/微服务.md",
+    "images/nacos03.png.crdownload",
+    "images/nacos02.png.crdownload",
+    "images/nacos01.png.crdownload",
+    "Java/阶段四- 企业开发进阶/微服务/4. Ribbon负载均衡/4. Ribbon负载均衡.md",
+    "images/image4.png.crdownload",
+    "images/image3.png.crdownload",
+    "images/image2.png.crdownload",
+    "Java/阶段四- 企业开发进阶/微服务/3. Eureka注册中心/3. Eureka注册中心.md",
+    "Java/阶段四- 企业开发进阶/微服务/2. 服务拆分和远程调用/2. 服务拆分和远程调用.md",
+    "Machine Learning/Supervised Learning/Supervised Learning.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Java/01Java基础/09OOP/成员变量和局部变量.md",
+    "算法与数据结构/算法/算法.md",
+    "未命名.md",
+    "Java/阶段四- 企业开发进阶/设计模式/代理模式.md",
+    "Java/01Java基础/09OOP/abstract关键字.md",
+    "Java/01Java基础/09OOP/OOP.md",
+    "Java/01Java基础/09OOP/动态绑定与静态绑定.md",
+    "Java/01Java基础/09OOP/代码块.md",
+    "算法与数据结构/算法/求最小生成树/Prim算法",
+    "算法与数据结构/算法/求最小生成树/Kruskal算法",
+    "算法与数据结构/算法/排序/排序算法对比",
+    "算法与数据结构/算法/排序/堆排序"
+  ]
+}
