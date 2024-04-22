@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5838ec20-dcd3-4d49-86a8-b807dad6406c" name="Changes" comment="Update on the xml files of the idea setting">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericsDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       <workItem from="1710639597884" duration="1661000" />
       <workItem from="1713749404087" duration="718000" />
       <workItem from="1713764217030" duration="370000" />
-      <workItem from="1713764611780" duration="456000" />
+      <workItem from="1713764611780" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="Generics wildcard content learning">
       <option name="closed" value="true" />
