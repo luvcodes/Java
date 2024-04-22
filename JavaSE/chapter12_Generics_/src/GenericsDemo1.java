@@ -32,6 +32,5 @@ public class GenericsDemo1 {
             // str.length();
             System.out.println(str);
         }
-
     }
 }
