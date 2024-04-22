@@ -4,55 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chapter12_Generics_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter12_Generics_/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the reflection chapter contents and folder structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/Reflection01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/Reflection01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/Reflection02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/Reflection02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionAccessMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/ReflectionAccessMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionAccessProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/ReflectionAccessProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionCreateInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/ReflectionCreateInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/ReflectionQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/ReflectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/class_/AllTypeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/AllTypeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/class_/Class01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/Class01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/class_/Class02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/Class02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/class_/GetClass_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/GetClass_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/classload_/ClassLoad02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/classload_/ClassLoad02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/classload_/ClassLoad03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/classload_/ClassLoad03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/classload_/ClassLoad_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/classload_/ClassLoad_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/homework/Homework01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/homework/Homework01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/homework/Homework02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/homework/Homework02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/re.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/re.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/myreflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/prop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/prop.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect1/MyReflectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect2/MyReflectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect2/MyReflectDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect2/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect3/MyReflectDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect3/MyReflectDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect4/MyReflectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect4/MyReflectDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect5/MyReflectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect5/MyReflectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect5/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect5/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect5/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect6/MyReflectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect6/MyReflectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect6/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/src/com/itheima/myreflect6/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect6/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect/反射.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/反射.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,8 +175,17 @@
       <workItem from="1707187082201" duration="636000" />
       <workItem from="1713787904565" duration="237000" />
       <workItem from="1713788159734" duration="546000" />
-      <workItem from="1713788725013" duration="74000" />
+      <workItem from="1713788725013" duration="2836000" />
     </task>
+    <task id="LOCAL-00001" summary="Update on the reflection chapter contents and folder structure">
+      <option name="closed" value="true" />
+      <created>1713789222328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713789222328</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +206,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Update on the reflection chapter contents and folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the reflection chapter contents and folder structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
