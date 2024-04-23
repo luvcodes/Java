@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the reflection chapter contents">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/Reflection01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/Reflection02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/class_/Class02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/class_/GetClass_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/classload_/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/classload_/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/classload_/ClassLoad03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/classload_/ClassLoad03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/Reflection/re.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chapter16_Reflection_/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackUp/Reflection/Reflection02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/Reflection02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackUp/Reflection/class_/Class02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/Class02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackUp/Reflection/class_/GetClass_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/Reflection/class_/GetClass_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect2/MyReflectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect2/MyReflectDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect3/MyReflectDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect3/MyReflectDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect4/MyReflectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect4/MyReflectDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect5/MyReflectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect5/MyReflectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect6/MyReflectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect6/MyReflectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect6/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/workspace.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MyReflectDemo2.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter16_Reflection_",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MyReflectDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter16_Reflection_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
