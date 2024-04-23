@@ -2,6 +2,9 @@ package myreflect4;
 
 import java.io.IOException;
 
+/**
+ * @author ryanw
+ */
 public class Student {
     private String name;
     private int age;

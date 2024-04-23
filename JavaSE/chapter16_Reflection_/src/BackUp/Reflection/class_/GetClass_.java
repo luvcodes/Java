@@ -1,14 +1,16 @@
-package Reflection.class_;
+package BackUp.Reflection.class_;
 
-import Reflection.Car;
+import BackUp.Reflection.Car;
 
 /**
  * 演示得到Class对象的各种方式(6)
+ * @author ryanw
  */
 public class GetClass_ {
     public static void main(String[] args) throws ClassNotFoundException {
         //1. Class.forName
-        String classAllPath = "Reflection.Car"; //通过读取配置文件获取
+        //通过读取配置文件获取
+        String classAllPath = "Reflection.Car";
         Class<?> cls1 = Class.forName(classAllPath);
         System.out.println(cls1);
 

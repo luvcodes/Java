@@ -1,5 +1,8 @@
 package myreflect6;
 
+/**
+ * @author ryanw
+ */
 public class Student {
     private String name;
     private int age;

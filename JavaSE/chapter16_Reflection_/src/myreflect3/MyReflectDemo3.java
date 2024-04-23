@@ -8,12 +8,11 @@ import java.lang.reflect.Field;
 @SuppressWarnings("all")
 public class MyReflectDemo3 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException {
-    /*
-       Field类中用于创建对象的方法
-            void set(Object obj, Object value)：赋值
-            Object get(Object obj)              获取值
-    */
-
+        /*
+           Field类中用于创建对象的方法
+                void set(Object obj, Object value)：赋值
+                Object get(Object obj)              获取值
+        */
 
         // 1.获取class字节码文件的对象
         Class clazz = Class.forName("myreflect3.Student");
@@ -57,6 +56,5 @@ public class MyReflectDemo3 {
         // 修改对象里面记录的值
         name.set(s, "lisi");
         System.out.println(s);
-
     }
 }
