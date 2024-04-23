@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
 /**
  * @author ryanw
  */
-public class MyReflectDemo {
+public class MyReflectDemo5 {
     public static void main(String[] args) throws IllegalAccessException, IOException {
         // 对于任意一个对象，都可以把对象所有的字段名和值，保存到文件中去
         Student s = new Student("小A", 23, '女', 167.5, "睡觉");

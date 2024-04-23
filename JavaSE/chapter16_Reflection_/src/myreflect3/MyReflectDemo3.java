@@ -25,7 +25,7 @@ public class MyReflectDemo3 {
         }*/
 
         // 2.获取所有的成员变量
-       /* Field[] fields = clazz.getDeclaredFields();
+        /* Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             System.out.println(field);
         }*/

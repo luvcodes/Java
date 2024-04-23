@@ -10,7 +10,7 @@ import java.util.Properties;
 /**
  * @author ryanw
  */
-public class MyReflectDemo {
+public class MyReflectDemo6 {
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         /*
             反射可以跟配置文件结合的方式，动态的创建对象，并调用方法
