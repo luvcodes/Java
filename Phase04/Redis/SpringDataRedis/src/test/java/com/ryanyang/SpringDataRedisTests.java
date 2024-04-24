@@ -20,8 +20,6 @@ class SpringDataRedisTests {
         System.out.println(name);
     }
 
-
-
     @Test
     void testSaveUser() throws JsonProcessingException {
         redisTemplate.opsForValue().set("user:1", new User("ryan", 21));
