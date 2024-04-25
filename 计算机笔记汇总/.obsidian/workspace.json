@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JVM/JVM.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/JVM.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/JVM.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/JVM.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md"
               }
             }
           }
@@ -150,8 +150,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "d234a6786d79c303",
   "lastOpenFiles": [
+    "算法与数据结构/数据结构/数组.md",
+    "images/Pasted image 20240424233105.png",
+    "images/Pasted image 20240424232909.png",
+    "images/Pasted image 20240424232854.png",
+    "images/Pasted image 20240424232631.png",
+    "Pasted image 20240424233105.png",
+    "Pasted image 20240424232909.png",
+    "Pasted image 20240424232854.png",
+    "Pasted image 20240424232631.png",
+    "Java/JVM/JVM.md",
     "images/截屏2024-04-21 下午11.46.31.png",
     "Java/01Java基础/09OOP/static关键字.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
@@ -173,21 +183,11 @@
     "Java/阶段四- 企业开发进阶/微服务/7. Gateway网关/7. Gateway网关.md",
     "Java/阶段四- 企业开发进阶/微服务/9. MQ.md",
     "images/Pasted image 20240421091558.png",
-    "images/Pasted image 20240421091304.png",
-    "images/Pasted image 20240421091246.png",
-    "images/Pasted image 20240421085446.png",
-    "images/Pasted image 20240421085033.png",
-    "images/Pasted image 20240421084326.png",
-    "images/Pasted image 20240421083841.png",
-    "images/Pasted image 20240421083250.png",
-    "images/Pasted image 20240421082928.png",
-    "images/Pasted image 20240421082751.png",
     "Java/阶段四- 企业开发进阶/微服务/8. Docker.md",
     "Java/阶段四- 企业开发进阶/微服务/5. Nacos/Nacos配置管理.md",
     "Java/阶段四- 企业开发进阶/微服务/5. Nacos/5. Nacos.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis.md",
     "Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md",
-    "Untitled 29.png.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
