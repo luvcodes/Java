@@ -2,11 +2,12 @@ package com.itheima.mp.mapper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import com.baomidou.mybatisplus.core.toolkit.Constants;
 import com.itheima.mp.domain.po.User;
+import org.apache.ibatis.annotations.Param;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.time.LocalDateTime;
 import java.util.Iterator;
 import java.util.List;
@@ -96,13 +97,15 @@ class UserMapperTest {
         QueryWrapper<User> wrapper = new QueryWrapper<User>()
                 .eq("username", "Jack");
         User user = new User();
-        user.setBalance(20000);
+        user.setBalance(2000);
         // 2. 执行更新，user中非null字段都会作为set语句
         userMapper.update(user, wrapper);
     }
 
-    // 使用UpdateQueryWrapper来实现更新
-    // 更新id为1,2,4的用户的余额，扣200
+    /**
+     * 使用UpdateQueryWrapper来实现更新
+     * 需求：更新id为1,2,4的用户的余额，扣200
+     * */
     @Test
     void testUpdateWrapper() {
         List<Long> ids = List.of(1L, 2L, 3L);
@@ -110,8 +113,7 @@ class UserMapperTest {
         UpdateWrapper<User> wrapper = new UpdateWrapper<User>()
                 .setSql("balance = balance - 200")
                 .in("id", ids);
-        // 2. 更新，注意第一个参数可以给null，也就是不填更新字段和数据，
-        // 而是基于UpdateWrapper中的setSQL来更新
+        // 2. 更新，注意第一个参数可以给null，也就是不填更新字段和数据，而是基于UpdateWrapper中的setSQL来更新
         userMapper.update(null, wrapper);
     }
 
@@ -128,5 +130,21 @@ class UserMapperTest {
                 .ge(User::getBalance, 1000);
         // 2. 查询
         System.out.println(userMapper.selectList(wrapper));
+    }
+
+    /**
+     * 需求：将id在指定范围的用户（例如1、2、4 ）的余额扣减指定值200
+     */
+    @Test
+    void testCustomSqlUpdate() {
+        // 1. 更新条件
+        List<Long> ids = List.of(1L, 2L, 4L);
+        int amount = 200;
+        // 2. 定义条件
+        QueryWrapper<User> wrapper = new QueryWrapper<User>();
+        wrapper.in("id", ids);
+
+        // 3. 调用自定义sql方法
+        userMapper.updateBalanceByIds(wrapper, amount);
     }
 }
