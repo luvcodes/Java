@@ -1,6 +1,7 @@
 package com.itheima.mp.mapper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.itheima.mp.domain.po.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -101,4 +102,31 @@ class UserMapperTest {
     }
 
     // 使用UpdateQueryWrapper来实现更新
+    // 更新id为1,2,4的用户的余额，扣200
+    @Test
+    void testUpdateWrapper() {
+        List<Long> ids = List.of(1L, 2L, 3L);
+        // 1. 生成SQL
+        UpdateWrapper<User> wrapper = new UpdateWrapper<User>()
+                .setSql("balance = balance - 200")
+                .in("id", ids);
+        // 2. 更新，注意第一个参数可以给null，也就是不填更新字段和数据，
+        // 而是基于UpdateWrapper中的setSQL来更新
+        userMapper.update(null, wrapper);
+    }
+
+    /**
+     * 选出名字中有o，余额大于1000的用户
+     * 使用QueryWrapper调用lambda()方法
+     * */
+    @Test
+    void testLambdaQueryWrapper() {
+        // 1.构建条件 WHERE username LIKE "%o%" AND balance >= 1000
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.lambda().select(User::getId, User::getUsername, User::getInfo, User::getBalance)
+                .like(User::getUsername, "o")
+                .ge(User::getBalance, 1000);
+        // 2. 查询
+        System.out.println(userMapper.selectList(wrapper));
+    }
 }
