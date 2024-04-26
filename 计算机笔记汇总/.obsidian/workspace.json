@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "3067015c3a914306",
+        "id": "e6605b1b22dbfe34",
         "type": "tabs",
         "children": [
           {
-            "id": "d234a6786d79c303",
+            "id": "2c2dea31b53ceb25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "838986db69bfbbed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md"
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md"
               }
             }
           }
@@ -150,26 +162,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d234a6786d79c303",
+  "active": "2c2dea31b53ceb25",
   "lastOpenFiles": [
-    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
+    "Pasted image 20240426154727.png",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2.1 条件构造器.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/3. 扩展功能.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/代码生成器.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制/DML编程控制.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/标准数据层开发/标准数据层开发.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
+    "images/Pasted image 20240426132750.png",
+    "images/Pasted image 20240426132735.png",
+    "images/Pasted image 20240426132647.png",
+    "images/Pasted image 20240426132624.png",
+    "images/Pasted image 20240426113843.png",
+    "images/Software_Design_Pattern_Icon.webp",
+    "Java/阶段三- Java开发框架/MySQL/Pasted image 20240426112758.png",
     "Java/阶段四- 企业开发进阶/Redis/Redis.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
     "算法与数据结构/数据结构/数组.md",
     "images/Pasted image 20240424233105.png",
     "images/Pasted image 20240424232909.png",
-    "images/Pasted image 20240424232854.png",
-    "images/Pasted image 20240424232631.png",
-    "Pasted image 20240424233105.png",
-    "Pasted image 20240424232909.png",
-    "Pasted image 20240424232854.png",
-    "Pasted image 20240424232631.png",
     "Java/JVM/JVM.md",
-    "images/截屏2024-04-21 下午11.46.31.png",
     "Java/01Java基础/09OOP/static关键字.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
@@ -180,14 +199,6 @@
     "Java/01Java基础/06条件语句.md",
     "Java/01Java基础/05运算符.md",
     "Java/01Java基础/04修饰符.md",
-    "Java/01Java基础/03隐式转换的练习.md",
-    "Java/01Java基础/03数据类型.md",
-    "Java/01Java基础/02命名规范.md",
-    "Java/01Java基础/01变量.md",
-    "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
-    "Java/Java.md",
-    "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
-    "images/Pasted image 20240421091558.png",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",

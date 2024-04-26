@@ -1,330 +1,222 @@
-# 条件查询
+# id生成策略控制
 
-MyBatisPlus将书写复杂的SQL查询条件进行了封装，使用编程的形式完成查询条件的组合。
+## 不同的表应用不同的id生成策略
 
-# 设置查询条件
+![[Untitled 28.png]]
 
-## 格式一: 常规格式
+这里面所有的TableName和IdType都可以提取出来
 
-查询年龄小于20岁的用户
+![[Untitled 1 12.png]]
+
+转换成全局配置
+
+![[Untitled 2 11.png]]
+
+在 MyBatis Plus 中，@TableId 注解用于标识实体类的属性映射到数据库表的主键字段。type 属性用于指定主键的生成策略。您的代码段中展示了三种不同的主键生成策略的注释示例，但没有明确启用任何一种。下面是对这三种主键生成策略的简要说明：
+
+1. IdType.AUTO：
+    - 自增主键。数据库会自动为新插入的记录生成一个唯一的主键值，通常是数字类型并且每次递增。这要求数据库表的主键列被设置为自增（AUTO_INCREMENT）。
+    - 示例：@TableId(type = IdType.AUTO)
+2. IdType.INPUT：
+    - 手动输入。这意味着在插入数据时，主键的值需要你在应用层面提供，MyBatis Plus 不会自动生成它。
+    - 示例：@TableId(type = IdType.INPUT)
+3. IdType.ASSIGN_ID：
+    - 分配ID（默认策略）。当实体的主键类型为Long或String时，如果没有指定主键的值，MyBatis Plus 会使用雪花算法（Snowflake）或UUID生成一个主键值。这适用于分布式系统中生成唯一标识符的场景。
+    - 示例：@TableId(type = IdType.ASSIGN_ID)
+
+要激活其中一种策略，你需要取消对应行的注释，并确保你的实体类中只有一个字段使用了 @TableId 注解，因为每个实体类只能有一个主键字段。选择哪种主键生成策略取决于你的具体需求和数据库表的配置。
+
+例如，如果你希望数据库自动为每条新记录分配一个唯一的数字ID，你可以使用 IdType.AUTO。如果你的应用或服务生成了主键值，并希望直接插入这个值，那么 IdType.INPUT 会是合适的选择。对于分布式系统，IdType.ASSIGN_ID 可以自动生成一个全局唯一的ID，无需依赖数据库的特定特性。
+
+# 多记录操作
+
+## 多数据删除
 
 ```Java
-@Autowired
-    private UserDao userDao;
-
 @Test
-void testGetAll() {
-        /*QueryWrapper wrapper = new QueryWrapper();
-        // age小于20岁
-        wrapper.lt("age", 20);
-        List<User> list = userDao.selectList(wrapper);
-        System.out.println(list);*/
+    void testDelete() {
+        List<Long> list = new ArrayList<Long>();
+        list.add(1721033084409384962L);
+        list.add(1721035040897036290L);
+		// userDao.deleteById(4L);
+        userDao.deleteBatchIds(list);
+    }
+```
 
-        QueryWrapper<User> wrapper = new QueryWrapper<User>();
-        // age大于20岁
-        wrapper.gt("age", 20);
-        List<User> userList = userDao.selectList(wrapper);
-        System.out.println(userList);
+# 逻辑删除
+
+逻辑删除是在数据库管理中的一种做法，它涉及将数据标记为已删除，而不是从数据库中物理删除它。在逻辑删除的做法中，通常会有一个字段用来指示某行数据是否被“删除”。
+
+逻辑删除的优势包括：安全和合规： 某些情况下出于审计或合规要求，需要保留记录的历史。
+
+在实现逻辑删除时，需要在查询数据时总是考虑到这个逻辑删除的字段，确保“删除”的数据不会在应用程序中显示。
+
+## 逻辑删除案例
+
+数据库表中添加逻辑删除标记字段，要记着给默认值。
+
+![[Untitled 3 8.png]]
+
+  
+
+实体类中添加对应字段，并设定当前字段为逻辑删除标记字段 (**不推荐**，因为太繁琐)
+
+![[Untitled 4 6.png]]
+
+  
+
+配置逻辑删除字面值 (开启逻辑删除功能)
+
+![[Untitled 5 5.png]]
+
+  
+
+开启逻辑删除功能之后，就会替换原来的DELETE语句而改成了UPDATE语句。会用设置的逻辑删除标记字段来判断是否被删除，并且被标记删除的数据，是不会参与到MP的API查询的过程中的 (也就是说再查数据，是不会查出来标记删除的这条数据的)。
+
+举例来说，比如执行了这样的一条MP的语句: userDao.deleteById(1752533337792716802L);, 这条语句所接收的ID值的那条数据就会被标记成逻辑删除，执行的是这样的一条SQL语句:
+
+```SQL
+==>  Preparing: UPDATE tbl_user SET deleted=1 WHERE id=? AND deleted=0
+==> Parameters: 1752533337792716802(Long)
+<==    Updates: 1
+```
+
+刷新数据库就可以发现对应ID的这条数据被标记成逻辑删除，deleted列的值由0变成1。
+
+  
+
+接下来查询数据库的情况:
+
+![[Untitled 6 5.png]]
+
+  
+
+查询所有的数据: System.out.println(userDao.selectList(null));
+
+```SQL
+==>  Preparing: SELECT id,name,age,tel,deleted,version FROM tbl_user WHERE deleted=0
+==> Parameters:
+<==    Columns: id, name, age, tel, deleted, version
+<==        Row: 1, update, 3, 18866668888, 0, 0
+<==        Row: 1752533233518223362, 后端程序员, 12, 4006184000, 0, 0
+<==      Total: 2
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@554188ac]
+[User(id=1, name=update, password=null, age=3, tel=18866668888, online=null, deleted=0, version=0), User(id=1752533233518223362, name=后端程序员, password=null, age=12, tel=4006184000, online=null, deleted=0, version=0)]
+```
+
+发现被标记逻辑删除的两条数据不会被查出来。
+
+# 乐观锁
+
+需要进行并发控制的时候
+
+## 乐观锁案例
+
+数据库表中添加锁标记字段
+
+![[Untitled 7 5.png]]
+
+  
+
+实体类中添加对应字段
+
+```Java
+@Data
+public class User {
+    // 乐观锁
+    @Version
+    private Integer version;
 }
 ```
 
-查询年龄大于等于10岁，小于30岁的用户
+配置乐观锁拦截器实现锁机制对应的动态SQL语句拼装
 
 ```Java
-@SpringBootTest
-class Mybatisplus02DqlApplicationTests {
-    @Autowired
-    private UserDao userDao;
+@Configuration
+public class MyBatisPlusConfig {
+    @Bean
+    public MybatisPlusInterceptor mybatisPlusInterceptor() {
+        MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
+        interceptor.addInnerInterceptor(new PaginationInnerInterceptor());
+        // 乐观锁的拦截器
+        interceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
 
-    @Test
-    void testGetAll() {
-        // 多条件
-        QueryWrapper<User> qw = new QueryWrapper<User>();
-        qw.lt("age", 30);
-        qw.gt("age", 10);
-        List<User> userList = userDao.selectList(qw);
-        System.out.println(userList);
+        return interceptor;
     }
 }
 ```
 
-## 格式二: 链式编程格式
+使用乐观锁机制在修改前必须先获取到对应数据的version就可以执行了
+
+编写测试方法:
 
 ```Java
-@SpringBootTest
-class Mybatisplus02DqlApplicationTests {
-    @Autowired
-    private UserDao userDao;
-    @Test
-    void testGetAll() {
-        QueryWrapper<User> qw = new QueryWrapper<User>();
-        qw.lt("age", 30).qw.gt("age", 10);
-        List<User> userList = userDao.selectList(qw);
-        System.out.println(userList);
-    }
-}
-```
-
-## 格式三: 使用lambda()函数链式编程
-
-使用lambda()函数。通过 wrapper.lambda() 获取了一个 LambdaQueryWrapper 实例。LambdaQueryWrapper 允许您使用 Java 8 的 Lambda 表达式来构建查询条件，这使得代码更加简洁和类型安全。
-
-```Java
-@SpringBootTest
-class Mybatisplus02DqlApplicationTests {
-    @Autowired
-    private UserDao userDao;
-
-    @Test
-    void testGetAll() {
-        // lambda按条件查询
-        QueryWrapper<User> wrapper = new QueryWrapper<User>();
-        wrapper.lambda().lt(User::getAge, 10).gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(wrapper);
-        System.out.println(userList);
-    }
-}
-```
-
-## 格式四: LambdaQueryWrapper链式编程
-
-```Java
-@SpringBootTest
-class Mybatisplus02DqlApplicationTests {
-    @Autowired
-    private UserDao userDao;
-
-    @Test
-    void testGetAll() {
-        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-        lqw.lt(User::getAge, 30).gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(lqw);
-        System.out.println(userList);
-    }
-}
-```
-
-## 格式五: 使用or()函数
-
-```Java
-@SpringBootTest
-class Mybatisplus02DqlApplicationTests {
-    @Autowired
-    private UserDao userDao;
-
-    @Test
-    void testGetAll() {
-        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-        lqw.lt(User::getAge, 30).or().gt(User::getAge, 10);
-        List<User> userList = userDao.selectList(lqw);
-        System.out.println(userList);
-    }
-}
-```
-
-# null值处理
-
-## if语句控制条件追加
-
-在 userQuery.getAge2() 不为 null 的情况下，查找年龄在 10 到 20 之间的 User 对象。
-
-```Java
-    @Test
-    void testGetAll3() {
-        // 设置模拟数据
-        UserQuery userQuery = new UserQuery();
-        userQuery.setAge2(20);
-        userQuery.setAge(10);
-
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        // if语句控制条件追加
-        if (null != userQuery.getAge2()) {
-            wrapper.lt(User::getAge, userQuery.getAge());
-        }
-        if (null != userQuery.getAge2()) {
-            wrapper.gt(User::getAge, userQuery.getAge2());
-        }
-        List<User> list = userDao.selectList(wrapper);
-        System.out.println(list);
-    }
-```
-
-## 条件参数控制
-
-在 userQuery.getAge2() 不为 null 的情况下，查找年龄在 10 到 20 之间的 User 对象。
-
-```Java
-// 处理null值
 @Test
-void testGetAll2() {
-    // 模拟页面传递过来的查询数据
-    UserQuery uq = new UserQuery();
-    uq.setAge(10);
-    uq.setAge2(30);
-
-    // null判定
-    LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-    // 先判定第一个参数是否为true，如果为true连接当前条件
-    lqw.lt(null != uq.getAge2(), User::getAge, uq.getAge2());
-    lqw.gt(null != uq.getAge2(), User::getAge, uq.getAge());
-    List<User> userList = userDao.selectList(lqw);
-    System.out.println(userList);
-}
-```
-
-## 条件参数控制 (链式编程)
-
-在 userQuery.getAge2() 不为 null 的情况下，查找年龄在 10 到 20 之间的 User 对象。
-
-```Java
-    @Test
-    void testGetAll2() {
-        // 设置模拟数据
-        UserQuery userQuery = new UserQuery();
-        userQuery.setAge2(20);
-        userQuery.setAge(10);
-
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        // 链式编程实现null值处理
-        wrapper.lt(null != userQuery.getAge2(), User::getAge, userQuery.getAge2())
-                .gt(null !=  userQuery.getAge(), User::getAge, userQuery.getAge());
-        List<User> list = userDao.selectList(wrapper);
-        System.out.println(list);
+    void testUpdate() {
+        User user = new User();
+        user.setId(1752539431835492354L);
+        user.setName("Jock666");
+        user.setVersion(1);
+        userDao.updateById(user);
     }
 ```
 
-# 查询投影
+查看运行结果:
 
-查询出来看到的结果，叫做查询投影。
+```SQL
+==>  Preparing: UPDATE tbl_user SET name=?, version=? WHERE id=? AND version=? AND deleted=0
+==> Parameters: Jock666(String), 2(Integer), 1752539431835492354(Long), 1(Integer)
+<==    Updates: 0
+```
 
-在 MyBatis Plus 中实现查询投影的常用方法是使用 QueryWrapper 或者 LambdaQueryWrapper 的 select 方法。这可以让你精确地指定需要查询的字段，而不是返回所有字段的数据。
-
-请注意，selectList 方法返回的是一个包含完整 User 对象的列表，但是只有你在 select 方法中指定的字段会被填充数据，其他的字段都会是 null 或者其基本类型的默认值。这可能对后续逻辑造成影响，所以使用时应谨慎考虑。
-
-## 查询结果部分属性
+如果不想直接用setter方法确定version，可以先通过将要修改的数据的id将数据查询出来，然后将要修改的属性值设置进去。
 
 ```Java
-    @Test
-    void testGetAll() {
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        wrapper.select(User::getId, User::getName, User::getAge);
-        List<User> users = userDao.selectList(wrapper);
-        System.out.println(users);
+// 1. 先通过修改的数据id将当前数据查询出来
+User user = userDao.selectById(1752539431835492354L);
+// 2. 将要修改的属性逐一设置进去
+user.setName("Jock888");
+userDao.updateById(user);
+```
+
+这样做的条件就是数据库中一定要先给这条ID所对应的数据提前设置了version值。
+
+## 验证加锁的操作
+
+```Java
+@Test
+    void testUpdate() {
+        // 验证加锁的操作
+        User user1 = userDao.selectById(1752539431835492354L);
+        User user2 = userDao.selectById(1752539431835492354L);
+        user2.setName("Jock999");
+        userDao.updateById(user2);
+        user1.setName("Jock101010");
+        userDao.updateById(user1);
     }
 ```
 
-查询结果:
+下面这条一定会失效，因为读的version值 还依然是上面Jock999之前的version值。
 
-```Java
-[User(id=1, name=update, password=null, age=3, tel=null), User(id=2, name=Jerry, password=null, age=4, tel=null)]
+然后，尝试同样更新 user1（注意，此时 user1 的版本号还是旧的）。因为数据库中的版本号已经被 user2的操作增加了，user1 的更新将会失败，因为它的版本号不再与数据库中的版本号匹配。
+
+这正是乐观锁的工作原理：只有当版本号匹配时，更新操作才会成功，否则会失败，从而避免了并发修改的数据冲突。
+
+## 版本号加一的操作？
+
+在使用MyBatis-Plus框架时，带有 @Version 注解的字段（在您的例子中是 version 字段），在进行更新操作时，框架会自动处理这个字段的增加。可以理解成OptimisticLockerInnerInterceptor 乐观锁拦截器来处理+1的任务。
+
+当您调用 userDao.updateById(user) 方法时，如果user对象中包含一个通过 @Version 注解的字段，MyBatis-Plus将生成一个类似下面的SQL更新语句：
+
+```SQL
+UPDATE user SET name = 'newName', version = version + 1 WHERE id = ? AND version = ?
 ```
 
-查询结果中出现大量 null 值的原因可能是由于：
+在这个更新语句中：
 
-选择的字段：在您的查询中，您使用了 wrapper.select(User::getId, User::getName, User::getAge) 来指定查询时只选择 id、name 和 age 字段。这意味着查询结果中只会包含这三个字段的值，而其他字段（如 password 和 tel）默认不会被查询出来，因此在对象中会被设置为 null。
+- name = 'newName' 是您想要更新的字段。
+- version = version + 1 是由MyBatis-Plus自动生成的，用于确保乐观锁的版本控制。
+- WHERE id = ? 确保您只更新指定的记录。
+- AND version = ? 是乐观锁的关键，它检查当前记录的版本号是否与您尝试更新的记录的版本号相同。如果不相同，更新将失败。
 
-## 查询结果包含未定义的属性
-
-```Java
-    @Test
-    void testGetAll3() {
-        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-        // 统计有多少个数据
-        queryWrapper.select("count (*) as count, tel");
-        queryWrapper.groupBy("tel");
-        List<Map<String, Object>> userList = userDao.selectMaps(queryWrapper);
-        System.out.println(userList);
-    }
-```
-
-selectMaps 会返回一个 Map 列表，其中每个 Map 包含字段名和对应的值，这是一个非常灵活的方式，尤其是当你不需要映射结果到一个完整的实体类时。
-
-## 查询条件
-
-### eq匹配 (用户登录)
-
-```Java
-    // eq方法查询
-    @Test
-    void testGetAll4() {
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        // eq方法 就是 =
-        wrapper.eq(User::getName, "Jerry").eq(User::getPassword, "jerry");
-        User loginUser = userDao.selectOne(wrapper);
-        System.out.println(loginUser);
-    }
-```
-
-### le、ge、between (设定区间)
-
-```Java
-    // 范围查询 lt le gt ge eq between
-    @Test
-    void testGetAll5() {
-        // 设置模拟数据
-        UserQuery userQuery = new UserQuery();
-        userQuery.setAge2(20);
-        userQuery.setAge(10);
-
-
-        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        // 方案一: 设定上限下限
-        wrapper.le(User::getAge, userQuery.getAge2()).ge(User::getAge, userQuery.getAge());
-        // 方案二: 设定范围
-        /*wrapper.between(User::getAge, userQuery.getAge(), userQuery.getAge2());*/
-        List<User> loginUser = userDao.selectList(wrapper);
-        System.out.println(loginUser);
-    }
-```
-
-### like匹配 (非全文检索版，查信息，搜索新闻)
-
-```Java
-    // like查询
-    @Test
-    void testGetAll6() {
-        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<User>();
-        // 模糊匹配 like
-        lqw.like(User::getName, "J");
-
-        // 这个是%J的意思，Left就是百分号在左边
-        // 这个匹配不上是因为，%J的意思是字符串最后结尾是J
-        lqw.likeLeft(User::getName, "J");
-
-        // 这个是J%的意思，Right就是百分号在右边
-        // 这个能够匹配成功是因为，J%的意思是字符串开头是J
-        lqw.likeRight(User::getName, "J");
-
-        List<User> loginUser = userDao.selectList(lqw);
-        System.out.println(loginUser);
-    }
-```
-
-### Group (分组查询聚合函数，统计报表)
-
-```Java
-    // group分组查询
-    @Test
-    void testGetAll7() {
-        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-        // 统计有多少个数据
-        queryWrapper.select("count (*) as count, tel");
-        queryWrapper.groupBy("tel");
-        List<Map<String, Object>> userList = userDao.selectMaps(queryWrapper);
-        System.out.println(userList);
-    }
-```
-
-# 讲解重点知识点
-
-LambdaQueryWrapper 和通过 QueryWrapper 调用 .lambda() 方法得到的 LambdaQueryWrapper，实例本质上是相同的。
-
-### 不能使用LambdaQueryWrapper的情况
-
-存在一些特定情况下你不得不使用 QueryWrapper 而不是 LambdaQueryWrapper：
-
-1. 动态字段名：如果你需要构建的查询依赖于动态生成的或者运行时才知道的字段名，那么你可能需要用到 QueryWrapper，因为 LambdaQueryWrapper 需要在编译时就确定属性的方法引用。
-2. 复杂的SQL操作：虽然 LambdaQueryWrapper 提供了很多强大的功能，但可能在某些非常复杂的SQL操作中不够用。例如，当你需要执行非常特定的SQL函数或操作时，可能需要使用 QueryWrapper 以字符串形式精确地控制SQL语句。
-3. 旧代码的兼容性：如果你在维护一个已经广泛使用 QueryWrapper 的旧项目，那么继续使用 QueryWrapper 可能更加合适，因为转换到 LambdaQueryWrapper 可能需要大量的重构工作。
-4. 自定义SQL：有时，你可能需要在查询中使用非标准的SQL片段或子查询，这在 LambdaQueryWrapper 中可能不那么直观，而 QueryWrapper 可能更容易表达这些自定义SQL片段。
-5. MyBatis Plus 版本兼容性：如果你使用的是 MyBatis Plus 的早期版本，它可能不支持 LambdaQueryWrapper 或者其支持不够完全。这种情况下，你需要使用 QueryWrapper。
+在MyBatis-Plus框架中，OptimisticLockerInnerInterceptor 乐观锁拦截器确保每次在执行带有 @Version 注解的字段的更新操作时，该字段的值会自动加1。这个操作是自动发生的，确保每次数据库记录被成功更新时，对应的版本号都会递增，这样来避免并发问题。

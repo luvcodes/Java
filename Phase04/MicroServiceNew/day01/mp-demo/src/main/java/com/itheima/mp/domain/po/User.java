@@ -1,12 +1,15 @@
 package com.itheima.mp.domain.po;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
 public class User {
-
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
     private String username;
@@ -30,7 +33,9 @@ public class User {
      */
     private Integer balance;
 
+    @TableField(value = "create_time", exist = true)
     private LocalDateTime createTime;
 
+    @TableField(value = "update_time", exist = true)
     private LocalDateTime updateTime;
 }
