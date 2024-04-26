@@ -9,3 +9,17 @@ c
 3src/main/java/com/itheima/mp/MpDemoApplication.java,0\d\0de0ed2c11124a392fd23e38261bea923e288384
 h
 8src/test/java/com/itheima/mp/MpDemoApplicationTests.java,b\4\b4bd66a06ff5801c58dc1074e078cf9e9060c101
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+g
+7src/test/java/com/itheima/mp/mapper/UserMapperTest.java,0\d\0de59751690c7a352a0b8808dd947b8c2ce57f6f
+Å
+Q.idea/sonarlint/securityhotspotstore/0/d/0de59751690c7a352a0b8808dd947b8c2ce57f6f,2\6\263644608d74e9a4e491d2614de16746e25ceba2
+Å
+Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
+w
+G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

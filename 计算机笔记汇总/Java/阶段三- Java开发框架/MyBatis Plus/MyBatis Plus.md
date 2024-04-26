@@ -1,17 +1,12 @@
 # MyBatis Plus简介
 
 基于MyBatis框架基础上开发的增强型工具，旨在简化开发、提高效率。
-
 ## SpringBoot整合MyBatis Plus开发过程
 
 核心部份主要就是两个步骤:
-
 1. 手动导入MyBatis Plus坐标
 2. 继承BaseMap，传入泛型
-
-  
-
-# **常用注解总结**
+# 常用注解总结
 
 ## @TableField注解
 
@@ -20,38 +15,33 @@
 private String password;
 ```
 
-在 MyBatis-Plus 中，@TableField 注解用于指定实体类属性与数据库表中列的映射关系。这个注解在实体类的字段上使用，以告诉 MyBatis-Plus 如何将该字段映射到数据库表的特定列。
+在 MyBatis-Plus 中，@TableField 注解用于**指定实体类属性与数据库表中列的映射关系**。这个注解在实体类的字段上使用，以告诉 MyBatis-Plus 如何将该字段映射到数据库表的特定列。
 
-这行代码中的注解 @TableField 有两个参数：value 和 exist。
-
+这行代码中的注解 @TableField 有两个参数：`value` 和 `exist`。
 1. value:
-    - value = "pwd" 表示该实体类属性 password 映射到数据库表中名为 "pwd" 的列。这是当实体类的字段名称与数据库表中的列名称不一致时非常有用的。在这个例子中，即使 Java 实体类中的属性名为 password，MyBatis-Plus 会将它映射到数据库表中的 pwd 列。
+    - value = "pwd" 表示该实体类属性 password 映射到数据库表中名为 "pwd" 的列。这是当实体类的**字段名称与数据库表中的列名称不一致**时非常有用的。在这个例子中，即使 Java 实体类中的属性名为 password，MyBatis-Plus 会将它映射到数据库表中的 pwd 列。
 2. exist:
-    - exist = true 指示这个字段在数据库表中确实存在。这个参数通常用于告知 MyBatis-Plus 这个字段是否是数据库表的一个列。如果设置为 false，则 MyBatis-Plus 在构建 SQL 语句时不会包含这个字段。通常，如果字段确实存在于数据库表中，你可以不设置 exist 参数，因为默认值就是 true。
+    - `exist = true` **指示这个字段在数据库表中确实存在**。这个参数通常用于告知 MyBatis-Plus 这个字段是否是数据库表的一个列。
+    - 如果设置为 false，则 MyBatis-Plus 在构建 SQL 语句时不会包含这个字段。通常，如果字段确实**存在于数据库表中**，你**可以不设置** exist 参数，因为**默认值就是 true**。
 
-  
-
-### **表字段与编码属性设计不同步**
-
-![[/Untitled 12.png|Untitled 12.png]]
+### 表字段与编码属性设计不同步
+![[Untitled 12.png]]
 
 解决方法:
+![[Untitled 1 4.png]]
 
-![[/Untitled 1 4.png|Untitled 1 4.png]]
+### `exist=""` 编码中添加了数据库中未定义的属性
 
-### `**value=""**` **- 编码中添加了数据库中未定义的属性**
-
-![[/Untitled 2 5.png|Untitled 2 5.png]]
-
+![[Untitled 2 5.png]]
 解决方法:
 
-![[/Untitled 3 4.png|Untitled 3 4.png]]
+![[Untitled 3 4.png]]
 
-### `**exist=false**` **- 采用默认查询开放了更多的字段查看权限**
+### `exist=false` 采用默认查询开放了更多的字段查看权限
 
-![[/Untitled 4 2.png|Untitled 4 2.png]]
+![[Untitled 4 2.png]]
 
-![[/Untitled 5 2.png|Untitled 5 2.png]]
+![[Untitled 5 2.png]]
 
 ### 什么情况下把exist设置为false？
 
@@ -84,9 +74,10 @@ private String password;
 
 在所有这些情况下，@TableField(exist = false) 告诉 MyBatis-Plus，即使这个字段存在于实体类中，也不应将其视为数据库表的一部分。因此，在生成 SQL 语句时，MyBatis-Plus 会忽略这些字段。这使得实体类可以灵活地包含非数据库字段，用于满足应用程序的特定需求。
 
-### select=false - 不查询特定的字段
+### `select=false` - 不查询特定的字段
 
-select = false 参数在这个注解中的作用是指明在执行查询操作时，默认不会选择（即不查询）这个特定的字段。这意味着当你使用 MyBatis Plus 的通用方法（如 selectById、selectList 等）来执行查询时，标有 @TableField(select = false) 的字段不会被包含在生成的 SQL 语句的 SELECT 部分中。
+`select = false` 参数在这个注解中的作用是指明在执行查询操作时，默认不会选择（即不查询）这个特定的字段。
+这意味着当你使用 MyBatis Plus 的通用方法（如 selectById、selectList 等）来执行查询时，标有 `@TableField(select = false)` 的字段不会被包含在生成的 SQL 语句的 SELECT 部分中。
 
 例如，考虑以下实体类属性：
 
@@ -106,34 +97,38 @@ private String password;
 
 ## @TableName注解
 
-在 MyBatis-Plus 中，@TableName 注解用于指定一个实体类与数据库中对应表的关系。通过这个注解，你可以明确告诉 MyBatis-Plus 实体类应该映射到哪个数据库表。这在实体类的名称与数据库表名不直接对应的情况下尤其有用。
+在 MyBatis-Plus 中，@TableName 注解用于**指定一个实体类与数据库中对应表的关系**。通过这个注解，你可以明确告诉 MyBatis-Plus 实体类应该映射到哪个数据库表。这在实体类的名称与数据库表名不直接对应的情况下尤其有用。
 
 ```Java
 @TableName("tbl_user")
 public class User {}
 ```
 
-@TableName("tbl_user") 表明了这个实体类 User 应该映射到数据库中名为 tbl_user 的表。这意味着当你对 User 实体进行数据库操作时（如查询、插入、更新、删除），MyBatis-Plus 会自动将这些操作映射到 tbl_user 表。当使用 MyBatis-Plus 提供的方法（如 userMapper.insert(user)）插入一个 User 实例时，实际上是在数据库的 tbl_user 表中插入一行数据。
+`@TableName("tbl_user")` 表明了这个实体类 User 应该映射到数据库中名为 tbl_user 的表。这意味着当你对 User 实体进行数据库操作时（如查询、插入、更新、删除），MyBatis-Plus 会自动将这些操作映射到 tbl_user 表。当使用 MyBatis-Plus 提供的方法（如 userMapper.insert(user)）插入一个 User 实例时，实际上是在数据库的 tbl_user 表中插入一行数据。
 
 这个注解非常有用，因为它允许 Java 实体类名与数据库表名不完全一致，从而可以遵循各自的命名习惯。
 
-  
 
-![[/Untitled 6 2.png|Untitled 6 2.png]]
+![[Untitled 6 2.png]]
 
-![[/Untitled 7 2.png|Untitled 7 2.png]]
+![[Untitled 7 2.png]]
 
-## **id生成策略控制**
+### @TableId
+用来指定表中的主键字段信息
 
-![[/Untitled 8 2.png|Untitled 8 2.png]]
+
+
+## id生成策略控制
+
+![[Untitled 8 2.png]]
 
 这里面所有的TableName和IdType都可以提取出来
 
-![[/Untitled 9 2.png|Untitled 9 2.png]]
+![[Untitled 9 2.png]]
 
 转换成全局配置
 
-![[/Untitled 10 2.png|Untitled 10 2.png]]
+![[Untitled 10 2.png]]
 
 在 MyBatis Plus 中，@TableId 注解用于标识实体类的属性映射到数据库表的主键字段。type 属性用于指定主键的生成策略。您的代码段中展示了三种不同的主键生成策略的注释示例，但没有明确启用任何一种。下面是对这三种主键生成策略的简要说明：
 
@@ -151,8 +146,6 @@ public class User {}
 
 例如，如果你希望数据库自动为每条新记录分配一个唯一的数字ID，你可以使用 IdType.AUTO。如果你的应用或服务生成了主键值，并希望直接插入这个值，那么 IdType.INPUT 会是合适的选择。对于分布式系统，IdType.ASSIGN_ID 可以自动生成一个全局唯一的ID，无需依赖数据库的特定特性。
 
-  
-
 [[标准数据层开发]]
 
 [[DML编程控制]]
@@ -160,3 +153,4 @@ public class User {}
 [[Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制/DML编程控制|DML编程控制]]
 
 [[代码生成器]]
+

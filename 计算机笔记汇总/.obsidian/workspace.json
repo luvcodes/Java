@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/Redis.md"
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md"
               }
             }
           }
@@ -152,8 +152,13 @@
   },
   "active": "d234a6786d79c303",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/代码生成器.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制/DML编程控制.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/标准数据层开发/标准数据层开发.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis.md",
+    "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
     "算法与数据结构/数据结构/数组.md",
     "images/Pasted image 20240424233105.png",
     "images/Pasted image 20240424232909.png",
@@ -182,12 +187,7 @@
     "Java/阶段四- 企业开发进阶/微服务/1. 认识微服务.md",
     "Java/Java.md",
     "Java/阶段四- 企业开发进阶/微服务/6. Feign远程调用/6. Feign远程调用.md",
-    "Java/阶段四- 企业开发进阶/微服务/7. Gateway网关/7. Gateway网关.md",
-    "Java/阶段四- 企业开发进阶/微服务/9. MQ.md",
     "images/Pasted image 20240421091558.png",
-    "Java/阶段四- 企业开发进阶/微服务/8. Docker.md",
-    "Java/阶段四- 企业开发进阶/微服务/5. Nacos/Nacos配置管理.md",
-    "Java/阶段四- 企业开发进阶/微服务/5. Nacos/5. Nacos.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",

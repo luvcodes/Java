@@ -2,15 +2,15 @@
 
 ## 不同的表应用不同的id生成策略
 
-![[/Untitled 28.png|Untitled 28.png]]
+![[Untitled 28.png]]
 
 这里面所有的TableName和IdType都可以提取出来
 
-![[/Untitled 1 12.png|Untitled 1 12.png]]
+![[Untitled 1 12.png]]
 
 转换成全局配置
 
-![[/Untitled 2 11.png|Untitled 2 11.png]]
+![[Untitled 2 11.png]]
 
 在 MyBatis Plus 中，@TableId 注解用于标识实体类的属性映射到数据库表的主键字段。type 属性用于指定主键的生成策略。您的代码段中展示了三种不同的主键生成策略的注释示例，但没有明确启用任何一种。下面是对这三种主键生成策略的简要说明：
 
@@ -55,19 +55,19 @@
 
 数据库表中添加逻辑删除标记字段，要记着给默认值。
 
-![[/Untitled 3 8.png|Untitled 3 8.png]]
+![[Untitled 3 8.png]]
 
   
 
 实体类中添加对应字段，并设定当前字段为逻辑删除标记字段 (**不推荐**，因为太繁琐)
 
-![[/Untitled 4 6.png|Untitled 4 6.png]]
+![[Untitled 4 6.png]]
 
   
 
 配置逻辑删除字面值 (开启逻辑删除功能)
 
-![[/Untitled 5 5.png|Untitled 5 5.png]]
+![[Untitled 5 5.png]]
 
   
 
@@ -87,7 +87,7 @@
 
 接下来查询数据库的情况:
 
-![[/Untitled 6 5.png|Untitled 6 5.png]]
+![[Untitled 6 5.png]]
 
   
 
@@ -114,7 +114,7 @@ Closing non transactional SqlSession [org.apache.ibatis.session.defaults.Default
 
 数据库表中添加锁标记字段
 
-![[/Untitled 7 5.png|Untitled 7 5.png]]
+![[Untitled 7 5.png]]
 
   
 
