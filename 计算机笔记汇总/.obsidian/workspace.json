@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md"
+                "file": "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md"
               }
             }
           }
@@ -164,16 +164,18 @@
   },
   "active": "94805e9f31649f36",
   "lastOpenFiles": [
-    "images/Pasted image 20240426222404.png",
-    "images/Pasted image 20240426221725.png",
-    "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
+    "images/Pasted image 20240427101503.png",
+    "images/Pasted image 20240427095022.png",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
-    "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.1 条件构造器.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
+    "images/Pasted image 20240426222404.png",
+    "images/Pasted image 20240426221725.png",
+    "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/代码生成器.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/2.3 标准数据层开发.md",
     "images/Pasted image 20240426154727.png",
     "Java/阶段三- Java开发框架/MyBatis Plus/3. 扩展功能.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
@@ -185,11 +187,9 @@
     "images/Pasted image 20240426132624.png",
     "images/Pasted image 20240426113843.png",
     "images/Software_Design_Pattern_Icon.webp",
-    "Java/阶段三- Java开发框架/MySQL/Pasted image 20240426112758.png",
     "Java/阶段四- 企业开发进阶/Redis/Redis.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
     "算法与数据结构/数据结构/数组.md",
-    "images/Pasted image 20240424233105.png",
     "Java/JVM/JVM.md",
     "Java/01Java基础/09OOP/static关键字.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
