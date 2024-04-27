@@ -68,4 +68,13 @@ public class UserController {
         List<User> users = userService.listByIds(ids);
         return BeanUtil.copyToList(users, UserVO.class);
     }
+
+    /**
+     * 扣减用户余额接口
+     */
+    @PutMapping("/{id}/deduction/{money}")
+    @ApiOperation("扣减用户余额接口")
+    public void deductMoneyById(@ApiParam("用户id") @PathVariable("id") Long id) {
+
+    }
 }

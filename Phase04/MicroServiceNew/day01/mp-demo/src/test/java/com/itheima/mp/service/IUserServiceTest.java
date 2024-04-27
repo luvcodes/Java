@@ -49,4 +49,5 @@ class IUserServiceTest {
         List<User> users = userService.listByIds(List.of(1L, 2L, 4L));
         users.forEach(System.out::println);
     }
+
 }
