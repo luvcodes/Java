@@ -30,7 +30,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         }
 
         // 4. 扣减余额
-        baseMapper.deductBalance(id, money);
+//        baseMapper.deductBalance(id, money);
+        int remainBalance = user.getBalance() - money;
+        lambdaUpdate()
+                .set(User::getBalance, remainBalance)
+                .set(remainBalance == 0, User::getStatus, 2)
+                .eq(User::getId, id)
+                // 下面这一行就是实现乐观锁。需要锁的原因是因为在这个deductBalance方法中的逻辑，
+                // 先查询，然后进行更新，可能会出现线程并发安全问题。所以下面这个就当做一个where条件，
+                // 比较当前用户的balance和更新过后的balance是否相同。如果相同，是正确的; 如果不同，下面根本就不会update。
+                .eq(User::getBalance, user.getBalance())
+                .update();
     }
 
     @Override
