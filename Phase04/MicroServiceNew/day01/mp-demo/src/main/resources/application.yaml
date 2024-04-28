@@ -26,3 +26,9 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.itheima.mp.controller
+mybatis-plus:
+  type-aliases-package: com.itheima.mp.domain.po
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted # 逻辑删除字段
