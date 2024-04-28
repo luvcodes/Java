@@ -32,3 +32,5 @@ mybatis-plus:
     db-config:
       id-type: auto
       logic-delete-field: deleted # 逻辑删除字段
+  configuration:
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler # 枚举处理器
