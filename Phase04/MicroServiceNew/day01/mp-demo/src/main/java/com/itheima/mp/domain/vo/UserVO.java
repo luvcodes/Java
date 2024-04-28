@@ -4,6 +4,8 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @author ryanw
  */
@@ -25,4 +27,7 @@ public class UserVO {
 
     @ApiModelProperty("账户余额")
     private Integer balance;
+
+    @ApiModelProperty("用户收货地址")
+    private List<AddressVO> addresses;
 }

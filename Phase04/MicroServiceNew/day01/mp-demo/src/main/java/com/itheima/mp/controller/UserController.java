@@ -23,7 +23,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserController {
 
-    // 这里可以使用Autowired，但是Spring不推荐这样做
+    // 这里可以使用Autowired，但是Spring不推荐这样做。所以使用创建实例对象的方式。
     private final IUserService userService;
 
     /**
@@ -48,26 +48,46 @@ public class UserController {
         userService.removeById(id);
     }
 
-    /**
-     * 根据id查询用户
-     * */
-    @GetMapping("{id}")
-    @ApiOperation("根据id查询用户")
-    public UserVO queryUserById(@ApiParam("用户id") @PathVariable("id") Long id) {
-        // 1. 查询用户PO
-        User user = userService.getById(id);
-        // 2. 把PO拷贝到VO，因为要显示出来，所以需要转换PO成VO
-        return BeanUtil.copyProperties(user, UserVO.class);
-    }
+//    /**
+//     * 根据id查询用户
+//     * */
+//    @GetMapping("{id}")
+//    @ApiOperation("根据id查询用户接口")
+//    public UserVO queryUserById(@ApiParam("用户id") @PathVariable("id") Long id) {
+//        // 1. 查询用户PO
+//        User user = userService.getById(id);
+//        // 2. 把PO拷贝到VO，因为要显示出来，所以需要转换PO成VO
+//        return BeanUtil.copyProperties(user, UserVO.class);
+//    }
 
     /**
-     * 根据id批量查询
+     * 根据id查询用户
+     * 更新版方法，查询user信息的同时要查询出相应的address信息
+     * */
+    @GetMapping("{id}")
+    @ApiOperation("根据id查询用户接口")
+    public UserVO queryUserById(@ApiParam("用户id") @PathVariable("id") Long id) {
+        return userService.queryUserAndAddressById(id);
+    }
+
+//    /**
+//     * 根据id批量查询用户
+//     * */
+//    @GetMapping
+//    @ApiOperation("根据id批量查询用户接口")
+//    public List<UserVO> queryUserByIds(@ApiParam("用户id集合") @RequestParam("ids") List<Long> ids) {
+//        List<User> users = userService.listByIds(ids);
+//        return BeanUtil.copyToList(users, UserVO.class);
+//    }
+
+    /**
+     * 根据id批量查询用户
+     * 更新版方法，查询user信息的同时要查询出相应的address信息
      * */
     @GetMapping
-    @ApiOperation("根据id批量查询")
+    @ApiOperation("根据id批量查询用户接口")
     public List<UserVO> queryUserByIds(@ApiParam("用户id集合") @RequestParam("ids") List<Long> ids) {
-        List<User> users = userService.listByIds(ids);
-        return BeanUtil.copyToList(users, UserVO.class);
+        return userService.queryUserAndAddressByIds(ids);
     }
 
     /**
@@ -77,7 +97,6 @@ public class UserController {
     @ApiOperation("扣减用户余额接口")
     public void deductMoneyById(@ApiParam("用户id") @PathVariable("id") Long id,
                                 @ApiParam("扣减的金额") @PathVariable("money") Integer money) {
-
 
         userService.deductBalance(id, money);
     }
