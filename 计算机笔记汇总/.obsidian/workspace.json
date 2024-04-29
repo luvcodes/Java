@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
+                "file": "Java/01Java基础/14String类.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
+                "file": "Java/01Java基础/14String类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
+                "file": "Java/01Java基础/14String类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md"
+                "file": "Java/01Java基础/14String类.md"
               }
             }
           }
@@ -150,8 +150,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "838986db69bfbbed",
   "lastOpenFiles": [
+    "Java/01Java基础/12包装类、拆箱、装箱.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/3. 扩展功能.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
+    "Java/阶段三- Java开发框架/MyBatis Plus/0. MyBatis Plus.md",
     "images/Pasted image 20240429104408.png",
     "images/Pasted image 20240429104304.png",
     "images/Pasted image 20240429104208.png",
@@ -162,17 +167,12 @@
     "Pasted image 20240429104304.png",
     "Pasted image 20240429104208.png",
     "Pasted image 20240429104144.png",
-    "Pasted image 20240429104104.png",
-    "Java/阶段三- Java开发框架/MyBatis Plus/3. 扩展功能.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
     "Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.1 条件构造器.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/代码生成器.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/MyBatis Plus.md",
     "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
