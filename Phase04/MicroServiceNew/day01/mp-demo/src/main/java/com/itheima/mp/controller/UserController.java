@@ -1,6 +1,7 @@
 package com.itheima.mp.controller;
 
 import cn.hutool.core.bean.BeanUtil;
+import com.itheima.mp.domain.dto.PageDTO;
 import com.itheima.mp.domain.dto.UserFormDTO;
 import com.itheima.mp.domain.po.User;
 import com.itheima.mp.domain.query.UserQuery;
@@ -111,5 +112,14 @@ public class UserController {
         List<User> users = userService.queryUsers(userQuery.getName(), userQuery.getStatus(), userQuery.getMinBalance(), userQuery.getMaxBalance());
         // 2. 将PO转换成UserVO的格式
         return BeanUtil.copyToList(users, UserVO.class);
+    }
+
+    /**
+     * 根据条件分页查询用户接口
+     * */
+    @ApiOperation("根据条件分页查询用户接口")
+    @GetMapping("/page")
+    public PageDTO<UserVO> queryUsersPage(UserQuery query) {
+        return userService.queryUsersPage(query);
     }
 }
