@@ -125,8 +125,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         return list;
     }
 
+    /**
+     * 实现通用分页实体
+     * */
     @Override
     public PageDTO<UserVO> queryUsersPage(UserQuery query) {
+        // 这里设置成包装类型的原因是为了能够处理 null 值，基本数据类型 int 无法处理 null 值，而这在数据库操作中很重要。
         String name = query.getName();
         Integer status = query.getStatus();
 
