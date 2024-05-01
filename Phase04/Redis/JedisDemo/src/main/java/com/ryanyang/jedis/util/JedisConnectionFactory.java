@@ -19,9 +19,10 @@ public class JedisConnectionFactory {
         jedisPoolConfig.setMinIdle(0);
         // 等待时长1000ms就会报错了
         jedisPoolConfig.setMaxWaitMillis(1000);
-        // 创建连接池对象
-        JEDIS_POOL = new JedisPool(jedisPoolConfig, "127.0.0.1",
-                6379, 1000, "123456");
+        // 创建连接池对象。这里我将密码改成了123321，因为正在使用Linux远程连接redis
+        // 如果是运行windows本地的redis，那么改成123456即可
+        JEDIS_POOL = new JedisPool(jedisPoolConfig, "192.168.200.130",
+                6379, 1000, "123321");
     }
 
     public static Jedis getJedis() {

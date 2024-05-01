@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md"
               }
             }
           }
@@ -152,8 +152,10 @@
   },
   "active": "838986db69bfbbed",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Docker.md",
+    "Java/01Java基础/09OOP/static关键字.md",
+    "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+    "Java/阶段四- 企业开发进阶/Docker.md",
     "images/Pasted image 20240430125805.png",
     "images/Pasted image 20240430125725.png",
     "images/Pasted image 20240430125637.png",
@@ -181,10 +183,8 @@
     "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
-    "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
     "算法与数据结构/数据结构/数组.md",
     "Java/JVM/JVM.md",
-    "Java/01Java基础/09OOP/static关键字.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
     "Java/01Java基础/09OOP/成员变量和局部变量.md",

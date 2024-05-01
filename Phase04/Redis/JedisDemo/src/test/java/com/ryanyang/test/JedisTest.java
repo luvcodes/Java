@@ -15,11 +15,12 @@ public class JedisTest {
         // 1. 建立连接
         // 指定ip和端口号
 //        jedis = new Jedis("127.0.0.1", 6379);
-
         jedis = JedisConnectionFactory.getJedis();
 
         // 2. 设置密码
-        jedis.auth("123456");
+        // 这里我将密码改成了123321，因为正在使用Linux远程连接redis
+        // 如果是运行windows本地的redis，那么改成123456即可
+        jedis.auth("123321");
 
         // 3. 选择库
         jedis.select(0);
