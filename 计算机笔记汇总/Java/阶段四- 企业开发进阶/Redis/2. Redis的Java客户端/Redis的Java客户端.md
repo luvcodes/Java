@@ -62,6 +62,18 @@ public class JedisConnectionFactory {
 
 # SpringDataRedis
 
+SpringData是Spring中数据操作的模块，包含对各种数据库的集成，其中对Redis的集成模块就叫做SpringDataRedis，官网地址：[https://spring.io/projects/spring-data-redis](https://spring.io/projects/spring-data-redis)
+
+- 提供了对不同Redis客户端的整合（Lettuce和Jedis）
+- 提供了RedisTemplate统一API来操作Redis
+- 支持Redis的发布订阅模型
+- 支持Redis哨兵和Redis集群
+- 支持基于Lettuce的响应式编程
+- 支持基于JDK.JSON.字符串.Spring对象的数据序列化及反序列化
+- 支持基于Redis的JDKCollection实现
+
+SpringDataRedis中提供了RedisTemplate工具类，其中封装了各种对Redis的操作。并且将不同数据类型的操作API封装到了不同的类型中：
+
 ![[%E6%88%AA%E5%B1%8F2024-01-04_%E4%B8%8B%E5%8D%884.13.14.png]]
 
 ## 使用方法
@@ -112,8 +124,6 @@ class RedisDemo1ApplicationTests {
     }
 }
 ```
-
-  
 
 使用这样的方式存入redis中发现数据的名称与内容难以阅读，所以就引出了序列化RedisTemplate的解决方法
 

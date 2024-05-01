@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   },
   "active": "838986db69bfbbed",
   "lastOpenFiles": [
-    "Java/01Java基础/09OOP/static关键字.md",
     "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
+    "Java/01Java基础/09OOP/static关键字.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
     "Java/阶段四- 企业开发进阶/Docker.md",
     "images/Pasted image 20240430125805.png",

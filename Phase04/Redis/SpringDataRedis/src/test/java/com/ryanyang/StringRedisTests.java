@@ -51,4 +51,14 @@ class StringRedisTests {
         System.out.println(entries);
     }
 
+    @Test
+    void testHash2() {
+        stringRedisTemplate.opsForHash().put("myhash1","key1", "value1");
+        stringRedisTemplate.opsForHash().put("myhash2","key2", "value2");
+        stringRedisTemplate.opsForHash().put("myhash1", "key2", "value2");
+
+        System.out.println(stringRedisTemplate.opsForHash().get("myhash1", "key1"));
+        System.out.println(stringRedisTemplate.opsForHash().get("myhash1", "key2"));
+    }
+
 }

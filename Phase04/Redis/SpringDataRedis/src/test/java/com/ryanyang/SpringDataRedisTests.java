@@ -3,6 +3,7 @@ package com.ryanyang;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.ryanyang.redis.pojo.User;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestClassOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;

@@ -127,7 +127,7 @@ public class MyClass {
 
 # 静态变量和静态代码块的优先级
 
-静态变量和静态代码块都属于类的静态初始化过程。它们的执行顺序取决于它们在代码中的声明顺序。
+静态变量和静态代码块都属于类的静态初始化过程。它们的**执行顺序**取决于它们在代码中的**声明顺序**。
 
 具体来说：
 
@@ -258,3 +258,46 @@ class AA extends BB{
 
 1. **类加载和初始化**：当Java类被加载时，静态变量会被初始化，静态代码块会被执行。这些操作是按照它们在类中声明的顺序进行的。
 2. **执行顺序**：如果一个静态变量声明在静态代码块之前，它会在静态代码块执行之前被初始化。但是，输出操作(`System.out.println(Cat.n1);`)是在类加载和初始化完成后执行的。因此，**即使静态变量**`**n1**`**在静态代码块之前初始化**，**静态代码块的执行输出会在你通过**`**System.out.println**`**访问**`**n1**`**之前显示**。
+
+# 静态变量、静态代码块和静态方法执行顺序
+
+在 Java 类初始化时，静态代码块、静态变量和静态方法的执行顺序遵循以下规则：
+
+1. **静态变量和静态初始化块**：静态变量和静态代码块按照它们在代码中的顺序进行初始化和执行。首先执行的是静态变量的初始化，接着是静态代码块（如果它们按照这个顺序编写的话）。如果一个静态变量和一个静态代码块交错出现，它们将按照文本中出现的顺序执行。
+
+2. **静态方法**：静态方法**不会在类初始化时自动执行**。它们**只在被显式调用时执行**。
+
+```java
+public class ExampleClass {
+    static int number = printNumber("Initializing static variable");
+
+    static {
+        printNumber("Executing static block");
+    }
+
+    static int printNumber(String message) {
+        System.out.println(message);
+        return 1;
+    }
+
+    public static void main(String[] args) {
+        printNumber("Calling static method from main");
+    }
+}
+```
+
+在这个例子中，输出将会是：
+
+```
+Initializing static variable
+Executing static block
+Calling static method from main
+```
+
+这里的顺序说明：
+- 首先，静态变量 `number` 在类加载时被初始化，因此调用 `printNumber` 方法输出"Initializing static variable"。
+- 紧接着执行静态代码块，输出"Executing static block"。
+- 最后，当主方法 `main` 被执行时，调用 `printNumber` 方法输出"Calling static method from main"。
+
+这个顺序显示了静态变量和静态代码块是在类加载时（在任何对象创建或静态方法调用之前）按照它们在代码中出现的顺序被初始化和执行的。静态方法则是在它们被显式调用时执行。
+

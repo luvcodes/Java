@@ -27,7 +27,7 @@ public class RedisConfig {
         // 设置Value的序列化, 使用前面创建的JSON序列化器，这允许将复杂的Java对象作为JSON存储。
         template.setValueSerializer(jsonRedisSerializer);
         template.setHashValueSerializer(jsonRedisSerializer);
-        // 返回
+
         return template;
     }
 }
