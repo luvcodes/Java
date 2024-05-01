@@ -103,7 +103,7 @@ spring:
     private RedisTemplate redisTemplate;
 ```
 
-1. 测试
+2. 测试
 
 ```Java
 import org.junit.jupiter.api.Test;
@@ -125,7 +125,7 @@ class RedisDemo1ApplicationTests {
 }
 ```
 
-使用这样的方式存入redis中发现数据的名称与内容难以阅读，所以就引出了序列化RedisTemplate的解决方法
+使用这样的方式**存入redis中发现数据的名称与内容难以阅读**，所以就引出了序列化RedisTemplate的解决方法。
 
 ![[%E6%88%AA%E5%B1%8F2024-01-04_%E4%B8%8B%E5%8D%884.45.51.png]]
 
@@ -165,6 +165,11 @@ public class RedisConfig {
 但是这样的方式也有一个问题，就是在每一个存入的数据中都会包括一个类字节码 (`@Class`)，占用额外空间
 
 ## 方式二
+
+为了节省内存空间，我们可以不使用JSON序列化器来处理value，而是统一使用String序列化器，要求只能存储String类型的key和value。当需要存储Java对象时，手动完成对象的序列化和反序列化。
+
+![[Pasted image 20240501155803.png]]
+
 
 1. 使用StringRedisTemplate
 2. 写入Redis时，手动把对象序列化为JSON

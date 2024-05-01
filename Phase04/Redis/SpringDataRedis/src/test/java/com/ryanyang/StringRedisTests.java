@@ -14,9 +14,11 @@ import java.util.Map;
 @SpringBootTest
 class StringRedisTests {
     // 用这样的方式写的话，就不需要config.RedisConfig文件中的定义了
-
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+
+    // JSON工具
+    private static final ObjectMapper mapper = new ObjectMapper();
 
     @Test
     void testString() {
@@ -25,12 +27,9 @@ class StringRedisTests {
         System.out.println(age);
     }
 
-    private static final ObjectMapper mapper = new ObjectMapper();
-
 
     @Test
     void testSaveUser() throws JsonProcessingException {
-        // 创建对象
         User user = new User("mark", 22);
         // 手动序列化
         String json = mapper.writeValueAsString(user);
