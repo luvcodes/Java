@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5838ec20-dcd3-4d49-86a8-b807dad6406c" name="Changes" comment="Update on the xml files of the idea setting">
-      <change beforePath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect1/MyReflectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect1/MyReflectDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect2/MyReflectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect2/MyReflectDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect3/MyReflectDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter16_Reflection_/src/myreflect/src/com/itheima/myreflect3/MyReflectDemo3.java" afterDir="false" />
+    <list default="true" id="5838ec20-dcd3-4d49-86a8-b807dad6406c" name="Changes" comment="Update generics chapter contents and notes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../计算机笔记汇总/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/Java/阶段四- 企业开发进阶/Redis/Redis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../计算机笔记汇总/Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../计算机笔记汇总/Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../计算机笔记汇总/Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter16_Reflection_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Phase04/Redis/SpringDataRedis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -167,6 +170,9 @@
       <workItem from="1713764217030" duration="370000" />
       <workItem from="1713764611780" duration="1051000" />
       <workItem from="1713787880997" duration="28000" />
+      <workItem from="1714395341715" duration="2026000" />
+      <workItem from="1714436503074" duration="3434000" />
+      <workItem from="1714521484517" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Generics wildcard content learning">
       <option name="closed" value="true" />
@@ -184,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710647656405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update generics chapter contents and notes">
+      <option name="closed" value="true" />
+      <created>1714397676661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714397676661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +210,7 @@
     </ignored-roots>
     <MESSAGE value="Generics wildcard content learning" />
     <MESSAGE value="Update on the xml files of the idea setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the xml files of the idea setting" />
+    <MESSAGE value="Update generics chapter contents and notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update generics chapter contents and notes" />
   </component>
 </project>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/01Java基础/17泛型.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/01Java基础/17泛型.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/01Java基础/17泛型.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/01Java基础/17泛型.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md"
               }
             }
           }
@@ -150,19 +150,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "838986db69bfbbed",
   "lastOpenFiles": [
-    "images/截屏2024-03-17 上午9.25.44.png",
-    "images/截屏2024-03-17 上午9.25.44 1.png",
-    "images/截屏2024-03-17 上午8.57.35.png",
-    "images/截屏2024-03-17 上午8.56.20.png",
-    "images/截屏2024-03-17 上午8.55.04.png",
-    "images/截屏2024-03-17 上午8.55.04 1.png",
-    "截屏2024-03-17 上午9.25.44 1.png",
-    "截屏2024-03-17 上午9.25.44.png",
-    "截屏2024-03-17 上午8.55.04 1.png",
-    "截屏2024-03-17 上午8.57.35.png",
-    "截屏2024-03-17 上午8.56.20.png",
+    "Java/阶段四- 企业开发进阶/Docker.md",
+    "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+    "images/Pasted image 20240430125805.png",
+    "images/Pasted image 20240430125725.png",
+    "images/Pasted image 20240430125637.png",
+    "images/Pasted image 20240430125541.png",
+    "images/Pasted image 20240430125523.png",
+    "images/Pasted image 20240430125503.png",
+    "images/Pasted image 20240430125332.png",
+    "images/Pasted image 20240430125243.png",
+    "Pasted image 20240430125805.png",
+    "Pasted image 20240430125725.png",
+    "Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md",
+    "Java/01Java基础/17泛型.md",
     "Java/01Java基础/14String类.md",
     "Java/01Java基础/12包装类、拆箱、装箱.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
@@ -178,7 +181,6 @@
     "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
-    "Java/阶段四- 企业开发进阶/Redis/Redis.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis的Java客户端/Redis的Java客户端.md",
     "算法与数据结构/数据结构/数组.md",
     "Java/JVM/JVM.md",
@@ -186,9 +188,6 @@
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
     "Java/01Java基础/09OOP/成员变量和局部变量.md",
-    "Java/01Java基础/10Java 8的新特性.md",
-    "Java/01Java基础/08位运算.md",
-    "Java/01Java基础/07正则表达式.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
