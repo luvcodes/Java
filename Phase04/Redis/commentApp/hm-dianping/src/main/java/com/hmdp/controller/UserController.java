@@ -16,9 +16,7 @@ import javax.servlet.http.HttpSession;
  * <p>
  * 前端控制器
  * </p>
- *
- * @author 虎哥
- * @since 2021-12-22
+ * @author ryanw
  */
 @Slf4j
 @RestController
@@ -32,12 +30,13 @@ public class UserController {
     private IUserInfoService userInfoService;
 
     /**
+     * 这是开始实现的第一步
      * 发送手机验证码
      */
     @PostMapping("code")
     public Result sendCode(@RequestParam("phone") String phone, HttpSession session) {
         // TODO 发送短信验证码并保存验证码
-        return Result.fail("功能未完成");
+        return userService.sendCode(phone, session);
     }
 
     /**
