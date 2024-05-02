@@ -52,6 +52,13 @@ public class UserController {
         return Result.ok(userService.login(loginForm, session));
     }
 
+    @GetMapping("/me")
+    public Result me(){
+        // 获取当前登录的用户并返回
+        UserDTO user = UserHolder.getUser();
+        return Result.ok(user);
+    }
+
     /**
      * 登出功能
      * @return 无
@@ -60,13 +67,6 @@ public class UserController {
     public Result logout(){
         // TODO 实现登出功能
         return Result.fail("功能未完成");
-    }
-
-    @GetMapping("/me")
-    public Result me(){
-        // 获取当前登录的用户并返回
-        UserDTO user = UserHolder.getUser();
-        return Result.ok(user);
     }
 
     @GetMapping("/info/{id}")
