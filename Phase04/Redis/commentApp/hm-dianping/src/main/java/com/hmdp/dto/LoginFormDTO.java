@@ -2,6 +2,9 @@ package com.hmdp.dto;
 
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 public class LoginFormDTO {
     private String phone;
