@@ -6,9 +6,10 @@ import java.util.Comparator;
 
 /**
  * Lambda表达式的使用举例
+ * @author ryanw
  * */
-
-public class LambdaIntro_ {
+@SuppressWarnings("all")
+public class LambdaIntro {
     @Test
     public void test1() {
         Runnable r1 = new Runnable() {
