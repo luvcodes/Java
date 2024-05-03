@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/1. Redis.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md"
               }
             }
           }
@@ -152,9 +152,10 @@
   },
   "active": "e8e9b897448d89de",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
-    "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+    "Java/阶段四- 企业开发进阶/Redis/分布式锁/分布式锁.md",
     "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+    "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
+    "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
     "images/Pasted image 20240501155803.png",
     "Java/01Java基础/09OOP/static关键字.md",
     "Java/阶段四- 企业开发进阶/Docker.md",
@@ -188,7 +189,6 @@
     "Java/JVM/JVM.md",
     "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "Java/01Java基础/09OOP/代码块.md",
-    "Java/01Java基础/09OOP/成员变量和局部变量.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
