@@ -26,10 +26,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * <p>
  * 服务实现类
- * </p>
- *
  * @author ryanw
  */
 @Service
