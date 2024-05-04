@@ -11,9 +11,11 @@
             "id": "e8e9b897448d89de",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240504092829.png"
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240504092829.png",
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240504092829.png",
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240504092829.png"
+                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md"
               }
             }
           }
@@ -148,12 +150,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "e8e9b897448d89de",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
     "images/Pasted image 20240504093009.png",
     "images/Pasted image 20240504092829.png",
     "Java/阶段四- 企业开发进阶/Redis/分布式锁/分布式锁.md",
+    "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis.md",
     "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
     "images/Pasted image 20240501155803.png",
@@ -166,6 +168,7 @@
     "images/Pasted image 20240430125523.png",
     "images/Pasted image 20240430125503.png",
     "images/Pasted image 20240430125332.png",
+    "images/Pasted image 20240430125243.png",
     "Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md",
     "Java/01Java基础/17泛型.md",
     "Java/01Java基础/14String类.md",
