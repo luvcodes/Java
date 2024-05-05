@@ -9,6 +9,7 @@ import com.hmdp.entity.Shop;
 import com.hmdp.mapper.ShopMapper;
 import com.hmdp.service.IShopService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hmdp.utils.CacheClient;
 import com.hmdp.utils.RedisConstants;
 import com.hmdp.utils.RedisData;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -30,13 +31,16 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
+    @Resource
+    private CacheClient cacheClient;
+
     /**
      * 根据id查询商铺
      * */
     @Override
     public Result queryById(Long id) {
         // 缓存穿透
-        // Shop shop = queryWithPassThrough(id);
+         Shop shop = cacheClient.queryWithPassThrough(RedisConstants.CACHE_SHOP_KEY, id, Shop.class, this::getById, RedisConstants.CACHE_SHOP_TTL, TimeUnit.MINUTES);
 
         // 互斥锁解决缓存击穿
         // Shop shop = queryWithMutex(id);
@@ -44,7 +48,8 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
         //     return Result.fail("店铺不存在！");
         // }
 
-        Shop shop = queryWithLogicalExpire(id);
+        /*Shop shop = queryWithLogicalExpire(id);*/
+
         if (shop == null) {
             return Result.fail("店铺不存在！");
         }
@@ -59,6 +64,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
      * @param id 店铺id
      * @return shop
      * 这里是定义缓存击穿部份的代码，在上面实现根据id查询商铺的方法中只要调用这个方法就是实现了
+     * 缓存击穿使用逻辑过期解决
      * */
     public Shop queryWithLogicalExpire(Long id) {
         String key = RedisConstants.CACHE_SHOP_KEY + id;
@@ -181,7 +187,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
      * @return shop
      * 这里是定义缓存击穿部份的代码，在上面实现根据id查询商铺的方法中只要调用这个方法就是实现了
      * */
-    public Shop queryWithPassThrough(Long id) {
+    /*public Shop queryWithPassThrough(Long id) {
         String key = RedisConstants.CACHE_SHOP_KEY + id;
         // 1. 从redis查询商铺缓存
         String shopJson = stringRedisTemplate.opsForValue().get(key);
@@ -216,7 +222,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
         // 7. 返回
         return shop;
-    }
+    }*/
 
 
     /**
@@ -259,7 +265,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
     /**
      * 更新商铺信息
-     * @param shop
+     * @param shop 商铺对象
      * @return
      * 确定了采用删除策略，来解决双写问题，当我们修改了数据之后，
      * 然后把缓存中的数据进行删除，查询时发现缓存中没有数据，则会从mysql中加载最新的数据，
