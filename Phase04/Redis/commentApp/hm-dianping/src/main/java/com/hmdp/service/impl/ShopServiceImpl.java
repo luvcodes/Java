@@ -1,9 +1,5 @@
 package com.hmdp.service.impl;
 
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
 import com.hmdp.dto.Result;
 import com.hmdp.entity.Shop;
 import com.hmdp.mapper.ShopMapper;
@@ -11,18 +7,15 @@ import com.hmdp.service.IShopService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmdp.utils.CacheClient;
 import com.hmdp.utils.RedisConstants;
-import com.hmdp.utils.RedisData;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
-import java.time.LocalDateTime;
-import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.ExecutorService;
 
 /**
- *  服务实现类
+ * 服务实现类
+ *
  * @author ryanw
  */
 @Service
@@ -36,11 +29,11 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
     /**
      * 根据id查询商铺
-     * */
+     */
     @Override
     public Result queryById(Long id) {
         // 缓存穿透
-         Shop shop = cacheClient.queryWithPassThrough(RedisConstants.CACHE_SHOP_KEY, id, Shop.class, this::getById, RedisConstants.CACHE_SHOP_TTL, TimeUnit.MINUTES);
+        // Shop shop = cacheClient.queryWithPassThrough(RedisConstants.CACHE_SHOP_KEY, id, Shop.class, this::getById, RedisConstants.CACHE_SHOP_TTL, TimeUnit.MINUTES);
 
         // 互斥锁解决缓存击穿
         // Shop shop = queryWithMutex(id);
@@ -48,25 +41,50 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
         //     return Result.fail("店铺不存在！");
         // }
 
-        /*Shop shop = queryWithLogicalExpire(id);*/
+        // 逻辑过期解决缓存击穿
+        // Shop shop = queryWithLogicalExpire(id);
+        Shop shop = cacheClient
+                .queryWithLogicalExpire(RedisConstants.CACHE_SHOP_KEY, id,
+                        Shop.class, this::getById, RedisConstants.CACHE_SHOP_TTL,
+                        TimeUnit.MINUTES);
 
         if (shop == null) {
             return Result.fail("店铺不存在！");
         }
 
-        // 7. 返回
         return Result.ok(shop);
+    }
 
+    /**
+     * 更新商铺信息
+     *
+     * @param shop 商铺对象
+     * @return 确定了采用删除策略，来解决双写问题，当我们修改了数据之后，
+     * 然后把缓存中的数据进行删除，查询时发现缓存中没有数据，则会从mysql中加载最新的数据，
+     * 从而避免数据库和缓存不一致的问题。
+     */
+    @Override
+    @Transactional
+    public Result update(Shop shop) {
+        Long id = shop.getId();
+        if (id == null) {
+            return Result.fail("店铺id不能为空");
+        }
+
+        // 1. 更新数据库
+        updateById(shop);
+        // 2. 删除缓存
+        stringRedisTemplate.delete(RedisConstants.CACHE_SHOP_KEY + id);
+
+        return Result.ok();
     }
 
 
     /**
-     * @param id 店铺id
-     * @return shop
-     * 这里是定义缓存击穿部份的代码，在上面实现根据id查询商铺的方法中只要调用这个方法就是实现了
+     * 逻辑过期解决缓存击穿的代码，在上面实现根据id查询商铺的方法中只要调用这个方法就是实现了
      * 缓存击穿使用逻辑过期解决
-     * */
-    public Shop queryWithLogicalExpire(Long id) {
+     */
+    /*public Shop queryWithLogicalExpire(Long id) {
         String key = RedisConstants.CACHE_SHOP_KEY + id;
         // 1. 从redis查询商铺缓存
         String shopJson = stringRedisTemplate.opsForValue().get(key);
@@ -113,17 +131,17 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
         // 6.4 失败，返回过期的商铺信息
         return shop;
-    }
+    }*/
 
     // 创建线程池
-    private static final ExecutorService CACHE_REBUILD_EXECUTOR = Executors.newFixedThreadPool(10);
+    // private static final ExecutorService CACHE_REBUILD_EXECUTOR = Executors.newFixedThreadPool(10);
 
     /**
-     * 实现缓存穿透的代码
+     * 互斥锁解决缓存穿透的代码
      * @param id shop_id
      * @return shop 返回shop对象
-     * */
-    public Shop queryWithMutex(Long id) {
+     */
+    /*public Shop queryWithMutex(Long id) {
         String key = RedisConstants.CACHE_SHOP_KEY + id;
         // 1. 从redis查询商铺缓存
         String shopJson = stringRedisTemplate.opsForValue().get(key);
@@ -180,11 +198,9 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
         // 8. 返回
         return shop;
-    }
+    }*/
 
     /**
-     * @param id 店铺id
-     * @return shop
      * 这里是定义缓存击穿部份的代码，在上面实现根据id查询商铺的方法中只要调用这个方法就是实现了
      * */
     /*public Shop queryWithPassThrough(Long id) {
@@ -224,29 +240,10 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
         return shop;
     }*/
 
-
-    /**
-     * 这是为了解决缓存击穿问题，使用互斥锁的方式来实现
-     * 尝试获取锁
-     * */
-    private boolean tryLock(String key) {
-        // 获取锁
-        Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(RedisConstants.CACHE_SHOP_KEY, "1", 10, TimeUnit.SECONDS);
-        return BooleanUtil.isTrue(flag);
-    }
-
-    /**
-     * 对应上面的获取锁
-     * 释放锁
-     * */
-    private void unlock(String key) {
-        stringRedisTemplate.delete(key);
-    }
-
     /**
      * 针对缓存击穿的问题，实现逻辑过期业务
-     * */
-    public void saveShop2Redis(Long id, Long expireSeconds) throws InterruptedException {
+     */
+    /*public void saveShop2Redis(Long id, Long expireSeconds) throws InterruptedException {
         // 1. 查询店铺数据
         Shop shop = getById(id);
         // 给一些延迟，为了验证是不是出现安全问题
@@ -260,30 +257,25 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
         // 3. 写入过期时间
         String key = RedisConstants.CACHE_SHOP_KEY + id;
         stringRedisTemplate.opsForValue().set(key, JSONUtil.toJsonStr(redisData));
-    }
-
+    }*/
 
     /**
-     * 更新商铺信息
-     * @param shop 商铺对象
-     * @return
-     * 确定了采用删除策略，来解决双写问题，当我们修改了数据之后，
-     * 然后把缓存中的数据进行删除，查询时发现缓存中没有数据，则会从mysql中加载最新的数据，
-     * 从而避免数据库和缓存不一致的问题。
+     * 这是为了解决缓存击穿问题，使用互斥锁的方式来实现
+     * 尝试获取锁
      */
-    @Override
-    @Transactional
-    public Result update(Shop shop) {
-        Long id = shop.getId();
-        if (id == null) {
-            return Result.fail("店铺id不能为空");
-        }
+    /*private boolean tryLock(String key) {
+        // 获取锁
+        Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(RedisConstants.CACHE_SHOP_KEY, "1", 10, TimeUnit.SECONDS);
+        return BooleanUtil.isTrue(flag);
+    }*/
 
-        // 1. 更新数据库
-        updateById(shop);
-        // 2. 删除缓存
-        stringRedisTemplate.delete(RedisConstants.CACHE_SHOP_KEY + id);
+    /**
+     * 对应上面的获取锁
+     * 释放锁
+     */
+    /*private void unlock(String key) {
+        stringRedisTemplate.delete(key);
+    }*/
 
-        return Result.ok();
-    }
+
 }
