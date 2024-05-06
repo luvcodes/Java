@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md"
               }
             }
           }
@@ -152,8 +152,9 @@
   },
   "active": "e8e9b897448d89de",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
+    "Pasted image 20240506122433.png",
     "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
     "images/Pasted image 20240504093009.png",
     "images/Pasted image 20240504092829.png",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
@@ -188,7 +189,6 @@
     "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
     "算法与数据结构/数据结构/数组.md",
     "Java/JVM/JVM.md",
-    "计算机网络/图解《HTTP》/简单的HTTP协议/简单的HTTP协议.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
