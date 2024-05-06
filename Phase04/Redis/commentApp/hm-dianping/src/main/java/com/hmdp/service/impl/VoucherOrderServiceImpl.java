@@ -9,6 +9,7 @@ import com.hmdp.service.IVoucherOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmdp.utils.RedisIdWorker;
 import com.hmdp.utils.UserHolder;
+import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,6 +18,7 @@ import java.time.LocalDateTime;
 
 /**
  * 服务实现类
+ *
  * @author ryanw
  */
 @Service
@@ -56,7 +58,37 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
             return Result.fail("库存不足");
         }
 
-        // 5. 扣减库存
+        Long userId = UserHolder.getUser().getId();
+        synchronized (userId.toString().intern()) {
+            // 获取代理对象 (事务)
+            IVoucherOrderService proxy = (IVoucherOrderService) AopContext.currentProxy();
+
+            return proxy.createVoucherOrder(voucherId);
+        }
+    }
+
+    /**
+     * 这样就是应用了事务 + 锁，线程安全
+     * 针对userId进行加锁，就可以保证只要userId的当前值一样，锁就肯定是一样的了。
+     * toString方法取到具体的值，intern方法去字符串常量池找值一样的引用返回。
+     * 比如说userId是5，无论new了多少个字符串，只要值是一样的，最后的结果就肯定是一样的
+     */
+    @Transactional
+    public Result createVoucherOrder(Long voucherId) {
+
+        // 5. 一人一单
+        Long userId = UserHolder.getUser().getId();
+        // 针对userId加锁
+
+        // 5.1 查询订单
+        // 如果数据库中已经存在了user_id和voucher_id说明已经购买过
+        int count = query().eq("user_id", userId).eq("voucher_id", voucherId).count();
+        // 5.2 判断数据库中是否存在order的记录
+        if (count > 0) {
+            return Result.fail("该用户已经购买过一次！");
+        }
+
+        // 6. 扣减库存
         boolean success = iSeckillVoucherService.update()
                 .setSql("stock = stock - 1")
                 // where id = ? and stock > 0
@@ -68,18 +100,16 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
             return Result.fail("内存不足");
         }
 
-        // 6. 创建订单
+        // 7. 创建订单
         VoucherOrder voucherOrder = new VoucherOrder();
         Long orderId = redisIdWorker.nextId("order");
         voucherOrder.setId(orderId);
-        Long userId = UserHolder.getUser().getId();
         voucherOrder.setUserId(userId);
         voucherOrder.setVoucherId(voucherId);
 
         save(voucherOrder);
 
-        // 7. 返回订单id
+        // 8. 返回订单id
         return Result.ok(orderId);
-
     }
 }
