@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/一人一单.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/一人一单.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/一人一单.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/一人一单.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md"
               }
             }
           }
@@ -150,27 +150,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e8e9b897448d89de",
+  "active": "94805e9f31649f36",
   "lastOpenFiles": [
+    "images/Pasted image 20240506190906.png",
+    "images/Pasted image 20240506190826.png",
+    "images/Pasted image 20240506190758.png",
+    "images/Pasted image 20240506154250.png",
+    "images/Pasted image 20240506153803.png",
+    "Pasted image 20240506190906.png",
+    "Pasted image 20240506190826.png",
+    "Pasted image 20240506190758.png",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.2 一人一单.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
     "Pasted image 20240506154250.png",
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/优惠劵秒杀.md",
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/一人一单.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.1 优惠劵秒杀.md",
     "Pasted image 20240506153803.png",
     "images/Pasted image 20240506145609.png",
-    "images/Pasted image 20240506144439.png",
-    "images/Pasted image 20240506122433.png",
-    "Pasted image 20240506145609.png",
     "Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构",
-    "Pasted image 20240506144439.png",
-    "Pasted image 20240506122433.png",
     "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
-    "images/Pasted image 20240504093009.png",
-    "images/Pasted image 20240504092829.png",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构/1. Redis.md",
     "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
-    "images/Pasted image 20240501155803.png",
     "Java/01Java基础/09OOP/static关键字.md",
     "Java/阶段四- 企业开发进阶/Docker.md",
     "Java/01Java基础/17泛型.md",
@@ -189,7 +190,6 @@
     "未命名.canvas",
     "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
-    "算法与数据结构/数据结构/数组.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
