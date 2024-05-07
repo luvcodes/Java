@@ -94,6 +94,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
      * 比如说userId是5，无论new了多少个字符串，只要值是一样的，最后的结果就肯定是一样的
      */
     @Transactional
+    @Override
     public Result createVoucherOrder(Long voucherId) {
 
         // 5. 一人一单
