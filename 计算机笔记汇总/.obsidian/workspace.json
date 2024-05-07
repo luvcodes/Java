@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 322.5
   },
   "right": {
     "id": "3e514bd6079fc878",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md"
               }
             }
           }
@@ -152,6 +152,12 @@
   },
   "active": "94805e9f31649f36",
   "lastOpenFiles": [
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.2 一人一单.md",
+    "images/Pasted image 20240507161016.png",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
     "images/Pasted image 20240507143859.png",
     "images/Pasted image 20240507143832.png",
     "images/Pasted image 20240507143817.png",
@@ -161,11 +167,6 @@
     "Pasted image 20240507143832.png",
     "Pasted image 20240507143817.png",
     "Pasted image 20240507143523.png",
-    "Pasted image 20240507142137.png",
-    "images/Pasted image 20240507113735.png",
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/分布式锁.md",
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.2 一人一单.md",
     "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.1 优惠劵秒杀.md",
     "Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构",
@@ -188,8 +189,6 @@
     "Java/阶段三- Java开发框架/MyBatis Plus/代码生成器.md",
     "Java/阶段三- Java开发框架/MyBatis Plus/2.2 自定义SQL.md",
     "未命名.canvas",
-    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制 1.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/1. 快速入门.md",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
