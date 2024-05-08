@@ -76,8 +76,9 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
         // 使用redissonClient创建锁, 替代上面的自定义SimpleRedisLock
         RLock lock = redissonClient.getLock("lock:order:" + userId);
 
-        // 尝试获取锁
+        // 尝试获取锁 (可重入)
         // 无参意思就是获取锁失败不等待
+        // 如果指定参数，参数分别是: 获取锁的最大等待时间 (期间会重试), 锁自动释放时间，时间单位
         boolean isLock = lock.tryLock();
 
         // 判断是否获取锁成功
