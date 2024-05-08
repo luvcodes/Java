@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md"
               }
             }
           }
@@ -152,13 +152,13 @@
   },
   "active": "e8e9b897448d89de",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
     "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
     "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.2 一人一单.md",
     "images/Pasted image 20240507161016.png",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
     "images/Pasted image 20240507143859.png",
     "images/Pasted image 20240507143832.png",
     "images/Pasted image 20240507143817.png",
