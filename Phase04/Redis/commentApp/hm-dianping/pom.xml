@@ -62,6 +62,12 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
         </dependency>
+        <!-- redisson依赖 -->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.13.6</version>
+        </dependency>
     </dependencies>
 
     <build>

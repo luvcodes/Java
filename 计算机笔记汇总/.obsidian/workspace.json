@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md"
               }
             }
           }
@@ -150,8 +150,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "e8e9b897448d89de",
   "lastOpenFiles": [
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 Redisson的可重入锁.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
     "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
