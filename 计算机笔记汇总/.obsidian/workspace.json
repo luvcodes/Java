@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md",
+                "file": "Java/01Java基础/14 String类.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md",
+                "file": "Java/01Java基础/14 String类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md",
+                "file": "Java/01Java基础/14 String类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md"
+                "file": "Java/01Java基础/14 String类.md"
               }
             }
           }
@@ -152,8 +152,17 @@
   },
   "active": "e8e9b897448d89de",
   "lastOpenFiles": [
-    "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构/1. Redis.md",
+    "Java/01Java基础/14.1 StringBuilder, StringBuffer, StringJoiner.md",
+    "Java/01Java基础/14 String类.md",
+    "未命名.md",
+    "Java/01Java基础/14.2 String类相关练习.md",
+    "Java/01Java基础/13 常用类.md",
+    "Java/01Java基础/07 正则表达式.md",
+    "Java/01Java基础/08 位运算.md",
+    "Java/01Java基础/10 Java 8的新特性.md",
+    "Java/01Java基础/12 包装类、拆箱、装箱.md",
     "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md",
+    "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构/1. Redis.md",
     "images/Pasted image 20240509162811.png",
     "images/Pasted image 20240509162208.png",
     "images/Pasted image 20240509161150.png",
@@ -180,15 +189,6 @@
     "Java/01Java基础/09OOP/static关键字.md",
     "Java/阶段四- 企业开发进阶/Docker.md",
     "Java/01Java基础/17泛型.md",
-    "Java/01Java基础/14String类.md",
-    "Java/01Java基础/12包装类、拆箱、装箱.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/4. 插件功能.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/3. 扩展功能.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/DML编程控制.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/0. MyBatis Plus.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/2.3 Service接口.md",
-    "Java/阶段四- 企业开发进阶/阶段四- 企业开发进阶.md",
-    "Java/阶段三- Java开发框架/MyBatis Plus/2. 核心功能.md",
     "未命名.canvas",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
