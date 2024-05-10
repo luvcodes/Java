@@ -17,6 +17,7 @@ import java.util.List;
 
 /**
  * 前端控制器
+ *
  * @author ryanw
  */
 @RestController
@@ -26,7 +27,25 @@ public class BlogController {
     @Resource
     private IBlogService blogService;
 
+    /**
+     * 通过id查询blog信息
+     */
+    @GetMapping("/{id}")
+    public Result queryBlogById(@PathVariable("id") Long id) {
+        return blogService.queryBlogById(id);
+    }
 
+    /**
+     * 查看当前火爆的blog信息
+     */
+    @GetMapping("/hot")
+    public Result queryHotBlog(@RequestParam(value = "current", defaultValue = "1") Integer current) {
+        return blogService.queryHotBlog(current);
+    }
+
+    /**
+     * 创建blog
+     */
     @PostMapping
     public Result saveBlog(@RequestBody Blog blog) {
         // 获取登录用户
@@ -38,12 +57,12 @@ public class BlogController {
         return Result.ok(blog.getId());
     }
 
+    /**
+     * 点赞功能
+     */
     @PutMapping("/like/{id}")
     public Result likeBlog(@PathVariable("id") Long id) {
-        // 修改点赞数量
-        blogService.update()
-                .setSql("liked = liked + 1").eq("id", id).update();
-        return Result.ok();
+        return blogService.likeBlog(id);
     }
 
     @GetMapping("/of/me")
@@ -58,14 +77,5 @@ public class BlogController {
         return Result.ok(records);
     }
 
-    @GetMapping("/hot")
-    public Result queryHotBlog(@RequestParam(value = "current", defaultValue = "1") Integer current) {
-        return blogService.queryHotBlog(current);
-    }
 
-
-    @GetMapping("/{id}")
-    public Result queryBlogById(@PathVariable("id") Long id) {
-        return blogService.queryBlogById(id);
-    }
 }
