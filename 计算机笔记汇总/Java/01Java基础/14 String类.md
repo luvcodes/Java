@@ -110,7 +110,7 @@ public class StringInternExample {
 
 **适用场景：**
 - 当你需要将一个可能为 `null` 的对象转换为字符串时，使用 `String.valueOf()` 是一个安全的选择，因为它可以避免 `NullPointerException`。
-- 当你需要将基本数据类型转换为字符串时，也可以使用 `String.valueOf()`，如 `int`、`float`、`char` 等。
+- 当你**需要将基本数据类型转换为字符串时**，也可以使用 `String.valueOf()`，如 `int`、`float`、`char` 等。
 
 **示例：**
 ```java
