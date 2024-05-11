@@ -189,13 +189,13 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
     }
 
     /**
-     * 保存blog信息，同时推送到粉丝邮件箱
-     * @param blog
-     * @return
+     * 新增探店笔记，保存blog到数据库的同时，推送到粉丝的收件箱
+     * @param blog blog对象
+     * @return Result规范返回结果
      */
     @Override
     public Result saveBlog(Blog blog) {
-       // 1. 获取登录用户
+        // 1. 获取登录用户
         UserDTO user = UserHolder.getUser();
         blog.setUserId(user.getId());
 
@@ -205,7 +205,7 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
             return Result.fail("新增笔记失败！");
         }
 
-        // 3. 查询笔记作者的所有粉丝
+        // 3. 查询笔记作者的所有粉丝 select * from tb_follow where follow_user_id = ?;
         List<Follow> follows = followService.query().eq("follow_user_id", user.getId()).list();
 
         // 4. 推送笔记id给所有粉丝
@@ -214,6 +214,7 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
             Long userId = follow.getUserId();
             // 4.2 推送
             String key = "feeds:" + userId;
+            // 按照时间戳排序
             stringRedisTemplate.opsForZSet().add(key, blog.getId().toString(), System.currentTimeMillis());
         }
 
