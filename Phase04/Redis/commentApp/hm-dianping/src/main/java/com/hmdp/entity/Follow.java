@@ -11,12 +11,8 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * <p>
- * 
- * </p>
- *
- * @author 虎哥
- * @since 2021-12-22
+ * 关注 实体类
+ * @author ryanw
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -46,6 +42,5 @@ public class Follow implements Serializable {
      * 创建时间
      */
     private LocalDateTime createTime;
-
 
 }
