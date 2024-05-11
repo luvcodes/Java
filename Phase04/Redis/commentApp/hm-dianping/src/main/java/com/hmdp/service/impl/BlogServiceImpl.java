@@ -7,10 +7,12 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hmdp.dto.Result;
 import com.hmdp.dto.UserDTO;
 import com.hmdp.entity.Blog;
+import com.hmdp.entity.Follow;
 import com.hmdp.entity.User;
 import com.hmdp.mapper.BlogMapper;
 import com.hmdp.service.IBlogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hmdp.service.IFollowService;
 import com.hmdp.service.IUserService;
 import com.hmdp.utils.RedisConstants;
 import com.hmdp.utils.SystemConstants;
@@ -40,8 +42,12 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
+    @Resource
+    private IFollowService followService;
+
     /**
      * 根据id查询Blog
+     *
      * @param id Blog的id
      * @return Blog信息
      */
@@ -116,6 +122,7 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
 
     /**
      * Blog点赞功能
+     *
      * @param id 当前已经点赞的Blog的id
      * @return 点赞成功与否结果
      */
@@ -153,6 +160,7 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
 
     /**
      * top5点赞排行榜功能
+     *
      * @param id Blog的id
      * @return Blog的内容
      */
@@ -173,11 +181,44 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
         Stream<UserDTO> userDTOs = userService.query()
                 .in("id", ids).last("ORDER BY FIELD(id," + idStr + ")").list()
                 .stream().map(
-                user -> BeanUtil.copyProperties(user, UserDTO.class)
-        );
+                        user -> BeanUtil.copyProperties(user, UserDTO.class)
+                );
 
         // 4. 返回
         return Result.ok(userDTOs);
+    }
+
+    /**
+     * 保存blog信息，同时推送到粉丝邮件箱
+     * @param blog
+     * @return
+     */
+    @Override
+    public Result saveBlog(Blog blog) {
+       // 1. 获取登录用户
+        UserDTO user = UserHolder.getUser();
+        blog.setUserId(user.getId());
+
+        // 2. 保存探店笔记
+        boolean isSuccess = save(blog);
+        if (!isSuccess) {
+            return Result.fail("新增笔记失败！");
+        }
+
+        // 3. 查询笔记作者的所有粉丝
+        List<Follow> follows = followService.query().eq("follow_user_id", user.getId()).list();
+
+        // 4. 推送笔记id给所有粉丝
+        for (Follow follow : follows) {
+            // 4.1 获取粉丝id
+            Long userId = follow.getUserId();
+            // 4.2 推送
+            String key = "feeds:" + userId;
+            stringRedisTemplate.opsForZSet().add(key, blog.getId().toString(), System.currentTimeMillis());
+        }
+
+        // 5. 返回id
+        return Result.ok(blog.getId());
     }
 
 }
