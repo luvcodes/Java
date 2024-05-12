@@ -24,6 +24,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 import static com.hmdp.utils.RedisConstants.SHOP_GEO_KEY;
+import static com.hmdp.utils.SystemConstants.DEFAULT_PAGE_SIZE;
 
 /**
  * 服务实现类
@@ -93,27 +94,35 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
     /**
      * 根据商铺类型分页查询商铺信息
-     * @param typeId 商铺的类型id
+     *
+     * @param typeId  商铺的类型id
      * @param current 当前页码
-     * @param x 横坐标
-     * @param y 纵坐标
+     * @param x       横坐标
+     * @param y       纵坐标
      * @return Result规范输出格式
      */
     @Override
     public Result queryShopByType(Integer typeId, Integer current, Double x, Double y) {
         // 1.判断是否需要根据坐标查询
+        // 如果任一坐标值为null，需要使用数据库查询
         if (x == null || y == null) {
-            // 不需要坐标查询，按数据库查询
+            // 按数据库查询
             Page<Shop> page = query()
                     .eq("type_id", typeId)
-                    .page(new Page<>(current, SystemConstants.DEFAULT_PAGE_SIZE));
+                    .page(new Page<>(current, DEFAULT_PAGE_SIZE));
             // 返回数据
             return Result.ok(page.getRecords());
         }
 
         // 2.计算分页参数
-        int from = (current - 1) * SystemConstants.DEFAULT_PAGE_SIZE;
-        int end = current * SystemConstants.DEFAULT_PAGE_SIZE;
+        // 因为页码通常从1开始计数，而数据索引是从0开始。
+        // 所以，如果你在第1页（current = 1），应该从索引0开始读取数据。
+        // 这个计算确定了当前页的第一个元素在数据集中的位置。
+        // 例如，如果每页有10项 (DEFAULT_PAGE_SIZE = 10)，那么第3页的起始索引是 (3 - 1) * 10 = 20
+        int from = (current - 1) * DEFAULT_PAGE_SIZE;
+        // 这个计算确定了当前页的最后一个元素在数据集中的结束位置（实际上这个位置是下一页的起始位置，
+        // 所以在实际使用时通常还要减去1）
+        int end = current * DEFAULT_PAGE_SIZE;
 
         // 3.查询redis、按照距离排序、分页。结果：shopId、distance
         String key = SHOP_GEO_KEY + typeId;
@@ -125,15 +134,20 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
                         new Distance(5000),
                         RedisGeoCommands.GeoSearchCommandArgs.newGeoSearchArgs().includeDistance().limit(end)
                 );
+
         // 4.解析出id
         if (results == null) {
             return Result.ok(Collections.emptyList());
         }
+
         List<GeoResult<RedisGeoCommands.GeoLocation<String>>> list = results.getContent();
+        // 尽管用户请求了第 current 页，但数据源中的数据不足以填充到这一页
+        // 所以有可能出现list.size() <= from 这种情况
         if (list.size() <= from) {
             // 没有下一页了，结束
             return Result.ok(Collections.emptyList());
         }
+
         // 4.1.截取 from ~ end的部分
         List<Long> ids = new ArrayList<>(list.size());
         Map<String, Distance> distanceMap = new HashMap<>(list.size());
@@ -145,12 +159,14 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
             Distance distance = result.getDistance();
             distanceMap.put(shopIdStr, distance);
         });
+
         // 5.根据id查询Shop
         String idStr = StrUtil.join(",", ids);
         List<Shop> shops = query().in("id", ids).last("ORDER BY FIELD(id," + idStr + ")").list();
         for (Shop shop : shops) {
             shop.setDistance(distanceMap.get(shop.getId().toString()).getValue());
         }
+
         // 6.返回
         return Result.ok(shops);
     }
