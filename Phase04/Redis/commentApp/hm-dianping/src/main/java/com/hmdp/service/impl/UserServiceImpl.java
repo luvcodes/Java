@@ -14,6 +14,7 @@ import com.hmdp.service.IUserService;
 import com.hmdp.utils.RedisConstants;
 import com.hmdp.utils.RegexUtils;
 import com.hmdp.utils.SystemConstants;
+import com.hmdp.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -21,6 +22,8 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -119,5 +122,26 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         save(user);
 
         return user;
+    }
+
+    /**
+     * 实现签到功能
+     * @return Result结果统一封装
+     */
+    @Override
+    public Result sign() {
+        // 1. 获取当前登录用户
+        Long userId = UserHolder.getUser().getId();
+        // 2. 获取日期
+        LocalDateTime now = LocalDateTime.now();
+        // 3. 拼接key
+        String keySuffix = now.format(DateTimeFormatter.ofPattern(":yyyyMM"));
+        String key = RedisConstants.USER_SIGN_KEY + userId + keySuffix;
+        // 4. 获取今天是本月的第几天, 这里是为了判定31为bitmap的value中当前是在第几个位置设为1
+        int dayOfMonth = now.getDayOfMonth();
+        // 5. 写入redis setbit key offset 1, bitmap存储都是string类型，用opsForValue
+        stringRedisTemplate.opsForValue().setBit(key, dayOfMonth - 1, true);
+
+        return Result.ok();
     }
 }
