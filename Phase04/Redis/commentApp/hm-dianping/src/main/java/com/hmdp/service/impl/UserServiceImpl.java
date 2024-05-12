@@ -17,6 +17,7 @@ import com.hmdp.utils.SystemConstants;
 import com.hmdp.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.connection.BitFieldSubCommands;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +28,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+
+import static com.hmdp.utils.RedisConstants.USER_SIGN_KEY;
+import java.util.List;
 
 /**
  * 服务实现类
@@ -136,12 +140,58 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         LocalDateTime now = LocalDateTime.now();
         // 3. 拼接key
         String keySuffix = now.format(DateTimeFormatter.ofPattern(":yyyyMM"));
-        String key = RedisConstants.USER_SIGN_KEY + userId + keySuffix;
+        String key = USER_SIGN_KEY + userId + keySuffix;
         // 4. 获取今天是本月的第几天, 这里是为了判定31为bitmap的value中当前是在第几个位置设为1
         int dayOfMonth = now.getDayOfMonth();
         // 5. 写入redis setbit key offset 1, bitmap存储都是string类型，用opsForValue
         stringRedisTemplate.opsForValue().setBit(key, dayOfMonth - 1, true);
 
         return Result.ok();
+    }
+
+    /**
+     * 最多签到次数
+     * @return 封装Result类规范输出格式
+     */
+    @Override
+    public Result signCount() {
+        // 1.获取当前登录用户
+        Long userId = UserHolder.getUser().getId();
+        // 2.获取日期
+        LocalDateTime now = LocalDateTime.now();
+        // 3.拼接key
+        String keySuffix = now.format(DateTimeFormatter.ofPattern(":yyyyMM"));
+        String key = USER_SIGN_KEY + userId + keySuffix;
+        // 4.获取今天是本月的第几天
+        int dayOfMonth = now.getDayOfMonth();
+        // 5.获取本月截止今天为止的所有的签到记录，返回的是一个十进制的数字 BITFIELD sign:5:202203 GET u14 0
+        List<Long> result = stringRedisTemplate.opsForValue().bitField(
+                key,
+                BitFieldSubCommands.create()
+                        .get(BitFieldSubCommands.BitFieldType.unsigned(dayOfMonth)).valueAt(0)
+        );
+        if (result == null || result.isEmpty()) {
+            // 没有任何签到结果
+            return Result.ok(0);
+        }
+        Long num = result.get(0);
+        if (num == null || num == 0) {
+            return Result.ok(0);
+        }
+        // 6.循环遍历
+        int count = 0;
+        while (true) {
+            // 6.1.让这个数字与1做与运算，得到数字的最后一个bit位  // 判断这个bit位是否为0
+            if ((num & 1) == 0) {
+                // 如果为0，说明未签到，结束
+                break;
+            }else {
+                // 如果不为0，说明已签到，计数器+1
+                count++;
+            }
+            // 把数字右移一位，抛弃最后一个bit位，继续下一个bit位
+            num >>>= 1;
+        }
+        return Result.ok(count);
     }
 }
