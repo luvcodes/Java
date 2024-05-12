@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/8. 好友关注/8. 好友关注.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺/9. 附近商铺.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/8. 好友关注/8. 好友关注.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺/9. 附近商铺.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/8. 好友关注/8. 好友关注.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺/9. 附近商铺.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/8. 好友关注/8. 好友关注.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺/9. 附近商铺.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 295.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,9 +150,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e8e9b897448d89de",
+  "active": "94805e9f31649f36",
   "lastOpenFiles": [
+    "images/Pasted image 20240512094336.png",
+    "images/Pasted image 20240512094321.png",
+    "Java/阶段四- 企业开发进阶/Redis/10. 用户签到/10. 用户签到.md",
+    "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺/9. 附近商铺.md",
+    "Java/阶段四- 企业开发进阶/Redis/10. 用户签到",
+    "Pasted image 20240512094336.png",
+    "Pasted image 20240512094321.png",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构/1. Redis.md",
+    "Java/阶段四- 企业开发进阶/Redis/9. 附近商铺",
     "Java/阶段四- 企业开发进阶/Redis/8. 好友关注/8. 好友关注.md",
     "Java/阶段四- 企业开发进阶/Redis/6. 消息队列/消息队列.md",
     "images/Pasted image 20240511110824.png",
@@ -162,9 +170,6 @@
     "images/Pasted image 20240511110559.png",
     "images/Pasted image 20240511110524.png",
     "images/Pasted image 20240511110426.png",
-    "images/Pasted image 20240511110418.png",
-    "Pasted image 20240511110824.png",
-    "Pasted image 20240511110723.png",
     "Java/阶段四- 企业开发进阶/Redis/7. 达人探店",
     "Java/阶段四- 企业开发进阶/Redis/8. 好友关注",
     "Java/01Java基础/14 String类.md",
@@ -188,15 +193,11 @@
     "Java/阶段四- 企业开发进阶/Redis/Redis实战项目.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构",
     "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
-    "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
-    "Java/01Java基础/09OOP/static关键字.md",
     "未命名.canvas",
     "images/nacos03.png.crdownload",
     "images/nacos02.png.crdownload",
     "images/nacos01.png.crdownload",
     "images/image4.png.crdownload",
-    "images/image3.png.crdownload",
-    "images/image2.png.crdownload",
-    "算法与数据结构/算法/求最小生成树/Prim算法"
+    "images/image3.png.crdownload"
   ]
 }
