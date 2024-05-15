@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存/13. 多级缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存/13. 多级缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存/13. 多级缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存/13. 多级缓存.md"
               }
             }
           }
@@ -152,20 +152,29 @@
   },
   "active": "94805e9f31649f36",
   "lastOpenFiles": [
+    "images/Pasted image 20240516093716.png",
+    "images/Pasted image 20240516093659.png",
+    "images/Pasted image 20240516093631.png",
+    "images/Pasted image 20240516093621.png",
+    "Pasted image 20240516093716.png",
+    "Pasted image 20240516093659.png",
+    "Pasted image 20240516093631.png",
+    "Pasted image 20240516093621.png",
+    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
+    "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存/13. 多级缓存.md",
+    "Java/阶段四- 企业开发进阶/Redis/13. 多级缓存",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
+    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.2 一人一单.md",
+    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.1 优惠劵秒杀.md",
+    "Java/阶段四- 企业开发进阶/Redis/3. Redis缓存/Redis缓存.md",
+    "Java/阶段四- 企业开发进阶/Redis/2. Redis的Java客户端/Redis的Java客户端.md",
+    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.3 Redis哨兵.md",
     "images/Pasted image 20240515203857.png",
     "images/Pasted image 20240515203848.png",
     "images/Pasted image 20240515203833.png",
-    "images/Pasted image 20240515203651.png",
-    "images/Pasted image 20240515203641.png",
-    "images/Pasted image 20240515203629.png",
-    "images/Pasted image 20240515203612.png",
-    "images/Pasted image 20240515203249.png",
-    "images/Pasted image 20240515203235.png",
-    "images/Pasted image 20240515203220.png",
-    "images/Pasted image 20240515203009.png",
     "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md",
-    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.3 Redis哨兵.md",
-    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
     "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.1 Redis持久化.md",
     "Java/阶段四- 企业开发进阶/微服务/8. Docker.md",
     "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存",
@@ -182,22 +191,13 @@
     "Java/阶段四- 企业开发进阶/Redis/8. 好友关注",
     "Java/01Java基础/14 String类.md",
     "Java/01Java基础/14.1 StringBuilder, StringBuffer, StringJoiner.md",
-    "未命名.md",
     "Java/01Java基础/14.2 String类相关练习.md",
     "Java/01Java基础/13 常用类.md",
     "Java/01Java基础/07 正则表达式.md",
     "Java/01Java基础/08 位运算.md",
-    "Java/01Java基础/10 Java 8的新特性.md",
-    "Java/01Java基础/12 包装类、拆箱、装箱.md",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.3 Redis 的优化秒杀.md",
-    "算法与数据结构/数据结构/数组.md",
-    "算法与数据结构/数据结构/数据结构.md",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构",
     "未命名.canvas",
     "images/nacos03.png.crdownload",
-    "images/nacos02.png.crdownload",
-    "images/nacos01.png.crdownload"
+    "images/nacos02.png.crdownload"
   ]
 }

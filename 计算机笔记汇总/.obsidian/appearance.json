@@ -3,5 +3,7 @@
   "theme": "moonstone",
   "cssTheme": "Blue Topaz",
   "baseFontSizeAction": true,
-  "baseFontSize": 15
+  "baseFontSize": 15,
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Fira Code"
 }
