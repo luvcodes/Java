@@ -19,5 +19,4 @@ public class RedisDemoApplication {
     public LettuceClientConfigurationBuilderCustomizer clientConfigurationBuilderCustomizer() {
         return clientConfigurationBuilder -> clientConfigurationBuilder.readFrom(ReadFrom.REPLICA_PREFERRED);
     }
-
 }
