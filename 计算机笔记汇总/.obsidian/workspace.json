@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md",
+                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md"
+                "file": "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md"
               }
             }
           }
@@ -150,21 +150,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94805e9f31649f36",
+  "active": "39f1eb5420525afb",
   "lastOpenFiles": [
-    "images/Pasted image 20240514104616.png",
-    "images/Pasted image 20240514104106.png",
-    "images/Pasted image 20240514101737.png",
-    "Pasted image 20240514104616.png",
-    "Pasted image 20240514104106.png",
-    "Pasted image 20240514101737.png",
-    "images/Pasted image 20240513180039.png",
-    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.1 Redis持久化.md",
+    "Pasted image 20240515124725.png",
+    "images/Pasted image 20240515124638.png",
+    "images/Pasted image 20240515124456.png",
+    "Pasted image 20240515124638.png",
+    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.3 Redis哨兵.md",
+    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.4 Redis分片集群.md",
+    "Pasted image 20240515124456.png",
     "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.2 Redis主从.md",
-    "images/Pasted image 20240513173431.png",
-    "images/Pasted image 20240513173249.png",
-    "images/Pasted image 20240513171329.png",
-    "images/Pasted image 20240513165959.png",
+    "images/Pasted image 20240514161732.png",
+    "images/Pasted image 20240514161548.png",
+    "images/Pasted image 20240514161455.png",
+    "Pasted image 20240514161732.png",
+    "Pasted image 20240514161548.png",
+    "Pasted image 20240514161455.png",
+    "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存/12.1 Redis持久化.md",
     "Java/阶段四- 企业开发进阶/微服务/8. Docker.md",
     "Java/阶段四- 企业开发进阶/Redis/12. 分布式缓存",
     "Java/阶段四- 企业开发进阶/Redis/11. UV统计/11. UV统计.md",
@@ -192,8 +194,6 @@
     "算法与数据结构/数据结构/数据结构.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2 分布式锁 - Redisson.md",
     "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.2.1 可重入锁.md",
-    "Java/阶段四- 企业开发进阶/Redis/5. 分布式锁/5.1 分布式锁.md",
-    "Java/阶段四- 企业开发进阶/Redis/4. 优惠劵秒杀/4.3 集群环境下的并发问题.md",
     "Java/阶段四- 企业开发进阶/Redis/1. Redis的介绍以及数据结构",
     "未命名.canvas",
     "images/nacos03.png.crdownload",
