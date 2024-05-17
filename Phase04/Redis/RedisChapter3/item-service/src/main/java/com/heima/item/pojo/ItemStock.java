@@ -5,6 +5,9 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 @TableName("tb_item_stock")
 public class ItemStock {
