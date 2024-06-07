@@ -1,5 +1,8 @@
 package override;
 
+/**
+ * @author ryanw
+ */
 public class OverrideExercise {
     public static void main(String[] args) {
         Person person = new Person("jack", 10);
@@ -9,5 +12,3 @@ public class OverrideExercise {
         System.out.println(student.say());
     }
 }
-
-

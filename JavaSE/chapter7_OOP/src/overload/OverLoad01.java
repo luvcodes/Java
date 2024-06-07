@@ -29,11 +29,13 @@ class MyCalculator {
         System.out.println("calculate(int n1, double n2)被调用..");
         return n1 + n2;
     }
+
     // 一个double，一个int和
     public double calculate(double n2, int n1) {
         System.out.println("calculate(double n2, int n1)被调用..");
         return n2 + n1;
     }
+
     // 三个int的和
     public int calculate(int n1, int n2, int n3) {
         System.out.println("calculate(int n1, int n2, int n3)被调用..");
