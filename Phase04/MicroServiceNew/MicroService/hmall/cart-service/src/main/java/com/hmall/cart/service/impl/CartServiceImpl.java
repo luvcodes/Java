@@ -5,6 +5,7 @@ import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hmall.cart.client.ItemClient;
 import com.hmall.cart.domain.dto.CartFormDTO;
 import com.hmall.cart.domain.dto.ItemDTO;
 import com.hmall.cart.domain.po.Cart;
@@ -16,6 +17,7 @@ import com.hmall.common.utils.BeanUtils;
 import com.hmall.common.utils.CollUtils;
 import com.hmall.common.utils.UserContext;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.core.ParameterizedTypeReference;
@@ -37,12 +39,16 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
 
-    // 不使用自动注入，使用构造函数的方式
+    /*// 不使用自动注入，使用构造函数的方式
     // final 关键字确保了依赖在对象构造完成后不会被改变，从而增强了对象的稳定性和线程安全性
     private final RestTemplate restTemplate;
 
     // 服务发现, SpringCloud内置
-    private final DiscoveryClient discoveryClient;
+    private final DiscoveryClient discoveryClient;*/
+
+    @Autowired
+    private ItemClient itemClient;
+
 
     @Override
     public void addItem2Cart(CartFormDTO cartFormDTO) {
@@ -86,10 +92,10 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     }
 
     private void handleCartItems(List<CartVO> vos) {
-        // TODO 获取商品数据
         // 1.获取商品id
         Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
-        // 2.查询商品
+
+        /*// 2.查询商品
         // List<ItemDTO> items = itemService.queryItemByIds(itemIds);
         // 2.1 根据服务名称获取示例列表
         List<ServiceInstance> instances = discoveryClient.getInstances("item-service");
@@ -118,7 +124,9 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
             return;
         }
 
-        List<ItemDTO> items = response.getBody();
+        List<ItemDTO> items = response.getBody();*/
+
+        List<ItemDTO> items = itemClient.queryItemByIds(itemIds);
 
         if (CollUtils.isEmpty(items)) {
             return;

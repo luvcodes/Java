@@ -1,0 +1,11 @@
+
+¢
+java:S2293—"YReplace the type specification in this constructor call with the diamond operator ("<>").(’”À•øÿÿÿÿ8€Îã³ÿ1J$34d28de0-b3a4-4f58-a682-ccf09c979ea2
+…
+java:S68131"BRemove this field injection and use constructor injection instead.(êæÄŞ8—Îã³ÿ1J$ff3b35c3-6f39-464c-9e69-5097efc49b1e
+
+java:S3252P"JUse static access with "cn.hutool.core.collection.CollUtil" for "isEmpty".(Àÿâ8¡Îã³ÿ1J$42b197c6-8a4e-4a8c-863e-344017f4cde8
+“
+java:S3252ƒ"JUse static access with "cn.hutool.core.collection.CollUtil" for "isEmpty".(ÀÑ¤ßüÿÿÿÿ8¨Îã³ÿ1J$f805dbb5-7f3e-4828-8696-df5fe2181cd2
+
+java:S3252¢"KUse static access with "cn.hutool.core.text.CharSequenceUtil" for "format".(÷ïû²8°Îã³ÿ1J$f4b9b83d-47a2-46f1-aa06-681ab0573a8c
