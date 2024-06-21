@@ -44,10 +44,12 @@ public class CartController {
     public List<CartVO> queryMyCarts(){
         return cartService.queryMyCarts();
     }
+
     @ApiOperation("批量删除购物车中商品")
     @ApiImplicitParam(name = "ids", value = "购物车条目id集合")
     @DeleteMapping
     public void deleteCartItemByIds(@RequestParam("ids") List<Long> ids){
         cartService.removeByItemIds(ids);
     }
+
 }
