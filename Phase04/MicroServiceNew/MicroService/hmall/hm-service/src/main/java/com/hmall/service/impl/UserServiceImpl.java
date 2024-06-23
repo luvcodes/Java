@@ -20,11 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
 /**
- * <p>
  * 用户表 服务实现类
- * </p>
- *
- * @author 虎哥
  */
 @Slf4j
 @Service

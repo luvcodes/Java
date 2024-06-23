@@ -14,11 +14,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * <p>
  * 商品表 服务实现类
- * </p>
- *
- * @author 虎哥
  */
 @Service
 public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements IItemService {
