@@ -15,6 +15,7 @@ import java.util.List;
 
 /**
  * 商品表 服务实现类
+ * @author ryanw
  */
 @Service
 public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements IItemService {
