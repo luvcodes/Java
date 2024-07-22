@@ -9,6 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * @author ryanw
+ */
 @RestController
 @RequestMapping("hi")
 public class HelloController {
