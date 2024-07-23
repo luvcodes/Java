@@ -11,6 +11,9 @@ import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author ryanw
+ */
 @Api(tags = "支付相关接口")
 @RestController
 @RequestMapping("pay-orders")
