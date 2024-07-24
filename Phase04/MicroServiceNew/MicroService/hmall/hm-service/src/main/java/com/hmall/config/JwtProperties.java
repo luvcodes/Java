@@ -6,6 +6,9 @@ import org.springframework.core.io.Resource;
 
 import java.time.Duration;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ConfigurationProperties(prefix = "hm.jwt")
 public class JwtProperties {

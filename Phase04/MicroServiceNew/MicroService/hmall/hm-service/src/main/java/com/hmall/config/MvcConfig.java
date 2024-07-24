@@ -12,6 +12,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
+/**
+ * @author ryanw
+ */
 @Configuration
 @RequiredArgsConstructor
 @EnableConfigurationProperties(AuthProperties.class)
