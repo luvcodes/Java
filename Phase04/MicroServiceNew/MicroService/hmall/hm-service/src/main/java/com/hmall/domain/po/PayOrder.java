@@ -11,9 +11,8 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * <p>
  * 支付订单
- * </p>
+ * @author ryanw
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
