@@ -6,6 +6,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+/**
+ * @author ryanw
+ */
 @EqualsAndHashCode(callSuper = true)
 @Data
 @ApiModel(description = "商品分页查询条件")

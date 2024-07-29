@@ -2,6 +2,9 @@ package com.hmall.domain.vo;
 
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 public class UserLoginVO {
     private String token;

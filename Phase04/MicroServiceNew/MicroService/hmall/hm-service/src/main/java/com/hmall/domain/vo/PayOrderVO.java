@@ -7,9 +7,8 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 /**
- * <p>
  * 支付订单
- * </p>
+ * @author ryanw
  */
 @Data
 @ApiModel(description = "支付单vo实体")

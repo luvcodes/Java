@@ -6,6 +6,9 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "订单页面VO")
 public class OrderVO {
