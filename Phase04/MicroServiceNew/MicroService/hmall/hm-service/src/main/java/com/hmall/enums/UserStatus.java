@@ -4,6 +4,10 @@ import com.baomidou.mybatisplus.annotation.EnumValue;
 import com.hmall.common.exception.BadRequestException;
 import lombok.Getter;
 
+/**
+ * @author ryanw
+ */
+
 @Getter
 public enum UserStatus {
     FROZEN(0, "禁止使用"),

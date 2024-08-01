@@ -2,6 +2,10 @@ package com.hmall.enums;
 
 import lombok.Getter;
 
+/**
+ * @author ryanw
+ */
+
 @Getter
 public enum PayType{
     JSAPI(1, "网页支付JS"),

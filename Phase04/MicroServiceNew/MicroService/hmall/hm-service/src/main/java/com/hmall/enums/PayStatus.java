@@ -2,6 +2,10 @@ package com.hmall.enums;
 
 import lombok.Getter;
 
+/**
+ * @author ryanw
+ */
+
 @Getter
 public enum PayStatus {
     NOT_COMMIT(0, "未提交"),

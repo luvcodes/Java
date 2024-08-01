@@ -3,6 +3,10 @@ package com.hmall.enums;
 import cn.hutool.core.util.StrUtil;
 import lombok.Getter;
 
+/**
+ * @author ryanw
+ */
+
 @Getter
 public enum PayChannel {
     wxPay("微信支付"),

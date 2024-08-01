@@ -8,6 +8,9 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author ryanw
+ */
 @RequiredArgsConstructor
 public class LoginInterceptor implements HandlerInterceptor {
 
