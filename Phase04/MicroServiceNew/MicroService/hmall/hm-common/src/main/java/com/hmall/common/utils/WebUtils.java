@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Collection;
 import java.util.Map;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 public class WebUtils {
 

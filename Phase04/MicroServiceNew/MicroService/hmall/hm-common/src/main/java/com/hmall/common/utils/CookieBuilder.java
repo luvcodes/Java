@@ -13,6 +13,9 @@ import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * @author ryanw
+ */
 @Slf4j
 @Data
 @Accessors(chain = true, fluent = true)

@@ -11,6 +11,9 @@ import lombok.experimental.Accessors;
 
 import javax.validation.constraints.Min;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "分页查询条件")
 @Accessors(chain = true)

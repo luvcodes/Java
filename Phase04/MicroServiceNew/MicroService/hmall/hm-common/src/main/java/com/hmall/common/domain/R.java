@@ -4,6 +4,9 @@ import com.hmall.common.exception.CommonException;
 import lombok.Data;
 
 
+/**
+ * @author ryanw
+ */
 @Data
 public class R<T> {
     private int code;

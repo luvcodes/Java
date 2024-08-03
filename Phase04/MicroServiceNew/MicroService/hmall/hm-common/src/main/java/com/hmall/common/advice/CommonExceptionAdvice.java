@@ -16,6 +16,9 @@ import org.springframework.web.util.NestedServletException;
 import java.net.BindException;
 import java.util.stream.Collectors;
 
+/**
+ * @author ryanw
+ */
 @RestControllerAdvice
 @Slf4j
 public class CommonExceptionAdvice {

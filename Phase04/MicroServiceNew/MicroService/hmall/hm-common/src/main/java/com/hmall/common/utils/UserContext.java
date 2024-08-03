@@ -1,5 +1,8 @@
 package com.hmall.common.utils;
 
+/**
+ * @author ryanw
+ */
 public class UserContext {
     private static final ThreadLocal<Long> tl = new ThreadLocal<>();
 
