@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "新增购物车商品表单实体")
 public class CartFormDTO {
