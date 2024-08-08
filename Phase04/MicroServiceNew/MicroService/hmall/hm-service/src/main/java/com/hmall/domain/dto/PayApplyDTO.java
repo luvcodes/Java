@@ -8,6 +8,9 @@ import lombok.Data;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
+/**
+ * @author ryanw
+ */
 @Data
 @Builder
 @ApiModel(description = "支付下单表单实体")

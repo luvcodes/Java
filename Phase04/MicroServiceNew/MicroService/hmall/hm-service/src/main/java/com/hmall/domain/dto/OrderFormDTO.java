@@ -6,6 +6,9 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "交易下单表单实体")
 public class OrderFormDTO {

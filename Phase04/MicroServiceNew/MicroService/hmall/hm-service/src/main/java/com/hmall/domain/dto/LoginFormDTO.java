@@ -6,6 +6,9 @@ import lombok.Data;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "登录表单实体")
 public class LoginFormDTO {

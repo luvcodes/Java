@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+/**
+ * @author ryanw
+ */
 @ApiModel(description = "订单明细条目")
 @Data
 @Accessors(chain = true)

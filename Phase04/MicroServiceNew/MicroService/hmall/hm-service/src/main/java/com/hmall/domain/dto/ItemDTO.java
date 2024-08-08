@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author ryanw
+ */
 @Data
 @ApiModel(description = "商品实体")
 public class ItemDTO {
