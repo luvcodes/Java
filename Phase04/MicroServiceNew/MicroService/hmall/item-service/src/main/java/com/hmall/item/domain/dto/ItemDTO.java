@@ -34,4 +34,5 @@ public class ItemDTO {
     private Boolean isAD;
     @ApiModelProperty("商品状态 1-正常，2-下架，3-删除")
     private Integer status;
+
 }
