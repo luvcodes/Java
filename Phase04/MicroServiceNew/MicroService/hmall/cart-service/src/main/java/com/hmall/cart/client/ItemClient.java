@@ -9,8 +9,7 @@ import java.util.List;
 
 /**
  * @author ryanw
- * OpenFeign的客户端
- * 通过使用OpenFeign来替代Service类中本来使用的RestTemplate的方式，实现更方便的远程调用
+ * OpenFeign的客户端: 通过使用OpenFeign来替代Service类中本来使用的RestTemplate的方式，实现更方便的远程调用
  * */
 @FeignClient("item-service")
 public interface ItemClient {

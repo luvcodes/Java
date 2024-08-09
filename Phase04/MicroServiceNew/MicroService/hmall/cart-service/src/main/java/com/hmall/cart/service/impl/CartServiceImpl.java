@@ -29,7 +29,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
 
-    /*// 不使用自动注入，使用构造函数的方式
+    /*
+    // 不使用自动注入，使用构造函数的方式
     // final 关键字确保了依赖在对象构造完成后不会被改变，从而增强了对象的稳定性和线程安全性
     private final RestTemplate restTemplate;
 
