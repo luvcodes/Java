@@ -23,7 +23,7 @@ public class SpringAmqpTest {
 
     /**
      * 发送者 对应消费者1、2 的 workqueue
-     * */
+     */
     @Test
     public void testWorkQueue() {
         // 1. 队列名
@@ -34,5 +34,19 @@ public class SpringAmqpTest {
             // 3. 发送消息
             rabbitTemplate.convertAndSend(queueName, message);
         }
+    }
+
+    /**
+     * 发送者 对应fanout消费者1、2 的 fanout queue
+     * 这里是用的fanout交换机
+     */
+    @Test
+    public void testFanoutQueue() {
+        // 1. 交换机名，这个就是在rabbitMQ控制台定义的交换机名
+        String exchangeName = "hmall.fanout";
+        // 2. 消息
+        String message = "hello, fanout everyone";
+        // 3. 发送消息
+        rabbitTemplate.convertAndSend(exchangeName, null, message);
     }
 }
