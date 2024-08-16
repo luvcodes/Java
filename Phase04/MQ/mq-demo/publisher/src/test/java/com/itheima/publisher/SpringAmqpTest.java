@@ -49,4 +49,15 @@ public class SpringAmqpTest {
         // 3. 发送消息
         rabbitTemplate.convertAndSend(exchangeName, null, message);
     }
+
+    /**
+     * 发送者 对应direct消费者1、2的direct queue
+     * 这里使用的direct交换机
+     * */
+    @Test
+    public void testDirectQueue() {
+        String queueName = "hmall.direct";
+        String message = "红色警报！";
+        rabbitTemplate.convertAndSend(queueName, "red", message);
+    }
 }
