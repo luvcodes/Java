@@ -20,6 +20,9 @@ public class SpringRabbitListener {
         log.info("监听到simple.queue的消息: ${}", message);
     }
 
+    /**
+     * WorkQueues模型
+     * */
     // 消费者1
     @RabbitListener(queues = "work.queue")
     public void listenWorkQueue1(String message) {
@@ -33,6 +36,10 @@ public class SpringRabbitListener {
         System.err.println("消费者2接收到消息：" + message + ", " + LocalDateTime.now());
     }
 
+    /**
+     * fanout交换机
+     * 所有的队列都能收到消息
+     * */
     // fanout消费者1
     @RabbitListener(queues = "fanout.queue1")
     public void listenFanoutQueue1(String message) {
@@ -46,6 +53,7 @@ public class SpringRabbitListener {
     }
 
     /**
+     * Direct交换机：根据routing key指定性的收到消息
      * 下面这两个是对应的RabbitMQ的控制台，分别指定了routing key
      * - blue、red routing key 1
      * - red、yellow routing key 2
@@ -63,4 +71,16 @@ public class SpringRabbitListener {
         System.out.println("消费者2接收到direct.queue2的消息：【" + msg + "】");
     }
 
+    /**
+     * Topic交换机：Direct交换机的升级版，可以指定通配符
+     * */
+    @RabbitListener(queues = "topic.queue1")
+    public void listenTopicQueue1(String msg) {
+        System.out.println("消费者1接收到的topic.queue1的消息：[" + msg + "]");
+    }
+
+    @RabbitListener(queues = "topic.queue2")
+    public void listenTopicQueue2(String msg) {
+        System.out.println("消费者2接收到的topic.queue2的消息：[" + msg + "]");
+    }
 }

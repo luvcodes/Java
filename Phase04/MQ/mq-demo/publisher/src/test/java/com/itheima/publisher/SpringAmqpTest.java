@@ -22,6 +22,7 @@ public class SpringAmqpTest {
     }
 
     /**
+     * 对应WorkQueue队列
      * 发送者 对应消费者1、2 的 workqueue
      */
     @Test
@@ -37,6 +38,7 @@ public class SpringAmqpTest {
     }
 
     /**
+     * 对应fanout交换机
      * 发送者 对应fanout消费者1、2 的 fanout queue
      * 这里是用的fanout交换机
      */
@@ -51,6 +53,7 @@ public class SpringAmqpTest {
     }
 
     /**
+     * 对应direct交换机
      * 发送者 对应direct消费者1、2的direct queue
      * 这里使用的direct交换机
      * */
@@ -60,4 +63,16 @@ public class SpringAmqpTest {
         String message = "红色警报！";
         rabbitTemplate.convertAndSend(queueName, "red", message);
     }
+
+    /**
+     * 对应Topic交换机
+     * */
+    @Test
+    public void testSendTopicExchange() {
+        String exchangeName = "hmall.topic";
+        String message = "hello, topic";
+        rabbitTemplate.convertAndSend(exchangeName, "china.news", message);
+    }
+
+
 }
