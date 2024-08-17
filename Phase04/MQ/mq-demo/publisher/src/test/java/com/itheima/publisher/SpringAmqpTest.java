@@ -5,6 +5,9 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @SpringBootTest
 public class SpringAmqpTest {
 
@@ -72,6 +75,20 @@ public class SpringAmqpTest {
         String exchangeName = "hmall.topic";
         String message = "hello, topic";
         rabbitTemplate.convertAndSend(exchangeName, "china.news", message);
+    }
+
+    /**
+     * 针对测试消息转换器的代码
+     * */
+    @Test
+    public void testSendMap() throws InterruptedException {
+        // 准备消息
+        Map<String, Object> map = new HashMap<>();
+        map.put("name", "柳岩");
+        map.put("age", 40);
+
+        // 发送消息
+        rabbitTemplate.convertAndSend("object.queue", map);
     }
 
 }
