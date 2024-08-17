@@ -74,5 +74,4 @@ public class SpringAmqpTest {
         rabbitTemplate.convertAndSend(exchangeName, "china.news", message);
     }
 
-
 }

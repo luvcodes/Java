@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Slf4j
 public class SpringRabbitListener {
 
-    // 这个注解用来指定需要监听的目标队列
+    // 这个注解用来指定需要监听的目标队列。这是为了体现单队列、单消费者的最简单的情况
     @RabbitListener(queues = "simple.queue")
     public void listenSimpleQueue(String message) {
         // 处理业务
@@ -37,16 +37,14 @@ public class SpringRabbitListener {
     }
 
     /**
-     * fanout交换机
-     * 所有的队列都能收到消息
+     * fanout交换机，特性是所有的队列都能收到消息
+     * fanout消费者1
      * */
-    // fanout消费者1
     @RabbitListener(queues = "fanout.queue1")
     public void listenFanoutQueue1(String message) {
         log.info("消费者1监听到 fanout.queue1的消息: {}", message);
     }
 
-    // fanout消费者2
     @RabbitListener(queues = "fanout.queue2")
     public void listenFanoutQueue2(String message) {
         log.info("消费者2监听到 fanout.queue2的消息: {}", message);
