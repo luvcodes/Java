@@ -3,9 +3,12 @@ package arrays_3;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * @author ryanw
+ */
 public class ArraysSortCustom {
     public static void main(String[] args) {
-        int[] arr = { 1, -1, 8, 0, 20 };
+        int[] arr = {1, -1, 8, 0, 20};
 //        bubble01(arr);
         bubble02(arr, new Comparator() {
             @Override
@@ -30,7 +33,8 @@ public class ArraysSortCustom {
                     arr[j + 1] = temp;
                 }
             }
-        };
+        }
+        ;
     }
 
     // 结合冒泡 + 定制
@@ -38,12 +42,13 @@ public class ArraysSortCustom {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 // 数组的排序由 c.compare(arr[j], arr[j+1]) 返回的值决定
-                if (c.compare(arr[j], arr[j+1]) > 0) {
+                if (c.compare(arr[j], arr[j + 1]) > 0) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
             }
-        };
+        }
+        ;
     }
 }

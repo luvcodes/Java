@@ -3,9 +3,13 @@ package arrays_3;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * @author ryanw
+ */
+@SuppressWarnings("all")
 public class ArraysMethod01 {
     public static void main(String[] args) {
-        Integer arr[] = {1,-1,7,0,89};
+        Integer arr[] = {1, -1, 7, 0, 89};
 //        Arrays.sort(arr);
 //        System.out.println("After sorting");
 //        System.out.println(Arrays.toString(arr));

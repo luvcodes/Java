@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Update on the folder contents">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0ad541a6-be4d-4866-8dfc-2d1a33d32dca" name="Changes" comment="Wrapper class of Integer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wrapper_1/Integer_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wrapper_1/Integer_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Phase04/MicroServiceNew/MicroService/hmall/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Phase04/MicroServiceNew/MicroService/hmall/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_3/ArraysMethod01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_3/ArraysMethod01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_3/ArraysMethod02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_3/ArraysMethod02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_3/ArraysSortCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays_3/ArraysSortCustom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +203,7 @@
       <workItem from="1713678680933" duration="904000" />
       <workItem from="1714379538997" duration="2065000" />
       <workItem from="1714395324433" duration="18000" />
-      <workItem from="1726274729870" duration="213000" />
+      <workItem from="1726274729870" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Deep clone content update">
       <option name="closed" value="true" />
@@ -260,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714393731926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Wrapper class of Integer">
+      <option name="closed" value="true" />
+      <created>1726275120064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726275120064</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +287,7 @@
     <MESSAGE value="StringJoiner contents review" />
     <MESSAGE value="Workspace xml file content update" />
     <MESSAGE value="Update on the folder contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the folder contents" />
+    <MESSAGE value="Wrapper class of Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapper class of Integer" />
   </component>
 </project>

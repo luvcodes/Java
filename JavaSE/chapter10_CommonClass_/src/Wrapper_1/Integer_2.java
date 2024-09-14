@@ -33,6 +33,7 @@ public class Integer_2 {
         Integer first = new Integer(100);
 
         // 2. 通过valueOf方法进行实例化
+        // 由于 valueOf 方法在内部缓存了 -128 到 127 之间的所有可能值，你可以省略参数，直接使用
         Integer second = Integer.valueOf(200);
 
         // 3. 使用字符串构造函数
