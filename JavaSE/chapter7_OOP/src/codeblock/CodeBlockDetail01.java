@@ -10,7 +10,7 @@ public class CodeBlockDetail01 {
         // AA aa = new AA();
 
         // 2. 创建子类对象实例，父类也会被加载，而且，父类先被加载，子类后被加载
-//         AA aa2 = new AA();
+        // AA aa2 = new AA();
 
         // 3. 使用类的静态成员时，会先执行静态代码块，然后再去访问到n1
          System.out.println(Cat.n1);
@@ -19,11 +19,11 @@ public class CodeBlockDetail01 {
          * static代码块，是在类加载时执行的，而且只会执行一次
          * 普通的代码块，在创建对象实例时，会被隐式地调用，被创建一次，就会调用一次
          */
-//        DD dd = new DD();
-//        DD dd2 = new DD();
+        // DD dd = new DD();
+        // DD dd2 = new DD();
 
         // 如果只是使用类的静态成员时，普通代码块并不会执行
-//        System.out.println(DD.n1);
+        // System.out.println(DD.n1);
     }
 }
 
