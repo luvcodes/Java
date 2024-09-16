@@ -2,6 +2,9 @@ package Collection_;
 
 import java.util.ArrayList;
 
+/**
+ * @author ryanw
+ * */
 @SuppressWarnings({ "all" })
 public class CollectionMethod_2 {
     public static void main(String[] args) {

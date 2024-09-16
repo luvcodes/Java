@@ -59,7 +59,7 @@ public class Collections_ {
         Object maxObject = Collections.max(list, new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
-                return ((String)o1).length() - ((String)o2).length();
+                return ((String) o1).length() - ((String) o2).length();
             }
         });
         System.out.println("长度最大的元素=" + maxObject);
@@ -77,7 +77,7 @@ public class Collections_ {
         System.out.println();
         ArrayList dest = new ArrayList();
         //为了完成一个完整拷贝，我们需要先给dest 赋值，大小和list.size()一样
-        for(int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             dest.add("");
         }
         //拷贝

@@ -13,6 +13,7 @@ public class A06_CollectionDemo6 {
         coll.add("zhangsan");
         coll.add("lisi");
         coll.add("wangwu");
+
         // 2. 利用增强for进行遍历
         // 注意点: s其实就是一个第三方变量，在循环的过程中依次表示集合中的每一个数据
         // 每次迭代会将集合中的一个元素的值赋给变量 s

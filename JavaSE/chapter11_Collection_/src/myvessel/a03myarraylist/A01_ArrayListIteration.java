@@ -2,12 +2,13 @@ package myvessel.a03myarraylist;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.function.Consumer;
 
 /**
  * @author ryanw
  */
-public class A01_ArrayListDemo1 {
+public class A01_ArrayListIteration {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("aaa");
@@ -40,5 +41,15 @@ public class A01_ArrayListDemo1 {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
+
+        // 5. ListIterator列表迭代器，可以双向访问列表并在迭代过程中修改元素。
+        ListIterator<String> iterator = list.listIterator();
+        while (iterator.hasNext()) {
+            String string = iterator.next();
+            System.out.println(string);
+        }
+
+        // 6. Stream API
+        list.stream().forEach(element -> System.out.println(element));
     }
 }

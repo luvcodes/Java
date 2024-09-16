@@ -3,6 +3,9 @@ package Collection_;
 import java.util.ArrayList;
 import java.util.Collection;
 
+/**
+ * @author ryanw
+ * */
 @SuppressWarnings({"all"})
 public class CollectionFor_4 {
     public static void main(String[] args) {
