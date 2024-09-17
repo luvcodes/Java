@@ -3,9 +3,13 @@ package myreflect1;
 /**
  * @author ryanw
  */
-//@SuppressWarnings("all")
+@SuppressWarnings("all")
 public class MyReflectDemo1 {
     public static void main(String[] args) throws ClassNotFoundException {
+        /**
+         * 获取Class对象的几种方式
+         * */
+
         // 1. 第一种方式
         // 全类名 ： 包名 + 类名
         // 最为常用的

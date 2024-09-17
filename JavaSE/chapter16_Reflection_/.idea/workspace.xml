@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the Reflection chapter contents">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myreflect1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/Phase04/Redis/SpringDataRedis",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter16_Reflection_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,8 +154,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -180,6 +183,7 @@
       <workItem from="1713788725013" duration="2836000" />
       <workItem from="1713828262614" duration="3270000" />
       <workItem from="1713868511040" duration="1568000" />
+      <workItem from="1726586755707" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the reflection chapter contents and folder structure">
       <option name="closed" value="true" />

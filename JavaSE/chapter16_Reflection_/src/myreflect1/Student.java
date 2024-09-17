@@ -3,6 +3,7 @@ package myreflect1;
 /**
  * @author ryanw
  */
+@SuppressWarnings("all")
 public class Student {
     private String name;
     private int age;
