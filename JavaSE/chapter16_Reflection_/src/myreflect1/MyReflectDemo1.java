@@ -5,7 +5,9 @@ package myreflect1;
  */
 @SuppressWarnings("all")
 public class MyReflectDemo1 {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {}
+
+    public static void reflectionMethod() throws ClassNotFoundException {
         /**
          * 获取Class对象的几种方式
          * */
