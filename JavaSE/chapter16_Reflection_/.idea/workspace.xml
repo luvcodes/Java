@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the Reflection chapter contents">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect1/MyReflectDemo1.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the Reflection chapter contents" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +179,8 @@
       <workItem from="1713828262614" duration="3270000" />
       <workItem from="1713868511040" duration="1568000" />
       <workItem from="1726586755707" duration="672000" />
-      <workItem from="1726672163303" duration="463000" />
+      <workItem from="1726672163303" duration="556000" />
+      <workItem from="1726707032975" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the reflection chapter contents and folder structure">
       <option name="closed" value="true" />
@@ -224,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726586860828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update on the Reflection chapter contents">
+      <option name="closed" value="true" />
+      <created>1726672639510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726672639510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
