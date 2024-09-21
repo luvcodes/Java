@@ -4,11 +4,10 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Parameter;
 
-
 /**
  * @author ryanw
  */
-//@SuppressWarnings("all")
+@SuppressWarnings("all")
 public class MyReflectDemo2 {
     public static void main(String[] args)
             throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException,
