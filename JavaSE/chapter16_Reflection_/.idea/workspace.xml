@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the Reflection chapter object class">
+    <list default="true" id="a4ee6f8b-c80d-44b5-a1bc-63693bced68e" name="Changes" comment="Update on the Reflection chapter contents">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myreflect2/MyReflectDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myreflect2/MyReflectDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,8 +151,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -186,7 +185,8 @@
       <workItem from="1726707032975" duration="4000" />
       <workItem from="1726759990996" duration="280000" />
       <workItem from="1726845055927" duration="113000" />
-      <workItem from="1726932553336" duration="44000" />
+      <workItem from="1726932553336" duration="139000" />
+      <workItem from="1726976897449" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the reflection chapter contents and folder structure">
       <option name="closed" value="true" />
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726845139968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update on the Reflection chapter contents">
+      <option name="closed" value="true" />
+      <created>1726932633232</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726932633232</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,10 +284,10 @@
     <MESSAGE value="Update on the reflection chapter contents and folder structure" />
     <MESSAGE value="Update on the reflection chapter contents" />
     <MESSAGE value="Update on the reflection chapter contents again" />
-    <MESSAGE value="Update on the Reflection chapter contents" />
     <MESSAGE value="Update on the Reflection chapter code updates" />
     <MESSAGE value="Update on the Reflection chapter object class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on the Reflection chapter object class" />
+    <MESSAGE value="Update on the Reflection chapter contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on the Reflection chapter contents" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

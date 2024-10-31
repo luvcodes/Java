@@ -1,5 +1,8 @@
 package polymorphism.PolyMethodAndObjects;
 
+/**
+ * @author ryanw
+ * */
 public class PolyMethod {
     public static void main(String[] args) {
         // 我们通过不同的参数个数去调用sum方法，就会去调用不同的方法
@@ -9,11 +12,7 @@ public class PolyMethod {
         System.out.println(a.sum(10,20,30));
 
         B b = new B();
-        /**
-         * <p>
-         *     方法重写体现多态
-         * </p>
-         * */
+        // 方法重写体现多态
         a.say();
         b.say();
     }

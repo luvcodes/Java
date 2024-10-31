@@ -1,5 +1,9 @@
 package polymorphism.polyparameter;
 
+/**
+ * @author ryanw
+ * */
+
 public class Manager extends Employee{
     private double bonus;
 

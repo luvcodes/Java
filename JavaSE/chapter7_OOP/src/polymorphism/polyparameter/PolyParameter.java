@@ -1,5 +1,9 @@
 package polymorphism.polyparameter;
 
+/**
+ * @author ryanw
+ * */
+
 public class PolyParameter {
     public static void main(String[] args) {
         Worker worker = new Worker("Tom", 2500);

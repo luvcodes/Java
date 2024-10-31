@@ -1,5 +1,9 @@
 package polymorphism.polyparameter;
 
+/**
+ * @author ryanw
+ * */
+
 public class Employee {
     private String name;
     private double salary;
