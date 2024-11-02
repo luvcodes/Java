@@ -12,16 +12,13 @@ abstract class E {
 }
 abstract class F extends E {}
 class G extends E {
+    // 这里相当于G子类实现了父类E的抽象方法，所谓实现方法，就是有方法体
     @Override
-    public void hi() { // 这里相当于G子类实现了父类E的抽象方法，所谓实现方法，就是有方法体
-
-    }
+    public void hi() {}
 }
 
 // 抽象方法不能使用private、final和static来修饰，因为这些关键字都是和重写相违背的
-abstract class H {
-
-}
+abstract class H {}
 
 // 抽象类的本质还是类，所以可以有类的各种成员
 abstract class D {
