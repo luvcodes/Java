@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method" />
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Modify the comments and re-learn the flush method">
+      <change afterPath="$PROJECT_DIR$/src/mySerializabal12/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mySerializabal12/myserializable01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycommonsio10/CommonsIODemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycommonsio10/CommonsIODemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myhutool11/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myhutool11/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytest/Test08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/Test08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mytest/Test09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mytest/Test09.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luvcodes&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luvcodes/Java.git&quot;,
+    &quot;accountId&quot;: &quot;5d5b931b-0511-4d2c-a420-1856c6ef1d34&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,6 +94,7 @@
     "Application.inputstream_.mybytestream2.ByteStreamDemo1.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo2.executor": "Run",
     "Application.inputstream_.mybytestream2.ByteStreamDemo4.executor": "Run",
+    "Application.myserializabal01.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -84,7 +106,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter13_Thread_",
+    "last_opened_file_path": "C:/Users/ryanw/IdeaProjects/Java/JavaSE/chapter14_IOStream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,26 +129,13 @@
       <recent name="C:\Users\ryanw\IdeaProjects\Java\JavaSE\chapter14_IOStream\src\a01myfile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZipStreamDemo3">
+  <component name="RunManager" selected="Application.myserializabal01">
     <configuration name="CharStreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mycharstream04.CharStreamDemo5" />
       <module name="chapter14_IOStream" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mycharstream04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintStreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myprintstream08.PrintStreamDemo3" />
-      <module name="chapter14_IOStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myprintstream08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,20 +182,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="myserializabal01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mySerializabal12.myserializabal01" />
+      <module name="chapter14_IOStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mySerializabal12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myserializabal01" />
         <item itemvalue="Application.ZipStreamDemo3" />
         <item itemvalue="Application.ZipStreamDemo1" />
         <item itemvalue="Application.CharStreamDemo5" />
         <item itemvalue="Application.PrintStreamDemo4" />
-        <item itemvalue="Application.PrintStreamDemo3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -221,6 +244,9 @@
       <workItem from="1709417588412" duration="172000" />
       <workItem from="1709417772561" duration="5557000" />
       <workItem from="1709445912098" duration="1589000" />
+      <workItem from="1730512432557" duration="1076000" />
+      <workItem from="1730513841758" duration="509000" />
+      <workItem from="1730514365961" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -413,17 +439,6 @@
     <MESSAGE value="Print stream contents learning update" />
     <MESSAGE value="Modify the comments and re-learn the flush method" />
     <option name="LAST_COMMIT_MESSAGE" value="Modify the comments and re-learn the flush method" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/myzipstream09/ZipStreamDemo3.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

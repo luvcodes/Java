@@ -1,9 +1,11 @@
 package mycommonsio10;
 
-import java.io.File;
+import org.apache.commons.io.FileUtils;
+
+import java.io.*;
 
 public class CommonsIODemo1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
           FileUtils类
                 static void copyFile(File srcFile, File destFile)                   复制文件
@@ -27,11 +29,11 @@ public class CommonsIODemo1 {
         FileUtils.copyFile(src,dest);
 
 
-        File src = new File("D:\\aaa");
-        File dest = new File("D:\\bbb");
-        FileUtils.copyDirectoryToDirectory(src,dest);
+        // File src = new File("D:\\aaa");
+        // File dest = new File("D:\\bbb");
+        // FileUtils.copyDirectoryToDirectory(src,dest);
 
-        File src = new File("D:\\bbb");
-        FileUtils.cleanDirectory(src);
+        // File src = new File("D:\\bbb");
+        // FileUtils.cleanDirectory(src);
     }
 }
