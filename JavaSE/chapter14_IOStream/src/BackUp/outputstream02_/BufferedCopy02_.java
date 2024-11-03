@@ -2,6 +2,10 @@ package BackUp.outputstream02_;
 
 import java.io.*;
 
+/**
+ * @author ryanw
+ * */
+
 public class BufferedCopy02_ {
     public static void main(String[] args) {
 //        String srcFilePath = "e:\\Koala.jpg";
