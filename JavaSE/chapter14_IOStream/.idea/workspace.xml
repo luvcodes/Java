@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="Serializabel content learning">
+    <list default="true" id="5ac7c73e-5a34-414d-a5fe-841cc32c5bcd" name="Changes" comment="IOStream content review and update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackUp/outputstream02_/BufferedCopy02_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackUp/outputstream02_/BufferedCopy02_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +240,8 @@
       <workItem from="1730512432557" duration="1076000" />
       <workItem from="1730513841758" duration="509000" />
       <workItem from="1730514365961" duration="538000" />
-      <workItem from="1730599329182" duration="2471000" />
+      <workItem from="1730599329182" duration="2512000" />
+      <workItem from="1730727886658" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="Update on the File class contents learning">
       <option name="closed" value="true" />
@@ -411,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730514896922</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="IOStream content review and update">
+      <option name="closed" value="true" />
+      <created>1730608184351</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730608184351</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +450,9 @@
     <MESSAGE value="Print stream contents learning update" />
     <MESSAGE value="Modify the comments and re-learn the flush method" />
     <MESSAGE value="Serializabel content learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serializabel content learning" />
+    <MESSAGE value="IOStream content review" />
+    <MESSAGE value="IOStream content review and update" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOStream content review and update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
