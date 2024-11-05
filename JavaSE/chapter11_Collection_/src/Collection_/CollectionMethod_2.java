@@ -14,8 +14,10 @@ public class CollectionMethod_2 {
         list.add(true);
         System.out.println("list = " + list);
 
-        list.remove(0); // 删除第一个元素
-        list.remove(true); // 指定删除某个元素
+        // 删除第一个元素
+        list.remove(0);
+        // 指定删除某个元素
+        list.remove(true);
         System.out.println("list = " + list);
 
         // contains: 查找元素是否存在

@@ -7,7 +7,7 @@ import java.util.Iterator;
 @SuppressWarnings({ "all" })
 public class CollectionIterator_3 {
     public static void main(String[] args) {
-        Collection col = new ArrayList();
+        Collection<Book2> col = new ArrayList<>();
         col.add(new Book2("test1", "a", 10.1));
         col.add(new Book2("test2", "b", 10.2));
         col.add(new Book2("test3", "c", 10.3));
@@ -28,7 +28,8 @@ public class CollectionIterator_3 {
         /**
          * 3. 当退出while循环后，这时iterator迭代器，指向最后的元素
          */
-        // iterator.next(); // NoSuchElementException
+        // NoSuchElementException
+        // iterator.next();
 
         // 如果希望再次遍历，需要重置我们的迭代器
         iterator = col.iterator();
