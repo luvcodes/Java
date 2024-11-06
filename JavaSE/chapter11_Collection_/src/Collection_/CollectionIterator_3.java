@@ -14,8 +14,8 @@ public class CollectionIterator_3 {
 
         /**
          * 现在希望能够遍历 col集合
-         * 1. 先得到col对应的迭代器
          */
+        // 1. 先得到col对应的迭代器
         Iterator iterator = col.iterator();
         // 2. 使用while循环遍历
         // hasNext判断下面还有没有数据、元素
