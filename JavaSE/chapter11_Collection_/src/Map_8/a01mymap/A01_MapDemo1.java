@@ -29,8 +29,8 @@ public class A01_MapDemo1 {
         //在添加数据的时候，如果键是存在的，那么会把原有的键值对对象覆盖，会把被覆盖的值进行返回。
 
         m.put("郭靖", "黄蓉");
-        m.put("韦小宝","沐剑屏");
-        m.put("尹志平","小龙女");
+        m.put("韦小宝", "沐剑屏");
+        m.put("尹志平", "小龙女");
 
         //String value2 = m.put("韦小宝", "双儿");
         //System.out.println(value2);
@@ -43,14 +43,14 @@ public class A01_MapDemo1 {
         //m.clear();
 
         //判断是否包含
-        /*boolean keyResult = m.containsKey("郭靖");
+        boolean keyResult = m.containsKey("郭靖");
         System.out.println(keyResult);
 
         boolean valueResult = m.containsValue("小龙女2");
-        System.out.println(valueResult);*/
+        System.out.println(valueResult);
 
-       /* boolean result = m.isEmpty();
-        System.out.println(result);*/
+        boolean result = m.isEmpty();
+        System.out.println(result);
 
         int size = m.size();
         System.out.println(size);
