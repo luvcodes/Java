@@ -55,8 +55,6 @@ public class A01_MapDemo1 {
         int size = m.size();
         System.out.println(size);
 
-
-        //3.打印集合
         System.out.println(m);
 
     }
