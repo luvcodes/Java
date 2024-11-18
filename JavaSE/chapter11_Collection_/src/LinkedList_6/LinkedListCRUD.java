@@ -8,7 +8,7 @@ import java.util.LinkedList;
  */
 public class LinkedListCRUD {
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
+        LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.add(1);
         linkedList.add(2);
         linkedList.add(3);
