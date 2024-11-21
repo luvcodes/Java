@@ -4,6 +4,7 @@ import java.util.Arrays;
  * @author yangrunze
  */
 // 当我在编写一个类的时候，如果不确定类型，那么这个类就可以定义为泛型类。
+@SuppressWarnings("all")
 public class MyArrayList<E> {
     // ArrayList底层是一个存储Object类型的数组，默认长度为10
     Object[] obj = new Object[10];
