@@ -1,7 +1,5 @@
 package PracticeQuestions;
 
-import PracticeQuestions.Cat;
-
 /**
  * @author ryanw
  */
