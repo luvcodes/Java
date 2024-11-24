@@ -11,20 +11,18 @@ import java.util.function.Consumer;
  */
 public class A02_MapDemo2 {
     public static void main(String[] args) {
-        //Map集合的第一种遍历方式
-
-        //1.创建Map集合的对象
+        // 1. 创建Map集合的对象
         Map<String, String> map = new HashMap<>();
 
-        //2.添加元素
+        // 2. 添加元素
         map.put("尹志平", "小龙女");
         map.put("郭靖", "穆念慈");
         map.put("欧阳克", "黄蓉");
 
-        //3.通过键找值
-        //3.1获取所有的键，把这些键放到一个单列集合当中
+        // 3. 通过键找值
+        // 3.1 获取所有的键，把这些键放到一个单列集合当中
         Set<String> keys = map.keySet();
-        //3.2遍历单列集合，得到每一个键
+        // 3.2 遍历单列集合，得到每一个键
 
         // 增强for遍历
         for (String key : keys) {

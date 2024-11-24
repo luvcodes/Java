@@ -11,7 +11,6 @@ public class ArgsDemo2 {
 
     }
 
-
     public static int getSum(int[] arr) {
         int sum = 0;
         for (int i : arr) {
@@ -19,6 +18,5 @@ public class ArgsDemo2 {
         }
         return sum;
     }
-
 
 }

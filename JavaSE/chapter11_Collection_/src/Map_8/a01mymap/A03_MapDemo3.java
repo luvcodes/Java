@@ -8,14 +8,11 @@ import java.util.Map;
  */
 public class A03_MapDemo3 {
     public static void main(String[] args) {
-        // Map集合的第二种遍历方式
 
         // 1.创建Map集合的对象
         Map<String, String> map = new HashMap<>();
 
         // 2.添加元素
-        // 键：人物的外号
-        // 值：人物的名字
         map.put("标枪选手", "马超");
         map.put("人物挂件", "明世隐");
         map.put("御龙骑士", "尹志平");

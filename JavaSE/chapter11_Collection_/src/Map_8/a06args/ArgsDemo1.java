@@ -33,5 +33,4 @@ public class ArgsDemo1 {
         return a + b + c + d;
     }
 
-
 }
