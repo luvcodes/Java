@@ -11,10 +11,7 @@ import java.util.function.Consumer;
  */
 public class A02_MapDemo2 {
     public static void main(String[] args) {
-        // 1. 创建Map集合的对象
         Map<String, String> map = new HashMap<>();
-
-        // 2. 添加元素
         map.put("尹志平", "小龙女");
         map.put("郭靖", "穆念慈");
         map.put("欧阳克", "黄蓉");
@@ -30,7 +27,6 @@ public class A02_MapDemo2 {
             String value = map.get(key);
             System.out.println(key + " = " + value);
         }
-        System.out.println("=======================");
 
         // 迭代器遍历
         Iterator<String> iterator = keys.iterator();
@@ -48,7 +44,6 @@ public class A02_MapDemo2 {
                 System.out.println("key: " + key + ", value: " + value);
             }
         });
-        System.out.println("=======================");
 
         // Lambda表达式遍历
         keys.forEach(key -> {
