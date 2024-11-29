@@ -1,4 +1,4 @@
-package a07mycollections;
+package Map_8.a07mycollections;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,7 +15,6 @@ public class CollectionsDemo2 {
         public static <T> void max/min(Collection<T> coll)              根据默认的自然排序获取最大/小值
         public static <T> void swap(List<?> list, int i, int j)         交换集合中指定位置的元素
      */
-
 
         System.out.println("-------------sort默认规则--------------------------");
         //默认规则，需要重写Comparable接口compareTo方法。Integer已经实现，按照从小打大的顺序排列
@@ -53,7 +52,7 @@ public class CollectionsDemo2 {
         ArrayList<Integer> list3 = new ArrayList<>();
         ArrayList<Integer> list4 = new ArrayList<>();
         Collections.addAll(list3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        Collections.addAll(list4, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+        Collections.addAll(list4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         Collections.copy(list4, list3);
         System.out.println(list3);
         System.out.println(list4);
@@ -78,7 +77,7 @@ public class CollectionsDemo2 {
         // 默认的规则无法满足，可以自己指定规则
         // 求指定规则的最大值或者最小值
         ArrayList<String> list7 = new ArrayList<>();
-        Collections.addAll(list7, "a","aa","aaa","aaaa");
+        Collections.addAll(list7, "a", "aa", "aaa", "aaaa");
         System.out.println(Collections.max(list7, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -89,9 +88,8 @@ public class CollectionsDemo2 {
         System.out.println("-------------swap--------------------------");
         ArrayList<Integer> list8 = new ArrayList<>();
         Collections.addAll(list8, 1, 2, 3);
-        Collections.swap(list8,0,2);
+        Collections.swap(list8, 0, 2);
         System.out.println(list8);
-
 
 
     }
