@@ -24,7 +24,6 @@ public class CollectionsDemo2 {
         Collections.sort(list1);
         System.out.println(list1);
 
-
         System.out.println("-------------sort自己指定规则规则--------------------------");
         Collections.sort(list1, new Comparator<Integer>() {
             @Override
@@ -90,7 +89,5 @@ public class CollectionsDemo2 {
         Collections.addAll(list8, 1, 2, 3);
         Collections.swap(list8, 0, 2);
         System.out.println(list8);
-
-
     }
 }
