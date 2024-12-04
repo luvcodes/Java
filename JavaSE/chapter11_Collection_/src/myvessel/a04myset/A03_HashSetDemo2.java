@@ -36,7 +36,7 @@ public class A03_HashSetDemo2 {
 
         // 三种方式遍历集合
         // 迭代器遍历
-        Iterator iterator = hs.iterator();
+        Iterator<Student> iterator = hs.iterator();
         while (iterator.hasNext()) {
             Student student = (Student) iterator.next();
             System.out.println(student);
