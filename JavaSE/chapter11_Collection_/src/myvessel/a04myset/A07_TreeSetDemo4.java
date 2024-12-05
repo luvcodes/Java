@@ -26,7 +26,6 @@ public class A07_TreeSetDemo4 {
             要求：在遍历集合的时候，我想看到总分。
       */
 
-
         //1.创建学生对象
         Student2 s1 = new Student2("zhangsan",23,90,99,50);
         Student2 s2 = new Student2("lisi",24,90,98,50);
@@ -34,19 +33,13 @@ public class A07_TreeSetDemo4 {
         Student2 s4 = new Student2("zhaoliu",26,60,99,70);
         Student2 s5 = new Student2("qianqi",26,70,80,70);
 
-
-        // 2. 创建集合
         TreeSet<Student2> ts = new TreeSet<>();
 
-        // 3. 添加元素
         ts.add(s1);
         ts.add(s2);
         ts.add(s3);
         ts.add(s4);
         ts.add(s5);
-
-        // 4. 打印集合
-        // System.out.println(ts);
 
         // 增强for遍历
         for (Student2 t : ts) {

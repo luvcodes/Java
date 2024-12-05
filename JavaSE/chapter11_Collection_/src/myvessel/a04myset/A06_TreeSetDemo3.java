@@ -38,14 +38,11 @@ public class A06_TreeSetDemo3 {
                 return i;
         });*/
 
-        // 2. 添加元素
         ts.add("c");
         ts.add("ab");
         ts.add("df");
         ts.add("qwer");
 
-
-        // 3. 打印集合
         System.out.println(ts);
     }
 }
